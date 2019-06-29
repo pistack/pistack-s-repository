@@ -28,7 +28,7 @@ cd $PBS_O_WORKDIR
 
 export NWCHEM_TOP=`pwd`
 export NWCHEM_TARGET=LINUX64
-export ARMCI_NERWORK=ARMCI
+export ARMCI_NERWORK=MPI-MT
 export USE_MPI=y
 export USE_MPIF=y
 export USE_MPIF4=y
@@ -42,6 +42,8 @@ export USE_NOIO=TRUE
 export MRCC_METHODS=TRUE
 export BLASOPT="-L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_gf_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl"
 export BLAS_SIZE=4
+export LAPACK_LIB=${BLASOPT}
+export LAPACK_SIZE=4
 export SCALAPACK_SIZE=4
 export SCALAPACKROOT=/opt/scalapack/ompi
 export SCALAPACK="-L${SCALAPACKROOT}/lib -lscalapack"
@@ -50,26 +52,27 @@ export ELPAVERSION=2017.05.003
 export ELPA="-I${ELPAROOT}/include/elpa-${ELPAVERSION}/modules -L${ELPAROOT}/lib -lelpa"  
 export USE_64TO32=y
 export USE_ARUR=y
+ 
 
 #echo ${NWCHEM_TOP}
 #echo ${MKLROOT}
-cd ${NWCHEM_TOP}/src/tools
-./install-armci-mpi
+#cd ${NWCHEM_TOP}/src/tools
+#./install-armci-mpi
 cd ${NWCHEM_TOP}/src
 make nwchem_config
 make 64_to_32
 make -j `getconf _NPROCESSORS_ONLN`
 
 # setting DLFLT_TOT_MEM automately
-#cd ${NWCHEM_TOP}/contrib
-#getmem.nwchem
+cd ${NWCHEM_TOP}/contrib
+./getmem.nwchem
 
 # To get full version number
-# cd $NWCHEM_TOP/src/util
-#   make version
-#   make
-#   cd $NWCHEM_TOP/src
-#   make link
+cd ${NWCHEM_TOP}/src/util
+make version
+make
+cd ${NWCHEM_TOP}/src
+make link
 
 
 

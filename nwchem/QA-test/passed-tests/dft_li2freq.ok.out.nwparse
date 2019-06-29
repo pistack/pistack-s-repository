@@ -1,0 +1,50 @@
+Effective nuclear repulsion energy (a.u.) 1.724
+Effective nuclear repulsion energy (a.u.) 1.724
+Total DFT energy = -14.85597
+   Atoms             Coordinates:
+         li     0.0000     0.0000    -2.6106
+         li     0.0000     0.0000     2.6106
+   Atoms              Gradients:
+         li     0.0000     0.0000     0.0009
+         li     0.0000     0.0000    -0.0009
+Total DFT energy = -14.85597
+Effective nuclear repulsion energy (a.u.) 1.722
+Total DFT energy = -14.85597
+   Atoms             Coordinates:
+         li     0.0000     0.0000    -2.6129
+         li     0.0000     0.0000     2.6129
+   Atoms              Gradients:
+         li     0.0000     0.0000     0.0008
+         li     0.0000     0.0000    -0.0008
+Total DFT energy = -14.85600
+Effective nuclear repulsion energy (a.u.) 1.702
+Total DFT energy = -14.85600
+   Atoms             Coordinates:
+         li     0.0000     0.0000    -2.6443
+         li     0.0000     0.0000     2.6443
+   Atoms              Gradients:
+         li     0.0000     0.0000     0.0000
+         li     0.0000     0.0000     0.0000
+Total DFT energy = -14.85600
+Effective nuclear repulsion energy (a.u.) 1.701
+Total DFT energy = -14.85600
+   Atoms             Coordinates:
+         li     0.0000     0.0000    -2.6456
+         li     0.0000     0.0000     2.6456
+   Atoms              Gradients:
+         li     0.0000     0.0000     0.0000
+         li     0.0000     0.0000     0.0000
+Total DFT energy = -14.85600
+Effective nuclear repulsion energy (a.u.) 1.701
+Total DFT energy = -14.85600
+   Atoms             Coordinates:
+         li     0.0000     0.0000    -2.6456
+         li     0.0000     0.0000     2.6456
+   Atoms              Gradients:
+         li     0.0000     0.0000     0.0000
+         li     0.0000     0.0000     0.0000
+Effective nuclear repulsion energy (a.u.) 1.701
+Total DFT energy = -14.85600
+Frequency        -8         -1         -1         -1         -1        307 
+Zero-Point correction to Energy = 0.439
+P.Frequency         0          0          0          0          0        307 

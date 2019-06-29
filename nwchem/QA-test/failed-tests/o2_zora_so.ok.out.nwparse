@@ -1,0 +1,116 @@
+Effective nuclear repulsion energy (a.u.) 28.223
+Effective nuclear repulsion energy (a.u.) 28.223
+Total SO-DFT energy = -150.50696
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1338
+          O     0.0000     0.0000     1.1338
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0358
+          O     0.0000     0.0000    -0.0358
+Total SO-DFT energy = -150.50700
+Effective nuclear repulsion energy (a.u.) 27.709
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1549
+          O     0.0000     0.0000     1.1549
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0003
+          O     0.0000     0.0000     0.0003
+Total SO-DFT energy = -150.50767
+Effective nuclear repulsion energy (a.u.) 27.718
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000    -0.0003
+Effective nuclear repulsion energy (a.u.) 27.718
+Total DFT energy = -150.50767
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0010     0.0000    -1.1545
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O    -0.0010     0.0000    -1.1545
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0010    -1.1545
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000    -0.0010    -1.1545
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1535
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0011
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1555
+          O     0.0000     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0005
+          O     0.0000     0.0000     0.0000
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0010     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000    -0.0003
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O    -0.0010     0.0000     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000    -0.0003
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0000     0.0010     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000    -0.0003
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0000    -0.0010     1.1545
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0003
+          O     0.0000     0.0000    -0.0003
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0000     0.0000     1.1555
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0005
+          O     0.0000     0.0000     0.0005
+Total SO-DFT energy = -150.50767
+   Atoms             Coordinates:
+          O     0.0000     0.0000    -1.1545
+          O     0.0000     0.0000     1.1535
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0011
+          O     0.0000     0.0000    -0.0011
+Frequency        -1          0          1        163        177       1610 
+Zero-Point correction to Energy = 2.301
+P.Frequency         0          0          0          0          0       1610 

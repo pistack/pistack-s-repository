@@ -1,0 +1,70 @@
+Effective nuclear repulsion energy (a.u.) 9.119
+Effective nuclear repulsion energy (a.u.) 9.119
+Total DFT energy = -76.46603
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.2253
+          H     1.4349     0.0000    -0.9011
+          H    -1.4349     0.0000    -0.9011
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0057
+          H    -0.0053     0.0000     0.0028
+          H     0.0053     0.0000     0.0028
+Total DFT energy = -76.46608
+Effective nuclear repulsion energy (a.u.) 9.062
+Total DFT energy = -76.46610
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.2264
+          H     1.4479     0.0000    -0.9016
+          H    -1.4479     0.0000    -0.9016
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0001
+          H     0.0000     0.0000     0.0000
+          H     0.0000     0.0000     0.0000
+Total DFT energy = -76.46610
+Effective nuclear repulsion energy (a.u.) 9.063
+Total DFT energy = -76.46610
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.2263
+          H     1.4479     0.0000    -0.9016
+          H    -1.4479     0.0000    -0.9016
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0000
+          H     0.0000     0.0000     0.0000
+          H     0.0000     0.0000     0.0000
+Effective nuclear repulsion energy (a.u.) 9.063
+Total DFT energy = -76.46609
+Frequency       -18        -17        -15         -7         16         17 
+Frequency      1593       3680       3785 
+Zero-Point correction to Energy = 12.943
+P.Frequency         0          0          0          0          0          0 
+P.Frequency      1593       3681       3785 
+Total DFT energy = -76.46609
+Frequency         0          0          0          0 
+Anisotropic = 0.270
+average: 10.831 + I 0.066
+average: 0.000 + I -0.000
+Total DFT energy = -76.46609
+Frequency         0          0          0          0 
+Anisotropic = 0.253
+average: 10.830 + I 0.066
+average: 0.000 + I -0.000
+Total DFT energy = -76.46607
+Frequency         0          0          0          0 
+Anisotropic = 0.297
+average: 10.886 + I 0.066
+average: -0.000 + I 0.000
+Total DFT energy = -76.46607
+Frequency         0          0          0          0 
+Anisotropic = 0.227
+average: 10.775 + I 0.065
+average: 0.000 + I -0.000
+Total DFT energy = -76.46607
+Frequency         0          0          0          0 
+Anisotropic = 0.269
+average: 10.831 + I 0.066
+average: -0.000 + I 0.000
+Total DFT energy = -76.46607
+Frequency         0          0          0          0 
+Anisotropic = 0.269
+average: 10.831 + I 0.066
+average: 0.000 + I -0.000

@@ -1,0 +1,62 @@
+42,44d41
+< average: 10.831 + I 0.066
+< Frequency         0          0          0          0 
+< Anisotropic = 0.271
+46,47c43,45
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+---
+> Anisotropic = 0.270
+> average: 10.831 + I 0.066
+> average: 0.000 + I -0.000
+49d46
+< average: 10.830 + I 0.066
+51,54c48,50
+< Anisotropic = 0.252
+< Frequency         0          0          0          0 
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+---
+> Anisotropic = 0.253
+> average: 10.830 + I 0.066
+> average: 0.000 + I -0.000
+56,58d51
+< average: 10.887 + I 0.066
+< Frequency         0          0          0          0 
+< Anisotropic = 0.298
+60,61c53,55
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+---
+> Anisotropic = 0.297
+> average: 10.886 + I 0.066
+> average: -0.000 + I 0.000
+63d56
+< average: 10.774 + I 0.065
+65,70c58,61
+< Anisotropic = 0.226
+< Frequency         0          0          0          0 
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+< Total DFT energy = -76.46606
+< average: 10.831 + I 0.066
+---
+> Anisotropic = 0.227
+> average: 10.775 + I 0.065
+> average: 0.000 + I -0.000
+> Total DFT energy = -76.46607
+73,76d63
+< Frequency         0          0          0          0 
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+< Total DFT energy = -76.46606
+77a65,66
+> average: -0.000 + I 0.000
+> Total DFT energy = -76.46607
+80,82c69,70
+< Frequency         0          0          0          0 
+< Anisotropic = 0.040
+< average: 0.000 + I 0.000
+---
+> average: 10.831 + I 0.066
+> average: 0.000 + I -0.000

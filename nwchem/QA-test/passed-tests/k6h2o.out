@@ -1,0 +1,266 @@
+ argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/k6h2o/k6h2o.nw
+
+
+
+============================== echo of input deck ==============================
+#  This is a single NWChem input file which will start from a
+#  PDB format file and run a QM/MM calculation.
+#
+#  Time steps and durations have been extended to better reflect
+#  what is necessary for better results.  The workshop version
+#  had settings to make things complete faster.
+
+Title "QM/MM Potassium Hexahydrate: Prep, Minimization, Dynamics."
+
+memory noverify heap 8 mb stack 54 mb global 54 mb
+
+start k6h2o
+
+echo
+
+# A basis set must be defined for the ESP charges on water
+basis noprint
+ K library 6-31G*
+ H library 6-31G*
+ O library 6-31G*
+end
+
+# Assign segments for quantum mechanics region
+# and solvate system. Maybe better done separately.
+#  Easiest way to do that is add the keyword 'stop'
+#  right after this prepare task.
+prepare
+ system k6h2o_em
+ modify segment 1 quantum
+ #modify segment 2 quantum
+ #modify segment 3 quantum
+ #modify segment 4 quantum
+ #modify segment 5 quantum
+ #modify segment 6 quantum
+ #modify segment 7 quantum
+ center; orient
+ touch 0.23
+ expand 0.1
+ solvate
+ update lists
+end; task prepare
+
+# This is an optional step to write out the solvated system
+# as a PDB file.
+prepare
+ read k6h2o_em.rst
+ write pdb Kaq.pdb
+end; task prepare
+
+# A basis set must be defined for the QM part
+basis noprint
+ K library sto-3g
+ H library sto-3g
+ O library sto-3g
+end
+
+# There is a net charge on the potassium ion.
+charge 1.0
+
+# Specify any SCF details
+scf
+ print low geometry
+end
+
+# Define MM part of calculation for geometru optimization.
+# ==> BE SURE TO SET MEMORY ASIDE FOR QM PART
+md
+ system k6h2o_em
+ sd 50   init 0.01   min 0.00001   max 0.05
+ cg 30   init 0.01   min 1.0E-8    cy 10
+ cutoff 0.9   qmmm 0.5
+ memory 15000
+end
+
+# Define combined QM/MM part.  Need to give quantum energy
+# for atoms in atomic units (Hartrees).
+qmmm
+ eatoms -1043.05
+end
+
+# Run QM/MM optimization.
+task qmmm scf optimize
+
+# Need to write out restart file for dynamics simulation.
+# Optionally write out the current coordinates as PDB file.
+prepare
+ read  k6h2o_em.qrs
+ write Kaq_opt.pdb
+ write k6h2o_md.rst
+end; task prepare
+
+# Define changes to MM part for dynamics simulation.
+md
+ system k6h2o_md
+ cutoff 0.9   qmmm 0.5
+ memory 15000
+ step 0.0005  equil 100  data 500
+ isotherm 300.0  trelax 0.1
+ print step 20  stat 100
+ record rest 10  coord 1
+ update pairs 2
+end
+
+qmmm
+region qmlink
+end
+
+# Run QM/MM dynamics.
+task qmmm scf dynamics
+
+
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2018
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = list1234-B360M-H
+    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
+    date            = Sun Jun 30 07:52:09 2019
+
+    compiled        = Sun_Jun_30_05:21:11_2019
+    source          = /home/list1234/source/nwchem-6.8.1-release
+    nwchem branch   = Development
+    nwchem revision = N/A
+    ga revision     = 5.6.5
+    use scalapack   = T
+    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/k6h2o/k6h2o.nw
+    prefix          = k6h2o.
+    data base       = ./k6h2o.db
+    status          = startup
+    nproc           =        4
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =    1048574 doubles =      8.0 Mbytes
+    stack    =    7077883 doubles =     54.0 Mbytes
+    global   =    7077888 doubles =     54.0 Mbytes (distinct from heap & stack)
+    total    =   15204345 doubles =    116.0 Mbytes
+    verify   = no 
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+            QM/MM Potassium Hexahydrate: Prep, Minimization, Dynamics.
+            ----------------------------------------------------------
+                                  Prepare Module
+                                  --------------
+
+ Force field                           
+
+
+ Directories used for fragment and segment files
+
+
+ Parameter files used to resolve force field parameters
+
+ PDB geometry                          k6h2o.pdb
+
+
+ Creating fragment for residue K    
+
+
+ Fragment                              K
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  K              0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+ 
+ Created fragment                      K.frg_TMP
+
+ Unresolved atom types in fragment K
+
+
+ Creating fragment for residue wat  
+
+
+ Fragment                              wat
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  OW             0    0    0    1    1    0.000000    0.000000
+    2 2HW             0    0    0    1    1    0.000000    0.000000
+    3 3HW             0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+
+ Connectivity
+
+       1-  2
+       1-  3
+ 
+ Created fragment                      wat.frg_TMP
+
+ Unresolved atom types in fragment wat
+
+
+ **********
+ *   0: pre_mkfrg failed 9999
+ **********
+0::Received an Error in Communication
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 9999.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

@@ -1,0 +1,2505 @@
+
+ =====================================
+ QM: Running only a set of quick tests
+ =====================================
+
+
+ 
+ Running tests/h2o_opt/h2o_opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/c2h4/c2h4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/auh2o/auh2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/autosym/autosym 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_he2+/dft_he2+ 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2mp2/h2mp2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o/h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/hess_h2o/hess_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/prop_h2o/prop_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/pyqa/pyqa 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/geom_zmatrix/geom_zmatrix 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/rimp2_ne/rimp2_ne 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/rimp2_he/rimp2_he 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/scf_feco5/scf_feco5 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/small_intchk/small_intchk 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/tagcheck/tagcheck 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/testtab/testtab 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_dk/h2o_dk 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/u_sodft/u_sodft 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/cosmo_h2o/cosmo_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/ch5n_nbo/ch5n_nbo 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2s_finite/h2s_finite 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/startag/startag 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cosmo_na/cosmo_na 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/cosmo_cl/cosmo_cl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/cosmo_nacl/cosmo_nacl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cosmo_h2o_dft/cosmo_h2o_dft 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/cosmo_h2o_bq/cosmo_h2o_bq 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/be/be 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_s12gh/dft_s12gh 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/cosmo_trichloroethene/cosmo_trichloroethene 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/esp/esp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... ESP comparison failed
+ 
+ Running tests/esp_uhf/esp_uhf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... ESP comparison failed
+ 
+Failed
+
+ 
+ Running tests/dft_bsse/dft_bsse 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_bsse_d3/dft_bsse_d3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_bsse_d3_opt/dft_bsse_d3_opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/bsse_dft_trimer/bsse_dft_trimer 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/bsse_tce_mult/bsse_tce_mult 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+Failed
+PERMANENT_DIR=/home/list1234/source/nwchem-6.8.1-release/QA/testoutputs: Command not found.
+
+ 
+ Running tests/c4h4_wfn/c4h4_wfn 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/disp_dimer_ch4/disp_dimer_ch4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/disp_dimer_ch4_cgmin/disp_dimer_ch4_cgmin 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o-b3lyp-disp/h2o-b3lyp-disp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cosmo_h2cco2/cosmo_h2cco2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/cosmo_h2cco2mg/cosmo_h2cco2mg 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/cosmo_h2cco2mg_ecp/cosmo_h2cco2mg_ecp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+Failed
+
+ 
+ Running tests/cosmo_h3co/cosmo_h3co 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/cosmo_h3co_ecp/cosmo_h3co_ecp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/cosmo_h2cco2na/cosmo_h2cco2na 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/cosmo_h3co_gp/cosmo_h3co_gp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/dplot/dplot 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_meta/dft_meta 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_mpwb1khf/dft_mpwb1khf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_m05nh2ch3/dft_m05nh2ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/prop_uhf_h2o/prop_uhf_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/et_zn_dimer/et_zn_dimer 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/vectors_rotate/vectors_rotate 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/sad_ch3hf/sad_ch3hf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_diag_to_cg/h2o_diag_to_cg 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_cg_to_diag/h2o_cg_to_diag 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_diag_opt/h2o_diag_opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_cg_opt/h2o_cg_opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_diag_opt_ub3lyp/h2o_diag_opt_ub3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_cg_opt_ub3lyp/h2o_cg_opt_ub3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_cg_opt_rob3lyp/h2o_cg_opt_rob3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_diag_to_cg_ub3lyp/h2o_diag_to_cg_ub3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_cg_to_diag_ub3lyp/h2o_cg_to_diag_ub3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+ 
+The oh2 test is testing the perl parsing script and SHOULD fail
+
+ 
+ Running tests/oh2/oh2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/PhoWat_SMD_HF/PhoWat_SMD_HF 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/CH3OH2pWat_SMD_M062X/CH3OH2pWat_SMD_M062X 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/CH3OH2pWat_SMD_M062X_opt/CH3OH2pWat_SMD_M062X_opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_feco5/dft_feco5 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_siosi3/dft_siosi3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_cr2/dft_cr2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_mo3co/dft_mo3co 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/dft_x/dft_x 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/dft_mpw1k/dft_mpw1k 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/dft_li2freq/dft_li2freq 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+The intermediate values for this test may cause some differences.
+Please check the final values for the last optimized structure.
+
+ 
+ Running tests/dielsalder/dielsalder 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+The intermediate energy values for the numerical gradient 
+test may cause some differences.
+Please check the final gradient values for correctness.
+
+ 
+ Running tests/grad_ozone/grad_ozone 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_ozone/dft_ozone 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/hess_c6h6/hess_c6h6 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/hess_nh3_ub3lyp/hess_nh3_ub3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/intchk/intchk 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+The intermediate values for this test may cause some differences.
+Please check the final values for the last optimized structure.
+
+ 
+ Running tests/sadsmall/sadsmall 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/br2_dk/br2_dk 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/uo2_sodft/uo2_sodft 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/uo2_sodft_grad/uo2_sodft_grad 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/si2cl6_gc/si2cl6_gc 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/pspw/pspw 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/pspw_SiC/pspw_SiC 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/pspw_md/pspw_md 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/paw/paw 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/pspw_polarizability/pspw_polarizability 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/pspw_stress/pspw_stress 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/band/band 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tddft_h2o/tddft_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tddft_h2o_uhf/tddft_h2o_uhf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tddft_h2o_mxvc20/tddft_h2o_mxvc20 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tddft_h2o_uhf_mxvc20/tddft_h2o_uhf_mxvc20 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tddft_n2+/tddft_n2+ 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tddft_ac_co/tddft_ac_co 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_xdm1/dft_xdm1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/natom_iorb/natom_iorb 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_h2o/tce_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_h2o_dipole/tce_h2o_dipole 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_h2o_eomcc/tce_h2o_eomcc 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_uhf_uccsd/tce_uhf_uccsd 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_cr_eom_t_ch_rohf/tce_cr_eom_t_ch_rohf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tce_cr_eom_t_ozone/tce_cr_eom_t_ozone 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tce_active_ccsdt/tce_active_ccsdt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_lr_ccsd_t/tce_lr_ccsd_t 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_lr_ccsd_tq/tce_lr_ccsd_tq 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_ozone_2eorb/tce_ozone_2eorb 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_polar_ccsd_small/tce_polar_ccsd_small 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tce_hyperpolar_ccsd_small/tce_hyperpolar_ccsd_small 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tce_eomsd_eomsol1/tce_eomsd_eomsol1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tce_eomsd_eomsol2/tce_eomsd_eomsol2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tce_uracil_creomact/tce_uracil_creomact 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/oniom1/oniom1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/oniom2/oniom2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/oniom3/oniom3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/oniom4/oniom4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/c60_ecp/c60_ecp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o_vscf/h2o_vscf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/hi_zora_sf/hi_zora_sf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/xe_zora_sf/xe_zora_sf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/o2_zora_so/o2_zora_so 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/hi_zora_so/hi_zora_so 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/qmmm_grad0/qmmm_grad0 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/lys_qmmm/lys_qmmm 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ethane_qmmm/ethane_qmmm 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/qmmm_opt0/qmmm_opt0 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+qmmm frequency  test  may  fail
+
+ 
+ Running tests/qmmm_freq/qmmm_freq 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/prop_ch3f/prop_ch3f 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/prop_uhf_ch3f/prop_uhf_ch3f 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch3f_rot/ch3f_rot 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3f_unrot/ch3f_unrot 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3f_trans/ch3f_trans 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3f_trans_cosmo/ch3f_trans_cosmo 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3f_trans_cam_nmr/ch3f_trans_cam_nmr 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch3f_notrans_cosmo/ch3f_notrans_cosmo 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3f-lc-wpbe/ch3f-lc-wpbe 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch3f-lc-wpbeh/ch3f-lc-wpbeh 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch3f_zora_shielding/ch3f_zora_shielding 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch2_props4_bp/ch2_props4_bp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3radical_rot/ch3radical_rot 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/ch3radical_unrot/ch3radical_unrot 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/cho_bp_props/cho_bp_props 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/prop_cg_nh3_b3lyp/prop_cg_nh3_b3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/acr-camb3lyp-cdfit/acr-camb3lyp-cdfit 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/acr-camb3lyp-direct/acr-camb3lyp-direct 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/acr_lcblyp/acr_lcblyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2_bnl/h2_bnl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_bnl/h2o_bnl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-camb3lyp-pol-cdfit/h2o-camb3lyp-pol-cdfit 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o-camb3lyp-pol/h2o-camb3lyp-pol 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-cambeckehh/h2o-cambeckehh 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-campbe0/h2o-campbe0 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-lcpbe/h2o-lcpbe 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/o2_bnl/o2_bnl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/o2_hfattn/o2_hfattn 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/n2_rodft_lrc/n2_rodft_lrc 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-hse/h2o-hse 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cdft_jarv1/cdft_jarv1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m11_ch3/m11_ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m11_h2o/m11_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m11-l_ch3/m11-l_ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m11-l_h2o/m11-l_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m08hx_ch3/m08hx_ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m08hx_h2o/m08hx_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m08so_ch3/m08so_ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/m08so_h2o/m08so_h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3_m06-hf/ch3_m06-hf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cnh5_m06-2x/cnh5_m06-2x 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cu2_m06-l/cu2_m06-l 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_ch3ochch32/dft_ch3ochch32 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/fh_m06/fh_m06 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_m05nh2ch3/dft_m05nh2ch3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/disp_dimer_ch4/disp_dimer_ch4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-b3lyp-disp/h2o-b3lyp-disp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/Ne_scf-mp2_cc-vqz/Ne_scf-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/He_scf-mp2_cc-vqz/He_scf-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/Ar_scf-mp2_cc-vqz/Ar_scf-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/Ne_b2plyp_cc-vqz/Ne_b2plyp_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/He_b2plyp_cc-vqz/He_b2plyp_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/Ar_b2plyp_cc-vqz/Ar_b2plyp_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/Ne_scs-mp2_cc-vqz/Ne_scs-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/He_scs-mp2_cc-vqz/He_scs-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/Ar_scs-mp2_cc-vqz/Ar_scs-mp2_cc-vqz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o_dftmp2_cgmin/h2o_dftmp2_cgmin 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h2o_udftmp2_cgmin/h2o_udftmp2_cgmin 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dmo_tddft_cd/dmo_tddft_cd 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dmo_tddft_cd_velocity/dmo_tddft_cd_velocity 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ptatom/ptatom 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-ssb-d/h2o-ssb-d 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-ssb-d-opt/h2o-ssb-d-opt 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-noscf/h2o-noscf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-response/h2o-response 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o2-response/h2o2-response 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o2-response-uhf/h2o2-response-uhf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o2-response-uhf-damping/h2o2-response-uhf-damping 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/mep-test/mep-test 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/pkzb/pkzb 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/k6h2o/k6h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     NWChem execution failed
+
+
+ Fragment                              K
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  K              0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+ 
+ Created fragment                      K.frg_TMP
+
+ Unresolved atom types in fragment K
+
+
+ Creating fragment for residue wat  
+
+
+ Fragment                              wat
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  OW             0    0    0    1    1    0.000000    0.000000
+    2 2HW             0    0    0    1    1    0.000000    0.000000
+    3 3HW             0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+
+ Connectivity
+
+       1-  2
+       1-  3
+ 
+ Created fragment                      wat.frg_TMP
+
+ Unresolved atom types in fragment wat
+
+
+ **********
+ *   0: pre_mkfrg failed 9999
+ **********
+0::Received an Error in Communication
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 9999.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ 
+Failed
+
+ 
+ Running tests/mcscf_ch2/mcscf_ch2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/mcscf_ozone/mcscf_ozone 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o_raman_3/h2o_raman_3 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o_raman_4/h2o_raman_4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/tropt-ch3nh2/tropt-ch3nh2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h3tr1/h3tr1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/h3_dirdyvtst/h3_dirdyvtst 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/geom_load_xyz/geom_load_xyz 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/dft_sicperth2o/dft_sicperth2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_hcons/h2o_hcons 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/etf_hcons/etf_hcons 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o2-prop-notrans/h2o2-prop-notrans 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cnh5_m06-2x/cnh5_m06-2x 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/bq_nio/bq_nio 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/hess_ch4/hess_ch4 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/h2o_frozemb/h2o_frozemb 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cho_bp_zora_finite/cho_bp_zora_finite 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o-ssb-d-b3lyp/h2o-ssb-d-b3lyp 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/cu2_m06-l/cu2_m06-l 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch3_m06-hf/ch3_m06-hf 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/5h2o_core/5h2o_core 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o_core/h2o_core 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/co_core/co_core 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/talc/talc 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/carbon_fon/carbon_fon 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/ch5n_nbo/ch5n_nbo 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/tpss/tpss 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/tpssh/tpssh 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/neb-fch3cl/neb-fch3cl 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+ Running tests/neb-isobutene/neb-isobutene 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... failed
+ 
+Failed
+
+ 
+ Running tests/spin_ecps_heh_grad/spin_ecps_heh_grad 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+ Running tests/spin_ecps_o_hess/spin_ecps_o_hess 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
+
+ 
+ Running tests/h2o2_fde/h2o2_fde 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem)  with 4 processors 
+ 
+     verifying output ... OK
+ 
+OK
