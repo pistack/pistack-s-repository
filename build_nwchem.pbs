@@ -7,6 +7,13 @@
 #PBS -M list1234
 #PBS -l select=1:ncpus=6
 
+#*******************************************************************
+# This script is based on nwchem installation wiki page
+#(https://github.com/nwchemgit/nwchem/wiki/Compiling-NWChem)
+# If you need additional information about installation of nwchem
+# please refer nwchem wiki
+#*******************************************************************
+
 module load openmpi mkl
 cd $PBS_O_WORKDIR 
 
@@ -47,6 +54,15 @@ make -j `getconf _NPROCESSORS_ONLN`
 # setting DLFLT_TOT_MEM automately
 #cd ${NWCHEM_TOP}/contrib
 #getmem.nwchem
+
+# To get full version number
+# cd $NWCHEM_TOP/src/util
+#   make version
+#   make
+#   cd $NWCHEM_TOP/src
+#   make link
+
+
 
 
 
