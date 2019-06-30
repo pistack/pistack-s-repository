@@ -1,0 +1,737 @@
+ argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/oniom4/oniom4.nw
+
+
+
+============================== echo of input deck ==============================
+echo
+
+start oniom4_dat
+
+# Test of two-layer ONIOM geometry optimization using MCSCF
+
+geometry # sto-3g optmized geometry
+  O     0.25977444     1.26351414    -0.32184727
+  H    -1.42512409     0.38186873     0.37668588
+  C    -0.38369252     0.28899452     0.02138351
+  H     0.11527688    -1.57028792     1.00746379
+  H    -0.46513157    -1.76803678    -0.64211149
+  H     1.17645788    -1.17137932    -0.35247229
+  C     0.15223603    -1.15091137     0.00543109
+end
+
+basis sto-3g
+  h library sto-3g
+  c library sto-3g
+  o library sto-3g
+end
+
+basis dunning
+  h library "SV (Dunning-Hay)"
+  c library "SV (Dunning-Hay)"
+  o library "SV (Dunning-Hay)"
+end
+
+scf
+  thresh 1e-6
+end
+
+mcscf
+  symmetry 1
+  actelec 2
+  active 2
+  multiplicity 1
+  maxiter 200
+end
+
+oniom
+  print low
+  high MCSCF basis dunning
+  low  scf basis sto-3g
+  model 3  3 7 0.709
+end
+
+driver
+  clear
+end  # So that results are more reproducible
+
+task oniom optimize
+
+#task oniom freq
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2018
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = list1234-B360M-H
+    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
+    date            = Sun Jun 30 13:26:31 2019
+
+    compiled        = Sun_Jun_30_11:55:59_2019
+    source          = /home/list1234/source/nwchem-6.8.1-release
+    nwchem branch   = Development
+    nwchem revision = N/A
+    ga revision     = 5.6.5
+    use scalapack   = T
+    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/oniom4/oniom4.nw
+    prefix          = oniom4_dat.
+    data base       = ./oniom4_dat.db
+    status          = startup
+    nproc           =        4
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =   86247162 doubles =    658.0 Mbytes
+    stack    =   86247167 doubles =    658.0 Mbytes
+    global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
+    total    =  344988665 doubles =   2632.1 Mbytes
+    verify   = yes
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+
+ Scaling coordinates for geometry "geometry" by  1.889725989
+ (inverse scale =  0.529177249)
+
+ CS  symmetry detected
+
+          ------
+          auto-z
+          ------
+  no constraints, skipping    0.0000000000000000     
+  no constraints, skipping    0.0000000000000000     
+
+
+                             Geometry "geometry" -> ""
+                             -------------------------
+
+ Output coordinates in angstroms (scale by  1.889725989 to convert to a.u.)
+
+  No.       Tag          Charge          X              Y              Z
+ ---- ---------------- ---------- -------------- -------------- --------------
+    1 O                    8.0000     0.25081180     1.25358432     0.00000000
+    2 H                    1.0000    -1.51812938     0.26617491     0.00000000
+    3 C                    6.0000    -0.41430776     0.23419158     0.00000000
+    4 H                    1.0000    -0.16128196    -1.72538860     0.87992573
+    5 H                    1.0000    -0.16128196    -1.72538860    -0.87992573
+    6 H                    1.0000     1.26093179    -1.14425016     0.00000000
+    7 C                    6.0000     0.17651894    -1.18416193     0.00000000
+
+      Atomic Mass 
+      ----------- 
+
+      O                 15.994910
+      H                  1.007825
+      C                 12.000000
+
+
+ Effective nuclear repulsion energy (a.u.)      69.0478537839
+
+            Nuclear Dipole moment (a.u.) 
+            ----------------------------
+        X                 Y               Z
+ ---------------- ---------------- ----------------
+    -0.0000000000     0.0000000000     0.0000000000
+
+      Symmetry information
+      --------------------
+
+ Group name             Cs        
+ Group number              2
+ Group order               2
+ No. of unique centers     6
+
+      Symmetry unique atoms
+
+     1    2    3    4    6    7
+
+
+
+                                Z-matrix (autoz)
+                                -------- 
+
+ Units are Angstrom for bonds and degrees for angles
+
+      Type          Name      I     J     K     L     M      Value
+      ----------- --------  ----- ----- ----- ----- ----- ----------
+    1 Stretch                  1     3                       1.21719
+    2 Stretch                  2     3                       1.10428
+    3 Stretch                  3     7                       1.53649
+    4 Stretch                  4     7                       1.08688
+    5 Stretch                  5     7                       1.08688
+    6 Stretch                  6     7                       1.08515
+    7 Bend                     1     3     2               121.46341
+    8 Bend                     1     3     7               124.26233
+    9 Bend                     2     3     7               114.27425
+   10 Bend                     3     7     4               109.88695
+   11 Bend                     3     7     5               109.88695
+   12 Bend                     3     7     6               110.50675
+   13 Bend                     4     7     5               108.11173
+   14 Bend                     4     7     6               109.20226
+   15 Bend                     5     7     6               109.20226
+   16 Torsion                  1     3     7     4         120.57875
+   17 Torsion                  1     3     7     5        -120.57875
+   18 Torsion                  1     3     7     6           0.00000
+   19 Torsion                  2     3     7     4         -59.42125
+   20 Torsion                  2     3     7     5          59.42125
+   21 Torsion                  2     3     7     6         180.00000
+
+
+            XYZ format geometry
+            -------------------
+     7
+ geometry
+ O                     0.25081180     1.25358432     0.00000000
+ H                    -1.51812938     0.26617491     0.00000000
+ C                    -0.41430776     0.23419158     0.00000000
+ H                    -0.16128196    -1.72538860     0.87992573
+ H                    -0.16128196    -1.72538860    -0.87992573
+ H                     1.26093179    -1.14425016     0.00000000
+ C                     0.17651894    -1.18416193     0.00000000
+
+ ==============================================================================
+                                internuclear distances
+ ------------------------------------------------------------------------------
+       center one      |      center two      | atomic units |  angstroms
+ ------------------------------------------------------------------------------
+    3 C                |   1 O                |     2.30015  |     1.21719
+    3 C                |   2 H                |     2.08680  |     1.10428
+    7 C                |   3 C                |     2.90355  |     1.53649
+    7 C                |   4 H                |     2.05390  |     1.08688
+    7 C                |   5 H                |     2.05390  |     1.08688
+    7 C                |   6 H                |     2.05063  |     1.08515
+ ------------------------------------------------------------------------------
+                         number of included internuclear distances:          6
+ ==============================================================================
+
+
+
+ ==============================================================================
+                                 internuclear angles
+ ------------------------------------------------------------------------------
+        center 1       |       center 2       |       center 3       |  degrees
+ ------------------------------------------------------------------------------
+    1 O                |   3 C                |   2 H                |   121.46
+    1 O                |   3 C                |   7 C                |   124.26
+    2 H                |   3 C                |   7 C                |   114.27
+    3 C                |   7 C                |   4 H                |   109.89
+    3 C                |   7 C                |   5 H                |   109.89
+    3 C                |   7 C                |   6 H                |   110.51
+    4 H                |   7 C                |   5 H                |   108.11
+    4 H                |   7 C                |   6 H                |   109.20
+    5 H                |   7 C                |   6 H                |   109.20
+ ------------------------------------------------------------------------------
+                            number of included internuclear angles:          9
+ ==============================================================================
+
+
+
+                      Basis "sto-3g" -> "" (cartesian)
+                      -----
+  h (Hydrogen)
+  ------------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  3.42525091E+00  0.154329
+  1 S  6.23913730E-01  0.535328
+  1 S  1.68855400E-01  0.444635
+
+  c (Carbon)
+  ----------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  7.16168370E+01  0.154329
+  1 S  1.30450960E+01  0.535328
+  1 S  3.53051220E+00  0.444635
+
+  2 S  2.94124940E+00 -0.099967
+  2 S  6.83483100E-01  0.399513
+  2 S  2.22289900E-01  0.700115
+
+  3 P  2.94124940E+00  0.155916
+  3 P  6.83483100E-01  0.607684
+  3 P  2.22289900E-01  0.391957
+
+  o (Oxygen)
+  ----------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  1.30709320E+02  0.154329
+  1 S  2.38088610E+01  0.535328
+  1 S  6.44360830E+00  0.444635
+
+  2 S  5.03315130E+00 -0.099967
+  2 S  1.16959610E+00  0.399513
+  2 S  3.80389000E-01  0.700115
+
+  3 P  5.03315130E+00  0.155916
+  3 P  1.16959610E+00  0.607684
+  3 P  3.80389000E-01  0.391957
+
+
+
+ Summary of "sto-3g" -> "" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ h                           sto-3g                  1        1   1s
+ c                           sto-3g                  3        5   2s1p
+ o                           sto-3g                  3        5   2s1p
+
+
+                      Basis "dunning" -> "" (cartesian)
+                      -----
+  h (Hydrogen)
+  ------------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  1.92384000E+01  0.032828
+  1 S  2.89870000E+00  0.231204
+  1 S  6.53500000E-01  0.817226
+
+  2 S  1.77600000E-01  1.000000
+
+  c (Carbon)
+  ----------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  4.23300000E+03  0.001220
+  1 S  6.34900000E+02  0.009342
+  1 S  1.46100000E+02  0.045452
+  1 S  4.25000000E+01  0.154657
+  1 S  1.41900000E+01  0.358866
+  1 S  5.14800000E+00  0.438632
+  1 S  1.96700000E+00  0.145918
+
+  2 S  5.14800000E+00 -0.168367
+  2 S  4.96200000E-01  1.060091
+
+  3 S  1.53300000E-01  1.000000
+
+  4 P  1.81600000E+01  0.018539
+  4 P  3.98600000E+00  0.115436
+  4 P  1.14300000E+00  0.386188
+  4 P  3.59400000E-01  0.640114
+
+  5 P  1.14600000E-01  1.000000
+
+  o (Oxygen)
+  ----------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  7.81700000E+03  0.001176
+  1 S  1.17600000E+03  0.008968
+  1 S  2.73200000E+02  0.042868
+  1 S  8.11700000E+01  0.143930
+  1 S  2.71800000E+01  0.355630
+  1 S  9.53200000E+00  0.461248
+  1 S  3.41400000E+00  0.140206
+
+  2 S  9.53200000E+00 -0.154153
+  2 S  9.39800000E-01  1.056914
+
+  3 S  2.84600000E-01  1.000000
+
+  4 P  3.51800000E+01  0.019580
+  4 P  7.90400000E+00  0.124200
+  4 P  2.30500000E+00  0.394714
+  4 P  7.17100000E-01  0.627376
+
+  5 P  2.13700000E-01  1.000000
+
+
+
+ Summary of "dunning" -> "" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ h                      SV (Dunning-Hay)             2        2   2s
+ c                      SV (Dunning-Hay)             5        9   3s2p
+ o                      SV (Dunning-Hay)             5        9   3s2p
+
+
+
+  Deleted DRIVER restart files 
+
+
+
+                           NWChem Geometry Optimization
+                           ----------------------------
+
+
+  no constraints, skipping    0.0000000000000000     
+ maximum gradient threshold         (gmax) =   0.000450
+ rms gradient threshold             (grms) =   0.000300
+ maximum cartesian step threshold   (xmax) =   0.001800
+ rms cartesian step threshold       (xrms) =   0.001200
+ fixed trust radius                (trust) =   0.300000
+ maximum step size to saddle      (sadstp) =   0.100000
+ energy precision                  (eprec) =   1.0D-07
+ maximum number of steps          (nptopt) =   20
+ initial hessian option           (inhess) =    0
+ line search option               (linopt) =    1
+ hessian update option            (modupd) =    1
+ saddle point option              (modsad) =    0
+ initial eigen-mode to follow     (moddir) =    0
+ initial variable to follow       (vardir) =    0
+ follow first negative mode     (firstneg) =    T
+ apply conjugacy                    (opcg) =    F
+ source of zmatrix                         =   autoz   
+
+
+          -------------------
+          Energy Minimization
+          -------------------
+
+
+ Names of Z-matrix variables 
+    1              2              3              4              5         
+    6              7              8              9             10         
+   11             12             13             14             15         
+   16             17             18             19             20         
+   21         
+
+ Variables with the same non-blank name are constrained to be equal
+
+
+ Using diagonal initial Hessian 
+ Scaling for Hessian diagonals: bonds = 1.00  angles = 0.25  torsions = 0.10
+
+          --------
+          Step   0
+          --------
+
+
+                         Geometry "geometry" -> "geometry"
+                         ---------------------------------
+
+ Output coordinates in angstroms (scale by  1.889725989 to convert to a.u.)
+
+  No.       Tag          Charge          X              Y              Z
+ ---- ---------------- ---------- -------------- -------------- --------------
+    1 O                    8.0000     0.25081180     1.25358432     0.00000000
+    2 H                    1.0000    -1.51812938     0.26617491     0.00000000
+    3 C                    6.0000    -0.41430776     0.23419158     0.00000000
+    4 H                    1.0000    -0.16128196    -1.72538860     0.87992573
+    5 H                    1.0000    -0.16128196    -1.72538860    -0.87992573
+    6 H                    1.0000     1.26093179    -1.14425016     0.00000000
+    7 C                    6.0000     0.17651894    -1.18416193     0.00000000
+
+      Atomic Mass 
+      ----------- 
+
+      O                 15.994910
+      H                  1.007825
+      C                 12.000000
+
+
+ Effective nuclear repulsion energy (a.u.)      69.0478537839
+
+            Nuclear Dipole moment (a.u.) 
+            ----------------------------
+        X                 Y               Z
+ ---------------- ---------------- ----------------
+    -0.0000000000     0.0000000000     0.0000000000
+
+      Symmetry information
+      --------------------
+
+ Group name             Cs        
+ Group number              2
+ Group order               2
+ No. of unique centers     6
+
+      Symmetry unique atoms
+
+     1    2    3    4    6    7
+
+                                NWChem ONIOM Module
+                                -------------------
+
+
+       Theory
+       ------
+         high  theory=mcscf  basis="dunning"
+          low  theory=scf  basis="sto-3g"
+
+      Vectors
+      -------
+          High-model  ./oniom4_dat.hmmos
+            Low-real  ./oniom4_dat.lrmos
+           Low-model  ./oniom4_dat.lmmos
+
+     Geometry
+     --------
+         real     7 atoms with charge  0.0000
+        model     3 atoms with charge  0.0000
+             Bonds between model and real/intermediate
+                       3   7  0.71  "H oniom"
+
+  Making model geometry 
+
+              ONIOM LOW+REAL
+              --------------
+                                 NWChem SCF Module
+                                 -----------------
+
+
+
+  ao basis        = "sto-3g"
+  functions       =    19
+  atoms           =     7
+  closed shells   =    12
+  open shells     =     0
+  charge          =   0.00
+  wavefunction    = RHF 
+  input vectors   = atomic
+  output vectors  = ./oniom4_dat.lrmos
+  use symmetry    = T
+  symmetry adapt  = T
+
+
+ Forming initial guess at       0.1s
+
+
+ Starting SCF solution at       0.1s
+
+
+
+       Final RHF  results 
+       ------------------ 
+
+         Total SCF energy =   -150.945992976955
+      One-electron energy =   -343.055936719929
+      Two-electron energy =    123.062089959067
+ Nuclear repulsion energy =     69.047853783908
+
+        Time for solution =      0.1s
+
+
+                              NWChem Gradients Module
+                              -----------------------
+
+
+
+                         RHF ENERGY GRADIENTS
+
+    atom               coordinates                        gradient
+                 x          y          z           x          y          z
+   1 O       0.473966   2.368931   0.000000   -0.000005  -0.000004   0.000000
+   2 H      -2.868849   0.502998   0.000000    0.000003  -0.000002   0.000000
+   3 C      -0.782928   0.442558   0.000000    0.000004   0.000004   0.000000
+   4 H      -0.304779  -3.260512   1.662819   -0.000002   0.000002  -0.000005
+   5 H      -0.304779  -3.260512  -1.662819   -0.000002   0.000002   0.000005
+   6 H       2.382816  -2.162319   0.000000    0.000000   0.000000   0.000000
+   7 C       0.333572  -2.237742   0.000000    0.000001  -0.000003   0.000000
+
+              ONIOM LOW+MODEL
+              ---------------
+                                 NWChem SCF Module
+                                 -----------------
+
+
+
+  ao basis        = "sto-3g"
+  functions       =    12
+  atoms           =     4
+  closed shells   =     8
+  open shells     =     0
+  charge          =   0.00
+  wavefunction    = RHF 
+  input vectors   = atomic
+  output vectors  = ./oniom4_dat.lmmos
+  use symmetry    = T
+  symmetry adapt  = T
+
+
+ Forming initial guess at       0.2s
+
+
+ Starting SCF solution at       0.2s
+
+
+
+       Final RHF  results 
+       ------------------ 
+
+         Total SCF energy =   -112.354098171670
+      One-electron energy =   -215.802976905489
+      Two-electron energy =     72.338723203936
+ Nuclear repulsion energy =     31.110155529883
+
+        Time for solution =      0.1s
+
+
+                              NWChem Gradients Module
+                              -----------------------
+
+
+
+                         RHF ENERGY GRADIENTS
+
+    atom               coordinates                        gradient
+                 x          y          z           x          y          z
+   1 O       0.473966   2.368931   0.000000   -0.003438   0.003056   0.000000
+   2 H      -2.868849   0.502998   0.000000   -0.001928   0.001981   0.000000
+   3 C      -0.782928   0.442558   0.000000    0.012113  -0.013086   0.000000
+   4 H on    0.008671  -1.457774   0.000000   -0.006747   0.008049   0.000000
+
+             ONIOM HIGH+MODEL
+             ----------------
+
+                            NWChem Direct MCSCF Module
+                            --------------------------
+
+
+     -----------------------------------
+       Basis functions:             22
+       Inactive shells:              7
+       Active shells:                2
+       Active electrons:             2
+       Symmetry:                    a'      
+       Multiplicity:                 1
+       Orbital rotations:          131
+     -----------------------------------
+
+     -----------------------------------
+       E2 extrapolation:             F
+       Conjugacy:                    T
+       Micro CI relax:               T
+       Canonical orbitals:           T
+       Maximum iterations:         200
+       Converge threshold:    1.00E-04
+       Conjugacy resets:            20
+       Initial levelshift:        0.10
+     -----------------------------------
+
+   input molecular orbitals = atomic
+  output molecular orbtials = ./oniom4_dat.hmmos
+
+       No. of determinants:             4
+
+
+          Number of sigma calls:        2
+                       o<<<<< (aa):             0.00
+                       o<<<<< (bb):             0.00
+                       o<<<<< (ab):             0.00
+                       o<<<<< (total)           0.00
+                       o<<<<< (aa) ff           0.00
+                       o<<<<< (aa) gop          0.00
+                       o<<<<< (aa) dot          0.00
+                       o<<<<< (ab) str          0.00
+                       o<<<<< (ab) gath         0.00
+                       o<<<<< (ab) dotab        0.00
+                       o<<<<< (ab) scat         0.00
+                       o<<<<< (ab) sync         0.00
+                       o<<<<< Density           0.00
+                       o<<<<< Density one       0.00
+                       o<<<<< Density two       0.00
+                       o<<<<< Density ab        0.00
+                       o<<<<< Spin adapt        0.00
+                       o<<<<< Symm adapt        0.00
+
+                       o<<<<< (ab) max sync:      0.00
+
+          Number of sigma calls:        2
+                       o<<<<< (aa):             0.00
+                       o<<<<< (bb):             0.00
+                       o<<<<< (ab):             0.00
+                       o<<<<< (total)           0.00
+                       o<<<<< (aa) ff           0.00
+                       o<<<<< (aa) gop          0.00
+                       o<<<<< (aa) dot          0.00
+                       o<<<<< (ab) str          0.00
+                       o<<<<< (ab) gath         0.00
+                       o<<<<< (ab) dotab        0.00
+                       o<<<<< (ab) scat         0.00
+                       o<<<<< (ab) sync         0.00
+                       o<<<<< Density           0.00
+                       o<<<<< Density one       0.00
+                       o<<<<< Density two       0.00
+                       o<<<<< Density ab        0.00
+                       o<<<<< Spin adapt        0.00
+                       o<<<<< Symm adapt        0.00
+
+                       o<<<<< (ab) max sync:      0.00
+
+          Number of sigma calls:        2
+                       o<<<<< (aa):             0.00
+                       o<<<<< (bb):             0.00
+                       o<<<<< (ab):             0.00
+                       o<<<<< (total)           0.00
+                       o<<<<< (aa) ff           0.00
+                       o<<<<< (aa) gop          0.00
+                       o<<<<< (aa) dot          0.00
+                       o<<<<< (ab) str          0.00
+                       o<<<<< (ab) gath         0.00
+                       o<<<<< (ab) dotab        0.00
+                       o<<<<< (ab) scat         0.00
+                       o<<<<< (ab) sync         0.00
+                       o<<<<< Density           0.00
+                       o<<<<< Density one       0.00
+                       o<<<<< Density two       0.00
+                       o<<<<< Density ab        0.00
+                       o<<<<< Spin adapt        0.00
+                       o<<<<< Symm adapt        0.00
+
+                       o<<<<< (ab) max sync:      0.00
+[0] ARMCI Error: 0:ga_diag_std_seq: dsyev failed:
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

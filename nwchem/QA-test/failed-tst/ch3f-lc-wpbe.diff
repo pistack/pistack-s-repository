@@ -1,0 +1,14 @@
+3,6c3,6
+< isotropic = 127.495
+< anisotropy = 100.801
+< isotropic = 465.602
+< anisotropy = 40.396
+---
+> isotropic = 127.494
+> anisotropy = 100.802
+> isotropic = 465.605
+> anisotropy = 40.400
+17c17
+< isotropic = 465.616
+---
+> isotropic = 465.613

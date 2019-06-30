@@ -28,18 +28,18 @@ cd $PBS_O_WORKDIR
 
 export NWCHEM_TOP=`pwd`
 export NWCHEM_TARGET=LINUX64
-export ARMCI_NERWORK=MPI-MT
+export ARMCI_NETWORK=ARMCI
+export EXTERNAL_ARMCI_PATH=${NWCHEM_TOP}/external-armci
+export LARGE_FILES=TRUE
 export USE_MPI=y
 export USE_MPIF=y
 export USE_MPIF4=y
-export LIBMPI="-lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi"
+export LIBMPI="-lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lpthread -lm -ldl"
 export MPI_LIB=/opt/openmpi/4.0.1/lib
 export MPI_INCLUDE=/opt/openmpi/4.0.1/include
 export NWCHEM_MODULES=all
 export USE_NOFSCHECK=TRUE
-export USE_NOIO=TRUE
 #export LIB_DEFINES=-DDFLT_TOT_MEM=16777216 This needed to be modified.
-export MRCC_METHODS=TRUE
 export BLASOPT="-L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_gf_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl"
 export BLAS_SIZE=4
 export LAPACK_LIB=${BLASOPT}
@@ -56,16 +56,12 @@ export USE_ARUR=y
 
 #echo ${NWCHEM_TOP}
 #echo ${MKLROOT}
-#cd ${NWCHEM_TOP}/src/tools
-#./install-armci-mpi
+cd ${NWCHEM_TOP}/src/tools
+./install-armci-mpi
 cd ${NWCHEM_TOP}/src
 make nwchem_config
 make 64_to_32
 make -j `getconf _NPROCESSORS_ONLN`
-
-# setting DLFLT_TOT_MEM automately
-cd ${NWCHEM_TOP}/contrib
-./getmem.nwchem
 
 # To get full version number
 cd ${NWCHEM_TOP}/src/util
@@ -73,6 +69,10 @@ make version
 make
 cd ${NWCHEM_TOP}/src
 make link
+
+# setting DLFLT_TOT_MEM automately
+cd ${NWCHEM_TOP}/contrib
+./getmem.nwchem
 
 
 

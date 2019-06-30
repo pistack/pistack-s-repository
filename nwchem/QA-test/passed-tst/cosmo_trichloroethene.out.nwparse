@@ -1,0 +1,36 @@
+Effective nuclear repulsion energy (a.u.) 311.201
+Effective nuclear repulsion energy (a.u.) 311.201
+Total DFT energy = -1457.33632
+   Atoms             Coordinates:
+          C    -0.8177    -0.2017    -0.0002
+          C     1.2318    -1.7327     0.0002
+         Cl    -3.8749    -1.5386    -0.0005
+         Cl    -0.6955     3.1037    -0.0002
+         Cl     4.3636    -0.6598     0.0007
+          H     1.0297    -3.7821     0.0003
+   Atoms              Gradients:
+          C     0.0000    -0.0004     0.0000
+          C     0.0000     0.0001     0.0000
+         Cl     0.0000     0.0000     0.0000
+         Cl     0.0001     0.0002     0.0000
+         Cl    -0.0001     0.0000     0.0000
+          H     0.0000     0.0000     0.0000
+Total DFT energy = -1457.33632
+Effective nuclear repulsion energy (a.u.) 311.204
+Total DFT energy = -1457.33632
+   Atoms             Coordinates:
+          C    -0.8175    -0.2012    -0.0002
+          C     1.2318    -1.7327     0.0002
+         Cl    -3.8744    -1.5387    -0.0005
+         Cl    -0.6962     3.1036    -0.0002
+         Cl     4.3640    -0.6603     0.0007
+          H     1.0294    -3.7821     0.0003
+   Atoms              Gradients:
+          C    -0.0001    -0.0002     0.0000
+          C     0.0001     0.0000     0.0000
+         Cl     0.0000     0.0000     0.0000
+         Cl     0.0000     0.0001     0.0000
+         Cl     0.0000     0.0000     0.0000
+          H     0.0000     0.0000     0.0000
+Effective nuclear repulsion energy (a.u.) 311.204
+Total DFT energy = -1457.33935

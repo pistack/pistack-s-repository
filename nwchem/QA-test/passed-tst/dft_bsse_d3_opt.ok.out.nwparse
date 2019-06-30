@@ -1,0 +1,106 @@
+Effective nuclear repulsion energy (a.u.) 9.633
+Effective nuclear repulsion energy (a.u.) 9.633
+Total DFT energy = -76.42001
+Effective nuclear repulsion energy (a.u.) 9.633
+Total DFT energy = -76.42001
+   Atoms             Coordinates:
+          H     0.5664     1.5622     0.0000
+          O    -0.2206    -0.0801     0.0000
+          H     1.1980    -0.9215     0.0000
+   Atoms              Gradients:
+          H     0.0126    -0.0144     0.0000
+          O     0.0945    -0.0718     0.0000
+          H    -0.1072     0.0862     0.0000
+Total DFT energy = -76.42959
+Effective nuclear repulsion energy (a.u.) 9.065
+Total DFT energy = -76.43291
+   Atoms             Coordinates:
+          H     0.5139     1.6540     0.0000
+          O    -0.2380    -0.0192     0.0000
+          H     1.2680    -1.0741     0.0000
+   Atoms              Gradients:
+          H     0.0046     0.0008     0.0000
+          O    -0.0107    -0.0011     0.0000
+          H     0.0062     0.0004     0.0000
+Total DFT energy = -76.43311
+Effective nuclear repulsion energy (a.u.) 9.104
+Total DFT energy = -76.43312
+   Atoms             Coordinates:
+          H     0.4955     1.6708     0.0000
+          O    -0.2119    -0.0127     0.0000
+          H     1.2603    -1.0975     0.0000
+   Atoms              Gradients:
+          H    -0.0001    -0.0001     0.0000
+          O    -0.0008     0.0009     0.0000
+          H     0.0009    -0.0008     0.0000
+Total DFT energy = -76.43312
+Effective nuclear repulsion energy (a.u.) 9.107
+Total DFT energy = -76.43312
+   Atoms             Coordinates:
+          H     0.4959     1.6706     0.0000
+          O    -0.2116    -0.0134     0.0000
+          H     1.2596    -1.0965     0.0000
+   Atoms              Gradients:
+          H     0.0000     0.0001     0.0000
+          O    -0.0002     0.0001     0.0000
+          H     0.0002    -0.0002     0.0000
+Effective nuclear repulsion energy (a.u.) 9.107
+Total DFT energy = -76.43311
+Frequency        36         54         64         72         82        114 
+Frequency      1613       3766       3883 
+Zero-Point correction to Energy = 13.253
+P.Frequency         0          0          0          0          0          0 
+P.Frequency      1617       3767       3890 
+Total DFT energy = -76.41999
+Effective nuclear repulsion energy (a.u.) 9.633
+Total DFT energy = -76.41999
+   Atoms             Coordinates:
+          H     0.5664     1.5622     0.0000
+          O    -0.2206    -0.0801     0.0000
+          H     1.1980    -0.9215     0.0000
+   Atoms              Gradients:
+          H     0.0126    -0.0144     0.0000
+          O     0.0946    -0.0718     0.0000
+          H    -0.1072     0.0862     0.0000
+Total DFT energy = -76.42958
+Effective nuclear repulsion energy (a.u.) 9.065
+Total DFT energy = -76.43290
+   Atoms             Coordinates:
+          H     0.3849     1.7290     0.0000
+          O    -0.2692     0.0152     0.0000
+          H     1.2951    -0.9511     0.0000
+   Atoms              Gradients:
+          H     0.0045     0.0011     0.0000
+          O    -0.0106    -0.0018     0.0000
+          H     0.0061     0.0007     0.0000
+Total DFT energy = -76.43310
+Effective nuclear repulsion energy (a.u.) 9.104
+Total DFT energy = -76.43310
+   Atoms             Coordinates:
+          H     0.3356     1.7530     0.0000
+          O    -0.2399     0.0201     0.0000
+          H     1.3110    -0.9486     0.0000
+   Atoms              Gradients:
+          H    -0.0002    -0.0001     0.0000
+          O    -0.0007     0.0009     0.0000
+          H     0.0010    -0.0007     0.0000
+Total DFT energy = -76.43311
+Effective nuclear repulsion energy (a.u.) 9.107
+Total DFT energy = -76.43311
+   Atoms             Coordinates:
+          H     0.3374     1.7521     0.0000
+          O    -0.2398     0.0190     0.0000
+          H     1.3099    -0.9486     0.0000
+   Atoms              Gradients:
+          H     0.0000     0.0001     0.0000
+          O    -0.0002     0.0001     0.0000
+          H     0.0003    -0.0002     0.0000
+Effective nuclear repulsion energy (a.u.) 9.107
+Total DFT energy = -76.43311
+Frequency         0          0          0          0          0          0 
+Frequency         0          0          0         44         57         65 
+Frequency        72         83        114       1613       3766       3882 
+Zero-Point correction to Energy = 13.707
+P.Frequency         0          0          0          0          0          0 
+P.Frequency         0          0          0          1          1         31 
+P.Frequency        55         95        140       1618       3767       3884 

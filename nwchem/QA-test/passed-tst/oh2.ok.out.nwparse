@@ -1,0 +1,10 @@
+Effective nuclear repulsion energy (a.u.) 9.197
+Total SCF energy = -67.01054
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.2214
+          H    -1.4300     0.0000    -0.8856
+          H     1.4300     0.0000    -0.8856
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0145
+          H    -0.0073     0.0000    -0.0072
+          H     0.0073     0.0000    -0.0072

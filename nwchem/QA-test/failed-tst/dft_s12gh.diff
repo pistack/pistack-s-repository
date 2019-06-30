@@ -1,0 +1,12 @@
+50,52c50,52
+< Frequency       -36        -36        -17        169        196        200 
+< Frequency      1057       1680       1681       3530       3681       3685 
+< Zero-Point correction to Energy = 21.889
+---
+> Frequency       -37        -37        -24        -17         37         37 
+> Frequency      1053       1679       1679       3529       3661       3661 
+> Zero-Point correction to Energy = 21.805
+54c54
+< P.Frequency      1056       1682       1682       3530       3683       3686 
+---
+> P.Frequency      1053       1679       1679       3529       3661       3661 

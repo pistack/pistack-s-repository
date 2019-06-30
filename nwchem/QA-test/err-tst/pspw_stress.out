@@ -1,0 +1,269 @@
+ argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pspw_stress/pspw_stress.nw
+
+
+
+============================== echo of input deck ==============================
+echo
+title "testing unit cell optimization"
+
+start SiC.stress
+
+#**** Enter the geometry using fractional coordinates ****
+geometry units au center noautosym noautoz print
+  system crystal
+    lat_a 8.277d0
+    lat_b 8.277d0
+    lat_c 8.277d0
+    alpha 90.0d0
+    beta  90.0d0
+    gamma 90.0d0
+  end
+Si    -0.50000d0  -0.50000d0  -0.50000d0
+Si     0.00000d0   0.00000d0  -0.50000d0
+Si     0.00000d0  -0.50000d0   0.00000d0
+Si    -0.50000d0   0.00000d0   0.00000d0
+C     -0.25000d0  -0.25000d0  -0.25000d0
+C      0.25000d0   0.25000d0  -0.25000d0
+C      0.25000d0  -0.25000d0   0.25000d0
+C     -0.25000d0   0.25000d0   0.25000d0
+end
+
+#***** setup the nwpw gamma point code ****
+nwpw
+   simulation_cell
+     ngrid 16 16 16
+   end
+   ewald_ncut 8
+   mulliken
+   lcao #old default
+end
+set nwpw:cutoff_boot_psi .false.
+set nwpw:lcao_iterations 20
+set nwpw:minimizer 2
+#set nwpw:lmbfgs_size 1
+#set nwpw:precondition .false.
+#set nwpw:lcao_skip .true.
+
+task pspw energy
+
+nwpw
+  tolerances 1.0d-9 1.0d-9
+end
+driver
+   clear
+end
+set includestress .true.          # tell driver to optimize unit cell
+task pspw optimize
+
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2018
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = list1234-B360M-H
+    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
+    date            = Sun Jun 30 12:49:56 2019
+
+    compiled        = Sun_Jun_30_11:55:59_2019
+    source          = /home/list1234/source/nwchem-6.8.1-release
+    nwchem branch   = Development
+    nwchem revision = N/A
+    ga revision     = 5.6.5
+    use scalapack   = T
+    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pspw_stress/pspw_stress.nw
+    prefix          = SiC.stress.
+    data base       = ./SiC.stress.db
+    status          = startup
+    nproc           =        4
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =   86247162 doubles =    658.0 Mbytes
+    stack    =   86247167 doubles =    658.0 Mbytes
+    global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
+    total    =  344988665 doubles =   2632.1 Mbytes
+    verify   = yes
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+                          testing unit cell optimization
+                          ------------------------------
+
+  !!!!!!!!!  geom_3d NEEDS TESTING !!!!!!!!!! 
+
+
+                             Geometry "geometry" -> ""
+                             -------------------------
+
+ Output coordinates in a.u. (scale by  1.000000000 to convert to a.u.)
+
+  No.       Tag          Charge          X              Y              Z
+ ---- ---------------- ---------- -------------- -------------- --------------
+    1 Si                  14.0000     4.13850000     4.13850000     4.13850000
+    2 Si                  14.0000     0.00000000     0.00000000     4.13850000
+    3 Si                  14.0000     0.00000000     4.13850000     0.00000000
+    4 Si                  14.0000     4.13850000     0.00000000     0.00000000
+    5 C                    6.0000     6.20775000     6.20775000     6.20775000
+    6 C                    6.0000     2.06925000     2.06925000     6.20775000
+    7 C                    6.0000     2.06925000     6.20775000     2.06925000
+    8 C                    6.0000     6.20775000     2.06925000     2.06925000
+
+      Lattice Parameters 
+      ------------------ 
+
+      lattice vectors in a.u. (scale by  1.000000000 to convert to a.u.)
+
+      a1=<   8.277   0.000   0.000 >
+      a2=<   0.000   8.277   0.000 >
+      a3=<   0.000   0.000   8.277 >
+      a=       8.277 b=      8.277 c=       8.277
+      alpha=  90.000 beta=  90.000 gamma=  90.000
+      omega=   567.0
+
+      reciprocal lattice vectors in a.u.
+
+      b1=<   0.759   0.000  -0.000 >
+      b2=<  -0.000   0.759  -0.000 >
+      b3=<   0.000   0.000   0.759 >
+
+      Atomic Mass 
+      ----------- 
+
+      Si                27.976930
+      C                 12.000000
+
+
+ ==============================================================================
+                                internuclear distances
+ ------------------------------------------------------------------------------
+       center one      |      center two      | atomic units |       a.u.
+ ------------------------------------------------------------------------------
+    5 C                |   1 Si               |     3.58405  |     3.58405
+    6 C                |   1 Si               |     3.58405  |     3.58405
+    6 C                |   2 Si               |     3.58405  |     3.58405
+    7 C                |   1 Si               |     3.58405  |     3.58405
+    7 C                |   3 Si               |     3.58405  |     3.58405
+    8 C                |   1 Si               |     3.58405  |     3.58405
+    8 C                |   4 Si               |     3.58405  |     3.58405
+ ------------------------------------------------------------------------------
+                         number of included internuclear distances:          7
+ ==============================================================================
+
+
+
+ ==============================================================================
+                                 internuclear angles
+ ------------------------------------------------------------------------------
+        center 1       |       center 2       |       center 3       |  degrees
+ ------------------------------------------------------------------------------
+    5 C                |   1 Si               |   6 C                |   109.47
+    5 C                |   1 Si               |   7 C                |   109.47
+    5 C                |   1 Si               |   8 C                |   109.47
+    6 C                |   1 Si               |   7 C                |   109.47
+    6 C                |   1 Si               |   8 C                |   109.47
+    7 C                |   1 Si               |   8 C                |   109.47
+    1 Si               |   6 C                |   2 Si               |   109.47
+    1 Si               |   7 C                |   3 Si               |   109.47
+    1 Si               |   8 C                |   4 Si               |   109.47
+ ------------------------------------------------------------------------------
+                            number of included internuclear angles:          9
+ ==============================================================================
+
+
+
+          ****************************************************
+          *                                                  *
+          *               NWPW PSPW Calculation              *
+          *                                                  *
+          * [ (Grassmann/Stiefel manifold implementation)  ] *
+          *                                                  *
+          *      [ NorthWest Chemistry implementation ]      *
+          *                                                  *
+          *            version #5.10   06/12/02              *
+          *                                                  *
+          *    This code was developed by Eric J. Bylaska,   *
+          *    and was based upon algorithms and code        *
+          *    developed by the group of Prof. John H. Weare *
+          *                                                  *
+          ****************************************************
+     >>>  JOB STARTED       AT Sun Jun 30 12:49:56 2019  <<<
+          ================ input data ========================
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+ Generating 1d pseudopotential for Si  
+
+ Generated formatted_filename: ./Si.vpp
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+ Generating 1d pseudopotential for C   
+
+ Generated formatted_filename: ./C.vpp
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+
+ Generated formatted atomic orbitals, filename: ./Si.aorb
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+
+ Generated formatted atomic orbitals, filename: ./C.aorb
+[0] ARMCI Error: 0:ga_diag_seq: dsygv failed:
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

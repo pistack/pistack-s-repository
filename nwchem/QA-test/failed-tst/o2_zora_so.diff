@@ -1,0 +1,8 @@
+114,116c114,116
+< Frequency        -1          0          1        163        177       1610 
+< Zero-Point correction to Energy = 2.301
+< P.Frequency         0          0          0          0          0       1610 
+---
+> Frequency        -1         -1          0        160        177       1611 
+> Zero-Point correction to Energy = 2.302
+> P.Frequency         0          0          0          0          0       1611 

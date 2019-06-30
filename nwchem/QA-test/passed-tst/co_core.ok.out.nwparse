@@ -1,0 +1,61 @@
+Effective nuclear repulsion energy (a.u.) 22.087
+Effective nuclear repulsion energy (a.u.) 22.087
+Total DFT energy = -113.35966
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.0000
+          C     0.0000     0.0000     2.1732
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0537
+          C     0.0000     0.0000     0.0537
+Total DFT energy = -113.35986
+Effective nuclear repulsion energy (a.u.) 22.556
+Total DFT energy = -113.36094
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.0226
+          C     0.0000     0.0000     2.1506
+   Atoms              Gradients:
+          O     0.0000     0.0000    -0.0013
+          C     0.0000     0.0000     0.0013
+Total DFT energy = -113.36094
+Effective nuclear repulsion energy (a.u.) 22.568
+Total DFT energy = -113.36094
+   Atoms             Coordinates:
+          O     0.0000     0.0000     0.0232
+          C     0.0000     0.0000     2.1500
+   Atoms              Gradients:
+          O     0.0000     0.0000     0.0000
+          C     0.0000     0.0000     0.0000
+Effective nuclear repulsion energy (a.u.) 22.568
+Total DFT energy = -112.61693
+Total DFT energy = -112.61693
+Root 1 singlet 19.447 a.u. 529.18 eV
+Root 2 singlet 19.447 a.u. 529.18 eV
+Root 3 singlet 19.626 a.u. 534.05 eV
+Root 4 singlet 19.674 a.u. 535.34 eV
+Root 5 singlet 19.674 a.u. 535.34 eV
+Root 6 singlet 19.676 a.u. 535.41 eV
+Root 7 singlet 19.725 a.u. 536.75 eV
+Root 8 singlet 19.744 a.u. 537.27 eV
+Root 9 singlet 19.744 a.u. 537.27 eV
+Root 10 singlet 19.790 a.u. 538.52 eV
+Root 11 singlet 19.816 a.u. 539.22 eV
+Root 12 singlet 19.816 a.u. 539.22 eV
+Root 13 singlet 19.859 a.u. 540.40 eV
+Root 14 singlet 19.897 a.u. 541.42 eV
+Root 15 singlet 19.915 a.u. 541.92 eV
+Root 16 singlet 19.915 a.u. 541.92 eV
+Root 17 singlet 19.955 a.u. 542.99 eV
+Root 18 singlet 19.955 a.u. 542.99 eV
+Root 19 singlet 19.991 a.u. 543.99 eV
+Root 20 singlet 20.080 a.u. 546.40 eV
+Root 21 singlet 20.142 a.u. 548.10 eV
+Root 22 singlet 20.142 a.u. 548.10 eV
+Root 23 singlet 20.146 a.u. 548.19 eV
+Root 24 singlet 20.146 a.u. 548.19 eV
+Root 25 singlet 20.237 a.u. 550.69 eV
+Root 26 singlet 20.261 a.u. 551.32 eV
+Root 27 singlet 20.359 a.u. 554.00 eV
+Root 28 singlet 20.359 a.u. 554.00 eV
+Root 29 singlet 20.463 a.u. 556.83 eV
+Root 30 singlet 20.464 a.u. 556.86 eV
+Excitation energy = 19.447

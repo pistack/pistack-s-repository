@@ -1,0 +1,17 @@
+3a4,5
+> Excitation energy / hartree = 0.284
+> Excitation energy / hartree = 0.301
+5a8,9
+> Excitation energy / hartree = 0.000
+> Excitation energy / hartree = 0.304
+8,9c12,13
+< CR-EOMCCSD(T) total energy / hartree = -38.3568290
+< CR-EOMCCSD(T) total energy / hartree = -38.2697297
+---
+> Excitation energy / hartree = 0.121
+> Excitation energy / hartree = 0.191
+11a16,19
+> Excitation energy / hartree = 0.033
+> Excitation energy / hartree = 0.118
+> CR-EOMCCSD(T) total energy / hartree = -38.3568290
+> CR-EOMCCSD(T) total energy / hartree = -38.2697297

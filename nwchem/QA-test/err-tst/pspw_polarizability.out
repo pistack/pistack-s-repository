@@ -1,0 +1,254 @@
+ argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pspw_polarizability/pspw_polarizability.nw
+
+
+
+============================== echo of input deck ==============================
+echo
+#
+# Compute the polarizability of a Be atom using a finite field.
+#
+#    Formulae:
+#
+#    E(F) ~= E(0) - 0.5*alpha*F**2
+#
+#    Polarizability = alpha ~= 2*(E(0)-E(F))/F**2
+#
+#
+#                       PSPW Results
+#------------------------------------------------------
+#                        LDA/25 Ry            LDA/25 Ry
+#		         Periodic Boundary   Aperiodic Boundary
+#------------------------------------------------------
+# E(F=0.01)          -0.9958459140        -0.9957933307
+# E(F=0.00)          -0.9935824285        -0.9935832263
+#
+# Polarizability     45.3                 44.2
+#
+#
+#
+#                          DFT and HF Results
+#------------------------------------------------------------------
+#                    LDA/DZVP2    LDA/aug-cc-pvdz    HF/aug-cc-pvdz
+#------------------------------------------------------------------
+# E(F=0.01)         -14.447260         -14.445806        -14.574633
+# E(F=0.00)         -14.446093         -14.443634        -14.572379
+#
+# Polarizability     23.3               43.4              45.1
+#
+
+
+title "Be polarizability using PSPW"
+
+start Be
+
+set nwpw:minimizer 2
+set nwpw:cutoff_boot_psi .false.
+
+#**** Get polarizability using a periodic cell ****
+PSPW
+   SIMULATION_CELL
+      lattice_vectors
+         20.0   0.0   0.0
+          0.0  20.0   0.0
+          0.0   0.0  20.0
+      ngrid 32 32 32
+   END
+   loop 10 10
+   tolerances 1.0d-12 1.0d-12
+   lcao #old default
+END
+
+geometry units au noautosym
+Be  0.0 0.0 0.0
+end
+task pspw energy
+
+geometry units au noautosym noautoz
+Be    0.0 0.0    0.0
+bq1   0.0 0.0  100.0   charge  50.0
+bq2   0.0 0.0 -100.0   charge -50.0
+end
+task pspw energy
+
+
+
+#**** Get polarizability using a aperiodic cell ****
+PSPW
+   SIMULATION_CELL
+      lattice_vectors
+         20.0   0.0   0.0
+          0.0  20.0   0.0
+          0.0   0.0  20.0
+      boundary_conditions aperiodic
+      ngrid 32 32 32
+   END
+   loop 10 10
+   tolerances 1.0d-12 1.0d-12
+END
+
+geometry units au noautosym
+Be  0.0 0.0 0.0
+end
+task pspw energy
+
+geometry units au noautosym noautoz
+Be    0.0 0.0    0.0
+bq1   0.0 0.0  100.0   charge  50.0
+bq2   0.0 0.0 -100.0   charge -50.0
+end
+task pspw energy
+
+
+
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2018
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = list1234-B360M-H
+    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
+    date            = Sun Jun 30 12:49:55 2019
+
+    compiled        = Sun_Jun_30_11:55:59_2019
+    source          = /home/list1234/source/nwchem-6.8.1-release
+    nwchem branch   = Development
+    nwchem revision = N/A
+    ga revision     = 5.6.5
+    use scalapack   = T
+    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pspw_polarizability/pspw_polarizability.nw
+    prefix          = Be.
+    data base       = ./Be.db
+    status          = startup
+    nproc           =        4
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =   86247168 doubles =    658.0 Mbytes
+    stack    =   86247165 doubles =    658.0 Mbytes
+    global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
+    total    =  344988669 doubles =   2632.1 Mbytes
+    verify   = yes
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+                           Be polarizability using PSPW
+                           ----------------------------
+
+
+                             Geometry "geometry" -> ""
+                             -------------------------
+
+ Output coordinates in a.u. (scale by  1.000000000 to convert to a.u.)
+
+  No.       Tag          Charge          X              Y              Z
+ ---- ---------------- ---------- -------------- -------------- --------------
+    1 Be                   4.0000     0.00000000     0.00000000     0.00000000
+
+      Atomic Mass 
+      ----------- 
+
+      Be                 9.012180
+
+
+ Effective nuclear repulsion energy (a.u.)       0.0000000000
+
+            Nuclear Dipole moment (a.u.) 
+            ----------------------------
+        X                 Y               Z
+ ---------------- ---------------- ----------------
+     0.0000000000     0.0000000000     0.0000000000
+
+
+            XYZ format geometry
+            -------------------
+     1
+ geometry
+ Be                    0.00000000     0.00000000     0.00000000
+
+          ****************************************************
+          *                                                  *
+          *               NWPW PSPW Calculation              *
+          *                                                  *
+          * [ (Grassmann/Stiefel manifold implementation)  ] *
+          *                                                  *
+          *      [ NorthWest Chemistry implementation ]      *
+          *                                                  *
+          *            version #5.10   06/12/02              *
+          *                                                  *
+          *    This code was developed by Eric J. Bylaska,   *
+          *    and was based upon algorithms and code        *
+          *    developed by the group of Prof. John H. Weare *
+          *                                                  *
+          ****************************************************
+     >>>  JOB STARTED       AT Sun Jun 30 12:49:55 2019  <<<
+          ================ input data ========================
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+ Generating 1d pseudopotential for Be  
+
+ Generated formatted_filename: ./Be.vpp
+  library name resolved from: compiled reference
+  NWCHEM_NWPW_LIBRARY set to: </home/list1234/source/nwchem-6.8.1-release/src/nwpw/libraryps/>
+
+ Generated formatted atomic orbitals, filename: ./Be.aorb
+[0] ARMCI Error: 0:ga_diag_seq: dsygv failed:
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

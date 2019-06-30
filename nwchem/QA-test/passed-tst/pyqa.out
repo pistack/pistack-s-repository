@@ -1,0 +1,189 @@
+ argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pyqa/pyqa.nw
+
+
+
+============================== echo of input deck ==============================
+echo
+start testpy
+# test some basic python wrappers.
+# if it did not abort, it worked.
+
+print none
+
+basis
+  h library 3-21g
+end
+
+python
+print "value check:"
+print "INT     = ", INT
+print "DBL     = ", DBL
+print "CHAR    = ", CHAR
+print "LOGICAL = ", LOGICAL
+
+rtdb_put("test_int2", 22)
+print ' Done 1'
+rtdb_put("test_int", [22, 10, 3],    INT)
+print ' Done 2'
+rtdb_put("test_dbl", [22.9, 12.4, 23.908],  DBL)
+print ' Done 3'
+rtdb_put("test_str", "hello", CHAR)
+print ' Done 4'
+rtdb_put("test_logic", [0,1,0,1,0,1], LOGICAL)
+print ' Done 5'
+rtdb_put("test_logic2", 0, LOGICAL)
+print ' Done 6'
+
+rtdb_print(1)
+
+print "test_str    = ", rtdb_get("test_str")
+print "test_int    = ", rtdb_get("test_int")
+print "test_in2    = ", rtdb_get("test_int2")
+print "test_dbl    = ", rtdb_get("test_dbl")
+print "test_logic  = ", rtdb_get("test_logic")
+print "test_logic2 = ", rtdb_get("test_logic2")
+
+def energy(r):
+  input_parse('''
+    geometry noprint noautoz
+      h 0 0 0
+      h 0 0 %f
+   end
+  ''' % r)
+  return task_energy('scf')
+
+for r in (0.4, 0.5, 0.6):
+  print r, energy(r)
+
+print task_optimize('scf')
+
+end
+
+task python
+================================================================================
+
+
+                                         
+                                         
+
+
+              Northwest Computational Chemistry Package (NWChem) 6.8
+              ------------------------------------------------------
+
+
+                    Environmental Molecular Sciences Laboratory
+                       Pacific Northwest National Laboratory
+                                Richland, WA 99352
+
+                              Copyright (c) 1994-2018
+                       Pacific Northwest National Laboratory
+                            Battelle Memorial Institute
+
+             NWChem is an open-source computational chemistry package
+                        distributed under the terms of the
+                      Educational Community License (ECL) 2.0
+             A copy of the license is included with this distribution
+                              in the LICENSE.TXT file
+
+                                  ACKNOWLEDGMENT
+                                  --------------
+
+            This software and its documentation were developed at the
+            EMSL at Pacific Northwest National Laboratory, a multiprogram
+            national laboratory, operated for the U.S. Department of Energy
+            by Battelle under Contract Number DE-AC05-76RL01830. Support
+            for this work was provided by the Department of Energy Office
+            of Biological and Environmental Research, Office of Basic
+            Energy Sciences, and the Office of Advanced Scientific Computing.
+
+
+           Job information
+           ---------------
+
+    hostname        = list1234-B360M-H
+    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
+    date            = Sun Jun 30 12:37:41 2019
+
+    compiled        = Sun_Jun_30_11:55:59_2019
+    source          = /home/list1234/source/nwchem-6.8.1-release
+    nwchem branch   = Development
+    nwchem revision = N/A
+    ga revision     = 5.6.5
+    use scalapack   = T
+    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/pyqa/pyqa.nw
+    prefix          = testpy.
+    data base       = ./testpy.db
+    status          = startup
+    nproc           =        4
+    time left       =     -1s
+
+
+
+           Memory information
+           ------------------
+
+    heap     =   86247162 doubles =    658.0 Mbytes
+    stack    =   86247167 doubles =    658.0 Mbytes
+    global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
+    total    =  344988665 doubles =   2632.1 Mbytes
+    verify   = yes
+    hardfail = no 
+
+
+           Directory information
+           ---------------------
+
+  0 permanent = .
+  0 scratch   = .
+
+
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+                      Basis "ao basis" -> "" (cartesian)
+                      -----
+  h (Hydrogen)
+  ------------
+            Exponent  Coefficients 
+       -------------- ---------------------------------------------------------
+  1 S  5.44717800E+00  0.156285
+  1 S  8.24547000E-01  0.904691
+
+  2 S  1.83192000E-01  1.000000
+
+
+
+ Summary of "ao basis" -> "" (cartesian)
+ ------------------------------------------------------------------------------
+       Tag                 Description            Shells   Functions and Types
+ ---------------- ------------------------------  ------  ---------------------
+ h                           3-21g                   2        2   2s
+
+
+ ------------------------------------------------------------------------
+ python_input is not in this build of NWChem                   0
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+    12: python
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ A feature requested has not yet been implemented
+
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section:                                                                                                                                                                                                                                                                
+[0] ARMCI Error: 0:python_input is not in this build of NWChem:
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
