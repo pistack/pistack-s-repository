@@ -1,4 +1,4 @@
- argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/bsse_dft_trimer/bsse_dft_trimer.nw
+ argument  1 = /home/list1234/source/nwchem-6.8.1/QA/tests/bsse_dft_trimer/bsse_dft_trimer.nw
 
 
 
@@ -66,7 +66,7 @@ task dft freq
                        Pacific Northwest National Laboratory
                                 Richland, WA 99352
 
-                              Copyright (c) 1994-2018
+                              Copyright (c) 1994-2017
                        Pacific Northwest National Laboratory
                             Battelle Memorial Institute
 
@@ -92,16 +92,16 @@ task dft freq
            ---------------
 
     hostname        = list1234-B360M-H
-    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
-    date            = Sun Jun 30 12:41:00 2019
+    program         = /home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem
+    date            = Sun Jun 30 23:10:46 2019
 
-    compiled        = Sun_Jun_30_11:55:59_2019
-    source          = /home/list1234/source/nwchem-6.8.1-release
-    nwchem branch   = Development
-    nwchem revision = N/A
+    compiled        = Sun_Jun_30_20:37:07_2019
+    source          = /home/list1234/source/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-160-gc00cf755d
     ga revision     = 5.6.5
     use scalapack   = T
-    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/bsse_dft_trimer/bsse_dft_trimer.nw
+    input           = /home/list1234/source/nwchem-6.8.1/QA/tests/bsse_dft_trimer/bsse_dft_trimer.nw
     prefix          = FH-ClH-BrH-bsses.
     data base       = ./FH-ClH-BrH-bsses.db
     status          = startup
@@ -113,10 +113,10 @@ task dft freq
            Memory information
            ------------------
 
-    heap     =   86247162 doubles =    658.0 Mbytes
-    stack    =   86247167 doubles =    658.0 Mbytes
+    heap     =   86247168 doubles =    658.0 Mbytes
+    stack    =   86247165 doubles =    658.0 Mbytes
     global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
-    total    =  344988665 doubles =   2632.1 Mbytes
+    total    =  344988669 doubles =   2632.1 Mbytes
     verify   = yes
     hardfail = no 
 
@@ -530,35 +530,35 @@ task dft freq
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     22        Max. recs in file   =    862418
+ Max. records in memory =     22        Max. recs in file   =    863644
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.97            85973730
+           Heap Space remaining (MW):       85.97            85973736
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -3115.0770756163 -3.34D+03  2.15D-02  1.35D+00     0.2
- d= 0,ls=0.0,diis     2  -3115.1033085489 -2.62D-02  1.35D-02  4.72D-01     0.2
- d= 0,ls=0.0,diis     3  -3115.1292475523 -2.59D-02  5.69D-03  3.07D-01     0.3
- d= 0,ls=0.0,diis     4  -3115.1507442773 -2.15D-02  2.21D-03  8.09D-03     0.4
- d= 0,ls=0.0,diis     5  -3115.1521110030 -1.37D-03  5.06D-04  8.87D-04     0.4
+ d= 0,ls=0.0,diis     1  -3115.0770756149 -3.34D+03  2.15D-02  1.35D+00     0.2
+ d= 0,ls=0.0,diis     2  -3115.1033085366 -2.62D-02  1.35D-02  4.72D-01     0.2
+ d= 0,ls=0.0,diis     3  -3115.1292475510 -2.59D-02  5.69D-03  3.07D-01     0.3
+ d= 0,ls=0.0,diis     4  -3115.1507442772 -2.15D-02  2.21D-03  8.09D-03     0.3
+ d= 0,ls=0.0,diis     5  -3115.1521110029 -1.37D-03  5.06D-04  8.87D-04     0.4
   Resetting Diis
- d= 0,ls=0.0,diis     6  -3115.1522093451 -9.83D-05  1.85D-04  3.97D-05     0.5
+ d= 0,ls=0.0,diis     6  -3115.1522093451 -9.83D-05  1.85D-04  3.97D-05     0.4
  d= 0,ls=0.0,diis     7  -3115.1522165130 -7.17D-06  1.03D-04  3.18D-06     0.5
  d= 0,ls=0.0,diis     8  -3115.1522156611  8.52D-07  6.34D-05  8.30D-06     0.6
- d= 0,ls=0.0,diis     9  -3115.1522170569 -1.40D-06  4.53D-06  5.91D-08     0.7
- d= 0,ls=0.0,diis    10  -3115.1522170621 -5.14D-09  1.45D-06  1.28D-08     0.7
+ d= 0,ls=0.0,diis     9  -3115.1522170569 -1.40D-06  4.53D-06  5.91D-08     0.6
+ d= 0,ls=0.0,diis    10  -3115.1522170621 -5.15D-09  1.45D-06  1.28D-08     0.7
 
 
-         Total DFT energy =    -3115.152217062065
-      One electron energy =    -4793.149838294325
-           Coulomb energy =     1578.157698631316
-    Exchange-Corr. energy =     -125.343353372270
+         Total DFT energy =    -3115.152217062068
+      One electron energy =    -4793.149838295027
+           Coulomb energy =     1578.157698632064
+    Exchange-Corr. energy =     -125.343353372319
  Nuclear repulsion energy =      225.183275973214
 
- Numeric. integr. density =       64.000001198865
+ Numeric. integr. density =       64.000001198870
 
      Total iterative time =      0.6s
 
@@ -833,7 +833,7 @@ task dft freq
     18     -0.255971  3 Cl px                38     -0.255602  5 Br py         
     37      0.199231  5 Br px                34      0.171129  5 Br py         
 
- Vector   34  Occ=0.000000D+00  E= 4.478350D-04
+ Vector   34  Occ=0.000000D+00  E= 4.478351D-04
               MO Center= -7.7D-01, -6.6D-01, -6.4D-05, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
@@ -905,7 +905,7 @@ task dft freq
               MO Center=  4.0D-01,  4.6D-01,  2.2D-05, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    42     -1.228803  5 Br py                38      1.175788  5 Br py         
+    42     -1.228804  5 Br py                38      1.175788  5 Br py         
     23      0.766393  3 Cl py                21     -0.650890  3 Cl s          
     40     -0.601717  5 Br s                 19     -0.503040  3 Cl py         
     36      0.494440  5 Br s                 17      0.433216  3 Cl s          
@@ -1220,23 +1220,23 @@ task dft freq
  HOMO         =      -0.581580
  LUMO         =       0.114146
 
-   Time after variat. SCF:      0.8
-   Time prior to 1st pass:      0.8
+   Time after variat. SCF:      0.7
+   Time prior to 1st pass:      0.7
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =      5        Max. recs in file   =    862408
+ Max. records in memory =      5        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.18            86184394
+           Heap Space remaining (MW):       86.18            86184400
           Stack Space remaining (MW):       86.25            86246980
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -99.1614398177 -1.04D+02  7.74D-02  5.31D-01     0.8
- d= 0,ls=0.0,diis     2    -99.1254734946  3.60D-02  4.52D-02  9.31D-01     0.8
- d= 0,ls=0.0,diis     3    -99.2069022829 -8.14D-02  3.57D-03  2.52D-02     0.8
+ d= 0,ls=0.0,diis     1    -99.1614398177 -1.04D+02  7.74D-02  5.31D-01     0.7
+ d= 0,ls=0.0,diis     2    -99.1254734946  3.60D-02  4.52D-02  9.31D-01     0.7
+ d= 0,ls=0.0,diis     3    -99.2069022829 -8.14D-02  3.57D-03  2.52D-02     0.7
  d= 0,ls=0.0,diis     4    -99.2083979900 -1.50D-03  1.80D-03  7.14D-04     0.8
  d= 0,ls=0.0,diis     5    -99.2085065743 -1.09D-04  1.94D-05  7.89D-07     0.8
  d= 0,ls=0.0,diis     6    -99.2085066287 -5.44D-08  3.54D-06  7.34D-09     0.8
@@ -1288,7 +1288,7 @@ task dft freq
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.437371  1 F  py                 9      0.422254  1 F  pz         
-     4      0.391757  1 F  py                 5      0.378216  1 F  pz         
+     4      0.391757  1 F  py                 5      0.378217  1 F  pz         
      7     -0.062749  1 F  px                 3     -0.056205  1 F  px         
 
  Vector    5  Occ=2.000000D+00  E=-2.486956D-01
@@ -1322,16 +1322,16 @@ task dft freq
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 5.7D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     5      0.790674  1 F  pz                 9     -0.761324  1 F  pz         
-     4     -0.616872  1 F  py                 8      0.593973  1 F  py         
-     3      0.088483  1 F  px                 7     -0.085198  1 F  px         
+     5      0.790673  1 F  pz                 9     -0.761322  1 F  pz         
+     4     -0.616874  1 F  py                 8      0.593975  1 F  py         
+     3      0.088483  1 F  px                 7     -0.085199  1 F  px         
 
  Vector    9  Occ=0.000000D+00  E= 1.764241D+00
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 5.7D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     4      0.782661  1 F  py                 8     -0.753608  1 F  py         
-     5      0.623185  1 F  pz                 9     -0.600052  1 F  pz         
+     4      0.782659  1 F  py                 8     -0.753606  1 F  py         
+     5      0.623188  1 F  pz                 9     -0.600055  1 F  pz         
      3     -0.112285  1 F  px                 7      0.108117  1 F  px         
 
  Vector   10  Occ=0.000000D+00  E= 1.936544D+00
@@ -1485,35 +1485,35 @@ task dft freq
  HOMO         =      -0.581706
  LUMO         =       0.076495
 
-   Time after variat. SCF:      0.9
-   Time prior to 1st pass:      0.9
+   Time after variat. SCF:      0.8
+   Time prior to 1st pass:      0.8
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     22        Max. recs in file   =    862408
+ Max. records in memory =     22        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.97            85973698
+           Heap Space remaining (MW):       85.97            85973704
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -99.1811175745 -1.04D+02  1.73D-02  5.20D-01     1.0
- d= 0,ls=0.0,diis     2    -99.1327028200  4.84D-02  9.92D-03  1.11D+00     1.0
- d= 0,ls=0.0,diis     3    -99.2283349108 -9.56D-02  8.52D-04  2.54D-02     1.1
- d= 0,ls=0.0,diis     4    -99.2298395288 -1.50D-03  3.88D-04  7.95D-04     1.1
- d= 0,ls=0.0,diis     5    -99.2299571637 -1.18D-04  6.27D-06  7.16D-07     1.2
- d= 0,ls=0.0,diis     6    -99.2299572211 -5.74D-08  1.37D-06  3.02D-08     1.2
+ d= 0,ls=0.0,diis     1    -99.1811175745 -1.04D+02  1.73D-02  5.20D-01     0.9
+ d= 0,ls=0.0,diis     2    -99.1327027905  4.84D-02  9.92D-03  1.11D+00     0.9
+ d= 0,ls=0.0,diis     3    -99.2283349130 -9.56D-02  8.52D-04  2.54D-02     1.0
+ d= 0,ls=0.0,diis     4    -99.2298395287 -1.50D-03  3.88D-04  7.95D-04     1.0
+ d= 0,ls=0.0,diis     5    -99.2299571637 -1.18D-04  6.27D-06  7.16D-07     1.1
+ d= 0,ls=0.0,diis     6    -99.2299572211 -5.74D-08  1.37D-06  3.02D-08     1.1
 
 
          Total DFT energy =      -99.229957221120
-      One electron energy =     -148.808079076748
-           Coulomb energy =       55.146951489471
-    Exchange-Corr. energy =      -10.110665321234
+      One electron energy =     -148.808079082701
+           Coulomb energy =       55.146951496266
+    Exchange-Corr. energy =      -10.110665322076
  Nuclear repulsion energy =        4.541835687391
 
- Numeric. integr. density =       10.000000435443
+ Numeric. integr. density =       10.000000435441
 
      Total iterative time =      0.3s
 
@@ -1721,7 +1721,7 @@ task dft freq
               MO Center=  1.2D+00, -1.9D-01,  4.8D-05, r^2= 1.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    37      1.407546  5 bq px                41     -0.988536  5 bq px         
+    37      1.407546  5 bq px                41     -0.988535  5 bq px         
     40      0.334026  5 bq s                 36     -0.210540  5 bq s          
     11     -0.190905  2 H  s                  4     -0.182576  1 F  py         
      8      0.175786  1 F  py                38      0.139272  5 bq py         
@@ -2119,30 +2119,30 @@ task dft freq
  HOMO         =      -0.434912
  LUMO         =       0.043044
 
-   Time after variat. SCF:      1.3
-   Time prior to 1st pass:      1.3
+   Time after variat. SCF:      1.2
+   Time prior to 1st pass:      1.2
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =      9        Max. recs in file   =    862408
+ Max. records in memory =      9        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.13            86134906
-          Stack Space remaining (MW):       86.25            86246956
+           Heap Space remaining (MW):       86.13            86134912
+          Stack Space remaining (MW):       86.25            86246948
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -457.0351213333 -4.63D+02  5.42D-02  2.94D-01     1.3
- d= 0,ls=0.0,diis     2   -457.0264465242  8.67D-03  4.20D-02  1.85D-01     1.3
- d= 0,ls=0.0,diis     3   -457.0557191890 -2.93D-02  1.26D-02  4.63D-02     1.3
- d= 0,ls=0.0,diis     4   -457.0636569117 -7.94D-03  2.26D-03  4.80D-04     1.3
- d= 0,ls=0.0,diis     5   -457.0637903341 -1.33D-04  1.25D-04  3.07D-06     1.3
- d= 0,ls=0.0,diis     6   -457.0637910902 -7.56D-07  6.33D-06  5.28D-09     1.3
+ d= 0,ls=0.0,diis     1   -457.0351213333 -4.63D+02  5.42D-02  2.94D-01     1.2
+ d= 0,ls=0.0,diis     2   -457.0264465242  8.67D-03  4.20D-02  1.85D-01     1.2
+ d= 0,ls=0.0,diis     3   -457.0557191890 -2.93D-02  1.26D-02  4.63D-02     1.2
+ d= 0,ls=0.0,diis     4   -457.0636569117 -7.94D-03  2.26D-03  4.80D-04     1.2
+ d= 0,ls=0.0,diis     5   -457.0637903341 -1.33D-04  1.25D-04  3.07D-06     1.2
+ d= 0,ls=0.0,diis     6   -457.0637910902 -7.56D-07  6.33D-06  5.28D-09     1.2
 
 
          Total DFT energy =     -457.063791090153
-      One electron energy =     -645.485208000171
+      One electron energy =     -645.485208000172
            Coulomb energy =      209.357854690156
     Exchange-Corr. energy =      -26.978900117654
  Nuclear repulsion energy =        6.042462337517
@@ -2180,14 +2180,14 @@ task dft freq
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 5.9D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     3      0.687364  1 Cl px                 5     -0.684394  1 Cl pz         
-     7      0.064612  1 Cl px                 9     -0.064332  1 Cl pz         
+     3      0.687364  1 Cl px                 5     -0.684395  1 Cl pz         
+     7      0.064611  1 Cl px                 9     -0.064332  1 Cl pz         
 
  Vector    5  Occ=2.000000D+00  E=-6.932124D+00
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 5.9D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     3      0.684380  1 Cl px                 5      0.687378  1 Cl pz         
+     3      0.684381  1 Cl px                 5      0.687378  1 Cl pz         
      7      0.064331  1 Cl px                 9      0.064613  1 Cl pz         
 
  Vector    6  Occ=2.000000D+00  E=-7.535090D-01
@@ -2214,16 +2214,16 @@ task dft freq
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 1.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9     -0.456666  1 Cl pz                 7      0.417130  1 Cl px         
-    13     -0.383390  1 Cl pz                11      0.350198  1 Cl px         
+     9     -0.456666  1 Cl pz                 7      0.417129  1 Cl px         
+    13     -0.383391  1 Cl pz                11      0.350198  1 Cl px         
      5      0.214287  1 Cl pz                 3     -0.195735  1 Cl px         
 
  Vector    9  Occ=2.000000D+00  E=-2.854310D-01
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 1.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     7      0.456656  1 Cl px                 9      0.417139  1 Cl pz         
-    11      0.383382  1 Cl px                13      0.350206  1 Cl pz         
+     7      0.456657  1 Cl px                 9      0.417138  1 Cl pz         
+    11      0.383383  1 Cl px                13      0.350205  1 Cl pz         
      3     -0.214282  1 Cl px                 5     -0.195739  1 Cl pz         
 
  Vector   10  Occ=0.000000D+00  E=-8.469381D-02
@@ -2249,16 +2249,16 @@ task dft freq
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     7      0.876170  1 Cl px                11     -0.856915  1 Cl px         
-     9     -0.843818  1 Cl pz                13      0.825274  1 Cl pz         
+     7      0.876171  1 Cl px                11     -0.856915  1 Cl px         
+     9     -0.843818  1 Cl pz                13      0.825273  1 Cl pz         
      3     -0.255084  1 Cl px                 5      0.245665  1 Cl pz         
 
  Vector   13  Occ=0.000000D+00  E= 5.237428D-01
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      0.876189  1 Cl pz                13     -0.856932  1 Cl pz         
-     7      0.843801  1 Cl px                11     -0.825257  1 Cl px         
+     9      0.876189  1 Cl pz                13     -0.856933  1 Cl pz         
+     7      0.843800  1 Cl px                11     -0.825256  1 Cl px         
      5     -0.255090  1 Cl pz                 3     -0.245660  1 Cl px         
 
  Vector   14  Occ=0.000000D+00  E= 5.724080D-01
@@ -2412,35 +2412,35 @@ task dft freq
  HOMO         =      -0.434928
  LUMO         =       0.036294
 
-   Time after variat. SCF:      1.4
-   Time prior to 1st pass:      1.4
+   Time after variat. SCF:      1.3
+   Time prior to 1st pass:      1.3
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     22        Max. recs in file   =    862408
+ Max. records in memory =     22        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.97            85973698
+           Heap Space remaining (MW):       85.97            85973704
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -457.0394685555 -4.63D+02  1.62D-02  2.99D-01     1.5
- d= 0,ls=0.0,diis     2   -457.0309905661  8.48D-03  1.25D-02  1.85D-01     1.5
- d= 0,ls=0.0,diis     3   -457.0597282213 -2.87D-02  3.74D-03  4.83D-02     1.6
- d= 0,ls=0.0,diis     4   -457.0679784013 -8.25D-03  6.97D-04  4.96D-04     1.6
- d= 0,ls=0.0,diis     5   -457.0681145903 -1.36D-04  4.01D-05  3.26D-06     1.7
- d= 0,ls=0.0,diis     6   -457.0681153750 -7.85D-07  2.06D-06  6.52D-09     1.7
+ d= 0,ls=0.0,diis     1   -457.0394685552 -4.63D+02  1.62D-02  2.99D-01     1.4
+ d= 0,ls=0.0,diis     2   -457.0309904580  8.48D-03  1.25D-02  1.85D-01     1.4
+ d= 0,ls=0.0,diis     3   -457.0597282278 -2.87D-02  3.74D-03  4.83D-02     1.5
+ d= 0,ls=0.0,diis     4   -457.0679784011 -8.25D-03  6.97D-04  4.96D-04     1.5
+ d= 0,ls=0.0,diis     5   -457.0681145904 -1.36D-04  4.01D-05  3.26D-06     1.6
+ d= 0,ls=0.0,diis     6   -457.0681153750 -7.85D-07  2.06D-06  6.52D-09     1.6
 
 
          Total DFT energy =     -457.068115374952
-      One electron energy =     -645.455800482579
-           Coulomb energy =      209.319444124091
-    Exchange-Corr. energy =      -26.974221353980
+      One electron energy =     -645.455800572183
+           Coulomb energy =      209.319444218589
+    Exchange-Corr. energy =      -26.974221358875
  Nuclear repulsion energy =        6.042462337517
 
- Numeric. integr. density =       17.999999888960
+ Numeric. integr. density =       17.999999889001
 
      Total iterative time =      0.3s
 
@@ -3034,37 +3034,37 @@ task dft freq
  HOMO         =      -0.377349
  LUMO         =       0.051729
 
-   Time after variat. SCF:      1.8
-   Time prior to 1st pass:      1.8
+   Time after variat. SCF:      1.7
+   Time prior to 1st pass:      1.7
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     10        Max. recs in file   =    862408
+ Max. records in memory =     10        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.12            86122066
+           Heap Space remaining (MW):       86.12            86122072
           Stack Space remaining (MW):       86.25            86246908
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -2558.7607390835 -2.57D+03  3.04D-02  6.71D-01     1.8
- d= 0,ls=0.0,diis     2  -2558.7637956325 -3.06D-03  2.77D-02  9.62D-02     1.8
- d= 0,ls=0.0,diis     3  -2558.7703734531 -6.58D-03  1.27D-02  7.47D-02     1.9
- d= 0,ls=0.0,diis     4  -2558.7877343329 -1.74D-02  1.42D-03  6.44D-04     1.9
- d= 0,ls=0.0,diis     5  -2558.7878558192 -1.21D-04  1.03D-04  4.22D-06     1.9
+ d= 0,ls=0.0,diis     1  -2558.7607390968 -2.57D+03  3.04D-02  6.71D-01     1.7
+ d= 0,ls=0.0,diis     2  -2558.7637956396 -3.06D-03  2.77D-02  9.62D-02     1.7
+ d= 0,ls=0.0,diis     3  -2558.7703734519 -6.58D-03  1.27D-02  7.47D-02     1.8
+ d= 0,ls=0.0,diis     4  -2558.7877343333 -1.74D-02  1.42D-03  6.44D-04     1.8
+ d= 0,ls=0.0,diis     5  -2558.7878558197 -1.21D-04  1.03D-04  4.22D-06     1.8
   Resetting Diis
- d= 0,ls=0.0,diis     6  -2558.7878569754 -1.16D-06  3.58D-06  3.76D-09     1.9
- d= 0,ls=0.0,diis     7  -2558.7878569763 -8.89D-10  4.84D-07  6.12D-11     2.0
+ d= 0,ls=0.0,diis     6  -2558.7878569759 -1.16D-06  3.58D-06  3.76D-09     1.8
+ d= 0,ls=0.0,diis     7  -2558.7878569768 -8.88D-10  4.84D-07  6.12D-11     1.8
 
 
-         Total DFT energy =    -2558.787856976284
-      One electron energy =    -3594.933093107426
-           Coulomb energy =     1112.555700316598
-    Exchange-Corr. energy =      -88.148088990791
+         Total DFT energy =    -2558.787856976775
+      One electron energy =    -3594.933093106702
+           Coulomb energy =     1112.555700315855
+    Exchange-Corr. energy =      -88.148088991263
  Nuclear repulsion energy =       11.737624805334
 
- Numeric. integr. density =       35.999988975941
+ Numeric. integr. density =       35.999988985765
 
      Total iterative time =      0.2s
 
@@ -3097,16 +3097,17 @@ task dft freq
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 9.6D-03
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     4      0.624594  1 Br py                 5     -0.552409  1 Br pz         
-     3      0.512268  1 Br px                 8      0.036240  1 Br py         
-     9     -0.032052  1 Br pz                 7      0.029723  1 Br px         
+     5      0.686407  1 Br pz                 4     -0.539323  1 Br py         
+     3     -0.442344  1 Br px                 9      0.039826  1 Br pz         
+     8     -0.031292  1 Br py                 7     -0.025666  1 Br px         
 
  Vector    5  Occ=2.000000D+00  E=-5.504846D+01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 9.6D-03
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     5      0.807797  1 Br pz                 4      0.427159  1 Br py         
-     3      0.350273  1 Br px                 9      0.046870  1 Br pz         
+     5      0.697523  1 Br pz                 4      0.530767  1 Br py         
+     3      0.435249  1 Br px                 9      0.040471  1 Br pz         
+     8      0.030796  1 Br py                 7      0.025254  1 Br px         
 
  Vector    6  Occ=2.000000D+00  E=-8.285193D+00
               MO Center=  1.3D+00, -1.5D-01,  5.7D-05, r^2= 1.0D-01
@@ -3127,19 +3128,19 @@ task dft freq
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     8      0.723592  1 Br py                 7      0.593454  1 Br px         
-     9     -0.484664  1 Br pz                 4     -0.298511  1 Br py         
-     3     -0.244824  1 Br px                 5      0.199943  1 Br pz         
-    12      0.031516  1 Br py                11      0.025848  1 Br px         
+     9      0.752897  1 Br pz                 8     -0.570187  1 Br py         
+     7     -0.467660  1 Br px                 5     -0.310600  1 Br pz         
+     4      0.235225  1 Br py                 3      0.192929  1 Br px         
+    13      0.032792  1 Br pz         
 
  Vector    9  Occ=2.000000D+00  E=-6.131211D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      0.935828  1 Br pz                 5     -0.386067  1 Br pz         
-     8      0.374780  1 Br py                 7      0.307309  1 Br px         
-     4     -0.154612  1 Br py                 3     -0.126777  1 Br px         
-    13      0.040760  1 Br pz         
+     9      0.737441  1 Br pz                 8      0.582179  1 Br py         
+     7      0.477411  1 Br px                 5     -0.304224  1 Br pz         
+     4     -0.240172  1 Br py                 3     -0.196951  1 Br px         
+    13      0.032119  1 Br pz                12      0.025357  1 Br py         
 
  Vector   10  Occ=2.000000D+00  E=-2.346139D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
@@ -3153,17 +3154,17 @@ task dft freq
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    20      0.885963  1 Br dxz               22     -0.726662  1 Br dyz        
-    18     -0.636883  1 Br dxx               21      0.636833  1 Br dyy        
-    19     -0.254204  1 Br dxy        
+    20      0.948661  1 Br dxz               22     -0.778077  1 Br dyz        
+    18     -0.599470  1 Br dxx               21      0.599416  1 Br dyy        
+    19     -0.239263  1 Br dxy        
 
  Vector   12  Occ=2.000000D+00  E=-2.340600D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    20      1.004323  1 Br dxz               22     -0.823593  1 Br dyz        
-    18      0.561806  1 Br dxx               21     -0.561862  1 Br dyy        
-    19      0.224360  1 Br dxy        
+    20      0.945323  1 Br dxz               22     -0.775202  1 Br dyz        
+    18      0.601565  1 Br dxx               21     -0.601619  1 Br dyy        
+    19      0.240230  1 Br dxy        
 
  Vector   13  Occ=2.000000D+00  E=-2.327329D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
@@ -3202,18 +3203,20 @@ task dft freq
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    16      0.474540  1 Br py                12      0.403952  1 Br py         
-    15      0.389177  1 Br px                11      0.331287  1 Br px         
-     8     -0.277498  1 Br py                 7     -0.227580  1 Br px         
-     4      0.089995  1 Br py                 3      0.073806  1 Br px         
-    17     -0.025243  1 Br pz         
+    17      0.612970  1 Br pz                13      0.521791  1 Br pz         
+     9     -0.358448  1 Br pz                 5      0.116248  1 Br pz         
+    16     -0.030442  1 Br py                12     -0.025914  1 Br py         
+    15     -0.025001  1 Br px         
 
  Vector   18  Occ=2.000000D+00  E=-2.522762D-01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    17      0.613716  1 Br pz                13      0.522425  1 Br pz         
-     9     -0.358884  1 Br pz                 5      0.116389  1 Br pz         
+    16      0.473965  1 Br py                12      0.403463  1 Br py         
+    15      0.388702  1 Br px                11      0.330883  1 Br px         
+     8     -0.277162  1 Br py                 7     -0.227302  1 Br px         
+     4      0.089886  1 Br py                 3      0.073716  1 Br px         
+    17      0.039393  1 Br pz                13      0.033533  1 Br pz         
 
  Vector   19  Occ=0.000000D+00  E=-6.877372D-02
               MO Center=  6.0D-01,  4.3D-01,  1.7D-05, r^2= 2.2D+00
@@ -3239,21 +3242,21 @@ task dft freq
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    12      1.129693  1 Br py                16     -0.987640  1 Br py         
-    11      0.926469  1 Br px                15     -0.809971  1 Br px         
-     8     -0.390294  1 Br py                 7     -0.320083  1 Br px         
-     4      0.118575  1 Br py                13      0.100315  1 Br pz         
-     3      0.097244  1 Br px                17     -0.087701  1 Br pz         
+    13      1.457628  1 Br pz                17     -1.274340  1 Br pz         
+     9     -0.503592  1 Br pz                 5      0.152996  1 Br pz         
+    12      0.109209  1 Br py                16     -0.095477  1 Br py         
+    11      0.089481  1 Br px                15     -0.078230  1 Br px         
+     8     -0.037730  1 Br py                 7     -0.030915  1 Br px         
 
  Vector   22  Occ=0.000000D+00  E= 5.720966D-01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    13      1.461010  1 Br pz                17     -1.277297  1 Br pz         
-     9     -0.504760  1 Br pz                 5      0.153351  1 Br pz         
-    12     -0.077525  1 Br py                16      0.067777  1 Br py         
-    11     -0.063662  1 Br px                15      0.055657  1 Br px         
-     8      0.026784  1 Br py         
+    12      1.127071  1 Br py                16     -0.985348  1 Br py         
+    11      0.924333  1 Br px                15     -0.808103  1 Br px         
+     8     -0.389389  1 Br py                 7     -0.319345  1 Br px         
+    13     -0.141186  1 Br pz                17      0.123433  1 Br pz         
+     4      0.118300  1 Br py                 3      0.097020  1 Br px         
 
  Vector   23  Occ=0.000000D+00  E= 6.190988D-01
               MO Center=  1.0D+00,  9.9D-02,  4.0D-05, r^2= 2.1D+00
@@ -3418,37 +3421,37 @@ task dft freq
  HOMO         =      -0.377391
  LUMO         =       0.042219
 
-   Time after variat. SCF:      2.0
-   Time prior to 1st pass:      2.0
+   Time after variat. SCF:      1.9
+   Time prior to 1st pass:      1.9
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     22        Max. recs in file   =    862408
+ Max. records in memory =     22        Max. recs in file   =    863634
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.97            85973698
+           Heap Space remaining (MW):       85.97            85973704
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -2558.7655088965 -2.57D+03  1.54D-02  6.83D-01     2.1
- d= 0,ls=0.0,diis     2  -2558.7686230541 -3.11D-03  1.40D-02  9.62D-02     2.1
- d= 0,ls=0.0,diis     3  -2558.7746171184 -5.99D-03  6.36D-03  7.71D-02     2.2
- d= 0,ls=0.0,diis     4  -2558.7924626404 -1.78D-02  7.32D-04  6.75D-04     2.3
- d= 0,ls=0.0,diis     5  -2558.7925892734 -1.27D-04  5.62D-05  4.24D-06     2.3
+ d= 0,ls=0.0,diis     1  -2558.7655088965 -2.57D+03  1.54D-02  6.83D-01     2.0
+ d= 0,ls=0.0,diis     2  -2558.7686230541 -3.11D-03  1.40D-02  9.62D-02     2.0
+ d= 0,ls=0.0,diis     3  -2558.7746171184 -5.99D-03  6.36D-03  7.71D-02     2.1
+ d= 0,ls=0.0,diis     4  -2558.7924626404 -1.78D-02  7.32D-04  6.75D-04     2.1
+ d= 0,ls=0.0,diis     5  -2558.7925892734 -1.27D-04  5.62D-05  4.24D-06     2.2
   Resetting Diis
- d= 0,ls=0.0,diis     6  -2558.7925904382 -1.16D-06  1.89D-06  3.60D-09     2.4
- d= 0,ls=0.0,diis     7  -2558.7925904391 -8.37D-10  2.75D-07  7.65D-11     2.4
+ d= 0,ls=0.0,diis     6  -2558.7925904382 -1.16D-06  1.89D-06  3.60D-09     2.3
+ d= 0,ls=0.0,diis     7  -2558.7925904391 -8.37D-10  2.75D-07  7.65D-11     2.3
 
 
-         Total DFT energy =    -2558.792590439076
-      One electron energy =    -3594.816287540052
-           Coulomb energy =     1112.427532511525
-    Exchange-Corr. energy =      -88.141460215883
+         Total DFT energy =    -2558.792590439078
+      One electron energy =    -3594.816287540440
+           Coulomb energy =     1112.427532511919
+    Exchange-Corr. energy =      -88.141460215891
  Nuclear repulsion energy =       11.737624805334
 
- Numeric. integr. density =       35.999996794558
+ Numeric. integr. density =       35.999996794561
 
      Total iterative time =      0.4s
 
@@ -3934,12 +3937,12 @@ task dft freq
      2   0 0 2    -14.574555     -7.287278     -7.287278      0.000000
 
 
-             BSSE error =       0.030508340003
-  Supermolecular energy =   -3115.152217062065
-       Corrected energy =   -3115.121708722062
+             BSSE error =       0.030508339514
+  Supermolecular energy =   -3115.152217062068
+       Corrected energy =   -3115.121708722555
 
 
- Task  times  cpu:        2.2s     wall:        2.4s
+ Task  times  cpu:        2.2s     wall:        2.3s
 
 
                                 NWChem Input Module
@@ -3962,6 +3965,7 @@ task dft freq
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     0
 
                                  NWChem DFT Module
                                  -----------------
@@ -4055,35 +4059,35 @@ task dft freq
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:      2.4
-   Time prior to 1st pass:      2.4
+   Time after variat. SCF:      2.3
+   Time prior to 1st pass:      2.3
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     46        Max. recs in file   =    862398
+ Max. records in memory =     46        Max. recs in file   =    863634
 
  Grid integrated density:      64.000001585199
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85678794
+           Heap Space remaining (MW):       85.68            85678800
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -3115.1522173220 -3.34D+03  5.80D-07  4.44D-10     2.6
- Grid integrated density:      64.000001585200
+ d= 0,ls=0.0,diis     1  -3115.1522173219 -3.34D+03  5.80D-07  4.44D-10     2.5
+ Grid integrated density:      64.000001585199
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2  -3115.1522173219  1.27D-11  4.29D-07  2.23D-10     2.7
+ d= 0,ls=0.0,diis     2  -3115.1522173219  1.00D-11  4.29D-07  2.23D-10     2.5
 
 
-         Total DFT energy =    -3115.152217321941
-      One electron energy =    -4793.149587626513
-           Coulomb energy =     1578.157460405097
-    Exchange-Corr. energy =     -125.343366073740
+         Total DFT energy =    -3115.152217321938
+      One electron energy =    -4793.149587625438
+           Coulomb energy =     1578.157460403962
+    Exchange-Corr. energy =     -125.343366073675
  Nuclear repulsion energy =      225.183275973214
 
- Numeric. integr. density =       64.000001585200
+ Numeric. integr. density =       64.000001585199
 
      Total iterative time =      0.2s
 
@@ -4575,7 +4579,7 @@ FH-ClH-BrH-bsses
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
 
- HESSIAN: the two electron contributions are done in       1.8s
+ HESSIAN: the two electron contributions are done in       1.6s
 
                                 NWChem CPHF Module
                                 ------------------
@@ -4593,7 +4597,7 @@ FH-ClH-BrH-bsses
 
  Grid integrated density:      64.000001585198
  Requested integration accuracy:   0.10E-13
- SCF residual:    1.3258981732222111E-005
+ SCF residual:    1.3258906354444390E-005
 
 
 Iterative solution of linear equations
@@ -4602,15 +4606,15 @@ Iterative solution of linear equations
   Maximum subspace      180
         Iterations       50
        Convergence  1.0D-04
-        Start time      5.6
+        Start time      5.3
 
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1     18    3.52D-01       6.3
-     2     36    2.22D-01       6.9
-     3     54    3.84D-03       7.6
-     4     72    2.21D-05       8.4
+     1     18    3.52D-01       6.0
+     2     36    2.22D-01       6.7
+     3     54    3.84D-03       7.4
+     4     72    2.20D-05       8.1
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -4767,6 +4771,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -4858,26 +4863,26 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:      8.4
-   Time prior to 1st pass:      8.4
+   Time after variat. SCF:      8.2
+   Time prior to 1st pass:      8.2
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =      8        Max. recs in file   =    862388
+ Max. records in memory =      8        Max. recs in file   =    863634
 
  Grid integrated density:       9.999999944116
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.15            86147530
+           Heap Space remaining (MW):       86.15            86147536
           Stack Space remaining (MW):       86.25            86246980
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -99.2085077885 -1.04D+02  8.16D-07  9.46D-11     8.5
+ d= 0,ls=0.0,diis     1    -99.2085077885 -1.04D+02  8.16D-07  9.46D-11     8.2
  Grid integrated density:       9.999999944116
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -99.2085077885  7.62D-12  5.23D-07  2.16D-10     8.5
+ d= 0,ls=0.0,diis     2    -99.2085077885  7.69D-12  5.23D-07  2.16D-10     8.2
 
 
          Total DFT energy =      -99.208507788490
@@ -4888,7 +4893,7 @@ FH-ClH-BrH-bsses
 
  Numeric. integr. density =        9.999999944116
 
-     Total iterative time =      0.1s
+     Total iterative time =      0.0s
 
 
 
@@ -4925,17 +4930,17 @@ FH-ClH-BrH-bsses
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 4.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     8      0.488295  1 F  py                 4      0.437371  1 F  py         
-     9     -0.360819  1 F  pz                 5     -0.323189  1 F  pz         
-     7     -0.070044  1 F  px                 3     -0.062739  1 F  px         
+     8      0.488303  1 F  py                 4      0.437378  1 F  py         
+     9     -0.360808  1 F  pz                 5     -0.323179  1 F  pz         
+     7     -0.070045  1 F  px                 3     -0.062740  1 F  px         
 
  Vector    5  Occ=2.000000D+00  E=-2.486969D-01
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 4.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      0.493293  1 F  pz                 5      0.441847  1 F  pz         
-     8      0.357162  1 F  py                 4      0.319913  1 F  py         
-     7     -0.051243  1 F  px                 3     -0.045899  1 F  px         
+     9      0.493301  1 F  pz                 5      0.441855  1 F  pz         
+     8      0.357151  1 F  py                 4      0.319904  1 F  py         
+     7     -0.051242  1 F  px                 3     -0.045898  1 F  px         
 
  Vector    6  Occ=0.000000D+00  E= 2.116763D-02
               MO Center= -4.5D-01, -1.4D+00, -5.1D-05, r^2= 1.2D+00
@@ -4960,17 +4965,17 @@ FH-ClH-BrH-bsses
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 5.7D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     4      0.920514  1 F  py                 8     -0.886344  1 F  py         
-     5     -0.385673  1 F  pz                 9      0.371357  1 F  pz         
-     3     -0.132047  1 F  px                 7      0.127146  1 F  px         
+     4      0.920533  1 F  py                 8     -0.886362  1 F  py         
+     5     -0.385627  1 F  pz                 9      0.371312  1 F  pz         
+     3     -0.132050  1 F  px                 7      0.127148  1 F  px         
 
  Vector    9  Occ=0.000000D+00  E= 1.764240D+00
               MO Center= -1.4D+00, -1.6D+00, -6.3D-05, r^2= 5.7D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     5      0.929937  1 F  pz                 9     -0.895417  1 F  pz         
-     4      0.381763  1 F  py                 8     -0.367592  1 F  py         
-     3     -0.054778  1 F  px                 7      0.052745  1 F  px         
+     5      0.929956  1 F  pz                 9     -0.895436  1 F  pz         
+     4      0.381717  1 F  py                 8     -0.367548  1 F  py         
+     3     -0.054772  1 F  px                 7      0.052739  1 F  px         
 
  Vector   10  Occ=0.000000D+00  E= 1.936543D+00
               MO Center= -1.6D+00, -1.6D+00, -6.6D-05, r^2= 6.0D-01
@@ -5035,6 +5040,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       0.0s
 
+  file_read_ga: GA and file contents mismatch dimensions                  608                   18                   30                    6
                                 NWChem CPHF Module
                                 ------------------
 
@@ -5051,7 +5057,7 @@ FH-ClH-BrH-bsses
 
  Grid integrated density:       9.999999944116
  Requested integration accuracy:   0.10E-13
- SCF residual:    9.5218836552386405E-007
+ SCF residual:    9.5218837450685905E-007
 
 
 Iterative solution of linear equations
@@ -5060,16 +5066,18 @@ Iterative solution of linear equations
   Maximum subspace       60
         Iterations       50
        Convergence  1.0D-04
-        Start time      8.6
+        Start time      8.3
 
+  file_read_ga: GA and file contents mismatch dimensions                  608                   18                   30                    6
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      6    3.45D-01       8.6
-     2     12    1.58D-01       8.7
-     3     18    6.64D-03       8.7
-     4     24    6.56D-04       8.7
-     5     30    2.63D-06       8.7
+     1      6    3.45D-01       8.3
+     2     12    1.58D-01       8.3
+     3     18    6.64D-03       8.3
+     4     24    6.57D-04       8.4
+     5     30    2.63D-06       8.4
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -5109,6 +5117,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -5203,32 +5212,32 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:      8.7
-   Time prior to 1st pass:      8.7
+   Time after variat. SCF:      8.4
+   Time prior to 1st pass:      8.4
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     46        Max. recs in file   =    862388
+ Max. records in memory =     46        Max. recs in file   =    863624
 
  Grid integrated density:      10.000000109727
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85678762
+           Heap Space remaining (MW):       85.68            85678768
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -99.2299570471 -1.04D+02  2.38D-07  1.98D-10     8.9
+ d= 0,ls=0.0,diis     1    -99.2299570471 -1.04D+02  2.38D-07  1.98D-10     8.5
  Grid integrated density:      10.000000109729
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -99.2299570471  1.40D-11  1.65D-07  4.14D-10     8.9
+ d= 0,ls=0.0,diis     2    -99.2299570471  1.41D-11  1.65D-07  4.14D-10     8.6
 
 
          Total DFT energy =      -99.229957047062
-      One electron energy =     -148.808482101652
-           Coulomb energy =       55.147406989505
-    Exchange-Corr. energy =      -10.110717622306
+      One electron energy =     -148.808482101125
+           Coulomb energy =       55.147406988907
+    Exchange-Corr. energy =      -10.110717622235
  Nuclear repulsion energy =        4.541835687391
 
  Numeric. integr. density =       10.000000109729
@@ -5752,6 +5761,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       1.5s
 
+  file_read_ga: GA and file contents mismatch dimensions                   30                    6                  230                   18
                                 NWChem CPHF Module
                                 ------------------
 
@@ -5768,7 +5778,7 @@ FH-ClH-BrH-bsses
 
  Grid integrated density:      10.000000109728
  Requested integration accuracy:   0.10E-13
- SCF residual:    3.3324256615842582E-006
+ SCF residual:    3.3324466966785713E-006
 
 
 Iterative solution of linear equations
@@ -5777,15 +5787,17 @@ Iterative solution of linear equations
   Maximum subspace      180
         Iterations       50
        Convergence  1.0D-04
-        Start time     11.4
+        Start time     11.1
 
+  file_read_ga: GA and file contents mismatch dimensions                   30                    6                  230                   18
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1     18    3.75D-01      12.1
-     2     36    2.05D-01      12.8
-     3     54    1.40D-03      13.5
-     4     72    1.82D-06      14.2
+     1     18    3.75D-01      11.8
+     2     36    2.06D-01      12.5
+     3     54    1.40D-03      13.3
+     4     72    1.83D-06      14.0
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -5861,6 +5873,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -5952,35 +5965,35 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:     14.3
-   Time prior to 1st pass:     14.3
+   Time after variat. SCF:     14.0
+   Time prior to 1st pass:     14.0
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     14        Max. recs in file   =    862368
+ Max. records in memory =     14        Max. recs in file   =    863614
 
- Grid integrated density:      18.000000265021
+ Grid integrated density:      18.000000264855
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.07            86073458
-          Stack Space remaining (MW):       86.25            86246956
+           Heap Space remaining (MW):       86.07            86073464
+          Stack Space remaining (MW):       86.25            86246948
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -457.0637932303 -4.63D+02  1.28D-06  1.11D-10    14.3
- Grid integrated density:      18.000000265024
+ d= 0,ls=0.0,diis     1   -457.0637932303 -4.63D+02  1.28D-06  1.11D-10    14.1
+ Grid integrated density:      18.000000264857
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2   -457.0637932303  1.00D-11  8.46D-07  1.75D-10    14.3
+ d= 0,ls=0.0,diis     2   -457.0637932303  9.09D-12  8.46D-07  1.75D-10    14.1
 
 
-         Total DFT energy =     -457.063793230281
-      One electron energy =     -645.485563897198
-           Coulomb energy =      209.358235902782
-    Exchange-Corr. energy =      -26.978927573382
+         Total DFT energy =     -457.063793230276
+      One electron energy =     -645.485563897236
+           Coulomb energy =      209.358235902822
+    Exchange-Corr. energy =      -26.978927573379
  Nuclear repulsion energy =        6.042462337517
 
- Numeric. integr. density =       18.000000265024
+ Numeric. integr. density =       18.000000264857
 
      Total iterative time =      0.1s
 
@@ -6013,15 +6026,15 @@ FH-ClH-BrH-bsses
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 5.9D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     3      0.825360  1 Cl px                 5      0.509546  1 Cl pz         
-     7      0.077583  1 Cl px                 9      0.047897  1 Cl pz         
+     3      0.825113  1 Cl px                 5      0.509947  1 Cl pz         
+     7      0.077560  1 Cl px                 9      0.047935  1 Cl pz         
 
  Vector    5  Occ=2.000000D+00  E=-6.932123D+00
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 5.9D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     5      0.825377  1 Cl pz                 3     -0.509535  1 Cl px         
-     9      0.077585  1 Cl pz                 7     -0.047896  1 Cl px         
+     5      0.825130  1 Cl pz                 3     -0.509936  1 Cl px         
+     9      0.077561  1 Cl pz                 7     -0.047934  1 Cl px         
 
  Vector    6  Occ=2.000000D+00  E=-7.535095D-01
               MO Center= -1.9D+00,  9.6D-01, -8.1D-05, r^2= 8.5D-01
@@ -6047,17 +6060,17 @@ FH-ClH-BrH-bsses
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 1.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      0.528525  1 Cl pz                13      0.443718  1 Cl pz         
-     7     -0.321257  1 Cl px                11     -0.269708  1 Cl px         
-     5     -0.248006  1 Cl pz                 3      0.150747  1 Cl px         
+     9      0.528671  1 Cl pz                13      0.443840  1 Cl pz         
+     7     -0.321018  1 Cl px                11     -0.269507  1 Cl px         
+     5     -0.248074  1 Cl pz                 3      0.150635  1 Cl px         
 
  Vector    9  Occ=2.000000D+00  E=-2.854313D-01
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 1.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     7      0.528514  1 Cl px                11      0.443708  1 Cl px         
-     9      0.321264  1 Cl pz                13      0.269714  1 Cl pz         
-     3     -0.248001  1 Cl px                 5     -0.150751  1 Cl pz         
+     7      0.528660  1 Cl px                11      0.443831  1 Cl px         
+     9      0.321025  1 Cl pz                13      0.269513  1 Cl pz         
+     3     -0.248069  1 Cl px                 5     -0.150638  1 Cl pz         
 
  Vector   10  Occ=0.000000D+00  E=-8.469270D-02
               MO Center= -1.8D+00,  2.2D-01, -1.0D-04, r^2= 1.9D+00
@@ -6082,17 +6095,17 @@ FH-ClH-BrH-bsses
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     7      1.036492  1 Cl px                11     -1.013714  1 Cl px         
-     9      0.636690  1 Cl pz                13     -0.622698  1 Cl pz         
-     3     -0.301759  1 Cl px                 5     -0.185363  1 Cl pz         
+     7      1.032207  1 Cl px                11     -1.009523  1 Cl px         
+     9      0.643615  1 Cl pz                13     -0.629471  1 Cl pz         
+     3     -0.300512  1 Cl px                 5     -0.187379  1 Cl pz         
 
  Vector   13  Occ=0.000000D+00  E= 5.237409D-01
               MO Center= -1.9D+00,  1.2D+00, -7.4D-05, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      1.036513  1 Cl pz                13     -1.013735  1 Cl pz         
-     7     -0.636677  1 Cl px                11      0.622685  1 Cl px         
-     5     -0.301766  1 Cl pz                 3      0.185359  1 Cl px         
+     9      1.032228  1 Cl pz                13     -1.009543  1 Cl pz         
+     7     -0.643601  1 Cl px                11      0.629457  1 Cl px         
+     5     -0.300518  1 Cl pz                 3      0.187375  1 Cl px         
 
  Vector   14  Occ=0.000000D+00  E= 5.724080D-01
               MO Center= -1.9D+00,  1.1D+00, -7.6D-05, r^2= 2.2D+00
@@ -6157,6 +6170,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       0.1s
 
+  file_read_ga: GA and file contents mismatch dimensions                  230                   18                   54                    6
                                 NWChem CPHF Module
                                 ------------------
 
@@ -6171,9 +6185,9 @@ FH-ClH-BrH-bsses
   max iterations   =       50
   max subspace     =       60
 
- Grid integrated density:      18.000000265023
+ Grid integrated density:      18.000000264856
  Requested integration accuracy:   0.10E-13
- SCF residual:    2.0849455289453567E-006
+ SCF residual:    2.0849451350756389E-006
 
 
 Iterative solution of linear equations
@@ -6182,15 +6196,17 @@ Iterative solution of linear equations
   Maximum subspace       60
         Iterations       50
        Convergence  1.0D-04
-        Start time     14.5
+        Start time     14.2
 
+  file_read_ga: GA and file contents mismatch dimensions                  230                   18                   54                    6
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      6    5.27D-02      14.5
-     2     12    2.36D-02      14.5
-     3     18    5.54D-04      14.6
-     4     24    9.22D-06      14.6
+     1      6    5.27D-02      14.3
+     2     12    2.36D-02      14.3
+     3     18    5.53D-04      14.3
+     4     24    9.24D-06      14.3
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -6202,7 +6218,7 @@ Iterative solution of linear equations
  X vector of derivative dipole (au) [debye/angstrom]
  d_dipole_x/<atom=   1,x> =    -0.2657     [   -1.2761]
  d_dipole_x/<atom=   1,y> =    -0.0014     [   -0.0066]
- d_dipole_x/<atom=   1,z> =    -0.0000     [   -0.0000]
+ d_dipole_x/<atom=   1,z> =     0.0000     [    0.0000]
  d_dipole_x/<atom=   2,x> =     0.2657     [    1.2761]
  d_dipole_x/<atom=   2,y> =     0.0014     [    0.0066]
  d_dipole_x/<atom=   2,z> =     0.0000     [    0.0000]
@@ -6230,6 +6246,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -6324,35 +6341,35 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:     14.6
-   Time prior to 1st pass:     14.6
+   Time after variat. SCF:     14.4
+   Time prior to 1st pass:     14.4
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     46        Max. recs in file   =    862368
+ Max. records in memory =     46        Max. recs in file   =    863604
 
  Grid integrated density:      17.999999850485
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85678762
+           Heap Space remaining (MW):       85.68            85678768
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -457.0681165694 -4.63D+02  3.66D-07  1.21D-10    14.7
- Grid integrated density:      17.999999850485
+ d= 0,ls=0.0,diis     1   -457.0681165694 -4.63D+02  3.66D-07  1.21D-10    14.5
+ Grid integrated density:      17.999999850486
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2   -457.0681165694  2.05D-12  2.47D-07  1.49D-10    14.8
+ d= 0,ls=0.0,diis     2   -457.0681165694  2.73D-12  2.47D-07  1.49D-10    14.6
 
 
-         Total DFT energy =     -457.068116569398
-      One electron energy =     -645.456206940299
-           Coulomb energy =      209.319878750403
-    Exchange-Corr. energy =      -26.974250717019
+         Total DFT energy =     -457.068116569397
+      One electron energy =     -645.456206927891
+           Coulomb energy =      209.319878737236
+    Exchange-Corr. energy =      -26.974250716260
  Nuclear repulsion energy =        6.042462337517
 
- Numeric. integr. density =       17.999999850485
+ Numeric. integr. density =       17.999999850486
 
      Total iterative time =      0.2s
 
@@ -6861,6 +6878,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       1.5s
 
+  file_read_ga: GA and file contents mismatch dimensions                   54                    6                  378                   18
                                 NWChem CPHF Module
                                 ------------------
 
@@ -6877,7 +6895,7 @@ FH-ClH-BrH-bsses
 
  Grid integrated density:      17.999999850485
  Requested integration accuracy:   0.10E-13
- SCF residual:    3.5207168438156328E-006
+ SCF residual:    3.5212656003711070E-006
 
 
 Iterative solution of linear equations
@@ -6886,15 +6904,17 @@ Iterative solution of linear equations
   Maximum subspace      180
         Iterations       50
        Convergence  1.0D-04
-        Start time     17.3
+        Start time     17.1
 
+  file_read_ga: GA and file contents mismatch dimensions                   54                    6                  378                   18
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1     18    5.36D-02      18.0
-     2     36    1.11D-02      18.8
-     3     54    1.08D-04      19.5
-     4     72    1.05D-06      20.2
+     1     18    5.36D-02      17.8
+     2     36    1.11D-02      18.4
+     3     54    1.08D-04      19.1
+     4     72    1.05D-06      19.9
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -6970,6 +6990,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -7061,35 +7082,35 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:     20.2
-   Time prior to 1st pass:     20.2
+   Time after variat. SCF:     19.9
+   Time prior to 1st pass:     19.9
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     19        Max. recs in file   =    862347
+ Max. records in memory =     19        Max. recs in file   =    863584
 
- Grid integrated density:      35.999999982976
+ Grid integrated density:      35.999999982958
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.01            86011466
+           Heap Space remaining (MW):       86.01            86011472
           Stack Space remaining (MW):       86.25            86246908
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -2558.7878623722 -2.57D+03  9.30D-07  3.24D-10    20.3
- Grid integrated density:      35.999999982978
+ d= 0,ls=0.0,diis     1  -2558.7878623722 -2.57D+03  9.30D-07  3.24D-10    20.0
+ Grid integrated density:      35.999999982960
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2  -2558.7878623722 -1.32D-11  5.11D-07  2.69D-11    20.3
+ d= 0,ls=0.0,diis     2  -2558.7878623722 -1.68D-11  5.11D-07  2.69D-11    20.0
 
 
-         Total DFT energy =    -2558.787862372222
-      One electron energy =    -3594.933163510689
-           Coulomb energy =     1112.555773408672
-    Exchange-Corr. energy =      -88.148097075539
+         Total DFT energy =    -2558.787862372221
+      One electron energy =    -3594.933163510699
+           Coulomb energy =     1112.555773408687
+    Exchange-Corr. energy =      -88.148097075543
  Nuclear repulsion energy =       11.737624805334
 
- Numeric. integr. density =       35.999999982978
+ Numeric. integr. density =       35.999999982960
 
      Total iterative time =      0.1s
 
@@ -7122,14 +7143,16 @@ FH-ClH-BrH-bsses
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 9.6D-03
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     4      0.756692  1 Br py                 3      0.620572  1 Br px         
-     8      0.043904  1 Br py                 7      0.036007  1 Br px         
+     4      0.648369  1 Br py                 3      0.531764  1 Br px         
+     5     -0.504516  1 Br pz                 8      0.037619  1 Br py         
+     7      0.030854  1 Br px                 9     -0.029273  1 Br pz         
 
  Vector    5  Occ=2.000000D+00  E=-5.504846D+01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 9.6D-03
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     5      0.978617  1 Br pz                 9      0.056781  1 Br pz         
+     5      0.838544  1 Br pz                 4      0.390128  1 Br py         
+     3      0.319901  1 Br px                 9      0.048654  1 Br pz         
 
  Vector    6  Occ=2.000000D+00  E=-8.285191D+00
               MO Center=  1.3D+00, -1.5D-01,  5.7D-05, r^2= 1.0D-01
@@ -7150,16 +7173,19 @@ FH-ClH-BrH-bsses
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     8      0.814890  1 Br py                 7      0.668301  1 Br px         
-     4     -0.336175  1 Br py                 3     -0.275701  1 Br px         
-    12      0.035492  1 Br py                11      0.029108  1 Br px         
+     9      0.905869  1 Br pz                 8      0.416473  1 Br py         
+     5     -0.373707  1 Br pz                 7      0.341503  1 Br px         
+     4     -0.171812  1 Br py                 3     -0.140884  1 Br px         
+    13      0.039455  1 Br pz         
 
  Vector    9  Occ=2.000000D+00  E=-6.131208D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     9      1.053884  1 Br pz                 5     -0.434770  1 Br pz         
-    13      0.045901  1 Br pz         
+     8      0.700426  1 Br py                 7      0.574458  1 Br px         
+     9     -0.538585  1 Br pz                 4     -0.288954  1 Br py         
+     3     -0.236987  1 Br px                 5      0.222188  1 Br pz         
+    12      0.030507  1 Br py                11      0.025020  1 Br px         
 
  Vector   10  Occ=2.000000D+00  E=-2.346139D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
@@ -7173,17 +7199,17 @@ FH-ClH-BrH-bsses
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    18      0.839057  1 Br dxx               21     -0.839045  1 Br dyy        
-    19      0.334965  1 Br dxy               20     -0.207010  1 Br dxz        
-    22      0.169868  1 Br dyz        
+    20      1.295938  1 Br dxz               22     -1.062790  1 Br dyz        
+    18      0.214224  1 Br dxx               21     -0.214297  1 Br dyy        
+    19      0.085614  1 Br dxy        
 
  Vector   12  Occ=2.000000D+00  E=-2.340597D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    20      1.323156  1 Br dxz               22     -1.085121  1 Br dyz        
-    18      0.131257  1 Br dxx               21     -0.131332  1 Br dyy        
-    19      0.052493  1 Br dxy        
+    18      0.821799  1 Br dxx               21     -0.821780  1 Br dyy        
+    20     -0.337845  1 Br dxz               19      0.328066  1 Br dxy        
+    22      0.277165  1 Br dyz        
 
  Vector   13  Occ=2.000000D+00  E=-2.327326D+00
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.1D-01
@@ -7222,17 +7248,21 @@ FH-ClH-BrH-bsses
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    16      0.474935  1 Br py                12      0.404292  1 Br py         
-    15      0.389501  1 Br px                11      0.331565  1 Br px         
-     8     -0.277731  1 Br py                 7     -0.227771  1 Br px         
-     4      0.090070  1 Br py                 3      0.073868  1 Br px         
+    17      0.519503  1 Br pz                13      0.442231  1 Br pz         
+     9     -0.303793  1 Br pz                16      0.253413  1 Br py         
+    12      0.215720  1 Br py                15      0.207798  1 Br px         
+    11      0.176889  1 Br px                 8     -0.148190  1 Br py         
+     7     -0.121515  1 Br px                 5      0.098522  1 Br pz         
 
  Vector   18  Occ=2.000000D+00  E=-2.522765D-01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    17      0.614227  1 Br pz                13      0.522865  1 Br pz         
-     9     -0.359185  1 Br pz                 5      0.116487  1 Br pz         
+    16      0.401684  1 Br py                12      0.341936  1 Br py         
+    15      0.329444  1 Br px                17     -0.327716  1 Br pz         
+    11      0.280442  1 Br px                13     -0.278971  1 Br pz         
+     8     -0.234895  1 Br py                 7     -0.192651  1 Br px         
+     9      0.191641  1 Br pz                 4      0.076178  1 Br py         
 
  Vector   19  Occ=0.000000D+00  E=-6.877320D-02
               MO Center=  6.0D-01,  4.3D-01,  1.7D-05, r^2= 2.2D+00
@@ -7258,17 +7288,17 @@ FH-ClH-BrH-bsses
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    12      1.132341  1 Br py                16     -0.989958  1 Br py         
-    11      0.928647  1 Br px                15     -0.811877  1 Br px         
-     8     -0.391209  1 Br py                 7     -0.320835  1 Br px         
-     4      0.118853  1 Br py                 3      0.097473  1 Br px         
+    12      1.132252  1 Br py                16     -0.989880  1 Br py         
+    11      0.928575  1 Br px                15     -0.811813  1 Br px         
+     8     -0.391178  1 Br py                 7     -0.320810  1 Br px         
+     4      0.118843  1 Br py                 3      0.097465  1 Br px         
 
  Vector   22  Occ=0.000000D+00  E= 5.720945D-01
               MO Center=  1.3D+00, -1.6D-01,  5.7D-05, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    13      1.464439  1 Br pz                17     -1.280297  1 Br pz         
-     9     -0.505945  1 Br pz                 5      0.153710  1 Br pz         
+    13      1.464325  1 Br pz                17     -1.280196  1 Br pz         
+     9     -0.505905  1 Br pz                 5      0.153698  1 Br pz         
 
  Vector   23  Occ=0.000000D+00  E= 6.191012D-01
               MO Center=  1.0D+00,  9.9D-02,  4.0D-05, r^2= 2.1D+00
@@ -7345,6 +7375,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       0.2s
 
+  file_read_ga: GA and file contents mismatch dimensions                  378                   18                  126                    6
                                 NWChem CPHF Module
                                 ------------------
 
@@ -7359,9 +7390,9 @@ FH-ClH-BrH-bsses
   max iterations   =       50
   max subspace     =       60
 
- Grid integrated density:      35.999999982978
+ Grid integrated density:      35.999999982960
  Requested integration accuracy:   0.10E-13
- SCF residual:    6.8839796776785144E-006
+ SCF residual:    6.8838872703630909E-006
 
 
 Iterative solution of linear equations
@@ -7370,16 +7401,18 @@ Iterative solution of linear equations
   Maximum subspace       60
         Iterations       50
        Convergence  1.0D-04
-        Start time     20.6
+        Start time     20.3
 
+  file_read_ga: GA and file contents mismatch dimensions                  378                   18                  126                    6
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      6    4.11D-02      20.7
-     2     12    3.19D-02      20.8
-     3     18    5.44D-03      20.9
-     4     24    2.16D-04      21.0
-     5     30    1.07D-05      21.0
+     1      6    4.11D-02      20.4
+     2     12    3.19D-02      20.5
+     3     18    4.64D-03      20.6
+     4     24    2.16D-04      20.6
+     5     30    1.07D-05      20.7
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -7419,6 +7452,7 @@ Iterative solution of linear equations
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -7513,35 +7547,35 @@ Iterative solution of linear equations
 
 FH-ClH-BrH-bsses
 
-   Time after variat. SCF:     21.1
-   Time prior to 1st pass:     21.1
+   Time after variat. SCF:     20.7
+   Time prior to 1st pass:     20.7
 
  Grid_pts file          = ./FH-ClH-BrH-bsses.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     46        Max. recs in file   =    862347
+ Max. records in memory =     46        Max. recs in file   =    863584
 
- Grid integrated density:      36.000001317666
+ Grid integrated density:      36.000001317667
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85678762
+           Heap Space remaining (MW):       85.68            85678768
           Stack Space remaining (MW):       86.25            86246724
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1  -2558.7925981935 -2.57D+03  4.72D-07  6.44D-10    21.2
- Grid integrated density:      36.000001317664
+ d= 0,ls=0.0,diis     1  -2558.7925981935 -2.57D+03  4.72D-07  6.44D-10    20.9
+ Grid integrated density:      36.000001317665
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2  -2558.7925981935 -1.18D-11  3.46D-07  4.54D-11    21.3
+ d= 0,ls=0.0,diis     2  -2558.7925981936 -1.64D-11  3.46D-07  4.54D-11    20.9
 
 
-         Total DFT energy =    -2558.792598193549
-      One electron energy =    -3594.816316611014
-           Coulomb energy =     1112.427562961934
-    Exchange-Corr. energy =      -88.141469349803
+         Total DFT energy =    -2558.792598193552
+      One electron energy =    -3594.816316610089
+           Coulomb energy =     1112.427562960981
+    Exchange-Corr. energy =      -88.141469349779
  Nuclear repulsion energy =       11.737624805334
 
- Numeric. integr. density =       36.000001317664
+ Numeric. integr. density =       36.000001317665
 
      Total iterative time =      0.2s
 
@@ -8042,6 +8076,7 @@ FH-ClH-BrH-bsses
 
  HESSIAN: the two electron contributions are done in       1.7s
 
+  file_read_ga: GA and file contents mismatch dimensions                  126                    6                  594                   18
                                 NWChem CPHF Module
                                 ------------------
 
@@ -8056,9 +8091,9 @@ FH-ClH-BrH-bsses
   max iterations   =       50
   max subspace     =      180
 
- Grid integrated density:      36.000001317665
+ Grid integrated density:      36.000001317666
  Requested integration accuracy:   0.10E-13
- SCF residual:    1.1132835926615152E-005
+ SCF residual:    1.1132965061392066E-005
 
 
 Iterative solution of linear equations
@@ -8067,15 +8102,17 @@ Iterative solution of linear equations
   Maximum subspace      180
         Iterations       50
        Convergence  1.0D-04
-        Start time     24.0
+        Start time     23.6
 
+  file_read_ga: GA and file contents mismatch dimensions                  126                    6                  594                   18
+ Error in restart solution: ./FH-ClH-BrH-bsses.cphf_sol                                                                                                                                                                                                                                    
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1     18    4.41D-02      24.7
-     2     36    1.36D-02      25.4
-     3     54    1.50D-04      26.2
-     4     72    3.06D-07      26.9
+     1     18    4.41D-02      24.3
+     2     36    1.36D-02      25.1
+     3     54    1.50D-04      25.8
+     4     72    3.06D-07      26.5
  HESSIAN: the CPHF contributions are done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
  stpr_wrt_fd_dipole: overwrite of existing file./FH-ClH-BrH-bsses.fd_ddipole
@@ -8148,9 +8185,9 @@ Iterative solution of linear equations
  HESSIAN: the Hessian is done
   stpr_wrt_fd_from_sq: overwrite of existing file:./FH-ClH-BrH-bsses.hess
 
-             BSSE error =       0.030508419015
-  Supermolecular energy =   -3115.152217321941
-       Corrected energy =   -3115.121708902926
+             BSSE error =       0.030508419023
+  Supermolecular energy =   -3115.152217321938
+       Corrected energy =   -3115.121708902915
 
 
 
@@ -8187,34 +8224,34 @@ Iterative solution of linear equations
    ----- ----- ----- ----- -----
     1    1.45294D+01
     2    2.15219D+00  5.27003D+00
-    3    1.92442D-04 -4.50723D-05  9.09787D-01
-    4   -5.31336D+01 -8.85642D+00 -5.72444D-04  2.42260D+02
-    5   -5.06269D+00 -7.18138D+00  1.30568D-04  9.27698D+00  3.75238D+01
-    6   -3.93340D-04 -1.28022D-05 -2.90378D+00  2.89698D-03 -6.95900D-04  1.49595D+01
-    7    5.02330D-01  5.91211D-02  1.10034D-05 -1.51840D+00 -6.91429D-01 -4.49535D-05  9.45624D-01
-    8    9.83745D-01 -1.82521D+00  5.94088D-05 -2.17015D+00 -1.09023D+00 -6.76724D-05 -5.80581D-01  3.66769D+00
-    9    3.15317D-05 -2.53447D-05  2.13686D-01 -1.13644D-04 -4.66454D-05 -7.85178D-02  2.57298D-05  9.48663D-05  2.39394D-01
-   10   -3.89581D+00 -2.36979D-01  3.07118D-05 -1.58781D+01  1.37304D+01 -1.12095D-03 -2.63529D+00 -1.07627D+00 -5.33309D-05  4.87867D+01
-   11   -5.27154D+00 -4.93011D+00 -1.21283D-04  3.47680D+01  1.25362D+01  1.21313D-03  1.57356D+00 -1.15490D+01 -2.37500D-04 -2.16444D+00
-   12   -1.29788D-04  3.99505D-04 -3.04291D+00 -6.54408D-04  2.80151D-04  2.53100D+00 -2.90379D-05 -6.35526D-04 -1.79098D+00  1.46786D-03
-   13   -6.54233D-01 -3.06509D-01 -2.43840D-05 -3.02163D-01  6.86825D-02 -3.20762D-05 -4.19384D-01  1.48068D-01 -1.80475D-05 -1.57307D-02
-   14   -7.28679D-01  7.77299D-02 -2.76725D-05  1.40418D+00 -2.96995D-01  1.95948D-05  3.08831D-01  7.01765D-02  1.36974D-05  3.60828D-01
-   15   -4.20480D-05 -1.34625D-05  1.03824D-01  4.12346D-05  1.43341D-05 -7.30044D-01 -2.01481D-05  7.41127D-06  5.52696D-02  5.84686D-06
-   16   -3.18894D+00  2.12983D+00 -1.40930D-04  1.59453D+01  2.43461D+00  4.81638D-04  1.35560D-01  1.07693D+00  5.83469D-05 -3.30665D-01
-   17    1.68358D+00 -7.10835D-01  8.49224D-05 -5.31367D+00 -9.81322D+00 -2.37453D-04 -4.68640D-01 -1.66574D+00 -3.46704D-05 -7.41090D+00
-   18   -1.23470D-04  8.00467D-05 -1.86864D-01  5.45055D-04 -3.82427D-06  2.08060D+00  7.41139D-05  2.92391D-05 -9.60890D-01 -2.23474D-04
+    3    1.92441D-04 -4.50736D-05  9.09787D-01
+    4   -5.31336D+01 -8.85642D+00 -5.72425D-04  2.42260D+02
+    5   -5.06269D+00 -7.18138D+00  1.30576D-04  9.27698D+00  3.75238D+01
+    6   -3.93342D-04 -1.28009D-05 -2.90378D+00  2.89699D-03 -6.95906D-04  1.49595D+01
+    7    5.02330D-01  5.91211D-02  1.10035D-05 -1.51840D+00 -6.91429D-01 -4.49518D-05  9.45624D-01
+    8    9.83745D-01 -1.82521D+00  5.94086D-05 -2.17015D+00 -1.09023D+00 -6.76699D-05 -5.80581D-01  3.66769D+00
+    9    3.15313D-05 -2.53444D-05  2.13686D-01 -1.13643D-04 -4.66462D-05 -7.85178D-02  2.57292D-05  9.48670D-05  2.39394D-01
+   10   -3.89581D+00 -2.36979D-01  3.07154D-05 -1.58781D+01  1.37304D+01 -1.12097D-03 -2.63529D+00 -1.07627D+00 -5.33346D-05  4.87867D+01
+   11   -5.27154D+00 -4.93011D+00 -1.21280D-04  3.47680D+01  1.25362D+01  1.21310D-03  1.57356D+00 -1.15490D+01 -2.37489D-04 -2.16444D+00
+   12   -1.29788D-04  3.99505D-04 -3.04291D+00 -6.54408D-04  2.80149D-04  2.53100D+00 -2.90297D-05 -6.35530D-04 -1.79098D+00  1.46781D-03
+   13   -6.54233D-01 -3.06509D-01 -2.43837D-05 -3.02163D-01  6.86825D-02 -3.20788D-05 -4.19384D-01  1.48068D-01 -1.80474D-05 -1.57307D-02
+   14   -7.28679D-01  7.77299D-02 -2.76726D-05  1.40418D+00 -2.96995D-01  1.95961D-05  3.08831D-01  7.01765D-02  1.36973D-05  3.60828D-01
+   15   -4.20482D-05 -1.34625D-05  1.03824D-01  4.12354D-05  1.43337D-05 -7.30044D-01 -2.01480D-05  7.41146D-06  5.52696D-02  5.84533D-06
+   16   -3.18894D+00  2.12983D+00 -1.40932D-04  1.59453D+01  2.43461D+00  4.81654D-04  1.35560D-01  1.07693D+00  5.83461D-05 -3.30665D-01
+   17    1.68358D+00 -7.10835D-01  8.49215D-05 -5.31367D+00 -9.81322D+00 -2.37459D-04 -4.68640D-01 -1.66574D+00 -3.46698D-05 -7.41090D+00
+   18   -1.23465D-04  8.00476D-05 -1.86864D-01  5.45042D-04 -3.82352D-06  2.08060D+00  7.41137D-05  2.92393D-05 -9.60890D-01 -2.23474D-04
 
 
               11           12           13           14           15           16           17           18
    ----- ----- ----- ----- -----
    11    8.26369D+01
-   12    1.92361D-03  1.99231D+01
-   13    7.75811D-02  4.41888D-07  1.34770D+00
-   14   -1.55305D+00  2.27635D-05 -4.97468D-01  6.72086D-01
-   15   -1.37714D-05 -3.94791D-02  8.37876D-05 -5.46534D-05  8.51502D-02
-   16   -1.96758D+01 -8.30162D-05 -6.35824D+00  3.99904D+00 -3.35515D-04  5.40517D+01
-   17    8.09036D+00 -4.03478D-04  4.73180D+00 -4.87640D+00  2.71105D-04 -3.39603D+01  5.80446D+01
-   18   -8.40415D-04  1.65872D+00 -3.45677D-04  2.53802D-04 -7.63756D-01  2.85252D-03 -1.93506D-03  9.53371D+00
+   12    1.92364D-03  1.99231D+01
+   13    7.75811D-02  4.41422D-07  1.34770D+00
+   14   -1.55305D+00  2.27638D-05 -4.97468D-01  6.72086D-01
+   15   -1.37725D-05 -3.94791D-02  8.37799D-05 -5.46565D-05  8.51502D-02
+   16   -1.96758D+01 -8.30139D-05 -6.35824D+00  3.99904D+00 -3.35516D-04  5.40517D+01
+   17    8.09036D+00 -4.03474D-04  4.73180D+00 -4.87640D+00  2.71113D-04 -3.39603D+01  5.80446D+01
+   18   -8.40418D-04  1.65872D+00 -3.45677D-04  2.53803D-04 -7.63756D-01  2.85252D-03 -1.93507D-03  9.53371D+00
 
 
 
@@ -8233,15 +8270,15 @@ Iterative solution of linear equations
            4     0.00007    -0.05493    -0.00748    -0.09400    -0.01961    -0.00098
            5    -0.00003    -0.06493    -0.00303     0.04712     0.03665     0.00159
            6    -0.15223     0.00549    -0.08225     0.00371    -0.00015    -0.04193
-           7    -0.00016    -0.05595    -0.00203     0.01853    -0.08669    -0.00085
-           8    -0.00015    -0.06550     0.00009     0.11147    -0.00160     0.00167
-           9     0.03607     0.00723    -0.09023     0.00228    -0.00347     0.13652
+           7    -0.00016    -0.05595    -0.00202     0.01853    -0.08669    -0.00085
+           8    -0.00015    -0.06550     0.00010     0.11147    -0.00160     0.00167
+           9     0.03607     0.00722    -0.09023     0.00228    -0.00347     0.13652
           10    -0.00003    -0.05537    -0.00514    -0.04575    -0.04834    -0.00093
           11    -0.00015    -0.06549     0.00007     0.11099    -0.00124     0.00167
           12    -0.10529     0.00658    -0.08663     0.00267    -0.00218     0.07299
           13    -0.00005    -0.05539    -0.00485    -0.03972    -0.05175    -0.00091
           14     0.00011    -0.06427    -0.00651    -0.02463     0.07938     0.00150
-          15     0.03432     0.00533    -0.08338     0.00423    -0.00002    -0.06520
+          15     0.03432     0.00533    -0.08338     0.00423    -0.00002    -0.06519
           16    -0.00013    -0.05578    -0.00279     0.00278    -0.07702    -0.00086
           17     0.00001    -0.06474    -0.00399     0.02732     0.04843     0.00156
           18     0.07972     0.00625    -0.08709     0.00337    -0.00173     0.03088
@@ -8300,7 +8337,7 @@ Iterative solution of linear equations
  ------ ---------- || ------------------ ------------------ -----------------
     1      -11.212 ||      -0.000              -0.000             0.060
     2       -0.289 ||      -0.000              -0.000             0.001
-    3        1.326 ||      -0.002              -0.002             0.003
+    3        1.325 ||      -0.002              -0.002             0.003
     4        3.357 ||       0.042               0.034            -0.001
     5        6.730 ||      -0.025              -0.021            -0.001
     6        8.186 ||       0.000               0.000             0.077
@@ -8328,7 +8365,7 @@ Iterative solution of linear equations
  ------ ---------- || -------------- ----------------- ---------- -----------
     1      -11.212 ||    0.000155           0.004         0.151       0.458
     2       -0.289 ||    0.000000           0.000         0.000       0.000
-    3        1.326 ||    0.000001           0.000         0.001       0.002
+    3        1.325 ||    0.000001           0.000         0.001       0.002
     4        3.357 ||    0.000127           0.003         0.124       0.374
     5        6.730 ||    0.000045           0.001         0.044       0.133
     6        8.186 ||    0.000256           0.006         0.249       0.753
@@ -8353,7 +8390,7 @@ Iterative solution of linear equations
         Vibrational analysis via the FX method 
   --- with translations and rotations projected out ---
   --- via the Eckart algorithm                      ---
- Projected Nuclear Hessian trans-rot subspace norm:1.3212D-34
+ Projected Nuclear Hessian trans-rot subspace norm:6.8027D-34
                          (should be close to zero!) 
 
           --------------------------------------------------------
@@ -8365,34 +8402,34 @@ Iterative solution of linear equations
    ----- ----- ----- ----- -----
     1    1.45304D+01
     2    2.15167D+00  5.27043D+00
-    3    1.88315D-04 -5.59692D-05  9.10567D-01
-    4   -5.31307D+01 -8.85820D+00 -5.57811D-04  2.42268D+02
-    5   -5.06393D+00 -7.18053D+00  1.61663D-04  9.27107D+00  3.75237D+01
-    6   -3.88354D-04 -7.14429D-05 -2.90097D+00  2.86832D-03 -7.13519D-04  1.49697D+01
-    7    5.01627D-01  5.95783D-02  8.04349D-06 -1.52074D+00 -6.91804D-01 -1.84255D-05  9.46875D-01
-    8    9.83817D-01 -1.82515D+00  5.64868D-05 -2.16957D+00 -1.08873D+00 -6.10339D-05 -5.80530D-01  3.66728D+00
-    9    2.90465D-05 -2.12986D-05  2.12488D-01 -8.84324D-05 -7.30324D-05 -8.33617D-02  1.70720D-05  7.02759D-05  2.41103D-01
-   10   -3.89223D+00 -2.38886D-01  4.85516D-05 -1.58652D+01  1.37304D+01 -1.10750D-03 -2.63665D+00 -1.07833D+00 -3.50131D-05  4.87906D+01
-   11   -5.27210D+00 -4.92925D+00 -8.34707D-05  3.47676D+01  1.25436D+01  1.34055D-03  1.57476D+00 -1.15507D+01 -3.18974D-04 -2.17635D+00
-   12   -1.69106D-04  4.26565D-04 -3.03699D+00 -5.97065D-04  4.10666D-04  2.55645D+00 -5.16266D-05 -6.82131D-04 -1.79623D+00  1.58016D-03
-   13   -6.54976D-01 -3.05997D-01 -2.43129D-05 -3.05361D-01  6.98391D-02 -6.02423D-05 -4.19435D-01  1.48498D-01 -1.69184D-05 -1.78648D-02
-   14   -7.28821D-01  7.76421D-02 -3.05010D-05  1.40334D+00 -2.99798D-01  4.16802D-05  3.09136D-01  7.07049D-02  1.29555D-05  3.63982D-01
-   15   -3.42288D-05 -1.28975D-05  1.02783D-01  3.02566D-05  2.70567D-05 -7.36236D-01 -2.18894D-05  9.28856D-06  5.67288D-02 -2.81580D-05
-   16   -3.18679D+00  2.12895D+00 -1.39238D-04  1.59549D+01  2.43807D+00  5.70308D-04  1.36925D-01  1.07364D+00  4.74261D-05 -3.36118D-01
-   17    1.68890D+00 -7.13615D-01  1.03686D-04 -5.29518D+00 -9.80843D+00 -3.28486D-04 -4.74851D-01 -1.66767D+00 -4.48432D-05 -7.40619D+00
-   18   -1.26455D-04  1.28192D-04 -1.82417D-01  4.02103D-04 -2.09790D-04  2.11620D+00  1.29489D-04  1.24325D-06 -9.68339D-01 -2.26466D-04
+    3    1.88315D-04 -5.59698D-05  9.10567D-01
+    4   -5.31307D+01 -8.85820D+00 -5.57805D-04  2.42268D+02
+    5   -5.06393D+00 -7.18053D+00  1.61667D-04  9.27107D+00  3.75237D+01
+    6   -3.88358D-04 -7.14405D-05 -2.90097D+00  2.86827D-03 -7.13544D-04  1.49697D+01
+    7    5.01627D-01  5.95783D-02  8.04285D-06 -1.52074D+00 -6.91804D-01 -1.84282D-05  9.46875D-01
+    8    9.83817D-01 -1.82515D+00  5.64869D-05 -2.16957D+00 -1.08873D+00 -6.10317D-05 -5.80530D-01  3.66728D+00
+    9    2.90467D-05 -2.12986D-05  2.12488D-01 -8.84275D-05 -7.30327D-05 -8.33617D-02  1.70717D-05  7.02763D-05  2.41103D-01
+   10   -3.89223D+00 -2.38886D-01  4.85575D-05 -1.58652D+01  1.37304D+01 -1.10753D-03 -2.63665D+00 -1.07833D+00 -3.50100D-05  4.87906D+01
+   11   -5.27210D+00 -4.92925D+00 -8.34676D-05  3.47676D+01  1.25436D+01  1.34054D-03  1.57476D+00 -1.15507D+01 -3.18974D-04 -2.17635D+00
+   12   -1.69098D-04  4.26566D-04 -3.03699D+00 -5.97068D-04  4.10666D-04  2.55645D+00 -5.16193D-05 -6.82135D-04 -1.79623D+00  1.58014D-03
+   13   -6.54976D-01 -3.05997D-01 -2.43132D-05 -3.05361D-01  6.98391D-02 -6.02303D-05 -4.19435D-01  1.48498D-01 -1.69193D-05 -1.78648D-02
+   14   -7.28821D-01  7.76421D-02 -3.05015D-05  1.40334D+00 -2.99798D-01  4.16857D-05  3.09136D-01  7.07049D-02  1.29551D-05  3.63982D-01
+   15   -3.42278D-05 -1.28976D-05  1.02783D-01  3.02629D-05  2.70580D-05 -7.36236D-01 -2.18889D-05  9.28845D-06  5.67288D-02 -2.81548D-05
+   16   -3.18679D+00  2.12895D+00 -1.39241D-04  1.59549D+01  2.43807D+00  5.70310D-04  1.36925D-01  1.07364D+00  4.74277D-05 -3.36118D-01
+   17    1.68890D+00 -7.13615D-01  1.03686D-04 -5.29518D+00 -9.80843D+00 -3.28514D-04 -4.74851D-01 -1.66767D+00 -4.48414D-05 -7.40619D+00
+   18   -1.26466D-04  1.28191D-04 -1.82417D-01  4.02041D-04 -2.09794D-04  2.11620D+00  1.29485D-04  1.24309D-06 -9.68339D-01 -2.26494D-04
 
 
               11           12           13           14           15           16           17           18
    ----- ----- ----- ----- -----
    11    8.26302D+01
    12    1.98418D-03  1.99186D+01
-   13    8.01739D-02  1.17662D-05  1.34723D+00
-   14   -1.55077D+00  5.66874D-06 -4.97315D-01  6.70734D-01
-   15   -1.68520D-05 -3.67755D-02  7.21645D-05 -3.35491D-05  8.41730D-02
-   16   -1.96910D+01 -4.95463D-05 -6.35924D+00  4.00461D+00 -3.67160D-04  5.40389D+01
-   17    8.07615D+00 -2.79308D-04  4.73234D+00 -4.87579D+00  2.89829D-04 -3.39750D+01  5.80721D+01
-   18   -9.33357D-04  1.61891D+00 -3.88919D-04  3.07514D-04 -7.56952D-01  3.07391D-03 -2.15912D-03  9.50138D+00
+   13    8.01739D-02  1.17585D-05  1.34723D+00
+   14   -1.55077D+00  5.66787D-06 -4.97315D-01  6.70734D-01
+   15   -1.68508D-05 -3.67756D-02  7.21625D-05 -3.35498D-05  8.41730D-02
+   16   -1.96910D+01 -4.95363D-05 -6.35924D+00  4.00461D+00 -3.67158D-04  5.40389D+01
+   17    8.07615D+00 -2.79283D-04  4.73234D+00 -4.87579D+00  2.89834D-04 -3.39750D+01  5.80721D+01
+   18   -9.33364D-04  1.61891D+00 -3.88898D-04  3.07521D-04 -7.56952D-01  3.07389D-03 -2.15916D-03  9.50138D+00
 
  center of mass
  --------------
@@ -8437,26 +8474,26 @@ Iterative solution of linear equations
 
                     1           2           3           4           5           6
  
- P.Frequency       -0.00       -0.00       -0.00       -0.00       -0.00        0.00
+ P.Frequency       -0.00       -0.00       -0.00       -0.00        0.00        0.00
  
-           1     0.06722    -0.08155    -0.04686     0.00001    -0.00000    -0.00000
-           2    -0.11029    -0.00731    -0.02296     0.00000     0.00000    -0.00000
-           3    -0.00000    -0.00000     0.00000    -0.22379     0.00066     0.00091
-           4     0.06133    -0.08190    -0.04233     0.00001    -0.00000    -0.00000
-           5    -0.06919    -0.00482    -0.05452     0.00000    -0.00000    -0.00000
-           6    -0.00000    -0.00000     0.00000    -0.17208    -0.03985     0.02251
-           7    -0.04235    -0.08819     0.03727    -0.00000    -0.00000     0.00000
-           8    -0.12880    -0.00843    -0.00875     0.00000     0.00000    -0.00000
-           9    -0.00000     0.00000    -0.00000    -0.00011     0.00085    -0.16774
-          10     0.01662    -0.08461    -0.00800     0.00001    -0.00000     0.00000
-          11    -0.12842    -0.00841    -0.00904     0.00001    -0.00000    -0.00000
-          12    -0.00000    -0.00000     0.00000    -0.12951     0.00997    -0.08397
-          13     0.01143    -0.08493    -0.00402    -0.00000     0.00000    -0.00000
-          14    -0.00311    -0.00082    -0.10526    -0.00000    -0.00000     0.00000
-          15    -0.00000     0.00000    -0.00000    -0.00002    -0.11148    -0.00001
-          16    -0.02820    -0.08733     0.02641    -0.00000    -0.00000     0.00000
-          17    -0.05143    -0.00375    -0.06815     0.00000    -0.00000    -0.00000
-          18     0.00000     0.00000    -0.00000     0.04166    -0.07134    -0.09134
+           1     0.00001     0.06722    -0.04686    -0.00000    -0.00000    -0.08155
+           2     0.00000    -0.11029    -0.02296    -0.00000     0.00000    -0.00731
+           3    -0.22379    -0.00000     0.00000     0.00091     0.00066    -0.00000
+           4     0.00001     0.06133    -0.04233    -0.00000    -0.00000    -0.08190
+           5     0.00000    -0.06919    -0.05452    -0.00000    -0.00000    -0.00482
+           6    -0.17208    -0.00000     0.00000     0.02251    -0.03985    -0.00000
+           7    -0.00000    -0.04235     0.03727     0.00000    -0.00000    -0.08819
+           8     0.00000    -0.12880    -0.00875    -0.00000     0.00000    -0.00843
+           9    -0.00011    -0.00000    -0.00000    -0.16774     0.00085     0.00000
+          10     0.00001     0.01662    -0.00800     0.00000    -0.00000    -0.08461
+          11     0.00001    -0.12842    -0.00904    -0.00000    -0.00000    -0.00841
+          12    -0.12951    -0.00000     0.00000    -0.08397     0.00997    -0.00000
+          13    -0.00000     0.01143    -0.00402    -0.00000     0.00000    -0.08493
+          14    -0.00000    -0.00311    -0.10526     0.00000    -0.00000    -0.00082
+          15    -0.00002    -0.00000    -0.00000    -0.00001    -0.11148     0.00000
+          16    -0.00000    -0.02820     0.02641     0.00000    -0.00000    -0.08733
+          17     0.00000    -0.05143    -0.06815    -0.00000    -0.00000    -0.00375
+          18     0.04166     0.00000    -0.00000    -0.09134    -0.07134     0.00000
 
                     7           8           9          10          11          12
  
@@ -8510,12 +8547,12 @@ Iterative solution of linear equations
  Normal Eigenvalue ||    Projected Derivative Dipole Moments (debye/angs)
   Mode   [cm**-1]  ||      [d/dqX]             [d/dqY]           [d/dqZ]
  ------ ---------- || ------------------ ------------------ -----------------
-    1       -0.000 ||      -0.039              -0.032             0.000
-    2       -0.000 ||      -0.002              -0.002            -0.000
+    1       -0.000 ||      -0.000               0.000             0.055
+    2       -0.000 ||      -0.039              -0.032             0.000
     3       -0.000 ||      -0.030              -0.025             0.000
-    4       -0.000 ||      -0.000               0.000             0.055
-    5       -0.000 ||       0.000              -0.000            -0.025
-    6        0.000 ||      -0.000               0.000             0.078
+    4       -0.000 ||      -0.000               0.000             0.078
+    5        0.000 ||       0.000              -0.000            -0.025
+    6        0.000 ||      -0.002              -0.002            -0.000
     7      162.096 ||      -0.006               0.014             0.000
     8      229.385 ||      -0.025              -0.022            -0.000
     9      353.919 ||       0.019               0.059            -0.000
@@ -8538,12 +8575,12 @@ Iterative solution of linear equations
  Normal Eigenvalue ||           Projected Infra Red Intensities
   Mode   [cm**-1]  || [atomic units] [(debye/angs)**2] [(KM/mol)] [arbitrary]
  ------ ---------- || -------------- ----------------- ---------- -----------
-    1       -0.000 ||    0.000110           0.003         0.107       0.324
-    2       -0.000 ||    0.000000           0.000         0.000       0.001
+    1       -0.000 ||    0.000132           0.003         0.128       0.387
+    2       -0.000 ||    0.000110           0.003         0.107       0.324
     3       -0.000 ||    0.000065           0.001         0.063       0.191
-    4       -0.000 ||    0.000132           0.003         0.128       0.387
-    5       -0.000 ||    0.000026           0.001         0.026       0.078
-    6        0.000 ||    0.000266           0.006         0.260       0.784
+    4       -0.000 ||    0.000266           0.006         0.260       0.784
+    5        0.000 ||    0.000026           0.001         0.026       0.078
+    6        0.000 ||    0.000000           0.000         0.000       0.001
     7      162.096 ||    0.000010           0.000         0.010       0.031
     8      229.385 ||    0.000049           0.001         0.047       0.143
     9      353.919 ||    0.000165           0.004         0.161       0.485
@@ -8562,7 +8599,7 @@ Iterative solution of linear equations
 
  vib:animation  F
 
- Task  times  cpu:       24.0s     wall:       24.5s
+ Task  times  cpu:       23.6s     wall:       24.2s
 
 
                                 NWChem Input Module
@@ -8579,10 +8616,10 @@ Iterative solution of linear equations
                          ------------------------------
 
        create   destroy   get      put      acc     scatter   gather  read&inc
-calls: 6051     6051     8.24e+05 6.12e+04 7.28e+05 1880        0     4185     
-number of processes/call 1.07e+00 1.55e+00 1.02e+00 0.00e+00 0.00e+00
-bytes total:             3.95e+08 3.95e+07 4.55e+08 0.00e+00 0.00e+00 3.35e+04
-bytes remote:            1.79e+08 1.23e+07 1.65e+08 -1.15e+03 0.00e+00 0.00e+00
+calls: 6051     6051     8.19e+05 6.18e+04 7.26e+05 1880        0     4223     
+number of processes/call 1.07e+00 1.54e+00 1.02e+00 0.00e+00 0.00e+00
+bytes total:             3.94e+08 3.95e+07 4.55e+08 0.00e+00 0.00e+00 3.38e+04
+bytes remote:            1.79e+08 1.23e+07 1.67e+08 -1.15e+03 0.00e+00 0.00e+00
 Max memory consumed for GA by this process: 1620672 bytes
 
 MA_summarize_allocated_blocks: starting scan ...
@@ -8593,9 +8630,9 @@ MA usage statistics:
 					      heap	     stack
 					      ----	     -----
 	current number of blocks	         0	         0
-	maximum number of blocks	        24	        51
+	maximum number of blocks	        24	        49
 	current total bytes		         0	         0
-	maximum total bytes		   4547096	  82924120
+	maximum total bytes		   4547048	  82924104
 	maximum total K-bytes		      4548	     82925
 	maximum total M-bytes		         5	        83
 
@@ -8634,5 +8671,5 @@ MA usage statistics:
       T. Nakajima, S. Niu, L. Pollack, M. Rosing, K. Glaesemann, G. Sandrone,
       M. Stave, H. Taylor, G. Thomas, J. H. van Lenthe, A. T. Wong, Z. Zhang.
 
- Total times  cpu:       26.2s     wall:       27.0s
+ Total times  cpu:       25.8s     wall:       26.5s
 [0] ARMCI Warning: Freed 1 leaked allocations

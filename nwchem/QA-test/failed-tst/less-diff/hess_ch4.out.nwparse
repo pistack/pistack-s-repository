@@ -1,0 +1,122 @@
+Effective nuclear repulsion energy (a.u.) 13.540
+Effective nuclear repulsion energy (a.u.) 13.540
+Total SCF energy = -40.19847
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.180      1.180      1.180
+          h     -1.180     -1.180      1.180
+          h     -1.180      1.180     -1.180
+          h      1.180     -1.180     -1.180
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h     -0.004     -0.004     -0.004
+          h      0.004      0.004     -0.004
+          h      0.004     -0.004      0.004
+          h     -0.004      0.004      0.004
+Total SCF energy = -40.19871
+Effective nuclear repulsion energy (a.u.) 13.426
+Total SCF energy = -40.19871
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.190      1.190      1.190
+          h     -1.190     -1.190      1.190
+          h     -1.190      1.190     -1.190
+          h      1.190     -1.190     -1.190
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+Total SCF energy = -40.19871
+Effective nuclear repulsion energy (a.u.) 13.426
+Total SCF energy = -40.19871
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.190      1.190      1.190
+          h     -1.190     -1.190      1.190
+          h     -1.190      1.190     -1.190
+          h      1.190     -1.190     -1.190
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+Effective nuclear repulsion energy (a.u.) 13.426
+Total SCF energy = -40.19871
+Frequency        -3         -3         -3          0          0          0 
+Frequency      1433       1433       1433       1648       1648       3165 
+Frequency      3286       3286       3286 
+Zero-Point correction to Energy = 29.460
+P.Frequency         0          0          0          0          0          0 
+P.Frequency      1433       1433       1433       1648       1648       3165 
+P.Frequency      3286       3286       3286 
+Effective nuclear repulsion energy (a.u.) 13.426
+Total DFT energy = -40.47522
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.190      1.190      1.190
+          h     -1.190     -1.190      1.190
+          h     -1.190      1.190     -1.190
+          h      1.190     -1.190     -1.190
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h     -0.006     -0.006     -0.006
+          h      0.006      0.006     -0.006
+          h      0.006     -0.006      0.006
+          h     -0.006      0.006      0.006
+Total DFT energy = -40.47586
+Effective nuclear repulsion energy (a.u.) 13.247
+Total DFT energy = -40.47586
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.206      1.206      1.206
+          h     -1.206     -1.206      1.206
+          h     -1.206      1.206     -1.206
+          h      1.206     -1.206     -1.206
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h     -0.001     -0.001     -0.001
+          h      0.001      0.001     -0.001
+          h      0.001     -0.001      0.001
+          h     -0.001      0.001      0.001
+Total DFT energy = -40.47586
+Effective nuclear repulsion energy (a.u.) 13.231
+Total DFT energy = -40.47586
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.208      1.208      1.208
+          h     -1.208     -1.208      1.208
+          h     -1.208      1.208     -1.208
+          h      1.208     -1.208     -1.208
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+Total DFT energy = -40.47586
+Effective nuclear repulsion energy (a.u.) 13.230
+Total DFT energy = -40.47586
+   Atoms             Coordinates:
+          c      0.000      0.000      0.000
+          h      1.208      1.208      1.208
+          h     -1.208     -1.208      1.208
+          h     -1.208      1.208     -1.208
+          h      1.208     -1.208     -1.208
+   Atoms              Gradients:
+          c      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+          h      0.000      0.000      0.000
+Effective nuclear repulsion energy (a.u.) 13.230
+Total DFT energy = -40.47586
+Frequency       -10        -10        -10          5          5          5 
+Frequency      1275       1275       1275       1494       1494       2954 
+Frequency      3068       3068       3068 
+Zero-Point correction to Energy = 27.107
+P.Frequency         0          0          0          0          0          0 
+P.Frequency      1275       1275       1275       1494       1494       2954 
+P.Frequency      3068       3068       3068 

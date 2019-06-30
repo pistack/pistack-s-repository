@@ -1,4 +1,4 @@
- argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/ch3radical_unrot/ch3radical_unrot.nw
+ argument  1 = /home/list1234/source/nwchem-6.8.1/QA/tests/ch3radical_unrot/ch3radical_unrot.nw
 
 
 
@@ -54,7 +54,7 @@ task dft property
                        Pacific Northwest National Laboratory
                                 Richland, WA 99352
 
-                              Copyright (c) 1994-2018
+                              Copyright (c) 1994-2017
                        Pacific Northwest National Laboratory
                             Battelle Memorial Institute
 
@@ -80,16 +80,16 @@ task dft property
            ---------------
 
     hostname        = list1234-B360M-H
-    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
-    date            = Sun Jun 30 13:31:45 2019
+    program         = /home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem
+    date            = Sun Jun 30 23:23:13 2019
 
-    compiled        = Sun_Jun_30_11:55:59_2019
-    source          = /home/list1234/source/nwchem-6.8.1-release
-    nwchem branch   = Development
-    nwchem revision = N/A
+    compiled        = Sun_Jun_30_20:37:07_2019
+    source          = /home/list1234/source/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-160-gc00cf755d
     ga revision     = 5.6.5
     use scalapack   = T
-    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/ch3radical_unrot/ch3radical_unrot.nw
+    input           = /home/list1234/source/nwchem-6.8.1/QA/tests/ch3radical_unrot/ch3radical_unrot.nw
     prefix          = ch3radical_unrot.
     data base       = ./ch3radical_unrot.db
     status          = startup
@@ -360,7 +360,7 @@ task dft property
 
  Grid_pts file          = ./ch3radical_unrot.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =      9        Max. recs in file   =    862104
+ Max. records in memory =      9        Max. recs in file   =    863573
 
 
  Wrote atomic ZORA corrections to ./ch3radical_unrot.zora_sf
@@ -380,15 +380,15 @@ task dft property
  HOMO         =      -0.204961
  LUMO         =       0.110541
 
-   Time after variat. SCF:      0.4
-   Time prior to 1st pass:      0.4
+   Time after variat. SCF:      0.5
+   Time prior to 1st pass:      0.5
 
  #quartets = 9.316D+03 #integrals = 2.804D+04 #direct =  0.0% #cached =100.0%
 
 
  Integral file          = ./ch3radical_unrot.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      2        Max. records in file   = 161657
+ Max. records in memory =      2        Max. records in file   = 161932
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -403,13 +403,13 @@ File balance: exchanges=     0  moved=     0  time=   0.0
  ---------------- ----- ----------------- --------- --------- ---------  ------
  d= 0,ls=0.0,diis     1    -39.8388352740 -4.95D+01  4.85D-03  3.54D-02     0.5
                                                      4.29D-03  3.67D-02
- d= 0,ls=0.0,diis     2    -39.8520293420 -1.32D-02  2.38D-03  2.12D-03     0.5
+ d= 0,ls=0.0,diis     2    -39.8520293420 -1.32D-02  2.38D-03  2.12D-03     0.6
                                                      2.04D-03  2.65D-03
  d= 0,ls=0.0,diis     3    -39.8527214911 -6.92D-04  1.07D-03  1.69D-03     0.6
                                                      6.16D-04  8.94D-04
  d= 0,ls=0.0,diis     4    -39.8534142113 -6.93D-04  8.10D-05  1.99D-06     0.6
                                                      1.84D-04  2.72D-05
- d= 0,ls=0.0,diis     5    -39.8534291637 -1.50D-05  7.98D-05  1.07D-06     0.6
+ d= 0,ls=0.0,diis     5    -39.8534291637 -1.50D-05  7.98D-05  1.07D-06     0.7
                                                      7.29D-05  9.92D-07
   Resetting Diis
  d= 0,ls=0.0,diis     6    -39.8534309960 -1.83D-06  9.08D-06  1.67D-08     0.7
@@ -532,7 +532,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     17      0.047224  3 H  s                 20      0.047224  4 H  s          
 
  Vector   11  Occ=0.000000D+00  E= 3.862479D-01
-              MO Center=  1.3D-04,  1.1D-13, -3.7D-01, r^2= 2.5D+00
+              MO Center=  1.3D-04,  1.0D-13, -3.7D-01, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      1.370328  1 C  pz                10     -1.204596  1 C  s          
@@ -572,7 +572,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     20     -0.071893  4 H  s          
 
  Vector   15  Occ=0.000000D+00  E= 7.124775D-01
-              MO Center= -3.7D-04, -2.3D-12, -2.8D-01, r^2= 2.7D+00
+              MO Center= -3.7D-04, -2.4D-12, -2.8D-01, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      4.135305  1 C  s                  6     -2.118709  1 C  s          
@@ -592,7 +592,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      5     -0.336527  1 C  pz                16     -0.281887  2 H  s          
 
  Vector   17  Occ=0.000000D+00  E= 2.209063D+00
-              MO Center=  5.2D-01, -8.6D-09, -3.6D-01, r^2= 1.8D+00
+              MO Center=  5.2D-01, -8.7D-09, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     15      1.752259  2 H  s                 14     -1.166927  2 H  s          
@@ -602,7 +602,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     19      0.490860  3 H  s                 22      0.490860  4 H  s          
 
  Vector   18  Occ=0.000000D+00  E= 2.209110D+00
-              MO Center= -5.2D-01,  8.6D-09, -3.6D-01, r^2= 1.8D+00
+              MO Center= -5.2D-01,  8.7D-09, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      1.517665  3 H  s                 21     -1.517665  4 H  s          
@@ -612,7 +612,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     12      0.148122  1 C  py         
 
  Vector   19  Occ=0.000000D+00  E= 2.622675D+00
-              MO Center=  2.3D-05, -2.5D-15, -2.1D-02, r^2= 8.5D-01
+              MO Center=  2.3D-05, -1.0D-15, -2.1D-02, r^2= 8.5D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.439711  1 C  pz                 5     -1.270775  1 C  pz         
@@ -642,7 +642,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     18     -0.216744  3 H  s                 21     -0.216744  4 H  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.325982D+01
-              MO Center= -3.4D-06,  1.4D-15, -4.4D-03, r^2= 9.5D-02
+              MO Center= -3.4D-06,  1.3D-15, -4.4D-03, r^2= 9.5D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2     -2.170490  1 C  s                  1      2.025185  1 C  s          
@@ -728,7 +728,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      4     -0.171171  1 C  py         
 
  Vector    9  Occ=0.000000D+00  E= 2.955507D-01
-              MO Center=  1.6D-01,  4.0D-09,  1.1D-01, r^2= 2.9D+00
+              MO Center=  1.6D-01,  4.1D-09,  1.1D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.419878  1 C  py                18     -1.071808  3 H  s          
@@ -737,7 +737,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     20      0.080998  4 H  s          
 
  Vector   10  Occ=0.000000D+00  E= 2.955808D-01
-              MO Center= -1.6D-01, -4.0D-09,  1.1D-01, r^2= 2.9D+00
+              MO Center= -1.6D-01, -4.1D-09,  1.1D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      1.420026  1 C  px                15     -1.238074  2 H  s          
@@ -747,7 +747,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     17      0.046711  3 H  s                 20      0.046711  4 H  s          
 
  Vector   11  Occ=0.000000D+00  E= 4.247060D-01
-              MO Center=  1.3D-05, -2.7D-13, -7.0D-01, r^2= 2.1D+00
+              MO Center=  1.3D-05, -2.5D-13, -7.0D-01, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.880908  1 C  s                 13     -1.132212  1 C  pz         
@@ -787,7 +787,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     20     -0.068880  4 H  s          
 
  Vector   15  Occ=0.000000D+00  E= 7.395418D-01
-              MO Center= -3.2D-04, -2.9D-12, -2.4D-01, r^2= 2.6D+00
+              MO Center= -3.2D-04, -2.8D-12, -2.4D-01, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      4.127552  1 C  s                  6     -2.130446  1 C  s          
@@ -857,7 +857,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     19     -0.214850  3 H  s                 22     -0.214850  4 H  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.327772D+01
-              MO Center= -3.4D-06,  8.0D-16, -4.3D-03, r^2= 9.5D-02
+              MO Center= -3.4D-06,  9.8D-16, -4.3D-03, r^2= 9.5D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2     -2.170655  1 C  s                  1      2.025044  1 C  s          
@@ -1047,7 +1047,7 @@ ch3radical_unrot
 
  Integral file          = ./ch3radical_unrot.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      2        Max. records in file   = 161657
+ Max. records in memory =      2        Max. records in file   = 161932
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -1056,7 +1056,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3radical_unrot.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     15        Max. recs in file   =    862104
+ Max. records in memory =     15        Max. recs in file   =    863573
 
 
            Memory utilization after 1st SCF pass: 
@@ -1067,14 +1067,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
  ---------------- ----- ----------------- --------- --------- ---------  ------
  d= 0,ls=0.0,diis     1    -39.8534305407 -4.95D+01  3.18D-07  2.53D-11     0.9
                                                      1.13D-07  1.35D-11
- d= 0,ls=0.0,diis     2    -39.8534305407 -9.31D-12  9.66D-08  9.04D-12     0.9
+ d= 0,ls=0.0,diis     2    -39.8534305407 -9.34D-12  9.66D-08  9.04D-12     0.9
                                                      8.70D-08  1.10D-11
 
       Commencing ZORA Property Calculations
       -------------------------------------
 
 dia1(k,t,iat1,ispin)=(  1,  1,  1,  1)=(   138.89684359,   138.89684359) ppm
-dia1(k,t,iat1,ispin)=(  1,  1,  1,  2)=(   121.83102028,   260.72786387) ppm
+dia1(k,t,iat1,ispin)=(  1,  1,  1,  2)=(   121.83102028,   260.72786386) ppm
 dia1(k,t,iat1,ispin)=(  1,  2,  1,  1)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  1,  2,  1,  2)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  1,  3,  1,  1)=(     0.00033612,     0.00033612) ppm
@@ -1083,7 +1083,7 @@ dia1(k,t,iat1,ispin)=(  2,  1,  1,  1)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  2,  1,  1,  2)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  2,  2,  1,  1)=(   138.89643167,   138.89643167) ppm
 dia1(k,t,iat1,ispin)=(  2,  2,  1,  2)=(   121.83056186,   260.72699353) ppm
-dia1(k,t,iat1,ispin)=(  2,  3,  1,  1)=(     0.00000000,     0.00000000) ppm
+dia1(k,t,iat1,ispin)=(  2,  3,  1,  1)=(    -0.00000000,    -0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  1,  2)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  1,  1)=(     0.00000386,     0.00000386) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  1,  2)=(     0.00013060,     0.00013445) ppm
@@ -1096,7 +1096,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  1,  2)=(   121.19007163,   253.53742599) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  1,  1,  1)=(     0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  1,  1,  2)=(     0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  1,  1,  1)=(    -0.00037698,    -0.00037698,    -0.00025924,    -0.00025924) ppm
-(dia2,par1)(k,t,iat1,spin)=(  3,  1,  1,  2)=(    -0.00003886,    -0.00041584,    -0.00027959,    -0.00053882) ppm
+(dia2,par1)(k,t,iat1,spin)=(  3,  1,  1,  2)=(    -0.00003886,    -0.00041584,    -0.00027959,    -0.00053883) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  2,  1,  1)=(     0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  2,  1,  2)=(     0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  1,  1)=(    -1.93825667,    -1.93825667,     0.24254643,     0.24254643) ppm
@@ -1105,7 +1105,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  1,  2)=(   121.19007163,   253.53742599) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  2,  1,  2)=(    -0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  3,  1,  1)=(    -0.00004466,    -0.00004466,    -0.00025923,    -0.00025923) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  3,  1,  2)=(    -0.00004097,    -0.00008563,    -0.00027958,    -0.00053881) ppm
-(dia2,par1)(k,t,iat1,spin)=(  2,  3,  1,  1)=(     0.00000000,     0.00000000,    -0.00000000,    -0.00000000) ppm
+(dia2,par1)(k,t,iat1,spin)=(  2,  3,  1,  1)=(    -0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  3,  1,  2)=(    -0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  3,  1,  1)=(    -3.21828839,    -3.21828839,     1.04593845,     1.04593845) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  3,  1,  2)=(    -3.39472335,    -6.61301174,     1.19231996,     2.23825841) ppm
@@ -1120,7 +1120,7 @@ dia1(k,t,iat1,ispin)=(  2,  1,  2,  2)=(     0.00000000,     0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  2,  2,  2,  1)=(    11.02613478,    11.02613478) ppm
 dia1(k,t,iat1,ispin)=(  2,  2,  2,  2)=(     9.34264993,    20.36878471) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  2,  1)=(    -0.00000000,    -0.00000000) ppm
-dia1(k,t,iat1,ispin)=(  2,  3,  2,  2)=(     0.00000000,     0.00000000) ppm
+dia1(k,t,iat1,ispin)=(  2,  3,  2,  2)=(     0.00000000,    -0.00000000) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  2,  1)=(    -3.12554065,    -3.12554065) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  2,  2)=(    -2.62551267,    -5.75105332) ppm
 dia1(k,t,iat1,ispin)=(  3,  2,  2,  1)=(     0.00000000,     0.00000000) ppm
@@ -1138,7 +1138,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  2,  2)=(    10.70653866,    21.47933077) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  2,  1)=(     3.00085857,     3.00085857,     0.00000201,     0.00000201) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  2,  2)=(     3.06643122,     6.06728978,     0.00000234,     0.00000435) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  2,  2,  1)=(    -0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
-(dia2,par1)(k,t,iat1,spin)=(  3,  2,  2,  2)=(     0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
+(dia2,par1)(k,t,iat1,spin)=(  3,  2,  2,  2)=(    -0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  3,  2,  1)=(     1.04975042,     1.04975042,    -0.14182044,    -0.14182044) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  3,  2,  2)=(     1.23656641,     2.28631684,    -0.16617434,    -0.30799477) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  3,  2,  1)=(    -0.00000000,    -0.00000000,    -0.00000000,    -0.00000000) ppm
@@ -1147,7 +1147,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  2,  2)=(    10.70653866,    21.47933077) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  3,  2,  2)=(     2.67860279,     5.42977358,     0.24404917,     0.45233147) ppm
 dia1(k,t,iat1,ispin)=(  1,  1,  3,  1)=(    13.44859951,    13.44859951) ppm
 dia1(k,t,iat1,ispin)=(  1,  1,  3,  2)=(    11.26737214,    24.71597165) ppm
-dia1(k,t,iat1,ispin)=(  1,  2,  3,  1)=(    -4.18866625,    -4.18866625) ppm
+dia1(k,t,iat1,ispin)=(  1,  2,  3,  1)=(    -4.18866624,    -4.18866624) ppm
 dia1(k,t,iat1,ispin)=(  1,  2,  3,  2)=(    -3.32846504,    -7.51713129) ppm
 dia1(k,t,iat1,ispin)=(  1,  3,  3,  1)=(     1.49191448,     1.49191448) ppm
 dia1(k,t,iat1,ispin)=(  1,  3,  3,  2)=(     1.39189757,     2.88381205) ppm
@@ -1158,7 +1158,7 @@ dia1(k,t,iat1,ispin)=(  2,  2,  3,  2)=(    15.10828546,    33.39038624) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  3,  1)=(    -2.58314612,    -2.58314612) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  3,  2)=(    -2.41007853,    -4.99322465) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  3,  1)=(     1.56371603,     1.56371603) ppm
-dia1(k,t,iat1,ispin)=(  3,  1,  3,  2)=(     1.31344967,     2.87716569) ppm
+dia1(k,t,iat1,ispin)=(  3,  1,  3,  2)=(     1.31344966,     2.87716569) ppm
 dia1(k,t,iat1,ispin)=(  3,  2,  3,  1)=(    -2.70763876,    -2.70763876) ppm
 dia1(k,t,iat1,ispin)=(  3,  2,  3,  2)=(    -2.27435689,    -4.98199565) ppm
 dia1(k,t,iat1,ispin)=(  3,  3,  3,  1)=(    10.77629619,    10.77629619) ppm
@@ -1172,7 +1172,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  3,  2)=(    10.70956839,    21.48586458) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  2,  3,  1)=(     1.28306172,     1.28306172,     0.00000022,     0.00000022) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  2,  3,  2)=(     1.23337037,     2.51643209,     0.00000026,     0.00000048) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  3,  1)=(     0.77975435,     0.77975435,     0.00000163,     0.00000163) ppm
-(dia2,par1)(k,t,iat1,spin)=(  2,  2,  3,  2)=(     0.93144850,     1.71120286,     0.00000190,     0.00000353) ppm
+(dia2,par1)(k,t,iat1,spin)=(  2,  2,  3,  2)=(     0.93144850,     1.71120285,     0.00000190,     0.00000353) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  2,  3,  1)=(     0.94080735,     0.94080735,     0.00000066,     0.00000066) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  2,  3,  2)=(     1.08665288,     2.02746023,     0.00000075,     0.00000141) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  3,  3,  1)=(    -0.52514964,    -0.52514964,     0.07087250,     0.07087250) ppm
@@ -1190,7 +1190,7 @@ dia1(k,t,iat1,ispin)=(  1,  3,  4,  2)=(     1.39189757,     2.88381205) ppm
 dia1(k,t,iat1,ispin)=(  2,  1,  4,  1)=(     4.18860663,     4.18860663) ppm
 dia1(k,t,iat1,ispin)=(  2,  1,  4,  2)=(     3.32833257,     7.51693920) ppm
 dia1(k,t,iat1,ispin)=(  2,  2,  4,  1)=(    18.28210078,    18.28210078) ppm
-dia1(k,t,iat1,ispin)=(  2,  2,  4,  2)=(    15.10828545,    33.39038623) ppm
+dia1(k,t,iat1,ispin)=(  2,  2,  4,  2)=(    15.10828546,    33.39038623) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  4,  1)=(     2.58314612,     2.58314612) ppm
 dia1(k,t,iat1,ispin)=(  2,  3,  4,  2)=(     2.41007853,     4.99322465) ppm
 dia1(k,t,iat1,ispin)=(  3,  1,  4,  1)=(     1.56371603,     1.56371603) ppm
@@ -1206,7 +1206,7 @@ dia1(k,t,iat1,ispin)=(  3,  3,  4,  2)=(    10.70956839,    21.48586459) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  1,  4,  1)=(    -0.54339138,    -0.54339138,    -0.00000039,    -0.00000039) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  1,  4,  2)=(    -0.62762315,    -1.17101453,    -0.00000044,    -0.00000083) ppm
 (dia2,par1)(k,t,iat1,spin)=(  1,  2,  4,  1)=(    -1.28306172,    -1.28306172,    -0.00000022,    -0.00000022) ppm
-(dia2,par1)(k,t,iat1,spin)=(  1,  2,  4,  2)=(    -1.23337036,    -2.51643209,    -0.00000026,    -0.00000048) ppm
+(dia2,par1)(k,t,iat1,spin)=(  1,  2,  4,  2)=(    -1.23337037,    -2.51643209,    -0.00000026,    -0.00000048) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  4,  1)=(     0.77975435,     0.77975435,     0.00000163,     0.00000163) ppm
 (dia2,par1)(k,t,iat1,spin)=(  2,  2,  4,  2)=(     0.93144850,     1.71120285,     0.00000190,     0.00000353) ppm
 (dia2,par1)(k,t,iat1,spin)=(  3,  2,  4,  1)=(    -0.94080735,    -0.94080735,    -0.00000066,    -0.00000066) ppm
@@ -1227,7 +1227,7 @@ In dft_zora_Hyperfine:: atomnr(  1)=    1
 In dft_zora_Hyperfine:: atomnr(  2)=    2
 In dft_zora_Hyperfine:: atomnr(  3)=    3
 In dft_zora_Hyperfine:: atomnr(  4)=    4
- starting at time       3.27s
+ starting at time       3.36s
 CHECK:(atom,ofinite,atmass,zetanucl_slc)=(   1,F,    12.00000000,                 680775029.28673303)
 gFCSD(  1,  1,  1)=     2.02644769
 gFCSD(  1,  1,  2)=     0.00000000
@@ -1238,7 +1238,7 @@ gFCSD(  1,  2,  3)=     0.00000000
 gFCSD(  1,  3,  1)=    -0.00004789
 gFCSD(  1,  3,  2)=     0.00000000
 gFCSD(  1,  3,  3)=     3.58387968
- starting at time       3.64s
+ starting at time       3.75s
 CHECK:(atom,ofinite,atmass,zetanucl_slc)=(   2,F,     1.00782500,                2118265472.55233526)
 gFCSD(  2,  1,  1)=     0.01213575
 gFCSD(  2,  1,  2)=     0.00000000
@@ -1249,7 +1249,7 @@ gFCSD(  2,  2,  3)=     0.00000000
 gFCSD(  2,  3,  1)=    -0.03426642
 gFCSD(  2,  3,  2)=     0.00000000
 gFCSD(  2,  3,  3)=    -0.05503591
- starting at time       4.02s
+ starting at time       4.15s
 CHECK:(atom,ofinite,atmass,zetanucl_slc)=(   3,F,     1.00782500,                2118265472.55233526)
 gFCSD(  3,  1,  1)=    -0.08472592
 gFCSD(  3,  1,  2)=    -0.05593593
@@ -1260,7 +1260,7 @@ gFCSD(  3,  2,  3)=    -0.02968568
 gFCSD(  3,  3,  1)=     0.01714247
 gFCSD(  3,  3,  2)=    -0.02968568
 gFCSD(  3,  3,  3)=    -0.05503676
- starting at time       4.39s
+ starting at time       4.55s
 CHECK:(atom,ofinite,atmass,zetanucl_slc)=(   4,F,     1.00782500,                2118265472.55233526)
 gFCSD(  4,  1,  1)=    -0.08472592
 gFCSD(  4,  1,  2)=     0.05593593
@@ -1279,7 +1279,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
  WARNING: SLC A-B contrib
  In dft_zora_EPR:: zora:Knucl= F
 (q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  1,  1)=( -0.00011427, -0.00007221, -0.00018648, -0.00130377, -0.00149025, -0.01197566, -0.01346591)
-(q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  1,  2)=( -0.00000000,  0.00000000, -0.00000000,  0.00000000,  0.00000000, -0.00000000, -0.00000000)
+(q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  1,  2)=(  0.00000000,  0.00000000,  0.00000000,  0.00000000,  0.00000000, -0.00000000,  0.00000000)
 (q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  1,  3)=(  0.00000011,  0.00000004,  0.00000016, -0.00000016, -0.00000000, -0.00000036, -0.00000036)
 (q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  2,  1)=(  0.00000000,  0.00000000,  0.00000000,  0.00000000,  0.00000000, -0.00000000,  0.00000000)
 (q1,-q2,q1-q2,q3,dia2,dia1,dia2+dia1)(  2,  2)=( -0.00011441, -0.00007223, -0.00018664, -0.00130385, -0.00149049, -0.01197585, -0.01346634)
@@ -1295,17 +1295,17 @@ In dft_zora_EPR:: slc_spinpolAO=  0
 
 
 
-         Total DFT energy =      -39.853430540724
-      One electron energy =      -71.613642214446
-           Coulomb energy =       28.594725899295
-    Exchange-Corr. energy =       -6.498769054772
+         Total DFT energy =      -39.853430540666
+      One electron energy =      -71.613642214362
+           Coulomb energy =       28.594725899190
+    Exchange-Corr. energy =       -6.498769054693
  Nuclear repulsion energy =        9.664254829200
 
        Scaling correction =        0.008762218376
 
- Numeric. integr. density =        9.000000142131
+ Numeric. integr. density =        9.000000142008
 
-     Total iterative time =      4.7s
+     Total iterative time =      4.9s
 
 
 
@@ -1313,13 +1313,13 @@ In dft_zora_EPR:: slc_spinpolAO=  0
                     ------------------------------------------
 
  Vector    1  Occ=1.000000D+00  E=-1.019050D+01
-              MO Center= -5.6D-08, -1.3D-14, -4.0D-05, r^2= 2.8D-02
+              MO Center= -5.6D-08, -1.2D-14, -4.0D-05, r^2= 2.8D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      1      0.564084  1 C  s                  2      0.462678  1 C  s          
 
  Vector    2  Occ=1.000000D+00  E=-7.005942D-01
-              MO Center= -1.9D-04, -6.0D-11, -1.9D-01, r^2= 9.4D-01
+              MO Center= -1.9D-04, -4.2D-11, -1.9D-01, r^2= 9.4D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      6      0.486139  1 C  s                 10      0.360602  1 C  s          
@@ -1329,7 +1329,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     18      0.080544  3 H  s                 21      0.080544  4 H  s          
 
  Vector    3  Occ=1.000000D+00  E=-4.145962D-01
-              MO Center=  2.4D-01,  1.2D-06, -1.6D-01, r^2= 1.2D+00
+              MO Center=  2.4D-01,  8.5D-07, -1.6D-01, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      0.320133  1 C  px                15      0.238371  2 H  s          
@@ -1339,7 +1339,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17     -0.087968  3 H  s                 20     -0.087967  4 H  s          
 
  Vector    4  Occ=1.000000D+00  E=-4.145846D-01
-              MO Center= -2.4D-01, -1.2D-06, -1.6D-01, r^2= 1.2D+00
+              MO Center= -2.4D-01, -8.5D-07, -1.6D-01, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.320137  1 C  py                 4      0.210946  1 C  py         
@@ -1349,7 +1349,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     22     -0.099082  4 H  s          
 
  Vector    5  Occ=1.000000D+00  E=-2.623992D-01
-              MO Center=  1.8D-06, -1.1D-11,  2.0D-01, r^2= 1.1D+00
+              MO Center=  1.8D-06, -5.4D-12,  2.0D-01, r^2= 1.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      0.458571  1 C  pz                 9      0.400724  1 C  pz         
@@ -1359,7 +1359,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17     -0.039038  3 H  s                 18     -0.038950  3 H  s          
 
  Vector    6  Occ=0.000000D+00  E= 5.462480D-02
-              MO Center=  1.9D-04, -1.3D-10, -4.7D-01, r^2= 4.7D+00
+              MO Center=  1.9D-04, -6.0D-11, -4.7D-01, r^2= 4.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.869118  1 C  s                 16     -0.920345  2 H  s          
@@ -1369,7 +1369,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      1     -0.057918  1 C  s                  5     -0.055981  1 C  pz         
 
  Vector    7  Occ=0.000000D+00  E= 1.189325D-01
-              MO Center=  7.3D-01, -2.8D-07, -4.9D-01, r^2= 4.3D+00
+              MO Center=  7.3D-01, -1.4D-07, -4.9D-01, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     16      2.003161  2 H  s                 11     -1.104538  1 C  px         
@@ -1379,36 +1379,36 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     18     -0.030066  3 H  s                 21     -0.030066  4 H  s          
 
  Vector    8  Occ=0.000000D+00  E= 1.189571D-01
-              MO Center= -7.3D-01,  2.8D-07, -4.9D-01, r^2= 4.3D+00
+              MO Center= -7.3D-01,  1.4D-07, -4.9D-01, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    19      1.735461  3 H  s                 22     -1.735460  4 H  s          
+    19      1.735460  3 H  s                 22     -1.735460  4 H  s          
     12     -1.104524  1 C  py                 8     -0.231374  1 C  py         
      4     -0.171577  1 C  py                18      0.052136  3 H  s          
     21     -0.052136  4 H  s                 17      0.027555  3 H  s          
     20     -0.027555  4 H  s          
 
  Vector    9  Occ=0.000000D+00  E= 2.878067D-01
-              MO Center=  1.5D-01,  2.5D-07,  1.0D-01, r^2= 2.9D+00
+              MO Center=  1.5D-01,  1.4D-07,  1.0D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.378682  1 C  py                18     -1.075684  3 H  s          
-    21      1.075685  4 H  s                 19      0.263086  3 H  s          
+    21      1.075684  4 H  s                 19      0.263086  3 H  s          
     22     -0.263086  4 H  s                 17     -0.081883  3 H  s          
     20      0.081884  4 H  s          
 
  Vector   10  Occ=0.000000D+00  E= 2.878348D-01
-              MO Center= -1.5D-01, -2.5D-07,  1.0D-01, r^2= 2.9D+00
+              MO Center= -1.5D-01, -1.4D-07,  1.0D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      1.378824  1 C  px                15     -1.242531  2 H  s          
-    18      0.620846  3 H  s                 21      0.620844  4 H  s          
+    18      0.620846  3 H  s                 21      0.620845  4 H  s          
     16      0.304183  2 H  s                 19     -0.151588  3 H  s          
     22     -0.151587  4 H  s                 14     -0.094573  2 H  s          
     17      0.047224  3 H  s                 20      0.047224  4 H  s          
 
  Vector   11  Occ=0.000000D+00  E= 3.862475D-01
-              MO Center=  1.3D-04,  6.1D-12, -3.7D-01, r^2= 2.5D+00
+              MO Center=  1.3D-04,  4.1D-12, -3.7D-01, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      1.370329  1 C  pz                10     -1.204601  1 C  s          
@@ -1418,7 +1418,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      2      0.061894  1 C  s                 14      0.040035  2 H  s          
 
  Vector   12  Occ=0.000000D+00  E= 4.430214D-01
-              MO Center= -3.4D-04,  9.5D-11,  4.3D-02, r^2= 2.3D+00
+              MO Center= -3.4D-04,  5.1D-11,  4.3D-02, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.594000  1 C  s                 15     -1.021565  2 H  s          
@@ -1428,7 +1428,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      5     -0.182102  1 C  pz                13      0.133579  1 C  pz         
 
  Vector   13  Occ=0.000000D+00  E= 5.831086D-01
-              MO Center=  2.7D-01, -1.9D-08, -1.8D-01, r^2= 2.9D+00
+              MO Center=  2.7D-01,  3.4D-08, -1.8D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     16     -1.862851  2 H  s                 11      1.776790  1 C  px         
@@ -1438,7 +1438,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      3     -0.278098  1 C  px                14      0.083002  2 H  s          
 
  Vector   14  Occ=0.000000D+00  E= 5.831523D-01
-              MO Center= -2.7D-01,  1.9D-08, -1.8D-01, r^2= 2.9D+00
+              MO Center= -2.7D-01, -3.4D-08, -1.8D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.776602  1 C  py                19     -1.613531  3 H  s          
@@ -1448,7 +1448,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     20     -0.071893  4 H  s          
 
  Vector   15  Occ=0.000000D+00  E= 7.124762D-01
-              MO Center= -3.7D-04,  1.4D-10, -2.8D-01, r^2= 2.7D+00
+              MO Center= -3.7D-04,  9.0D-11, -2.8D-01, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      4.135305  1 C  s                  6     -2.118709  1 C  s          
@@ -1458,7 +1458,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     18     -0.182543  3 H  s                 21     -0.182543  4 H  s          
 
  Vector   16  Occ=0.000000D+00  E= 2.154468D+00
-              MO Center= -1.2D-05,  4.4D-09, -3.3D-01, r^2= 2.0D+00
+              MO Center= -1.2D-05,  3.0D-09, -3.3D-01, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     15      1.349949  2 H  s                 18      1.350098  3 H  s          
@@ -1468,27 +1468,27 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      5     -0.336528  1 C  pz                16     -0.281886  2 H  s          
 
  Vector   17  Occ=0.000000D+00  E= 2.209064D+00
-              MO Center=  5.2D-01,  2.2D-06, -3.6D-01, r^2= 1.8D+00
+              MO Center=  5.2D-01,  4.0D-07, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     15      1.752260  2 H  s                 14     -1.166928  2 H  s          
-    16     -0.981979  2 H  s                 18     -0.876179  3 H  s          
-    21     -0.876173  4 H  s                  7     -0.671502  1 C  px         
-    17      0.583436  3 H  s                 20      0.583431  4 H  s          
-    19      0.490862  3 H  s                 22      0.490858  4 H  s          
+    16     -0.981979  2 H  s                 18     -0.876176  3 H  s          
+    21     -0.876175  4 H  s                  7     -0.671502  1 C  px         
+    17      0.583434  3 H  s                 20      0.583433  4 H  s          
+    19      0.490860  3 H  s                 22      0.490860  4 H  s          
 
  Vector   18  Occ=0.000000D+00  E= 2.209110D+00
-              MO Center= -5.2D-01, -2.2D-06, -3.6D-01, r^2= 1.8D+00
+              MO Center= -5.2D-01, -4.0D-07, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    18      1.517663  3 H  s                 21     -1.517667  4 H  s          
-    17     -1.010645  3 H  s                 20      1.010648  4 H  s          
-    19     -0.850407  3 H  s                 22      0.850409  4 H  s          
+    18      1.517664  3 H  s                 21     -1.517665  4 H  s          
+    17     -1.010646  3 H  s                 20      1.010647  4 H  s          
+    19     -0.850407  3 H  s                 22      0.850408  4 H  s          
      8     -0.671205  1 C  py                 4      0.472947  1 C  py         
     12      0.148122  1 C  py         
 
  Vector   19  Occ=0.000000D+00  E= 2.622674D+00
-              MO Center=  2.3D-05,  4.5D-11, -2.1D-02, r^2= 8.5D-01
+              MO Center=  2.3D-05,  2.6D-11, -2.1D-02, r^2= 8.5D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.439710  1 C  pz                 5     -1.270775  1 C  pz         
@@ -1498,27 +1498,27 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17      0.278977  3 H  s                 20      0.278977  4 H  s          
 
  Vector   20  Occ=0.000000D+00  E= 2.876302D+00
-              MO Center=  1.8D-02,  5.7D-08,  1.2D-02, r^2= 9.1D-01
+              MO Center=  1.8D-02,  3.1D-08,  1.2D-02, r^2= 9.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      1.611121  1 C  py                 4     -1.268494  1 C  py         
     12     -1.060753  1 C  py                17     -0.512975  3 H  s          
-    20      0.512976  4 H  s                 18      0.375137  3 H  s          
+    20      0.512976  4 H  s                 18      0.375138  3 H  s          
     21     -0.375138  4 H  s                 19      0.368763  3 H  s          
-    22     -0.368764  4 H  s          
+    22     -0.368763  4 H  s          
 
  Vector   21  Occ=0.000000D+00  E= 2.876397D+00
-              MO Center= -1.7D-02, -5.6D-08,  1.2D-02, r^2= 9.1D-01
+              MO Center= -1.7D-02, -3.1D-08,  1.2D-02, r^2= 9.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      1.610957  1 C  px                 3     -1.268444  1 C  px         
     11     -1.060723  1 C  px                14     -0.592391  2 H  s          
     15      0.433365  2 H  s                 16      0.425510  2 H  s          
-    17      0.296313  3 H  s                 20      0.296311  4 H  s          
+    17      0.296312  3 H  s                 20      0.296311  4 H  s          
     18     -0.216745  3 H  s                 21     -0.216744  4 H  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.325982D+01
-              MO Center= -3.4D-06,  9.9D-14, -4.4D-03, r^2= 9.5D-02
+              MO Center= -3.4D-06,  5.0D-14, -4.4D-03, r^2= 9.5D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2     -2.170490  1 C  s                  1      2.025185  1 C  s          
@@ -1532,13 +1532,13 @@ In dft_zora_EPR:: slc_spinpolAO=  0
                      -----------------------------------------
 
  Vector    1  Occ=1.000000D+00  E=-1.017506D+01
-              MO Center= -5.4D-08, -1.7D-14, -1.0D-04, r^2= 2.8D-02
+              MO Center= -5.4D-08, -1.4D-14, -1.0D-04, r^2= 2.8D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      1      0.564595  1 C  s                  2      0.462694  1 C  s          
 
  Vector    2  Occ=1.000000D+00  E=-6.647667D-01
-              MO Center= -2.1D-04, -6.3D-11, -2.3D-01, r^2= 9.6D-01
+              MO Center= -2.1D-04, -4.5D-11, -2.3D-01, r^2= 9.6D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      6      0.455930  1 C  s                 10      0.298530  1 C  s          
@@ -1548,7 +1548,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17      0.103508  3 H  s                 20      0.103508  4 H  s          
 
  Vector    3  Occ=1.000000D+00  E=-4.022209D-01
-              MO Center=  2.6D-01,  1.0D-06, -1.7D-01, r^2= 1.2D+00
+              MO Center=  2.6D-01,  7.4D-07, -1.7D-01, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      0.300202  1 C  px                15      0.257118  2 H  s          
@@ -1558,7 +1558,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17     -0.090743  3 H  s                 20     -0.090742  4 H  s          
 
  Vector    4  Occ=1.000000D+00  E=-4.022079D-01
-              MO Center= -2.6D-01, -1.0D-06, -1.7D-01, r^2= 1.2D+00
+              MO Center= -2.6D-01, -7.4D-07, -1.7D-01, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.300207  1 C  py                18      0.222658  3 H  s          
@@ -1568,7 +1568,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     22     -0.113968  4 H  s          
 
  Vector    5  Occ=0.000000D+00  E=-8.552267D-02
-              MO Center=  7.1D-06, -1.6D-11,  2.5D-01, r^2= 1.3D+00
+              MO Center=  7.1D-06, -9.0D-12,  2.5D-01, r^2= 1.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      0.592553  1 C  pz                 9      0.300473  1 C  pz         
@@ -1578,7 +1578,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17     -0.035485  3 H  s                 20     -0.035485  4 H  s          
 
  Vector    6  Occ=0.000000D+00  E= 5.998793D-02
-              MO Center=  1.2D-04, -8.5D-11, -4.7D-01, r^2= 4.8D+00
+              MO Center=  1.2D-04, -3.4D-11, -4.7D-01, r^2= 4.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.906451  1 C  s                 16     -0.932514  2 H  s          
@@ -1588,7 +1588,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      1     -0.057448  1 C  s                  5     -0.057225  1 C  pz         
 
  Vector    7  Occ=0.000000D+00  E= 1.250021D-01
-              MO Center=  7.3D-01, -1.4D-07, -5.0D-01, r^2= 4.4D+00
+              MO Center=  7.3D-01, -6.2D-08, -5.0D-01, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     16      2.039868  2 H  s                 11     -1.097169  1 C  px         
@@ -1596,7 +1596,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      7     -0.219086  1 C  px                 3     -0.171183  1 C  px         
 
  Vector    8  Occ=0.000000D+00  E= 1.250249D-01
-              MO Center= -7.3D-01,  1.4D-07, -5.0D-01, r^2= 4.4D+00
+              MO Center= -7.3D-01,  6.2D-08, -5.0D-01, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     19      1.767217  3 H  s                 22     -1.767217  4 H  s          
@@ -1604,7 +1604,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      4     -0.171171  1 C  py         
 
  Vector    9  Occ=0.000000D+00  E= 2.955504D-01
-              MO Center=  1.6D-01,  2.3D-07,  1.1D-01, r^2= 2.9D+00
+              MO Center=  1.6D-01,  1.3D-07,  1.1D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.419876  1 C  py                18     -1.071808  3 H  s          
@@ -1613,17 +1613,17 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     20      0.080998  4 H  s          
 
  Vector   10  Occ=0.000000D+00  E= 2.955806D-01
-              MO Center= -1.6D-01, -2.3D-07,  1.1D-01, r^2= 2.9D+00
+              MO Center= -1.6D-01, -1.3D-07,  1.1D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      1.420024  1 C  px                15     -1.238075  2 H  s          
-    18      0.618588  3 H  s                 21      0.618586  4 H  s          
+    18      0.618588  3 H  s                 21      0.618587  4 H  s          
     16      0.238524  2 H  s                 19     -0.118759  3 H  s          
     22     -0.118759  4 H  s                 14     -0.093553  2 H  s          
     17      0.046711  3 H  s                 20      0.046711  4 H  s          
 
  Vector   11  Occ=0.000000D+00  E= 4.247057D-01
-              MO Center=  1.2D-05,  5.3D-11, -7.0D-01, r^2= 2.1D+00
+              MO Center=  1.2D-05,  3.2D-11, -7.0D-01, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.880908  1 C  s                 13     -1.132209  1 C  pz         
@@ -1633,7 +1633,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      2     -0.076990  1 C  s                 14     -0.069767  2 H  s          
 
  Vector   12  Occ=0.000000D+00  E= 4.873424D-01
-              MO Center= -2.1D-04,  4.9D-11,  3.3D-01, r^2= 2.0D+00
+              MO Center= -2.1D-04,  2.5D-11,  3.3D-01, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      0.917524  1 C  pz                13     -0.737659  1 C  pz         
@@ -1643,7 +1643,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     19     -0.222966  3 H  s                 22     -0.222966  4 H  s          
 
  Vector   13  Occ=0.000000D+00  E= 5.962080D-01
-              MO Center=  2.6D-01, -2.2D-08, -1.8D-01, r^2= 2.9D+00
+              MO Center=  2.6D-01,  2.6D-08, -1.8D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     16     -1.832830  2 H  s                 11      1.753173  1 C  px         
@@ -1653,7 +1653,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      3     -0.281737  1 C  px                14      0.079522  2 H  s          
 
  Vector   14  Occ=0.000000D+00  E= 5.962518D-01
-              MO Center= -2.6D-01,  2.2D-08, -1.8D-01, r^2= 2.9D+00
+              MO Center= -2.6D-01, -2.6D-08, -1.8D-01, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.752990  1 C  py                19     -1.587573  3 H  s          
@@ -1663,7 +1663,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     20     -0.068880  4 H  s          
 
  Vector   15  Occ=0.000000D+00  E= 7.395412D-01
-              MO Center= -3.2D-04,  1.2D-10, -2.4D-01, r^2= 2.6D+00
+              MO Center= -3.2D-04,  7.6D-11, -2.4D-01, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      4.127552  1 C  s                  6     -2.130446  1 C  s          
@@ -1673,7 +1673,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     18     -0.201559  3 H  s                 21     -0.201559  4 H  s          
 
  Vector   16  Occ=0.000000D+00  E= 2.157041D+00
-              MO Center=  1.4D-05,  4.1D-09, -3.4D-01, r^2= 2.0D+00
+              MO Center=  1.4D-05,  2.7D-09, -3.4D-01, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     15      1.358808  2 H  s                 18      1.358912  3 H  s          
@@ -1683,27 +1683,27 @@ In dft_zora_EPR:: slc_spinpolAO=  0
      5     -0.299852  1 C  pz                16     -0.280942  2 H  s          
 
  Vector   17  Occ=0.000000D+00  E= 2.209267D+00
-              MO Center=  5.2D-01,  2.0D-06, -3.6D-01, r^2= 1.8D+00
+              MO Center=  5.2D-01,  3.0D-07, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     15      1.755487  2 H  s                 14     -1.170507  2 H  s          
-    16     -0.977103  2 H  s                 18     -0.877821  3 H  s          
-    21     -0.877815  4 H  s                  7     -0.658184  1 C  px         
-    17      0.585244  3 H  s                 20      0.585240  4 H  s          
-    19      0.488428  3 H  s                 22      0.488424  4 H  s          
+    16     -0.977103  2 H  s                 18     -0.877819  3 H  s          
+    21     -0.877818  4 H  s                  7     -0.658184  1 C  px         
+    17      0.585242  3 H  s                 20      0.585241  4 H  s          
+    19      0.488426  3 H  s                 22      0.488426  4 H  s          
 
  Vector   18  Occ=0.000000D+00  E= 2.209312D+00
-              MO Center= -5.2D-01, -2.0D-06, -3.6D-01, r^2= 1.8D+00
+              MO Center= -5.2D-01, -3.0D-07, -3.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    18      1.520471  3 H  s                 21     -1.520474  4 H  s          
-    17     -1.013754  3 H  s                 20      1.013756  4 H  s          
-    19     -0.846185  3 H  s                 22      0.846187  4 H  s          
+    18      1.520472  3 H  s                 21     -1.520473  4 H  s          
+    17     -1.013755  3 H  s                 20      1.013755  4 H  s          
+    19     -0.846186  3 H  s                 22      0.846186  4 H  s          
      8     -0.657889  1 C  py                 4      0.465765  1 C  py         
     12      0.137440  1 C  py         
 
  Vector   19  Occ=0.000000D+00  E= 2.691737D+00
-              MO Center=  1.8D-05,  3.5D-11, -1.0D-02, r^2= 8.1D-01
+              MO Center=  1.8D-05,  1.9D-11, -1.0D-02, r^2= 8.1D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.440772  1 C  pz                 5     -1.283406  1 C  pz         
@@ -1713,17 +1713,17 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     17      0.252503  3 H  s                 20      0.252503  4 H  s          
 
  Vector   20  Occ=0.000000D+00  E= 2.892050D+00
-              MO Center=  1.9D-02,  5.7D-08,  1.3D-02, r^2= 9.0D-01
+              MO Center=  1.9D-02,  3.0D-08,  1.3D-02, r^2= 9.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      1.615069  1 C  py                 4     -1.271362  1 C  py         
     12     -1.057268  1 C  py                17     -0.506269  3 H  s          
     20      0.506270  4 H  s                 19      0.372189  3 H  s          
-    22     -0.372190  4 H  s                 18      0.364557  3 H  s          
+    22     -0.372190  4 H  s                 18      0.364558  3 H  s          
     21     -0.364558  4 H  s          
 
  Vector   21  Occ=0.000000D+00  E= 2.892143D+00
-              MO Center= -1.9D-02, -5.6D-08,  1.3D-02, r^2= 9.0D-01
+              MO Center= -1.9D-02, -3.0D-08,  1.3D-02, r^2= 9.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      1.614909  1 C  px                 3     -1.271314  1 C  px         
@@ -1733,7 +1733,7 @@ In dft_zora_EPR:: slc_spinpolAO=  0
     19     -0.214851  3 H  s                 22     -0.214850  4 H  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.327773D+01
-              MO Center= -3.4D-06,  9.4D-14, -4.3D-03, r^2= 9.5D-02
+              MO Center= -3.4D-06,  4.7D-14, -4.3D-03, r^2= 9.5D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2     -2.170655  1 C  s                  1      2.025044  1 C  s          
@@ -1838,13 +1838,13 @@ nat_slc=   4
 
  Integral file          = ./ch3radical_unrot.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      2        Max. records in file   = 161655
+ Max. records in memory =      2        Max. records in file   = 161930
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
 File balance: exchanges=     0  moved=     0  time=   0.0
 
- SCF residual:    1.7496625284137345E-006
+ SCF residual:    1.7496736521133394E-006
 
 
 Iterative solution of linear equations
@@ -1853,12 +1853,12 @@ Iterative solution of linear equations
   Maximum subspace       30
         Iterations       50
        Convergence  1.0D-04
-        Start time      5.6
+        Start time      5.8
 
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      3    3.12D-05       5.7
+     1      3    3.12D-05       5.9
 
  Parallel integral file used       4 records with       0 large values
 
@@ -1932,8 +1932,8 @@ NW:(dia,par,dia+par)(3,3,4)=(    -0.05503676     -0.00000000     -0.05503676 )
         1           2           3                 1           2           3
       2.0264      2.0264      3.5839           271.9299    271.9299    480.9224
 
-1    -0.0002      1.0000     -0.0000
-2     1.0000      0.0002      0.0000
+1    -0.0001      1.0000     -0.0000
+2     1.0000      0.0001      0.0000
 3    -0.0000      0.0000      1.0000
 
 
@@ -2082,13 +2082,13 @@ NW:(dia,par,dia+par)(3,3,4)=(    -0.05503676     -0.00000000     -0.05503676 )
 
  Integral file          = ./ch3radical_unrot.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      2        Max. records in file   = 161655
+ Max. records in memory =      2        Max. records in file   = 161930
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
 File balance: exchanges=     0  moved=     0  time=   0.0
 
- SCF residual:    1.7496625290456247E-006
+ SCF residual:    1.7496736508314608E-006
 
 
 Iterative solution of linear equations
@@ -2097,15 +2097,15 @@ Iterative solution of linear equations
   Maximum subspace       30
         Iterations       50
        Convergence  1.0D-04
-        Start time      6.2
+        Start time      6.4
 
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      3    4.00D-01       6.4
-     2      6    9.37D-03       6.5
-     3      9    5.48D-04       6.7
-     4     12    1.36D-05       6.8
+     1      3    4.00D-01       6.6
+     2      6    9.37D-03       6.8
+     3      9    5.48D-04       6.9
+     4     12    1.36D-05       7.1
 
  Parallel integral file used       4 records with       0 large values
 
@@ -2269,13 +2269,13 @@ nocc=(  5,  4) nclos=(  0,  0) nvirt=( 17, 18) scftyp=UHF)
 
  Integral file          = ./ch3radical_unrot.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      2        Max. records in file   = 161655
+ Max. records in memory =      2        Max. records in file   = 161930
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
 File balance: exchanges=     0  moved=     0  time=   0.0
 
- SCF residual:    1.7496625281095400E-006
+ SCF residual:    1.7496736510281177E-006
 
 
 Iterative solution of linear equations
@@ -2284,15 +2284,15 @@ Iterative solution of linear equations
   Maximum subspace       30
         Iterations       50
        Convergence  1.0D-04
-        Start time      7.3
+        Start time      7.6
 
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
-     1      3    4.00D-01       7.5
-     2      6    9.37D-03       7.6
-     3      9    5.48D-04       7.8
-     4     12    1.36D-05       7.9
+     1      3    4.00D-01       7.7
+     2      6    9.37D-03       7.9
+     3      9    5.48D-04       8.0
+     4     12    1.36D-05       8.2
 
  Parallel integral file used       4 records with       0 large values
 
@@ -2306,7 +2306,7 @@ NW-1:(dia,gauge,OO,OV,Totpar)(2,1)=(    0.000000     0.000000    -0.000000     0
 NW-1:(dia,gauge,OO,OV,Totpar)(2,2)=(   -0.850206    -0.000560     0.177161    -0.263977    -0.087377 )
 NW-1:(dia,gauge,OO,OV,Totpar)(2,3)=(   -0.000000     0.000000    -0.000000     0.000000    -0.000000 )
 NW-1:(dia,gauge,OO,OV,Totpar)(3,1)=(    0.000001     0.000001    -0.000010    -0.000017    -0.000026 )
-NW-1:(dia,gauge,OO,OV,Totpar)(3,2)=(   -0.000000     0.000000    -0.000000    -0.000000    -0.000000 )
+NW-1:(dia,gauge,OO,OV,Totpar)(3,2)=(   -0.000000     0.000000     0.000000     0.000000     0.000000 )
 NW-1:(dia,gauge,OO,OV,Totpar)(3,3)=(   -0.880676    -0.002514     0.213574    -0.343796    -0.132737 )
 NW-2:(dia,gauge,OO,OV,Totpar)(1,1)=(   -0.836742    -0.000632     0.010479    -0.881773    -0.871927 )
 NW-2:(dia,gauge,OO,OV,Totpar)(1,2)=(    0.000000     0.000000    -0.000000     0.000000     0.000000 )
@@ -2355,7 +2355,7 @@ NW-T:(dia,gauge,OO,OV,Totpar)(3,3)=(   -0.027951     0.000330    -0.006751     0
 
 
 
- Task  times  cpu:        7.1s     wall:        7.2s
+ Task  times  cpu:        7.4s     wall:        7.5s
 
 
                                 NWChem Input Module
@@ -2374,10 +2374,10 @@ NW-T:(dia,gauge,OO,OV,Totpar)(3,3)=(   -0.027951     0.000330    -0.006751     0
                          ------------------------------
 
        create   destroy   get      put      acc     scatter   gather  read&inc
-calls: 2070     2066     3.02e+05 7294     8.32e+04  491        0      448     
-number of processes/call 1.03e+00 1.77e+00 1.20e+00 0.00e+00 0.00e+00
-bytes total:             2.94e+07 4.89e+06 1.95e+07 8.16e+02 0.00e+00 3.58e+03
-bytes remote:            7.68e+06 1.80e+06 6.80e+06 -1.44e+02 0.00e+00 0.00e+00
+calls: 2070     2066     2.77e+05 7296     8.47e+04  491        0      457     
+number of processes/call 1.03e+00 1.77e+00 1.21e+00 0.00e+00 0.00e+00
+bytes total:             2.75e+07 4.89e+06 2.00e+07 8.16e+02 0.00e+00 3.66e+03
+bytes remote:            7.02e+06 1.80e+06 7.16e+06 -1.44e+02 0.00e+00 0.00e+00
 Max memory consumed for GA by this process: 195752 bytes
 
 MA_summarize_allocated_blocks: starting scan ...
@@ -2388,7 +2388,7 @@ MA usage statistics:
 					      heap	     stack
 					      ----	     -----
 	current number of blocks	         0	         0
-	maximum number of blocks	        62	        72
+	maximum number of blocks	        62	        70
 	current total bytes		         0	         0
 	maximum total bytes		   2683264	  22519496
 	maximum total K-bytes		      2684	     22520
@@ -2429,5 +2429,5 @@ MA usage statistics:
       T. Nakajima, S. Niu, L. Pollack, M. Rosing, K. Glaesemann, G. Sandrone,
       M. Stave, H. Taylor, G. Thomas, J. H. van Lenthe, A. T. Wong, Z. Zhang.
 
- Total times  cpu:        7.8s     wall:        8.0s
+ Total times  cpu:        8.1s     wall:        8.2s
 [0] ARMCI Warning: Freed 1 leaked allocations

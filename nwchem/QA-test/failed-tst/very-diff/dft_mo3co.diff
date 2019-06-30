@@ -1,34 +1,12 @@
 8c8
 < Total DFT energy = -205.39644
 ---
-> Total DFT energy = -205.37198
-18c18
-<          mo     0.0000     0.0000     0.0000
----
->          mo    -0.0001     0.0000     0.0000
-22c22
-<           o     0.0000     0.0000    -0.0001
----
->           o     0.0000     0.0000     0.0000
+> Total DFT energy = -205.38675
 24c24
 < Effective nuclear repulsion energy (a.u.) 1492.590
 ---
-> Effective nuclear repulsion energy (a.u.) 1492.585
-28c28
-<          mo    -2.2521    -0.7119     0.4402
----
->          mo    -2.2521    -0.7120     0.4403
-30,31c30,31
-<           c     0.0019     3.5997    -1.8821
-<           o    -0.6948     4.5861    -3.8172
----
->           c     0.0018     3.5995    -1.8822
->           o    -0.6947     4.5864    -3.8172
-36c36
-<           c     0.0000     0.0000     0.0001
----
->           c     0.0000     0.0000     0.0000
+> Effective nuclear repulsion energy (a.u.) 1492.592
 38c38
 < Effective nuclear repulsion energy (a.u.) 1492.590
 ---
-> Effective nuclear repulsion energy (a.u.) 1492.585
+> Effective nuclear repulsion energy (a.u.) 1492.592

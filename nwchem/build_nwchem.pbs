@@ -21,6 +21,7 @@
 # scalapack 2.0.2
 # mkl 2019.04
 # gcc 7.4.0
+# compile hotfix6.8 branch of nwchem
 #*******************************************************************
 
 module load openmpi mkl

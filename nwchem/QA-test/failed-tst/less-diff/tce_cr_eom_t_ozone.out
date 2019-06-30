@@ -1,4 +1,4 @@
- argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/tce_cr_eom_t_ozone/tce_cr_eom_t_ozone.nw
+ argument  1 = /home/list1234/source/nwchem-6.8.1/QA/tests/tce_cr_eom_t_ozone/tce_cr_eom_t_ozone.nw
 
 
 
@@ -81,7 +81,7 @@ task tce energy
                        Pacific Northwest National Laboratory
                                 Richland, WA 99352
 
-                              Copyright (c) 1994-2018
+                              Copyright (c) 1994-2017
                        Pacific Northwest National Laboratory
                             Battelle Memorial Institute
 
@@ -107,16 +107,16 @@ task tce energy
            ---------------
 
     hostname        = list1234-B360M-H
-    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
-    date            = Sun Jun 30 12:53:00 2019
+    program         = /home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem
+    date            = Sun Jun 30 23:13:29 2019
 
-    compiled        = Sun_Jun_30_11:55:59_2019
-    source          = /home/list1234/source/nwchem-6.8.1-release
-    nwchem branch   = Development
-    nwchem revision = N/A
+    compiled        = Sun_Jun_30_20:37:07_2019
+    source          = /home/list1234/source/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-160-gc00cf755d
     ga revision     = 5.6.5
     use scalapack   = T
-    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/tce_cr_eom_t_ozone/tce_cr_eom_t_ozone.nw
+    input           = /home/list1234/source/nwchem-6.8.1/QA/tests/tce_cr_eom_t_ozone/tce_cr_eom_t_ozone.nw
     prefix          = tce_cr_eom_t_ozone.
     data base       = ./tce_cr_eom_t_ozone.db
     status          = startup
@@ -156,8 +156,6 @@ task tce energy
           ------
           auto-z
           ------
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
 
                              Geometry "geometry" -> ""
@@ -372,7 +370,7 @@ task tce energy
 
  Integral file          = ./tce_cr_eom_t_ozone.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =     10        Max. records in file   = 161691
+ Max. records in memory =     10        Max. records in file   = 161944
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -384,18 +382,18 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
               iter       energy          gnorm     gmax       time
              ----- ------------------- --------- --------- --------
-                 1     -224.1518589383  1.89D+00  6.42D-01      0.2
+                 1     -224.1518589383  1.89D+00  6.42D-01      0.3
                  2     -224.3121598849  4.03D-01  8.70D-02      0.3
                  3     -224.3273672691  2.13D-02  6.58D-03      0.3
                  4     -224.3274304255  1.63D-04  5.47D-05      0.4
                  5     -224.3274304290  5.11D-09  1.12D-09      0.5
-                 6     -224.3274304290  9.25D-12  3.13D-12      0.5
+                 6     -224.3274304290  9.35D-12  3.19D-12      0.5
 
 
        Final RHF  results 
        ------------------ 
 
-         Total SCF energy =   -224.327430429000
+         Total SCF energy =   -224.327430429001
       One-electron energy =   -445.079396986056
       Two-electron energy =    151.871244521573
  Nuclear repulsion energy =     68.880722035483
@@ -450,14 +448,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                        -------------------------------------
 
  Vector    3  Occ=2.000000D+00  E=-2.071030D+01  Symmetry=a1
-              MO Center=  1.0D-19,  1.0D-10, -2.2D-01, r^2= 1.2D+00
+              MO Center= -2.2D-19,  2.0D-15, -2.2D-01, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     26      0.469350  2 O  s                 50      0.469350  3 O  s          
     25      0.296450  2 O  s                 49      0.296450  3 O  s          
 
  Vector    4  Occ=2.000000D+00  E=-1.757565D+00  Symmetry=a1
-              MO Center=  3.9D-17, -1.5D-15,  1.5D-01, r^2= 6.8D-01
+              MO Center=  9.6D-16, -4.2D-15,  1.5D-01, r^2= 6.8D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      0.420706  1 O  s                  4      0.375674  1 O  s          
@@ -466,7 +464,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     52      0.163760  3 O  s          
 
  Vector    5  Occ=2.000000D+00  E=-1.437565D+00  Symmetry=b2
-              MO Center=  5.3D-33, -2.5D-16, -2.0D-02, r^2= 1.2D+00
+              MO Center=  6.8D-18, -1.6D-14, -2.0D-02, r^2= 1.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     28     -0.350477  2 O  s                 52      0.350477  3 O  s          
@@ -475,7 +473,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     50     -0.162850  3 O  s          
 
  Vector    6  Occ=2.000000D+00  E=-1.096031D+00  Symmetry=a1
-              MO Center=  2.5D-17, -4.6D-15,  3.7D-02, r^2= 1.6D+00
+              MO Center=  1.2D-31,  2.1D-15,  3.7D-02, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      0.434830  1 O  s                 28     -0.357885  2 O  s          
@@ -485,7 +483,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      5      0.151327  1 O  s          
 
  Vector    7  Occ=2.000000D+00  E=-8.364700D-01  Symmetry=a1
-              MO Center=  8.5D-16,  9.9D-15,  2.0D-01, r^2= 1.4D+00
+              MO Center=  4.1D-15,  6.5D-14,  2.0D-01, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.557273  1 O  pz                31     -0.302049  2 O  py         
@@ -493,7 +491,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     28      0.179971  2 O  s                 52      0.179971  3 O  s          
 
  Vector    8  Occ=2.000000D+00  E=-8.044974D-01  Symmetry=b2
-              MO Center=  4.6D-31, -4.0D-15, -1.6D-01, r^2= 1.6D+00
+              MO Center= -2.3D-16, -1.1D-14, -1.6D-01, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      0.476058  1 O  py                28      0.278666  2 O  s          
@@ -503,14 +501,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     27      0.182248  2 O  s                 51     -0.182248  3 O  s          
 
  Vector    9  Occ=2.000000D+00  E=-7.856812D-01  Symmetry=b1
-              MO Center= -5.2D-16,  1.9D-15,  1.7D-01, r^2= 1.0D+00
+              MO Center= -3.8D-15,  1.7D-15,  1.7D-01, r^2= 1.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      6      0.566944  1 O  px                30      0.302266  2 O  px         
     54      0.302266  3 O  px                 9      0.232434  1 O  px         
 
  Vector   10  Occ=2.000000D+00  E=-5.659631D-01  Symmetry=b2
-              MO Center=  4.1D-17, -1.7D-14, -1.6D-01, r^2= 1.8D+00
+              MO Center= -4.3D-16, -2.0D-13, -1.6D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32     -0.399854  2 O  pz                56      0.399854  3 O  pz         
@@ -519,7 +517,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     35     -0.185466  2 O  pz                59      0.185466  3 O  pz         
 
  Vector   11  Occ=2.000000D+00  E=-5.550580D-01  Symmetry=a1
-              MO Center= -3.0D-16, -8.4D-15, -1.1D-01, r^2= 1.6D+00
+              MO Center= -6.5D-16, -9.4D-14, -1.1D-01, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      0.494388  2 O  pz                56      0.494388  3 O  pz         
@@ -527,14 +525,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     59      0.224913  3 O  pz                 4     -0.151929  1 O  s          
 
  Vector   12  Occ=2.000000D+00  E=-4.901442D-01  Symmetry=a2
-              MO Center= -4.3D-17, -1.9D-15, -1.9D-01, r^2= 1.8D+00
+              MO Center= -3.7D-17, -1.6D-15, -1.9D-01, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     30      0.522340  2 O  px                54     -0.522340  3 O  px         
     33      0.275875  2 O  px                57     -0.275875  3 O  px         
 
  Vector   13  Occ=0.000000D+00  E=-4.949680D-02  Symmetry=b1
-              MO Center= -1.1D-16, -8.6D-17,  1.3D-03, r^2= 1.8D+00
+              MO Center= -2.4D-16, -1.6D-16,  1.3D-03, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      6      0.546193  1 O  px                30     -0.416683  2 O  px         
@@ -544,7 +542,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     60     -0.190344  3 O  px         
 
  Vector   14  Occ=0.000000D+00  E= 1.105798D-01  Symmetry=b2
-              MO Center= -1.8D-18,  5.1D-15, -2.2D-01, r^2= 1.2D+01
+              MO Center=  1.1D-17,  2.2D-16, -2.2D-01, r^2= 1.2D+01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     29      4.377919  2 O  s                 53     -4.377919  3 O  s          
@@ -554,7 +552,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     34      0.646061  2 O  py                58      0.646061  3 O  py         
 
  Vector   15  Occ=0.000000D+00  E= 1.132051D-01  Symmetry=a1
-              MO Center= -7.4D-18,  5.1D-15,  1.0D+00, r^2= 9.6D+00
+              MO Center= -2.4D-17,  4.0D-15,  1.0D+00, r^2= 9.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5      7.370703  1 O  s                 29     -3.684815  2 O  s          
@@ -564,7 +562,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     11     -0.570728  1 O  pz                 4      0.548995  1 O  s          
 
  Vector   16  Occ=0.000000D+00  E= 1.335956D-01  Symmetry=a1
-              MO Center= -5.3D-19, -3.8D-15, -3.4D-01, r^2= 9.7D+00
+              MO Center=  2.9D-17, -9.7D-15, -3.4D-01, r^2= 9.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5      2.162064  1 O  s                 14      1.699532  1 O  pz         
@@ -574,7 +572,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     69      0.281415  3 O  d -1              11     -0.208875  1 O  pz         
 
  Vector   17  Occ=0.000000D+00  E= 1.605990D-01  Symmetry=b1
-              MO Center=  1.1D-16,  6.5D-17,  1.1D-01, r^2= 7.3D+00
+              MO Center=  7.1D-17,  3.4D-17,  1.1D-01, r^2= 7.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     36      0.459714  2 O  px                60      0.459714  3 O  px         
@@ -582,7 +580,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     57     -0.254528  3 O  px         
 
  Vector   18  Occ=0.000000D+00  E= 1.960138D-01  Symmetry=a1
-              MO Center= -1.7D-17,  1.8D-15, -6.4D-01, r^2= 8.4D+00
+              MO Center= -5.1D-17, -1.4D-15, -6.4D-01, r^2= 8.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     14      1.183008  1 O  pz                38     -0.841734  2 O  pz         
@@ -592,7 +590,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     35      0.206444  2 O  pz                59      0.206444  3 O  pz         
 
  Vector   19  Occ=0.000000D+00  E= 2.041025D-01  Symmetry=b2
-              MO Center= -2.9D-20,  1.1D-15, -8.6D-02, r^2= 9.6D+00
+              MO Center= -1.5D-18, -2.6D-15, -8.6D-02, r^2= 9.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     38      1.267885  2 O  pz                62     -1.267885  3 O  pz         
@@ -602,14 +600,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     10     -0.260728  1 O  py                28     -0.201912  2 O  s          
 
  Vector   20  Occ=0.000000D+00  E= 2.118017D-01  Symmetry=a2
-              MO Center= -4.8D-19,  1.2D-16, -2.1D-01, r^2= 9.6D+00
+              MO Center= -8.9D-17, -2.5D-16, -2.1D-01, r^2= 9.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     36      1.408684  2 O  px                60     -1.408684  3 O  px         
     33     -0.228647  2 O  px                57      0.228647  3 O  px         
 
  Vector   21  Occ=0.000000D+00  E= 2.210118D-01  Symmetry=b1
-              MO Center=  1.4D-17,  1.2D-15,  1.9D-01, r^2= 9.0D+00
+              MO Center= -9.2D-17, -8.5D-16,  1.9D-01, r^2= 9.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      3.420895  1 O  px                36     -1.847455  2 O  px         
@@ -617,7 +615,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     44     -0.155405  2 O  d -2              68      0.155405  3 O  d -2       
 
  Vector   22  Occ=0.000000D+00  E= 2.575905D-01  Symmetry=a1
-              MO Center=  8.7D-19,  5.7D-13,  8.3D-02, r^2= 5.7D+00
+              MO Center= -1.4D-15,  2.8D-13,  8.3D-02, r^2= 5.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     14      1.537295  1 O  pz                 5      1.516794  1 O  s          
@@ -627,7 +625,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     28      0.264570  2 O  s                 52      0.264570  3 O  s          
 
  Vector   23  Occ=0.000000D+00  E= 2.637839D-01  Symmetry=b2
-              MO Center= -2.9D-19,  2.9D-15,  5.7D-02, r^2= 1.1D+01
+              MO Center= -3.4D-16, -2.4D-14,  5.7D-02, r^2= 1.1D+01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      5.919665  1 O  py                29      3.092892  2 O  s          
@@ -637,7 +635,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     21     -0.342076  1 O  d -1              34      0.312769  2 O  py         
 
  Vector   24  Occ=0.000000D+00  E= 3.058948D-01  Symmetry=a1
-              MO Center=  2.0D-18, -3.9D-15,  1.3D-01, r^2= 4.4D+00
+              MO Center=  1.2D-17,  5.9D-15,  1.3D-01, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5      7.674805  1 O  s                 29     -3.635869  2 O  s          
@@ -647,7 +645,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     55     -0.375910  3 O  py                38     -0.365849  2 O  pz         
 
  Vector   25  Occ=0.000000D+00  E= 3.630387D-01  Symmetry=b2
-              MO Center= -7.1D-19,  3.3D-14, -1.0D-01, r^2= 5.9D+00
+              MO Center=  2.4D-18,  7.9D-14, -1.0D-01, r^2= 5.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     29      7.261900  2 O  s                 53     -7.261900  3 O  s          
@@ -657,7 +655,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     62     -1.188966  3 O  pz                37      1.052827  2 O  py         
 
  Vector   26  Occ=0.000000D+00  E= 4.155264D-01  Symmetry=a1
-              MO Center=  5.9D-17,  3.7D-15,  3.1D-03, r^2= 6.7D+00
+              MO Center=  1.1D-16, -5.3D-15,  3.1D-03, r^2= 6.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5     10.823796  1 O  s                 29     -5.288013  2 O  s          
@@ -667,7 +665,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     35     -0.597370  2 O  pz                59     -0.597370  3 O  pz         
 
  Vector   27  Occ=0.000000D+00  E= 4.453959D-01  Symmetry=b1
-              MO Center=  3.8D-16,  1.8D-13, -2.8D-01, r^2= 5.3D+00
+              MO Center= -7.3D-16,  1.8D-13, -2.8D-01, r^2= 5.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     12      1.118133  1 O  px                36     -0.621185  2 O  px         
@@ -676,7 +674,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     47      0.374724  2 O  d  1              71      0.374724  3 O  d  1       
 
  Vector   28  Occ=0.000000D+00  E= 4.725105D-01  Symmetry=b2
-              MO Center= -1.1D-18, -1.1D-13, -6.5D-02, r^2= 5.8D+00
+              MO Center=  4.6D-17,  7.1D-14, -6.5D-02, r^2= 5.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     29      7.305256  2 O  s                 53     -7.305256  3 O  s          
@@ -686,7 +684,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     35      0.920064  2 O  pz                59     -0.920064  3 O  pz         
 
  Vector   29  Occ=0.000000D+00  E= 4.861400D-01  Symmetry=a1
-              MO Center= -3.3D-16,  4.5D-15,  5.2D-01, r^2= 5.7D+00
+              MO Center=  3.9D-16,  7.0D-15,  5.2D-01, r^2= 5.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5     12.535535  1 O  s                 29     -6.088021  2 O  s          
@@ -696,7 +694,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     52     -1.214352  3 O  s                  4      0.953038  1 O  s          
 
  Vector   30  Occ=0.000000D+00  E= 5.389884D-01  Symmetry=b2
-              MO Center=  8.2D-17, -3.0D-14, -3.7D-02, r^2= 5.6D+00
+              MO Center= -1.1D-17, -7.8D-14, -3.7D-02, r^2= 5.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     29      4.816203  2 O  s                 53     -4.816203  3 O  s          
@@ -732,7 +730,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      -   - - -        -----         ----         -------
      0   0 0 0     -0.000000      0.000000     24.000000
 
-     1   1 0 0     -0.000000      0.000000      0.000000
+     1   1 0 0      0.000000      0.000000      0.000000
      1   0 1 0      0.000000      0.000000      0.000000
      1   0 0 1      0.306894      0.000000     -0.000000
 
@@ -851,7 +849,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Integral file          = ./tce_cr_eom_t_ozone.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =     10        Max. records in file   = 161691
+ Max. records in memory =     10        Max. records in file   = 161944
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -871,7 +869,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  2-e (intermediate) file size =        53514432
  2-e (intermediate) file name = ./tce_cr_eom_t_ozone.v2i
- Cpu & wall time / sec            2.0            2.1
+ Cpu & wall time / sec            2.1            2.1
 
  tce_mo2e: fast2e=1
  2-e integrals stored in memory
@@ -894,7 +892,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
  -----------------------------------------------------------------
  Iter          Residuum       Correlation     Cpu    Wall    V2*C2
  -----------------------------------------------------------------
-    1   0.2609153779236  -0.6556358351995     0.1     0.1     0.0
+    1   0.2609153779235  -0.6556358351995     0.1     0.1     0.0
     2   0.0854505682116  -0.5999210435909     0.1     0.1     0.0
     3   0.0330027501515  -0.6345458462178     0.1     0.1     0.0
     4   0.0223062042447  -0.6259238774813     0.1     0.1     0.0
@@ -904,7 +902,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     7   0.0024212944541  -0.6316687917779     0.1     0.1     0.0
     8   0.0011908164221  -0.6317758513286     0.1     0.1     0.0
     9   0.0009707199542  -0.6317901059355     0.1     0.1     0.0
-   10   0.0005110668543  -0.6318688356784     0.1     0.1     0.0
+   10   0.0005110668543  -0.6318688356785     0.1     0.1     0.0
  MICROCYCLE DIIS UPDATE:                   10                    5
    11   0.0000917265263  -0.6319515485180     0.1     0.1     0.0
    12   0.0000392671077  -0.6319383149878     0.1     0.1     0.0
@@ -917,8 +915,8 @@ File balance: exchanges=     0  moved=     0  time=   0.0
    18   0.0000008124139  -0.6319468192808     0.1     0.1     0.0
  -----------------------------------------------------------------
  Iterations converged
- CCSD correlation energy / hartree =        -0.631946819280827
- CCSD total energy / hartree       =      -224.959377248281186
+ CCSD correlation energy / hartree =        -0.631946819280833
+ CCSD total energy / hartree       =      -224.959377248281356
 
  Singles contributions
 
@@ -946,153 +944,153 @@ File balance: exchanges=     0  moved=     0  time=   0.0
  --------------------------------------------------------------
 
  Iteration   1 using    2 trial vectors
-   0.7028805226645   0.5584033376363   15.19493
-   0.7125332747305   0.5780408548754   15.72930     0.4     0.5
+   0.7028805226644   0.5584033376367   15.19493
+   0.7125332747306   0.5780408548752   15.72930     0.4     0.5
 
  Iteration   2 using    4 trial vectors
-   0.1330171077859   0.3952553080332   10.75545
-   0.1361114964224   0.4063259175907   11.05670     0.4     0.4
+   0.1330171077864   0.3952553080337   10.75545
+   0.1361114964223   0.4063259175905   11.05670     0.4     0.4
 
  Iteration   3 using    6 trial vectors
-   0.1005535612540   0.3848559216668   10.47247
-   0.0786634755114   0.3973312574506   10.81194     0.4     0.4
+   0.1005535612545   0.3848559216671   10.47247
+   0.0786634755112   0.3973312574505   10.81194     0.4     0.5
 
  Iteration   4 using    8 trial vectors
-   0.1002542297712   0.3720670282956   10.12446
-   0.0614093018282   0.3907869430636   10.63386     0.4     0.5
+   0.1002542297712   0.3720670282957   10.12446
+   0.0614093018281   0.3907869430635   10.63386     0.5     0.5
 
  Iteration   5 using   10 trial vectors
-   0.1081405252167   0.3570092991108    9.71472
-   0.0566865531104   0.3858310315412   10.49900     0.5     0.5
+   0.1081405252170   0.3570092991109    9.71472
+   0.0566865531104   0.3858310315411   10.49900     0.5     0.5
 
  Iteration   6 using   12 trial vectors
-   0.0858158599296   0.3495003883662    9.51039
-   0.0541096608101   0.3835097250529   10.43584     0.5     0.6
+   0.0858158599300   0.3495003883663    9.51039
+   0.0541096608097   0.3835097250528   10.43584     0.5     0.6
 
  Iteration   7 using   14 trial vectors
-   0.0538721636602   0.3413700924500    9.28916
-   0.0467091360885   0.3792079825563   10.31878     0.6     0.6
+   0.0538721636600   0.3413700924500    9.28916
+   0.0467091360884   0.3792079825563   10.31878     0.5     0.6
 
  Iteration   8 using   16 trial vectors
    0.0383425110455   0.3399359380865    9.25013
-   0.0371615986024   0.3771931120469   10.26395     0.6     0.6
+   0.0371615986024   0.3771931120468   10.26395     0.6     0.7
 
  Iteration   9 using   18 trial vectors
-   0.0455898763133   0.3377922303946    9.19180
-   0.0606205186655   0.3744941733772   10.19051     0.6     0.7
+   0.0455898763133   0.3377922303947    9.19180
+   0.0606205186652   0.3744941733772   10.19051     0.6     0.7
 
  Iteration  10 using   20 trial vectors
-   0.0475834485678   0.3359533427402    9.14176
+   0.0475834485677   0.3359533427402    9.14176
    0.0910843844421   0.3657324861132    9.95209     0.7     0.7
 
  Iteration  11 using   22 trial vectors
-   0.0327090338670   0.3347653081464    9.10943
-   0.0582316324130   0.3588363345677    9.76444     0.7     0.7
+   0.0327090338671   0.3347653081464    9.10943
+   0.0582316324132   0.3588363345677    9.76444     0.7     0.7
 
  Iteration  12 using   24 trial vectors
-   0.0302184348589   0.3340503225801    9.08998
-   0.0493060451650   0.3563244663580    9.69609     0.7     0.8
+   0.0302184348590   0.3340503225801    9.08998
+   0.0493060451649   0.3563244663580    9.69609     0.7     0.8
 
  Iteration  13 using   26 trial vectors
    0.0329017390821   0.3334795680484    9.07444
-   0.0550446896147   0.3525312772298    9.59287     0.8     0.8
+   0.0550446896144   0.3525312772298    9.59287     0.8     0.8
 
  Iteration  14 using   28 trial vectors
    0.0250092211723   0.3335344169803    9.07594
-   0.0490658211394   0.3503148480004    9.53256     0.8     0.9
+   0.0490658211395   0.3503148480004    9.53256     0.8     0.9
 
  Iteration  15 using   30 trial vectors
    0.0216766577517   0.3329377520421    9.05970
-   0.0397188501670   0.3480724603637    9.47154     0.9     0.9
+   0.0397188501671   0.3480724603637    9.47154     0.9     0.9
 
  Iteration  16 using   32 trial vectors
-   0.0140447051430   0.3333625763349    9.07126
-   0.0270291237800   0.3474641894517    9.45499     0.9     0.9
+   0.0140447051431   0.3333625763350    9.07126
+   0.0270291237801   0.3474641894517    9.45499     0.9     0.9
 
  Iteration  17 using   34 trial vectors
    0.0073322970561   0.3331185213244    9.06462
-   0.0141845717976   0.3469283809698    9.44041     1.0     1.0
+   0.0141845717977   0.3469283809698    9.44041     1.0     1.0
 
  Iteration  18 using   36 trial vectors
-   0.0036019501865   0.3332113814301    9.06715
-   0.0072283843224   0.3469896564535    9.44207     1.0     1.1
+   0.0036019501865   0.3332113814302    9.06715
+   0.0072283843225   0.3469896564535    9.44207     1.0     1.1
 
  Iteration  19 using   38 trial vectors
    0.0019255697480   0.3331710539703    9.06605
-   0.0039993437807   0.3469760765650    9.44170     1.0     1.1
+   0.0039993437808   0.3469760765651    9.44170     1.0     1.1
 
  Iteration  20 using   40 trial vectors
    0.0010005156119   0.3331848824553    9.06643
-   0.0022780984203   0.3470128528044    9.44270     1.1     1.1
+   0.0022780984203   0.3470128528044    9.44270     1.1     1.2
 
  Iteration  21 using   42 trial vectors
-   0.0004967255240   0.3331869248573    9.06648
-   0.0011953569164   0.3470139103998    9.44273     1.1     1.2
+   0.0004967255240   0.3331869248574    9.06648
+   0.0011953569165   0.3470139103998    9.44273     1.1     1.2
 
  Iteration  22 using   44 trial vectors
    0.0002306534246   0.3331861554883    9.06646
-   0.0005717617655   0.3470085534007    9.44259     1.2     1.2
+   0.0005717617655   0.3470085534007    9.44259     1.2     1.3
 
  Iteration  23 using   46 trial vectors
-   0.0001107230029   0.3331867563080    9.06648
+   0.0001107230029   0.3331867563081    9.06648
    0.0002769575123   0.3470066741901    9.44254     1.2     1.3
 
  Iteration  24 using   48 trial vectors
    0.0000608026150   0.3331873975222    9.06649
-   0.0001490086338   0.3470050724669    9.44249     1.3     1.3
+   0.0001490086338   0.3470050724669    9.44249     1.3     1.4
 
  Iteration  25 using   50 trial vectors
    0.0000335203688   0.3331868342297    9.06648
-   0.0000828710553   0.3470051231759    9.44249     1.3     1.4
+   0.0000828710553   0.3470051231759    9.44249     1.4     1.4
 
  Iteration  26 using   52 trial vectors
    0.0000186034122   0.3331868280221    9.06648
    0.0000471192429   0.3470055694575    9.44251     1.4     1.5
 
  Iteration  27 using   54 trial vectors
-   0.0000085990436   0.3331866556786    9.06647
-   0.0000225782262   0.3470055957249    9.44251     1.4     1.5
+   0.0000085990436   0.3331866556787    9.06647
+   0.0000225782262   0.3470055957250    9.44251     1.4     1.5
 
  Iteration  28 using   56 trial vectors
    0.0000035022474   0.3331866272025    9.06647
-   0.0000095107355   0.3470056415203    9.44251     1.5     1.6
+   0.0000095107355   0.3470056415204    9.44251     1.5     1.6
 
  Iteration  29 using   58 trial vectors
    0.0000014492391   0.3331866278447    9.06647
-   0.0000041190970   0.3470056090416    9.44251     1.5     1.6
+   0.0000041190969   0.3470056090417    9.44251     1.6     1.7
 
  Iteration  30 using   60 trial vectors
-   0.0000005756395   0.3331866255861    9.06647
-   0.0000016848492   0.3470056045868    9.44251     1.5     1.6
+   0.0000005756395   0.3331866255862    9.06647
+   0.0000016848491   0.3470056045870    9.44251     1.5     1.6
 
  Iteration  31 using   61 trial vectors
-   0.0000002338792   0.3331866267968    9.06647
-   0.0000006690825   0.3470056005573    9.44251     0.9     1.0
+   0.0000002338791   0.3331866267968    9.06647
+   0.0000006690824   0.3470056005576    9.44251     0.9     0.9
  --------------------------------------------------------------
  Iterations converged
  ------------------
 
  Excited state root  1
- Excitation energy / hartree =        0.333186626796763
-                   / eV      =        9.066473276989589
+ Excitation energy / hartree =        0.333186626796847
+                   / eV      =        9.066473276991871
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
-    15a1  (alpha) ---    11a1  (alpha)        0.2765094212
-    16a1  (alpha) ---    11a1  (alpha)        0.1770936055
-    18a1  (alpha) ---    11a1  (alpha)       -0.1949493817
-    24a1  (alpha) ---    11a1  (alpha)       -0.4766062404
-    29a1  (alpha) ---    11a1  (alpha)        0.1454742435
-    13b1  (alpha) ---     9b1  (alpha)       -0.4744581233
+    15a1  (alpha) ---    11a1  (alpha)       -0.2765094212
+    16a1  (alpha) ---    11a1  (alpha)       -0.1770936055
+    18a1  (alpha) ---    11a1  (alpha)        0.1949493817
+    24a1  (alpha) ---    11a1  (alpha)        0.4766062404
+    29a1  (alpha) ---    11a1  (alpha)       -0.1454742435
+    13b1  (alpha) ---     9b1  (alpha)        0.4744581233
 
  Doubles contributions
-    13b1  (alpha)    13b1  (beta ) ---    12a2  (alpha)    12a2  (beta )        0.4760405106
-    13b1  (alpha)    13b1  (beta ) ---     9b1  (alpha)     9b1  (beta )       -0.1200163432
+    13b1  (alpha)    13b1  (beta ) ---    12a2  (alpha)    12a2  (beta )       -0.4760405106
+    13b1  (alpha)    13b1  (beta ) ---     9b1  (alpha)     9b1  (beta )        0.1200163432
  ------------------
 
  Excited state root  2
- Excitation energy / hartree =        0.347005600557260
-                   / eV      =        9.442506845681983
+ Excitation energy / hartree =        0.347005600557582
+                   / eV      =        9.442506845690747
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1107,7 +1105,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     13b1  (alpha)    13b1  (beta ) ---     9b1  (alpha)     9b1  (beta )        0.1310144773
     13b1  (alpha)    13b1  (beta ) ---    10b2  (alpha)    10b2  (beta )       -0.1962743894
 ======= CR-EOMCCSD(T) calculation ======
-corresponding R0 value =     0.205152
+corresponding R0 value =    -0.205152
           
 CR-EOMCCSD(T) Intermediates cpu wall time             0.5            0.6
  cr_N i1_1 nr of boxes                   210
@@ -1120,7 +1118,7 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.5            0.6
           
 CR-EOMCCSD(T) triples loop cpu wall             2.1            2.1
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.649239446609130
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.649239446609016
  CR-EOMCCSD(T)  excitation energy (eV)       =      8.43928
 
 ======= CR-EOMCCSD(T) calculation ======
@@ -1135,9 +1133,9 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.5            0.6
  creom_N i2_4 nr of boxes                   325
           
           
-CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
+CR-EOMCCSD(T) triples loop cpu wall             2.1            2.1
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.663196379769943
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.663196379770369
  CR-EOMCCSD(T)  excitation energy (eV)       =      8.05949
 
 
@@ -1161,43 +1159,43 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
 
  Iteration   1 using    2 trial vectors
    0.8958643825020   0.2925677835459    7.96118
-   0.6183675689294   0.5539082955326   15.07262     0.4     0.5
+   0.6183675689293   0.5539082955331   15.07262     0.4     0.5
 
  Iteration   2 using    4 trial vectors
    0.1738558552830   0.0944693999643    2.57064
-   0.1316551992023   0.4203132954638   11.43731     0.4     0.4
+   0.1316551992029   0.4203132954642   11.43731     0.4     0.4
 
  Iteration   3 using    6 trial vectors
    0.0722045332201   0.0864405931729    2.35217
-   0.1054648257004   0.4103249792295   11.16552     0.4     0.4
+   0.1054648257008   0.4103249792297   11.16552     0.4     0.4
 
  Iteration   4 using    8 trial vectors
    0.0273857040678   0.0851702022530    2.31760
-   0.1158866601776   0.3982057019740   10.83573     0.4     0.5
+   0.1158866601777   0.3982057019741   10.83573     0.4     0.5
 
  Iteration   5 using   10 trial vectors
    0.0131625362832   0.0845653684456    2.30114
-   0.1222325512505   0.3719522753136   10.12134     0.5     0.5
+   0.1222325512507   0.3719522753137   10.12134     0.5     0.5
 
  Iteration   6 using   12 trial vectors
    0.0061697291687   0.0844720157083    2.29860
-   0.0789835686663   0.3658901369437    9.95638     0.5     0.5
+   0.0789835686664   0.3658901369437    9.95638     0.5     0.5
 
  Iteration   7 using   14 trial vectors
    0.0021325930340   0.0844383383302    2.29769
-   0.0518228654226   0.3564830834998    9.70040     0.5     0.6
+   0.0518228654223   0.3564830834998    9.70040     0.5     0.6
 
  Iteration   8 using   16 trial vectors
    0.0008283102072   0.0844351208538    2.29760
-   0.0517662410741   0.3564089405089    9.69838     0.6     0.6
+   0.0517662410744   0.3564089405089    9.69838     0.6     0.6
 
  Iteration   9 using   18 trial vectors
    0.0002587582299   0.0844306071854    2.29747
-   0.0597702153754   0.3490369538103    9.49778     0.6     0.7
+   0.0597702153752   0.3490369538103    9.49778     0.6     0.7
 
  Iteration  10 using   20 trial vectors
    0.0000816055804   0.0844306275214    2.29748
-   0.0392806918912   0.3453843649242    9.39839     0.6     0.7
+   0.0392806918913   0.3453843649242    9.39839     0.6     0.7
 
  Iteration  11 using   22 trial vectors
    0.0000262565287   0.0844308487606    2.29748
@@ -1209,7 +1207,7 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
 
  Iteration  13 using   26 trial vectors
    0.0000030011130   0.0844308350211    2.29748
-   0.0115536969435   0.3412764353917    9.28661     0.7     0.8
+   0.0115536969434   0.3412764353918    9.28661     0.7     0.8
 
  Iteration  14 using   28 trial vectors
    0.0000010684337   0.0844308246475    2.29748
@@ -1217,27 +1215,27 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
 
  Iteration  15 using   30 trial vectors
    0.0000003451599   0.0844308210086    2.29748
-   0.0043716239881   0.3408271387281    9.27438     0.8     0.8
+   0.0043716239881   0.3408271387282    9.27438     0.8     0.9
 
  Iteration  16 using   31 trial vectors
    0.0000003448680   0.0844308210201    2.29748
-   0.0029448803249   0.3407730397776    9.27291     0.5     0.6
+   0.0029448803250   0.3407730397776    9.27291     0.5     0.5
 
  Iteration  17 using   32 trial vectors
    0.0000003454826   0.0844308209674    2.29748
-   0.0021051332069   0.3407852985857    9.27324     0.5     0.6
+   0.0021051332069   0.3407852985857    9.27324     0.5     0.5
 
  Iteration  18 using   33 trial vectors
    0.0000003448500   0.0844308208710    2.29748
-   0.0010629628760   0.3407662494896    9.27273     0.5     0.6
+   0.0010629628759   0.3407662494896    9.27273     0.5     0.5
 
  Iteration  19 using   34 trial vectors
    0.0000003437907   0.0844308207619    2.29748
-   0.0005383705085   0.3407752937668    9.27297     0.6     0.6
+   0.0005383705085   0.3407752937668    9.27297     0.5     0.6
 
  Iteration  20 using   35 trial vectors
    0.0000003438069   0.0844308207584    2.29748
-   0.0003367955933   0.3407719480406    9.27288     0.6     0.6
+   0.0003367955933   0.3407719480406    9.27288     0.5     0.6
 
  Iteration  21 using   36 trial vectors
    0.0000003436525   0.0844308208368    2.29748
@@ -1253,7 +1251,7 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
 
  Iteration  24 using   39 trial vectors
    0.0000003417355   0.0844308208209    2.29748
-   0.0000375280520   0.3407770554803    9.27302     0.6     0.7
+   0.0000375280519   0.3407770554803    9.27302     0.6     0.6
 
  Iteration  25 using   40 trial vectors
    0.0000003416372   0.0844308208213    2.29748
@@ -1265,14 +1263,14 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
 
  Iteration  27 using   42 trial vectors
    0.0000003410833   0.0844308208151    2.29748
-   0.0000054792749   0.3407774227747    9.27303     0.7     0.7
+   0.0000054792749   0.3407774227747    9.27303     0.6     0.7
 
  Iteration  28 using   43 trial vectors
    0.0000003412634   0.0844308208230    2.29748
    0.0000025899303   0.3407774396570    9.27303     0.7     0.7
 
  Iteration  29 using   44 trial vectors
-   0.0000003412889   0.0844308208342    2.29748
+   0.0000003412889   0.0844308208343    2.29748
    0.0000013712749   0.3407774416616    9.27303     0.7     0.7
 
  Iteration  30 using   45 trial vectors
@@ -1283,8 +1281,8 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
  ------------------
 
  Excited state root  1
- Excitation energy / hartree =        0.084430820780431
-                   / eV      =        2.297480507304406
+ Excitation energy / hartree =        0.084430820780434
+                   / eV      =        2.297480507304503
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1296,8 +1294,8 @@ CR-EOMCCSD(T) triples loop cpu wall             2.1            2.2
  ------------------
 
  Excited state root  2
- Excitation energy / hartree =        0.340777445172160
-                   / eV      =        9.273030042525678
+ Excitation energy / hartree =        0.340777445172163
+                   / eV      =        9.273030042525752
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1319,9 +1317,9 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
  creom_N i2_4 nr of boxes                   325
           
           
-CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
+CR-EOMCCSD(T) triples loop cpu wall             1.2            1.2
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.890204610464195
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.890204610464366
  CR-EOMCCSD(T)  excitation energy (eV)       =      1.88228
 
 ======= CR-EOMCCSD(T) calculation ======
@@ -1334,9 +1332,9 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
  creom_N i2_4 nr of boxes                   325
           
           
-CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
+CR-EOMCCSD(T) triples loop cpu wall             1.2            1.2
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.656995026439432
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.656995026439603
  CR-EOMCCSD(T)  excitation energy (eV)       =      8.22824
 
 
@@ -1360,39 +1358,39 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration   1 using    2 trial vectors
    0.8833188127508   0.2783035520127    7.57303
-   0.6148721955510   0.5530203000909   15.04845     0.4     0.5
+   0.6148721955510   0.5530203000906   15.04845     0.4     0.5
 
  Iteration   2 using    4 trial vectors
    0.1675688185910   0.0956011366893    2.60144
-   0.1254271188462   0.4257212792691   11.58447     0.4     0.4
+   0.1254271188459   0.4257212792689   11.58447     0.4     0.4
 
  Iteration   3 using    6 trial vectors
    0.0695504456607   0.0887998718024    2.41637
-   0.0727442968487   0.4194049764946   11.41259     0.4     0.4
+   0.0727442968485   0.4194049764945   11.41259     0.4     0.4
 
  Iteration   4 using    8 trial vectors
    0.0262896343744   0.0875226969705    2.38161
-   0.0529143881721   0.4156901369764   11.31151     0.4     0.5
+   0.0529143881720   0.4156901369763   11.31151     0.4     0.5
 
  Iteration   5 using   10 trial vectors
    0.0140281908617   0.0868505854210    2.36333
-   0.0652660046363   0.4096758390027   11.14785     0.5     0.5
+   0.0652660046363   0.4096758390026   11.14785     0.5     0.5
 
  Iteration   6 using   12 trial vectors
    0.0057904837449   0.0867700780264    2.36113
-   0.1352882594706   0.4027565735441   10.95957     0.5     0.5
+   0.1352882594699   0.4027565735441   10.95957     0.5     0.5
 
  Iteration   7 using   14 trial vectors
    0.0022569916533   0.0867353012625    2.36019
-   0.1342303790672   0.3593324692833    9.77794     0.5     0.6
+   0.1342303790671   0.3593324692833    9.77794     0.5     0.6
 
  Iteration   8 using   16 trial vectors
    0.0009278381277   0.0867362324144    2.36021
-   0.0909371702590   0.3425801529504    9.32208     0.5     0.6
+   0.0909371702590   0.3425801529504    9.32208     0.6     0.6
 
  Iteration   9 using   18 trial vectors
    0.0003139612895   0.0867350490256    2.36018
-   0.0536812072992   0.3353741255440    9.12600     0.6     0.6
+   0.0536812072993   0.3353741255440    9.12600     0.6     0.6
 
  Iteration  10 using   20 trial vectors
    0.0001153155490   0.0867356492533    2.36020
@@ -1408,15 +1406,15 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  13 using   26 trial vectors
    0.0000053597048   0.0867362976139    2.36022
-   0.0084972442862   0.3318245844159    9.02941     0.7     0.8
+   0.0084972442862   0.3318245844159    9.02941     0.8     0.8
 
  Iteration  14 using   28 trial vectors
    0.0000018993262   0.0867363000431    2.36022
-   0.0042980465540   0.3316703552426    9.02521     0.8     0.9
+   0.0042980465540   0.3316703552426    9.02521     0.8     0.8
 
  Iteration  15 using   30 trial vectors
    0.0000006060004   0.0867362969493    2.36022
-   0.0017698288013   0.3316291047367    9.02409     0.8     0.9
+   0.0017698288013   0.3316291047367    9.02409     0.8     0.8
 
  Iteration  16 using   31 trial vectors
    0.0000005749747   0.0867362969064    2.36022
@@ -1428,7 +1426,7 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  18 using   33 trial vectors
    0.0000005732790   0.0867362970958    2.36022
-   0.0001810950472   0.3316161578161    9.02374     0.5     0.5
+   0.0001810950472   0.3316161578161    9.02374     0.5     0.6
 
  Iteration  19 using   34 trial vectors
    0.0000005706156   0.0867362969305    2.36022
@@ -1440,7 +1438,7 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  21 using   36 trial vectors
    0.0000005706740   0.0867362969094    2.36022
-   0.0000236011917   0.3316162914104    9.02374     0.5     0.6
+   0.0000236011917   0.3316162914104    9.02374     0.6     0.6
 
  Iteration  22 using   37 trial vectors
    0.0000005707545   0.0867362969051    2.36022
@@ -1456,7 +1454,7 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  25 using   40 trial vectors
    0.0000005644089   0.0867362969790    2.36022
-   0.0000010935952   0.3316161930971    9.02374     0.6     0.7
+   0.0000010935952   0.3316161930971    9.02374     0.6     0.6
 
  Iteration  26 using   41 trial vectors
    0.0000005646694   0.0867362969533    2.36022
@@ -1466,8 +1464,8 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
  ------------------
 
  Excited state root  1
- Excitation energy / hartree =        0.086736296953251
-                   / eV      =        2.360215732642125
+ Excitation energy / hartree =        0.086736296953252
+                   / eV      =        2.360215732642162
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1479,8 +1477,8 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
  ------------------
 
  Excited state root  2
- Excitation energy / hartree =        0.331616189965439
-                   / eV      =        9.023739498322396
+ Excitation energy / hartree =        0.331616189965437
+                   / eV      =        9.023739498322364
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1502,9 +1500,9 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
  creom_N i2_4 nr of boxes                   325
           
           
-CR-EOMCCSD(T) triples loop cpu wall             1.3            1.3
+CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.888619704204928
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.888619704205098
  CR-EOMCCSD(T)  excitation energy (eV)       =      1.92541
 
 ======= CR-EOMCCSD(T) calculation ======
@@ -1517,9 +1515,9 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
  creom_N i2_4 nr of boxes                   325
           
           
-CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
+CR-EOMCCSD(T) triples loop cpu wall             1.2            1.2
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.655661262711220
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.655661262711419
  CR-EOMCCSD(T)  excitation energy (eV)       =      8.26454
 
 
@@ -1555,7 +1553,7 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration   4 using    8 trial vectors
    0.0593766291316   0.1991793471811    5.41995
-   0.0550614576082   0.4357312974723   11.85686     0.5     0.5
+   0.0550614576082   0.4357312974723   11.85686     0.4     0.5
 
  Iteration   5 using   10 trial vectors
    0.0228999328527   0.1986538613453    5.40565
@@ -1566,56 +1564,56 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
    0.1322186553898   0.4185536795302   11.38943     0.5     0.6
 
  Iteration   7 using   14 trial vectors
-   0.0059182358247   0.1982203363706    5.39385
-   0.1379205099236   0.3925074318523   10.68068     0.5     0.6
+   0.0059182358247   0.1982203363707    5.39385
+   0.1379205099235   0.3925074318523   10.68068     0.5     0.6
 
  Iteration   8 using   16 trial vectors
    0.0032845188651   0.1981691636105    5.39246
-   0.1028969072906   0.3795963389117   10.32935     0.6     0.6
+   0.1028969072905   0.3795963389118   10.32935     0.6     0.6
 
  Iteration   9 using   18 trial vectors
    0.0017794867235   0.1981620912597    5.39227
-   0.0934118722872   0.3684629441171   10.02639     0.6     0.7
+   0.0934118722872   0.3684629441172   10.02639     0.6     0.6
 
  Iteration  10 using   20 trial vectors
-   0.0009504759584   0.1981632265098    5.39230
+   0.0009504759584   0.1981632265099    5.39230
    0.0951935606486   0.3580003049294    9.74169     0.6     0.7
 
  Iteration  11 using   22 trial vectors
    0.0003790955702   0.1981662529911    5.39238
-   0.0587663118321   0.3501211085112    9.52728     0.7     0.7
+   0.0587663118321   0.3501211085113    9.52728     0.7     0.7
 
  Iteration  12 using   24 trial vectors
    0.0001650995968   0.1981687350178    5.39245
-   0.0405347281311   0.3475809841447    9.45816     0.7     0.8
+   0.0405347281312   0.3475809841447    9.45816     0.7     0.8
 
  Iteration  13 using   26 trial vectors
    0.0000698568483   0.1981684081072    5.39244
-   0.0289110623663   0.3467382281459    9.43523     0.8     0.8
+   0.0289110623664   0.3467382281459    9.43523     0.8     0.8
 
  Iteration  14 using   28 trial vectors
    0.0000286283843   0.1981677554794    5.39242
-   0.0184776374485   0.3459304533028    9.41325     0.8     0.9
+   0.0184776374486   0.3459304533028    9.41325     0.8     0.9
 
  Iteration  15 using   30 trial vectors
    0.0000131497809   0.1981678156202    5.39242
-   0.0119542902771   0.3456744027385    9.40628     0.8     0.9
+   0.0119542902772   0.3456744027385    9.40628     0.9     0.9
 
  Iteration  16 using   32 trial vectors
    0.0000056866040   0.1981678055727    5.39242
-   0.0074735839386   0.3455934046202    9.40408     0.9     1.0
+   0.0074735839386   0.3455934046202    9.40408     0.9     0.9
 
  Iteration  17 using   34 trial vectors
    0.0000028823411   0.1981678276080    5.39242
-   0.0054408715229   0.3455977345447    9.40420     0.9     1.0
+   0.0054408715230   0.3455977345447    9.40420     0.9     1.0
 
  Iteration  18 using   36 trial vectors
    0.0000014735030   0.1981678303523    5.39242
-   0.0053576019833   0.3455570252427    9.40309     1.0     1.0
+   0.0053576019833   0.3455570252428    9.40309     1.0     1.0
 
  Iteration  19 using   38 trial vectors
    0.0000005913642   0.1981678267868    5.39242
-   0.0045008561102   0.3454286053354    9.39959     1.0     1.0
+   0.0045008561100   0.3454286053354    9.39959     0.9     1.0
 
  Iteration  20 using   39 trial vectors
    0.0000002988679   0.1981678270002    5.39242
@@ -1631,7 +1629,7 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  23 using   42 trial vectors
    0.0000002446149   0.1981678264832    5.39242
-   0.0004659949044   0.3454458977473    9.40007     0.6     0.7
+   0.0004659949044   0.3454458977473    9.40007     0.7     0.7
 
  Iteration  24 using   43 trial vectors
    0.0000002452478   0.1981678265151    5.39242
@@ -1639,11 +1637,11 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  25 using   44 trial vectors
    0.0000002453198   0.1981678265159    5.39242
-   0.0001272644980   0.3454429396073    9.39998     0.7     0.8
+   0.0001272644980   0.3454429396074    9.39998     0.7     0.7
 
  Iteration  26 using   45 trial vectors
    0.0000002431776   0.1981678264905    5.39242
-   0.0000588120567   0.3454421716672    9.39996     0.8     0.8
+   0.0000588120567   0.3454421716672    9.39996     0.7     0.8
 
  Iteration  27 using   46 trial vectors
    0.0000002432442   0.1981678264605    5.39242
@@ -1651,19 +1649,19 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
 
  Iteration  28 using   47 trial vectors
    0.0000002428996   0.1981678263659    5.39242
-   0.0000116170016   0.3454423286632    9.39997     0.7     0.8
+   0.0000116170016   0.3454423286633    9.39997     0.8     0.8
 
  Iteration  29 using   48 trial vectors
    0.0000002430023   0.1981678264109    5.39242
-   0.0000054841513   0.3454423364346    9.39997     0.8     0.8
+   0.0000054841513   0.3454423364347    9.39997     0.8     0.8
 
  Iteration  30 using   49 trial vectors
    0.0000002430077   0.1981678264090    5.39242
-   0.0000025609367   0.3454423520266    9.39997     0.8     0.8
+   0.0000025609367   0.3454423520266    9.39997     0.8     0.9
 
  Iteration  31 using   50 trial vectors
    0.0000002439553   0.1981678264039    5.39242
-   0.0000012812301   0.3454423606710    9.39997     0.8     0.8
+   0.0000012812301   0.3454423606711    9.39997     0.8     0.9
 
  Iteration  32 using   51 trial vectors
    0.0000002444529   0.1981678264745    5.39242
@@ -1673,8 +1671,8 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
  ------------------
 
  Excited state root  1
- Excitation energy / hartree =        0.198167826474487
-                   / eV      =        5.392423220473344
+ Excitation energy / hartree =        0.198167826474488
+                   / eV      =        5.392423220473363
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1688,8 +1686,8 @@ CR-EOMCCSD(T) triples loop cpu wall             1.2            1.3
  ------------------
 
  Excited state root  2
- Excitation energy / hartree =        0.345442368494856
-                   / eV      =        9.399969118835699
+ Excitation energy / hartree =        0.345442368494891
+                   / eV      =        9.399969118836628
  largest EOMCCSD amplitudes: R1 and R2
 
  Singles contributions
@@ -1715,7 +1713,7 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
           
 CR-EOMCCSD(T) triples loop cpu wall             1.4            1.4
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.784676166855007
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.784676166855178
  CR-EOMCCSD(T)  excitation energy (eV)       =      4.75386
 
 ======= CR-EOMCCSD(T) calculation ======
@@ -1730,14 +1728,14 @@ CR-EOMCCSD(T) Intermediates cpu wall time             0.4            0.4
           
 CR-EOMCCSD(T) triples loop cpu wall             1.4            1.4
           
- CR-EOMCCSD(T)  total energy / hartree       =      -224.617185777693805
+ CR-EOMCCSD(T)  total energy / hartree       =      -224.617185777693948
  CR-EOMCCSD(T)  excitation energy (eV)       =      9.31151
 
 
  Parallel integral file used      40 records with       0 large values
 
 
- Task  times  cpu:      103.9s     wall:      111.1s
+ Task  times  cpu:      103.3s     wall:      110.8s
 
 
                                 NWChem Input Module
@@ -1754,10 +1752,10 @@ CR-EOMCCSD(T) triples loop cpu wall             1.4            1.4
                          ------------------------------
 
        create   destroy   get      put      acc     scatter   gather  read&inc
-calls: 6.99e+04 6.99e+04 3.65e+06 7.88e+04 6.18e+05    0        0     1.82e+06 
+calls: 6.99e+04 6.99e+04 3.66e+06 7.87e+04 6.12e+05    0        0     1.82e+06 
 number of processes/call 1.12e+00 1.06e+00 1.08e+00 0.00e+00 0.00e+00
-bytes total:             7.89e+10 7.29e+08 7.11e+09 0.00e+00 0.00e+00 1.45e+07
-bytes remote:            5.39e+10 5.42e+08 5.30e+09 0.00e+00 0.00e+00 0.00e+00
+bytes total:             7.67e+10 7.24e+08 6.89e+09 0.00e+00 0.00e+00 1.45e+07
+bytes remote:            5.22e+10 5.37e+08 5.12e+09 0.00e+00 0.00e+00 0.00e+00
 Max memory consumed for GA by this process: 122991544 bytes
 
 MA_summarize_allocated_blocks: starting scan ...
@@ -1809,5 +1807,5 @@ MA usage statistics:
       T. Nakajima, S. Niu, L. Pollack, M. Rosing, K. Glaesemann, G. Sandrone,
       M. Stave, H. Taylor, G. Thomas, J. H. van Lenthe, A. T. Wong, Z. Zhang.
 
- Total times  cpu:      103.9s     wall:      111.1s
+ Total times  cpu:      103.3s     wall:      110.8s
 [0] ARMCI Warning: Freed 1 leaked allocations

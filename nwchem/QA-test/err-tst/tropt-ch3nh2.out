@@ -1,4 +1,4 @@
- argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/tropt-ch3nh2/tropt-ch3nh2.nw
+ argument  1 = /home/list1234/source/nwchem-6.8.1/QA/tests/tropt-ch3nh2/tropt-ch3nh2.nw
 
 
 
@@ -47,7 +47,7 @@ task dft freq
                        Pacific Northwest National Laboratory
                                 Richland, WA 99352
 
-                              Copyright (c) 1994-2018
+                              Copyright (c) 1994-2017
                        Pacific Northwest National Laboratory
                             Battelle Memorial Institute
 
@@ -73,16 +73,16 @@ task dft freq
            ---------------
 
     hostname        = list1234-B360M-H
-    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
-    date            = Sun Jun 30 14:05:35 2019
+    program         = /home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem
+    date            = Sun Jun 30 23:54:50 2019
 
-    compiled        = Sun_Jun_30_11:55:59_2019
-    source          = /home/list1234/source/nwchem-6.8.1-release
-    nwchem branch   = Development
-    nwchem revision = N/A
+    compiled        = Sun_Jun_30_20:37:07_2019
+    source          = /home/list1234/source/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-160-gc00cf755d
     ga revision     = 5.6.5
     use scalapack   = T
-    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/tropt-ch3nh2/tropt-ch3nh2.nw
+    input           = /home/list1234/source/nwchem-6.8.1/QA/tests/tropt-ch3nh2/tropt-ch3nh2.nw
     prefix          = ch3nh2.
     data base       = ./ch3nh2.db
     status          = startup
@@ -94,10 +94,10 @@ task dft freq
            Memory information
            ------------------
 
-    heap     =   86247162 doubles =    658.0 Mbytes
-    stack    =   86247167 doubles =    658.0 Mbytes
+    heap     =   86247168 doubles =    658.0 Mbytes
+    stack    =   86247165 doubles =    658.0 Mbytes
     global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
-    total    =  344988665 doubles =   2632.1 Mbytes
+    total    =  344988669 doubles =   2632.1 Mbytes
     verify   = yes
     hardfail = no 
 
@@ -121,8 +121,6 @@ task dft freq
           ------
           auto-z
           ------
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
 
                              Geometry "geometry" -> ""
@@ -256,6 +254,7 @@ task dft freq
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     0
 
                                  NWChem DFT Module
                                  -----------------
@@ -431,7 +430,7 @@ task dft freq
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161630
+ Max. records in memory =      4        Max. records in file   = 161909
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -443,46 +442,46 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861962
+ Max. records in memory =     25        Max. recs in file   =    863452
 
- Grid integrated density:      18.000000331570
+ Grid integrated density:      18.000000331806
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
  d= 0,ls=0.0,diis     1    -94.9845670749 -1.37D+02  1.59D-02  5.00D-01     0.2
- Grid integrated density:      18.000000674931
+ Grid integrated density:      18.000000674997
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -94.9801926549  4.37D-03  1.24D-02  2.90D-01     0.3
- Grid integrated density:      18.000000350343
+ d= 0,ls=0.0,diis     2    -94.9801926599  4.37D-03  1.24D-02  2.90D-01     0.3
+ Grid integrated density:      18.000000350351
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -94.9964712821 -1.63D-02  5.09D-03  1.34D-01     0.3
- Grid integrated density:      18.000000479015
+ d= 0,ls=0.0,diis     3    -94.9964712825 -1.63D-02  5.09D-03  1.34D-01     0.3
+ Grid integrated density:      18.000000479023
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0104272652 -1.40D-02  4.63D-04  4.92D-04     0.3
- Grid integrated density:      18.000000474249
+ d= 0,ls=0.0,diis     4    -95.0104272652 -1.40D-02  4.63D-04  4.92D-04     0.4
+ Grid integrated density:      18.000000474257
  Requested integration accuracy:   0.10E-13
  d= 0,ls=0.0,diis     5    -95.0104858177 -5.86D-05  1.17D-04  4.89D-05     0.4
- Grid integrated density:      18.000000474863
+ Grid integrated density:      18.000000474871
  Requested integration accuracy:   0.10E-13
   Resetting Diis
  d= 0,ls=0.0,diis     6    -95.0104919330 -6.12D-06  2.00D-05  4.86D-07     0.4
- Grid integrated density:      18.000000475107
+ Grid integrated density:      18.000000475115
  Requested integration accuracy:   0.10E-13
  d= 0,ls=0.0,diis     7    -95.0104919966 -6.36D-08  2.78D-06  4.59D-09     0.5
 
 
-         Total DFT energy =      -95.010491996585
-      One electron energy =     -211.607172332607
-           Coulomb energy =       87.847508445660
-    Exchange-Corr. energy =      -13.272338053079
+         Total DFT energy =      -95.010491996588
+      One electron energy =     -211.607172324673
+           Coulomb energy =       87.847508436962
+    Exchange-Corr. energy =      -13.272338052317
  Nuclear repulsion energy =       42.021509943440
 
- Numeric. integr. density =       18.000000475107
+ Numeric. integr. density =       18.000000475115
 
      Total iterative time =      0.4s
 
@@ -492,19 +491,19 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                        ------------------------------------
 
  Vector    1  Occ=2.000000D+00  E=-1.383205D+01
-              MO Center=  7.2D-01,  4.5D-03,  2.6D-14, r^2= 2.0D-02
+              MO Center=  7.2D-01,  4.5D-03,  2.2D-14, r^2= 2.0D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      1      0.997776  1 N  s          
 
  Vector    2  Occ=2.000000D+00  E=-9.796913D+00
-              MO Center= -7.0D-01, -1.2D-02,  1.3D-13, r^2= 2.8D-02
+              MO Center= -7.0D-01, -1.2D-02,  1.2D-13, r^2= 2.8D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     16      0.997945  2 C  s          
 
  Vector    3  Occ=2.000000D+00  E=-7.797576D-01
-              MO Center=  4.5D-01,  8.0D-03, -2.1D-11, r^2= 9.4D-01
+              MO Center=  4.5D-01,  8.0D-03, -1.6D-11, r^2= 9.4D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2      0.423274  1 N  s                  3      0.293367  1 N  s          
@@ -514,7 +513,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     16     -0.111278  2 C  s                 33      0.046354  4 H  s          
 
  Vector    4  Occ=2.000000D+00  E=-5.859437D-01
-              MO Center= -2.7D-01,  1.3D-02,  4.9D-11, r^2= 1.8D+00
+              MO Center= -2.7D-01,  1.3D-02,  1.9D-11, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     17      0.371082  2 C  s                 18      0.257141  2 C  s          
@@ -524,7 +523,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     39      0.125429  7 H  s                 31     -0.118547  3 H  s          
 
  Vector    5  Occ=2.000000D+00  E=-4.494175D-01
-              MO Center=  5.9D-01,  4.1D-02,  1.5D-11, r^2= 1.4D+00
+              MO Center=  5.9D-01,  4.1D-02,  3.0D-11, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      5      0.493880  1 N  py                20      0.239424  2 C  py         
@@ -534,7 +533,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     23      0.056611  2 C  py                37     -0.047075  6 H  s          
 
  Vector    6  Occ=2.000000D+00  E=-3.963250D-01
-              MO Center= -5.6D-02, -1.2D-02, -3.8D-11, r^2= 1.7D+00
+              MO Center= -5.6D-02, -1.2D-02,  2.8D-11, r^2= 1.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      0.472789  1 N  px                19     -0.455721  2 C  px         
@@ -544,7 +543,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     33      0.091864  4 H  s                 32      0.070165  3 H  s          
 
  Vector    7  Occ=2.000000D+00  E=-3.601862D-01
-              MO Center= -6.8D-01, -1.9D-01,  2.9D-10, r^2= 1.4D+00
+              MO Center= -6.8D-01, -1.9D-01,  1.5D-10, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     21      0.512915  2 C  pz                 6      0.219130  1 N  pz         
@@ -554,7 +553,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     29     -0.027599  2 C  dyz        
 
  Vector    8  Occ=2.000000D+00  E=-3.199058D-01
-              MO Center= -5.3D-01,  1.9D-01, -3.5D-10, r^2= 1.9D+00
+              MO Center= -5.3D-01,  1.9D-01, -2.8D-10, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     20      0.482068  2 C  py                33      0.265809  4 H  s          
@@ -564,7 +563,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     39     -0.127846  7 H  s                 32      0.108318  3 H  s          
 
  Vector    9  Occ=2.000000D+00  E=-1.664851D-01
-              MO Center=  4.4D-01, -5.7D-02, -6.3D-11, r^2= 1.6D+00
+              MO Center=  4.4D-01, -5.7D-02, -4.2D-11, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      6      0.645674  1 N  pz                 9      0.469377  1 N  pz         
@@ -574,7 +573,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     24     -0.058185  2 C  pz         
 
  Vector   10  Occ=0.000000D+00  E= 5.054992D-02
-              MO Center=  7.0D-01,  6.2D-02, -8.6D-11, r^2= 3.8D+00
+              MO Center=  7.0D-01,  6.2D-02, -7.5D-11, r^2= 3.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      1.561433  1 N  s                 36     -0.995934  5 H  s          
@@ -584,7 +583,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     40     -0.331307  7 H  s                 23      0.264418  2 C  py         
 
  Vector   11  Occ=0.000000D+00  E= 9.962006D-02
-              MO Center= -1.1D+00, -2.3D-02, -4.2D-11, r^2= 3.9D+00
+              MO Center= -1.1D+00, -2.3D-02, -7.3D-11, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      3.145648  2 C  s                  3     -1.146636  1 N  s          
@@ -594,7 +593,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     16     -0.159218  2 C  s                 19     -0.098318  2 C  px         
 
  Vector   12  Occ=0.000000D+00  E= 1.068408D-01
-              MO Center=  7.6D-01, -2.1D-02,  1.5D-11, r^2= 4.0D+00
+              MO Center=  7.6D-01, -2.1D-02,  1.1D-11, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      1.606892  3 H  s                 36     -1.500876  5 H  s          
@@ -604,7 +603,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      3     -0.163321  1 N  s                 22      0.148819  2 C  px         
 
  Vector   13  Occ=0.000000D+00  E= 1.488086D-01
-              MO Center= -6.5D-01, -2.4D-01, -1.5D-10, r^2= 4.0D+00
+              MO Center= -6.5D-01, -2.4D-01, -1.7D-10, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     23      1.672756  2 C  py                22      1.440802  2 C  px         
@@ -624,7 +623,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     38     -0.215109  6 H  s                 40     -0.215109  7 H  s          
 
  Vector   15  Occ=0.000000D+00  E= 1.721170D-01
-              MO Center= -9.1D-01, -8.2D-02,  6.9D-11, r^2= 3.1D+00
+              MO Center= -9.1D-01, -8.2D-02,  1.0D-10, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     24      2.078898  2 C  pz                38     -1.951239  6 H  s          
@@ -644,7 +643,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     12      0.054683  1 N  dxz               29      0.044613  2 C  dyz        
 
  Vector   17  Occ=0.000000D+00  E= 2.650653D-01
-              MO Center= -4.9D-01, -8.0D-02,  8.3D-10, r^2= 3.7D+00
+              MO Center= -4.9D-01, -8.0D-02,  7.9D-10, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     23      1.251925  2 C  py                20     -0.819509  2 C  py         
@@ -654,7 +653,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     37      0.052551  6 H  s                 39      0.052551  7 H  s          
 
  Vector   18  Occ=0.000000D+00  E= 3.346112D-01
-              MO Center= -8.4D-02,  1.6D-02,  1.1D-11, r^2= 2.3D+00
+              MO Center= -8.4D-02,  1.6D-02,  3.0D-12, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      1.025097  1 N  px                19      0.991829  2 C  px         
@@ -664,7 +663,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      4      0.201382  1 N  px                 3      0.191089  1 N  s          
 
  Vector   19  Occ=0.000000D+00  E= 4.752855D-01
-              MO Center=  9.1D-01,  5.0D-02, -1.0D-09, r^2= 2.5D+00
+              MO Center=  9.1D-01,  5.0D-02, -6.0D-10, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      7      2.267438  1 N  px                18      1.442095  2 C  s          
@@ -674,7 +673,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     17     -0.269366  2 C  s                 35     -0.256377  5 H  s          
 
  Vector   20  Occ=0.000000D+00  E= 4.906528D-01
-              MO Center=  7.9D-01,  3.0D-02,  1.0D-09, r^2= 2.3D+00
+              MO Center=  7.9D-01,  3.0D-02,  6.2D-10, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.408075  1 N  pz                 6     -0.909225  1 N  pz         
@@ -684,7 +683,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     37      0.056784  6 H  s                 39     -0.056784  7 H  s          
 
  Vector   21  Occ=0.000000D+00  E= 6.041547D-01
-              MO Center=  2.1D-01, -1.2D-01, -2.8D-11, r^2= 2.5D+00
+              MO Center=  2.1D-01, -1.2D-01,  1.4D-12, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      2.811753  1 N  py                23     -1.443963  2 C  py         
@@ -694,7 +693,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     35     -0.383972  5 H  s                  7      0.336321  1 N  px         
 
  Vector   22  Occ=0.000000D+00  E= 7.297291D-01
-              MO Center= -2.2D-02, -5.2D-02,  6.3D-11, r^2= 3.0D+00
+              MO Center= -2.2D-02, -5.2D-02,  4.6D-11, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      3.491414  2 C  s                 34     -1.417938  4 H  s          
@@ -704,7 +703,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     31     -0.633435  3 H  s                  4      0.425366  1 N  px         
 
  Vector   23  Occ=0.000000D+00  E= 7.548591D-01
-              MO Center=  6.0D-01,  3.4D-01,  5.0D-12, r^2= 3.0D+00
+              MO Center=  6.0D-01,  3.4D-01,  1.0D-12, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     36      1.731721  5 H  s                  8     -1.332754  1 N  py         
@@ -714,7 +713,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     23     -0.603327  2 C  py                 5      0.576851  1 N  py         
 
  Vector   24  Occ=0.000000D+00  E= 8.116924D-01
-              MO Center= -1.4D-01, -9.5D-02,  7.7D-10, r^2= 3.7D+00
+              MO Center= -1.4D-01, -9.5D-02,  2.6D-10, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      5.061160  2 C  s                 17     -1.504096  2 C  s          
@@ -724,7 +723,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      3      0.609475  1 N  s                  2     -0.568539  1 N  s          
 
  Vector   25  Occ=0.000000D+00  E= 8.206257D-01
-              MO Center= -9.3D-01, -3.4D-01, -3.4D-10, r^2= 2.4D+00
+              MO Center= -9.3D-01, -3.4D-01,  3.9D-10, r^2= 2.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     38      1.874621  6 H  s                 40     -1.874621  7 H  s          
@@ -734,7 +733,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      9      0.329338  1 N  pz                12     -0.234480  1 N  dxz        
 
  Vector   26  Occ=0.000000D+00  E= 8.556313D-01
-              MO Center= -1.3D-01, -5.4D-01, -4.3D-10, r^2= 3.1D+00
+              MO Center= -1.3D-01, -5.4D-01, -6.2D-10, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      2.160734  1 N  s                 18     -1.527517  2 C  s          
@@ -744,7 +743,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     31      0.531172  3 H  s                 17      0.512517  2 C  s          
 
  Vector   27  Occ=0.000000D+00  E= 8.764100D-01
-              MO Center= -3.0D-01,  7.2D-01,  8.5D-12, r^2= 2.8D+00
+              MO Center= -3.0D-01,  7.2D-01,  6.6D-12, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      1.944685  4 H  s                  3      1.748223  1 N  s          
@@ -754,7 +753,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     18     -0.433682  2 C  s                 32     -0.420739  3 H  s          
 
  Vector   28  Occ=0.000000D+00  E= 1.120592D+00
-              MO Center= -3.9D-01,  8.0D-03, -1.9D-11, r^2= 1.3D+00
+              MO Center= -3.9D-01,  8.0D-03, -1.6D-11, r^2= 1.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     29      1.089878  2 C  dyz               27     -0.973816  2 C  dxz        
@@ -764,7 +763,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     21      0.162130  2 C  pz                37     -0.138751  6 H  s          
 
  Vector   29  Occ=0.000000D+00  E= 1.134114D+00
-              MO Center= -2.1D-01,  2.0D-02,  4.1D-11, r^2= 3.0D+00
+              MO Center= -2.1D-01,  2.0D-02,  2.2D-11, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      5.208551  2 C  s                  3     -4.496866  1 N  s          
@@ -774,7 +773,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     37     -0.457439  6 H  s                 39     -0.457439  7 H  s          
 
  Vector   30  Occ=0.000000D+00  E= 1.369349D+00
-              MO Center= -4.3D-01, -8.6D-02,  5.9D-11, r^2= 1.7D+00
+              MO Center= -4.3D-01, -8.6D-02,  4.0D-12, r^2= 1.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      1.412092  1 N  py                26     -1.285104  2 C  dxy        
@@ -784,7 +783,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     36     -0.360808  5 H  s                  3     -0.352906  1 N  s          
 
  Vector   31  Occ=0.000000D+00  E= 1.390114D+00
-              MO Center=  5.2D-01, -9.0D-04, -4.0D-11, r^2= 1.0D+00
+              MO Center=  5.2D-01, -9.0D-04,  1.2D-11, r^2= 1.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     14      1.546705  1 N  dyz               27      0.457557  2 C  dxz        
@@ -814,7 +813,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     38     -0.188363  6 H  s                 40      0.188363  7 H  s          
 
  Vector   34  Occ=0.000000D+00  E= 1.743059D+00
-              MO Center= -2.4D-01,  1.4D-01, -3.1D-11, r^2= 1.7D+00
+              MO Center= -2.4D-01,  1.4D-01, -3.3D-11, r^2= 1.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      1.216900  1 N  s                 26     -1.149586  2 C  dxy        
@@ -824,7 +823,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     30     -0.541551  2 C  dzz               37      0.504406  6 H  s          
 
  Vector   35  Occ=0.000000D+00  E= 2.013366D+00
-              MO Center=  4.7D-01,  5.2D-03,  2.6D-11, r^2= 1.4D+00
+              MO Center=  4.7D-01,  5.2D-03, -4.9D-11, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      1.008127  1 N  dyy                7      0.996734  1 N  px         
@@ -834,7 +833,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      3     -0.427957  1 N  s                 33      0.426240  4 H  s          
 
  Vector   36  Occ=0.000000D+00  E= 2.022247D+00
-              MO Center= -2.5D-01, -3.6D-02, -2.6D-11, r^2= 1.6D+00
+              MO Center= -2.5D-01, -3.6D-02,  4.6D-11, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     27      1.726866  2 C  dxz               12      1.351877  1 N  dxz        
@@ -844,7 +843,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      9     -0.269230  1 N  pz                14     -0.264989  1 N  dyz        
 
  Vector   37  Occ=0.000000D+00  E= 2.057293D+00
-              MO Center=  4.4D-01, -7.9D-03,  8.0D-13, r^2= 1.5D+00
+              MO Center=  4.4D-01, -7.9D-03,  3.3D-12, r^2= 1.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      2.435764  1 N  s                 18     -1.628595  2 C  s          
@@ -854,7 +853,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     30      0.505895  2 C  dzz                2     -0.498342  1 N  s          
 
  Vector   38  Occ=0.000000D+00  E= 2.239867D+00
-              MO Center=  4.8D-01,  7.3D-03, -2.9D-13, r^2= 1.4D+00
+              MO Center=  4.8D-01,  7.3D-03,  3.6D-13, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      2.128527  1 N  dxy               26      1.082760  2 C  dxy        
@@ -864,7 +863,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      3      0.234860  1 N  s                 30      0.225032  2 C  dzz        
 
  Vector   39  Occ=0.000000D+00  E= 2.929732D+00
-              MO Center= -7.1D-01, -1.5D-02,  2.1D-12, r^2= 1.3D+00
+              MO Center= -7.1D-01, -1.5D-02,  2.2D-12, r^2= 1.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      4.267293  2 C  s                 25     -1.677445  2 C  dxx        
@@ -874,7 +873,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     16     -0.532939  2 C  s                 13     -0.315823  1 N  dyy        
 
  Vector   40  Occ=0.000000D+00  E= 3.335652D+00
-              MO Center=  7.0D-01,  1.0D-02,  3.1D-13, r^2= 1.4D+00
+              MO Center=  7.0D-01,  1.0D-02,  1.3D-12, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      4.337598  1 N  s                 18     -2.240137  2 C  s          
@@ -946,7 +945,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161628
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -955,9 +954,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
 File balance: exchanges=     0  moved=     0  time=   0.0
 
- Grid integrated density:      18.000000475050
+ Grid integrated density:      18.000000475058
  Requested integration accuracy:   0.10E-13
- SCF residual:    1.2978537594514249E-004
+ SCF residual:    1.2979475062200452E-004
 
 
 Iterative solution of linear equations
@@ -966,15 +965,15 @@ Iterative solution of linear equations
   Maximum subspace      210
         Iterations       50
        Convergence  1.0D-04
-        Start time      2.5
+        Start time      2.6
 
 
    iter   nsub   residual    time
    ----  ------  --------  ---------
      1     21    3.03D-01       3.2
-     2     42    7.94D-02       3.8
-     3     63    9.16D-04       4.4
-     4     84    1.00D-05       5.1
+     2     42    7.94D-02       3.9
+     3     63    9.16D-04       4.5
+     4     84    1.01D-05       5.2
 
  Parallel integral file used       8 records with       0 large values
 
@@ -1093,40 +1092,40 @@ Iterative solution of linear equations
    ----- ----- ----- ----- -----
     1    4.98143D+01
     2    8.59885D-01  5.67582D+01
-    3    3.08926D-07 -2.71943D-08 -1.15339D+00
-    4   -2.26766D+01 -8.82646D-01 -3.75861D-08  4.31693D+01
-    5   -2.76874D-01 -7.90518D+00 -3.71208D-08 -1.44355D-01  4.66328D+01
-    6    8.71468D-07 -7.21104D-08 -2.83403D+00  3.30133D-07 -5.40833D-08  4.23214D+01
-    7   -4.48598D+01  4.49085D+01  1.60179D-07 -2.93750D+00  7.56354D+00 -2.42304D-07  1.69496D+02
-    8    4.44778D+01 -9.15143D+01 -1.86036D-07 -8.36594D-01  1.70926D+00  4.54798D-07 -1.77083D+02  3.46788D+02
-    9   -3.88971D-07  1.38851D-08  2.99489D+00  8.67013D-08 -1.45668D-08 -1.15979D+00  8.57802D-07 -1.08537D-06 -1.86166D+00
-   10   -4.88627D+00  9.14806D+00 -2.99404D-08 -1.97395D+01  2.07766D+01 -1.67679D-07 -5.59617D+00 -9.59315D-01  1.25927D-07  8.40163D+01
-   11   -4.44425D-01  5.57734D-01  1.13627D-07  2.37281D+01 -8.07767D+01  7.50141D-07 -1.13307D+00  1.83562D+00 -2.10034D-07 -8.61582D+01
-   12   -1.52248D-06  1.26615D-07 -4.77000D-01 -1.00600D-06  6.26906D-08 -1.18090D+01  2.96673D-06 -1.86377D-06 -2.51688D-01  8.00949D-07
-   13   -4.27807D+01 -4.47854D+01  1.90891D-07 -3.21473D+00 -6.77940D+00 -9.09663D-08  1.24409D+01  1.65064D+01  9.79159D-08  1.22125D+00
-   14   -4.49216D+01 -9.50368D+01  2.93830D-07  1.48964D+00  1.90208D+00 -1.05380D-07 -1.57302D+01 -1.37399D+01 -7.80421D-08  8.99438D-01
-   15   -1.28017D-06  1.26450D-07  5.69324D+00 -9.70748D-07  5.07956D-08 -3.04843D+00  2.56682D-06 -1.47315D-06 -5.50701D+00  8.26175D-07
-   16   -7.45383D+00 -4.71535D+00  5.12457D+00 -1.92712D+01 -1.00151D+01  1.84600D+01  5.05283D-01 -6.84360D-01  1.32378D-01  3.34293D+00
-   17   -6.80876D-01  8.53061D-01 -4.53043D-01 -1.02963D+01 -2.71406D+01  2.47666D+01  2.25513D-01  1.69251D-01 -1.28886D+00 -9.78690D+00
-   18    1.69698D+00 -9.72544D-01  2.93329D+00  1.80734D+01  2.54889D+01 -5.97271D+01  4.29042D-01  5.56862D-01  2.29419D-01 -1.27833D+00
-   19   -7.45383D+00 -4.71535D+00 -5.12457D+00 -1.92712D+01 -1.00151D+01 -1.84600D+01  5.05281D-01 -6.84358D-01 -1.32378D-01  3.34293D+00
-   20   -6.80874D-01  8.53061D-01  4.53043D-01 -1.02963D+01 -2.71406D+01 -2.47666D+01  2.25509D-01  1.69253D-01  1.28886D+00 -9.78690D+00
-   21   -1.69698D+00  9.72544D-01  2.93329D+00 -1.80734D+01 -2.54889D+01 -5.97271D+01 -4.29040D-01 -5.56863D-01  2.29419D-01  1.27833D+00
+    3    3.55703D-07 -2.44098D-08 -1.15339D+00
+    4   -2.26766D+01 -8.82646D-01 -3.45681D-08  4.31693D+01
+    5   -2.76874D-01 -7.90518D+00 -3.72513D-08 -1.44355D-01  4.66328D+01
+    6    9.35227D-07 -6.90907D-08 -2.83403D+00  3.65953D-07 -5.19199D-08  4.23214D+01
+    7   -4.48598D+01  4.49085D+01  1.69317D-07 -2.93750D+00  7.56354D+00 -2.45531D-07  1.69496D+02
+    8    4.44778D+01 -9.15143D+01 -1.90929D-07 -8.36594D-01  1.70926D+00  4.65960D-07 -1.77083D+02  3.46788D+02
+    9   -4.00231D-07  1.28777D-08  2.99489D+00  8.40886D-08 -9.35654D-09 -1.15979D+00  8.60286D-07 -1.11765D-06 -1.86166D+00
+   10   -4.88627D+00  9.14806D+00 -3.45891D-08 -1.97395D+01  2.07766D+01 -2.42801D-07 -5.59616D+00 -9.59316D-01  1.40895D-07  8.40163D+01
+   11   -4.44424D-01  5.57734D-01  1.24866D-07  2.37281D+01 -8.07767D+01  9.18686D-07 -1.13307D+00  1.83562D+00 -2.57681D-07 -8.61582D+01
+   12   -1.68458D-06  1.16368D-07 -4.77000D-01 -1.08415D-06  4.49985D-08 -1.18090D+01  3.27432D-06 -2.34533D-06 -2.51688D-01  8.21766D-07
+   13   -4.27807D+01 -4.47854D+01  1.88565D-07 -3.21473D+00 -6.77940D+00 -1.32375D-07  1.24409D+01  1.65064D+01  9.70517D-08  1.22125D+00
+   14   -4.49216D+01 -9.50368D+01  2.91625D-07  1.48964D+00  1.90208D+00 -1.14440D-07 -1.57302D+01 -1.37399D+01 -8.25751D-08  8.99438D-01
+   15   -1.41847D-06  1.16735D-07  5.69324D+00 -1.03470D-06  3.54812D-08 -3.04843D+00  2.82180D-06 -1.87211D-06 -5.50701D+00  8.41415D-07
+   16   -7.45384D+00 -4.71535D+00  5.12457D+00 -1.92712D+01 -1.00151D+01  1.84600D+01  5.05284D-01 -6.84361D-01  1.32378D-01  3.34293D+00
+   17   -6.80877D-01  8.53061D-01 -4.53043D-01 -1.02963D+01 -2.71406D+01  2.47666D+01  2.25514D-01  1.69250D-01 -1.28886D+00 -9.78690D+00
+   18    1.69698D+00 -9.72544D-01  2.93329D+00  1.80734D+01  2.54889D+01 -5.97271D+01  4.29041D-01  5.56863D-01  2.29419D-01 -1.27833D+00
+   19   -7.45383D+00 -4.71535D+00 -5.12457D+00 -1.92712D+01 -1.00151D+01 -1.84600D+01  5.05281D-01 -6.84359D-01 -1.32378D-01  3.34293D+00
+   20   -6.80874D-01  8.53061D-01  4.53043D-01 -1.02963D+01 -2.71406D+01 -2.47666D+01  2.25510D-01  1.69253D-01  1.28886D+00 -9.78690D+00
+   21   -1.69698D+00  9.72544D-01  2.93329D+00 -1.80734D+01 -2.54889D+01 -5.97271D+01 -4.29039D-01 -5.56865D-01  2.29419D-01  1.27833D+00
 
 
               11           12           13           14           15           16           17           18           19           20
    ----- ----- ----- ----- -----
    11    2.95129D+02
-   12    2.70622D-07  3.98402D+01
-   13   -1.43363D-03 -2.33723D-06  1.62804D+02
-   14    1.40209D+00 -3.22814D-06  1.74344D+02  3.59036D+02
-   15    1.55033D-07  1.57136D+00  2.19881D-06  9.04839D-07 -4.82111D+00
-   16    3.53611D+00 -8.67883D+00 -2.95426D+00  1.39592D+00  5.14358D+00  8.87040D+01
-   17   -1.08575D+01  2.35005D+01 -2.59148D-01  4.94814D-01  1.03301D+00  4.33191D+01  9.43655D+01
+   12    3.14587D-07  3.98402D+01
+   13   -1.43353D-03 -2.36315D-06  1.62804D+02
+   14    1.40209D+00 -3.24634D-06  1.74344D+02  3.59036D+02
+   15    1.94189D-07  1.57136D+00  2.51836D-06  1.33323D-06 -4.82111D+00
+   16    3.53611D+00 -8.67883D+00 -2.95426D+00  1.39593D+00  5.14358D+00  8.87040D+01
+   17   -1.08575D+01  2.35005D+01 -2.59147D-01  4.94815D-01  1.03301D+00  4.33191D+01  9.43655D+01
    18   -2.00235D+00  6.83329D-01 -1.07182D+00 -1.01921D+00 -9.72951D-01 -7.30833D+01 -9.44396D+01  2.16295D+02
    19    3.53611D+00  8.67882D+00 -2.95426D+00  1.39592D+00 -5.14358D+00  4.68389D+00  4.56817D+00  6.31410D+00  8.87040D+01
-   20   -1.08575D+01 -2.35005D+01 -2.59152D-01  4.94812D-01 -1.03301D+00  4.56817D+00  6.30037D+00  1.25767D+01  4.33191D+01  9.43655D+01
-   21    2.00235D+00  6.83329D-01  1.07182D+00  1.01921D+00 -9.72950D-01 -6.31415D+00 -1.25768D+01 -2.10727D+01  7.30833D+01  9.44396D+01
+   20   -1.08575D+01 -2.35005D+01 -2.59151D-01  4.94813D-01 -1.03301D+00  4.56817D+00  6.30037D+00  1.25767D+01  4.33191D+01  9.43655D+01
+   21    2.00235D+00  6.83329D-01  1.07182D+00  1.01922D+00 -9.72950D-01 -6.31415D+00 -1.25768D+01 -2.10727D+01  7.30833D+01  9.44396D+01
 
 
               21
@@ -1142,29 +1141,29 @@ Iterative solution of linear equations
 
                     1           2           3           4           5           6
  
- Frequency       -588.07       -1.56        1.14        1.73       28.43       56.00
+ Frequency       -588.07       -1.56        1.14        1.74       28.43       56.00
  
-           1    -0.00000    -0.00186    -0.17693    -0.03010    -0.00001     0.00140
-           2    -0.00000    -0.00193     0.02999    -0.17667    -0.00002    -0.14576
-           3     0.12360    -0.17980     0.00152     0.00224    -0.14605     0.00000
-           4    -0.00000    -0.00186    -0.17693    -0.03009    -0.00001    -0.00218
-           5    -0.00000    -0.00194     0.03025    -0.17719    -0.00001     0.15110
-           6    -0.03543    -0.17910     0.00150     0.00220     0.15482    -0.00001
-           7     0.00000    -0.00186    -0.17708    -0.02980    -0.00002    -0.16921
-           8    -0.00000    -0.00193     0.02989    -0.17649    -0.00002    -0.25254
-           9    -0.49262    -0.18004     0.00153     0.00225    -0.24766     0.00000
-          10    -0.00000    -0.00187    -0.17675    -0.03047    -0.00001     0.21616
-          11    -0.00000    -0.00194     0.03031    -0.17733    -0.00001     0.23010
-          12     0.04835    -0.17884     0.00149     0.00219     0.27089    -0.00002
-          13    -0.00000    -0.00187    -0.17678    -0.03040    -0.00001     0.17387
-          14    -0.00000    -0.00193     0.02990    -0.17650    -0.00002    -0.24877
-          15    -0.70985    -0.18015     0.00154     0.00226    -0.29444     0.00000
-          16     0.00581    -0.00140    -0.17704    -0.02994     0.19652    -0.10561
-          17    -0.05520    -0.00200     0.03032    -0.17735    -0.02649     0.24355
-          18    -0.07062    -0.17892     0.00149     0.00219     0.23495     0.00033
-          19    -0.00581    -0.00232    -0.17701    -0.02988    -0.19655    -0.10560
-          20     0.05520    -0.00188     0.03033    -0.17735     0.02647     0.24352
-          21    -0.07062    -0.17892     0.00149     0.00219     0.23495    -0.00033
+           1    -0.00000    -0.00184    -0.17694    -0.03006    -0.00001     0.00140
+           2    -0.00000    -0.00194     0.02995    -0.17668    -0.00002    -0.14576
+           3     0.12360    -0.17980     0.00150     0.00225    -0.14605     0.00000
+           4    -0.00000    -0.00184    -0.17694    -0.03005    -0.00001    -0.00218
+           5    -0.00000    -0.00195     0.03021    -0.17720    -0.00001     0.15110
+           6    -0.03543    -0.17910     0.00147     0.00221     0.15482    -0.00001
+           7     0.00000    -0.00183    -0.17709    -0.02976    -0.00002    -0.16921
+           8    -0.00000    -0.00194     0.02986    -0.17650    -0.00002    -0.25254
+           9    -0.49262    -0.18004     0.00150     0.00226    -0.24766     0.00000
+          10    -0.00000    -0.00184    -0.17675    -0.03043    -0.00001     0.21616
+          11    -0.00000    -0.00196     0.03028    -0.17734    -0.00001     0.23010
+          12     0.04835    -0.17884     0.00146     0.00220     0.27089    -0.00002
+          13    -0.00000    -0.00184    -0.17679    -0.03036    -0.00001     0.17387
+          14    -0.00000    -0.00194     0.02986    -0.17650    -0.00002    -0.24877
+          15    -0.70985    -0.18015     0.00151     0.00227    -0.29444    -0.00000
+          16     0.00581    -0.00138    -0.17705    -0.02990     0.19652    -0.10561
+          17    -0.05520    -0.00202     0.03029    -0.17736    -0.02649     0.24355
+          18    -0.07062    -0.17892     0.00146     0.00219     0.23495     0.00033
+          19    -0.00581    -0.00229    -0.17701    -0.02985    -0.19655    -0.10560
+          20     0.05520    -0.00190     0.03029    -0.17736     0.02647     0.24352
+          21    -0.07062    -0.17892     0.00146     0.00219     0.23495    -0.00033
 
                     7           8           9          10          11          12
  
@@ -1196,7 +1195,7 @@ Iterative solution of linear equations
  
  Frequency       1402.87     1422.73     1474.11     1587.55     2899.38     2946.09
  
-           1     0.00811    -0.00000     0.00250    -0.08979     0.00118    -0.00000
+           1     0.00811    -0.00000     0.00250    -0.08979     0.00118     0.00000
            2    -0.00673    -0.00000     0.02072    -0.00380    -0.00094    -0.00000
            3    -0.00000     0.01188    -0.00000    -0.00000     0.00000    -0.00142
            4     0.11308     0.00000     0.03428     0.02222     0.04503     0.00000
@@ -1252,8 +1251,8 @@ Iterative solution of linear equations
  ------ ---------- || ------------------ ------------------ -----------------
     1     -588.068 ||       0.000              -0.000             2.725
     2       -1.562 ||       0.000              -0.000             0.000
-    3        1.139 ||       0.000              -0.000             0.000
-    4        1.735 ||      -0.000               0.000             0.000
+    3        1.141 ||       0.000              -0.000             0.000
+    4        1.736 ||      -0.000               0.000             0.000
     5       28.432 ||       0.000              -0.000            -0.109
     6       56.003 ||       0.026              -0.071            -0.000
     7       81.995 ||      -0.000               0.000            -0.449
@@ -1283,8 +1282,8 @@ Iterative solution of linear equations
  ------ ---------- || -------------- ----------------- ---------- -----------
     1     -588.068 ||    0.321856           7.425       313.761      90.763
     2       -1.562 ||    0.000000           0.000         0.000       0.000
-    3        1.139 ||    0.000000           0.000         0.000       0.000
-    4        1.735 ||    0.000000           0.000         0.000       0.000
+    3        1.141 ||    0.000000           0.000         0.000       0.000
+    4        1.736 ||    0.000000           0.000         0.000       0.000
     5       28.432 ||    0.000515           0.012         0.502       0.145
     6       56.003 ||    0.000246           0.006         0.240       0.069
     7       81.995 ||    0.008746           0.202         8.526       2.466
@@ -1311,7 +1310,7 @@ Iterative solution of linear equations
         Vibrational analysis via the FX method 
   --- with translations and rotations projected out ---
   --- via the Eckart algorithm                      ---
- Projected Nuclear Hessian trans-rot subspace norm:7.9148D-33
+ Projected Nuclear Hessian trans-rot subspace norm:3.4673D-33
                          (should be close to zero!) 
 
           --------------------------------------------------------
@@ -1322,40 +1321,40 @@ Iterative solution of linear equations
                1            2            3            4            5            6            7            8            9           10
    ----- ----- ----- ----- -----
     1    4.98142D+01
-    2    8.57613D-01  5.67888D+01
-    3    2.25316D-07 -6.38003D-08 -1.11895D+00
-    4   -2.26766D+01 -8.80414D-01 -5.88714D-08  4.31694D+01
-    5   -2.75166D-01 -7.91550D+00 -8.79350D-08 -1.45804D-01  4.66310D+01
-    6    6.19676D-07 -1.99123D-07 -2.84507D+00  1.07817D-07 -2.67301D-07  4.23186D+01
-    7   -4.48686D+01  4.49425D+01 -3.51959D-07 -2.93067D+00  7.58703D+00 -1.39326D-06  1.69307D+02
-    8    4.44638D+01 -9.14412D+01 -1.15604D-07 -8.25285D-01  1.73305D+00  3.10609D-07 -1.77315D+02  3.46532D+02
-    9   -5.68741D-07 -8.02219D-08  3.05421D+00  1.41049D-07 -2.80064D-07 -1.11160D+00 -4.13635D-08 -4.95015D-07 -2.58233D+00
-   10   -4.87601D+00  9.07714D+00 -4.03743D-07 -1.97482D+01  2.07717D+01 -1.40303D-06 -5.48894D+00 -8.72346D-01 -8.74874D-07  8.40279D+01
-   11   -4.34691D-01  4.87757D-01 -1.84934D-07  2.37198D+01 -8.07789D+01 -2.59672D-07 -1.04389D+00  1.89875D+00 -1.57485D-06 -8.61335D+01
-   12   -1.43754D-06  4.28897D-08 -5.31283D-01 -7.13597D-07 -2.94166D-07 -1.18349D+01  2.32712D-06 -1.06204D-06  2.90665D-02 -1.11145D-07
-   13   -4.27719D+01 -4.48171D+01 -2.64553D-07 -3.22156D+00 -6.80525D+00 -1.23443D-06  1.26425D+01  1.67571D+01 -2.24825D-06  1.10088D+00
-   14   -4.49353D+01 -9.49627D+01  1.39494D-07  1.50083D+00  1.92401D+00 -3.97291D-07 -1.59510D+01 -1.39805D+01 -1.25904D-06  9.76201D-01
-   15   -1.00294D-06  2.42050D-07  5.79069D+00 -3.39978D-07  2.98852D-07 -3.03325D+00  2.57544D-06 -5.55007D-07 -5.40671D+00  2.01930D-06
-   16   -7.45901D+00 -4.68064D+00  5.05749D+00 -1.92668D+01 -1.00123D+01  1.84512D+01  4.50001D-01 -7.30735D-01  2.45748D-01  3.33962D+00
-   17   -6.70540D-01  7.74277D-01 -4.71733D-01 -1.03053D+01 -2.71395D+01  2.47836D+01  3.03136D-01  2.08944D-01 -1.45177D+00 -9.74045D+00
-   18    1.69698D+00 -9.72543D-01  2.83729D+00  1.80734D+01  2.54889D+01 -5.97205D+01  4.29042D-01  5.56862D-01  2.05556D-01 -1.27832D+00
-   19   -7.45901D+00 -4.68064D+00 -5.05749D+00 -1.92668D+01 -1.00123D+01 -1.84512D+01  4.49999D-01 -7.30732D-01 -2.45743D-01  3.33962D+00
-   20   -6.70538D-01  7.74277D-01  4.71733D-01 -1.03053D+01 -2.71395D+01 -2.47836D+01  3.03132D-01  2.08947D-01  1.45177D+00 -9.74045D+00
-   21   -1.69698D+00  9.72544D-01  2.83729D+00 -1.80734D+01 -2.54889D+01 -5.97205D+01 -4.29041D-01 -5.56861D-01  2.05560D-01  1.27832D+00
+    2    8.57614D-01  5.67888D+01
+    3    2.63702D-07 -6.18114D-08 -1.11895D+00
+    4   -2.26766D+01 -8.80414D-01 -6.02245D-08  4.31694D+01
+    5   -2.75166D-01 -7.91550D+00 -8.76682D-08 -1.45804D-01  4.66310D+01
+    6    6.83681D-07 -1.98982D-07 -2.84507D+00  1.42989D-07 -2.65320D-07  4.23186D+01
+    7   -4.48686D+01  4.49425D+01 -3.87837D-07 -2.93067D+00  7.58703D+00 -1.44113D-06  1.69307D+02
+    8    4.44638D+01 -9.14412D+01 -8.75954D-08 -8.25285D-01  1.73305D+00  3.59485D-07 -1.77315D+02  3.46532D+02
+    9   -5.93439D-07 -7.60086D-08  3.05421D+00  1.52106D-07 -2.73246D-07 -1.11160D+00 -4.99660D-08 -3.91660D-07 -2.58233D+00
+   10   -4.87601D+00  9.07714D+00 -4.21582D-07 -1.97482D+01  2.07717D+01 -1.46914D-06 -5.48894D+00 -8.72346D-01 -8.23962D-07  8.40279D+01
+   11   -4.34691D-01  4.87757D-01 -1.91159D-07  2.37198D+01 -8.07789D+01 -1.30576D-07 -1.04389D+00  1.89875D+00 -1.65665D-06 -8.61335D+01
+   12   -1.56077D-06  5.56136D-08 -5.31283D-01 -7.61488D-07 -2.92343D-07 -1.18349D+01  2.58622D-06 -1.24375D-06  2.90666D-02  6.49534D-09
+   13   -4.27719D+01 -4.48171D+01 -3.02456D-07 -3.22156D+00 -6.80525D+00 -1.28926D-06  1.26425D+01  1.67571D+01 -2.35643D-06  1.10088D+00
+   14   -4.49354D+01 -9.49627D+01  1.06917D-07  1.50083D+00  1.92401D+00 -4.42651D-07 -1.59510D+01 -1.39805D+01 -1.41815D-06  9.76201D-01
+   15   -1.14873D-06  2.26806D-07  5.79069D+00 -3.89732D-07  2.77894D-07 -3.03325D+00  2.75892D-06 -8.36466D-07 -5.40671D+00  2.06254D-06
+   16   -7.45901D+00 -4.68064D+00  5.05749D+00 -1.92668D+01 -1.00123D+01  1.84512D+01  4.50002D-01 -7.30736D-01  2.45748D-01  3.33962D+00
+   17   -6.70541D-01  7.74277D-01 -4.71733D-01 -1.03053D+01 -2.71395D+01  2.47836D+01  3.03137D-01  2.08943D-01 -1.45177D+00 -9.74045D+00
+   18    1.69698D+00 -9.72543D-01  2.83729D+00  1.80734D+01  2.54889D+01 -5.97205D+01  4.29040D-01  5.56864D-01  2.05556D-01 -1.27832D+00
+   19   -7.45901D+00 -4.68064D+00 -5.05749D+00 -1.92668D+01 -1.00123D+01 -1.84512D+01  4.50000D-01 -7.30733D-01 -2.45743D-01  3.33962D+00
+   20   -6.70538D-01  7.74277D-01  4.71733D-01 -1.03053D+01 -2.71395D+01 -2.47836D+01  3.03132D-01  2.08946D-01  1.45177D+00 -9.74045D+00
+   21   -1.69698D+00  9.72544D-01  2.83729D+00 -1.80734D+01 -2.54889D+01 -5.97205D+01 -4.29039D-01 -5.56862D-01  2.05560D-01  1.27833D+00
 
 
               11           12           13           14           15           16           17           18           19           20
    ----- ----- ----- ----- -----
    11    2.95165D+02
-   12   -2.00035D-06  3.99718D+01
-   13   -1.02864D-01 -1.73261D-06  1.62591D+02
-   14    1.45576D+00 -1.88772D-06  1.74584D+02  3.58811D+02
-   15    7.93854D-07  1.43564D+00  3.70764D-06  1.66700D-06 -5.58297D+00
+   12   -2.06987D-06  3.99718D+01
+   13   -1.02865D-01 -1.65955D-06  1.62591D+02
+   14    1.45576D+00 -1.79364D-06  1.74584D+02  3.58811D+02
+   15    7.52085D-07  1.43564D+00  4.03018D-06  2.04537D-06 -5.58297D+00
    16    3.52614D+00 -8.66727D+00 -2.89228D+00  1.35465D+00  5.25471D+00  8.86946D+01
-   17   -1.08000D+01  2.34127D+01 -3.49606D-01  5.24846D-01  1.23851D+00  4.32924D+01  9.45161D+01
-   18   -2.00234D+00  6.90781D-01 -1.07181D+00 -1.01921D+00 -7.82093D-01 -7.30612D+01 -9.44115D+01  2.16375D+02
+   17   -1.08000D+01  2.34127D+01 -3.49606D-01  5.24847D-01  1.23851D+00  4.32924D+01  9.45161D+01
+   18   -2.00234D+00  6.90781D-01 -1.07181D+00 -1.01922D+00 -7.82093D-01 -7.30613D+01 -9.44115D+01  2.16375D+02
    19    3.52615D+00  8.66728D+00 -2.89228D+00  1.35465D+00 -5.25471D+00  4.69426D+00  4.55355D+00  6.29208D+00  8.86946D+01
-   20   -1.08000D+01 -2.34126D+01 -3.49607D-01  5.24846D-01 -1.23852D+00  4.55355D+00  6.31246D+00  1.25486D+01  4.32924D+01  9.45161D+01
+   20   -1.08000D+01 -2.34126D+01 -3.49607D-01  5.24847D-01 -1.23852D+00  4.55355D+00  6.31246D+00  1.25486D+01  4.32924D+01  9.45161D+01
    21    2.00234D+00  6.90772D-01  1.07182D+00  1.01922D+00 -7.82111D-01 -6.29211D+00 -1.25487D+01 -2.09924D+01  7.30613D+01  9.44115D+01
 
 
@@ -1406,55 +1405,55 @@ Iterative solution of linear equations
 
                     1           2           3           4           5           6
  
- P.Frequency     -599.69       -0.00       -0.00       -0.00       -0.00       -0.00
+ P.Frequency     -599.69       -0.00       -0.00       -0.00        0.00        0.00
  
-           1    -0.00000    -0.00322     0.00347    -0.00012    -0.00052    -0.17942
-           2     0.00000     0.20687     0.10121     0.00068    -0.00267    -0.00078
-           3     0.11971    -0.00043     0.00010    -0.00605     0.04650     0.00097
-           4    -0.00000    -0.00017     0.00204    -0.00016    -0.00056    -0.17948
-           5    -0.00000    -0.06080     0.22670     0.00429     0.00042     0.00446
-           6    -0.03138     0.00309    -0.00030     0.03715     0.23498    -0.00081
-           7     0.00000     0.15842    -0.07231    -0.00230    -0.00239    -0.18259
-           8     0.00000     0.30827     0.05368    -0.00069    -0.00384    -0.00277
-           9    -0.49862    -0.00296     0.00725    -0.41645     0.03984     0.00176
-          10     0.00000    -0.19475     0.09326     0.00247     0.00168    -0.17567
-          11     0.00000    -0.13109     0.25965     0.00524     0.00123     0.00584
-          12     0.04689     0.00545    -0.00880     0.52140     0.20678    -0.00142
-          13     0.00000    -0.16674     0.08013     0.00209     0.00136    -0.17622
-          14    -0.00000     0.30467     0.05536    -0.00064    -0.00380    -0.00270
-          15    -0.72035    -0.00052    -0.00673     0.37125    -0.08694     0.00150
-          16     0.01250     0.09419    -0.04149     0.03039     0.11610    -0.18241
-          17    -0.04720    -0.14354     0.27214    -0.40187     0.06826     0.00618
-          18    -0.05877     0.00349     0.00349    -0.17044     0.32864    -0.00129
-          19    -0.01250     0.08974    -0.04082    -0.03320    -0.11934    -0.18017
-          20     0.04720    -0.14107     0.25768     0.41265    -0.06555     0.00594
-          21    -0.05877     0.00349     0.00349    -0.17044     0.32864    -0.00129
+           1    -0.00000    -0.00052    -0.00012    -0.00086    -0.17942     0.00347
+           2     0.00000    -0.00267     0.00068    -0.00091    -0.00078     0.10121
+           3     0.11971     0.04650    -0.00605    -0.22857     0.00097     0.00010
+           4    -0.00000    -0.00056    -0.00016    -0.00087    -0.17948     0.00204
+           5    -0.00000     0.00042     0.00429     0.00021     0.00446     0.22670
+           6    -0.03138     0.23498     0.03715     0.00788    -0.00081    -0.00030
+           7     0.00000    -0.00239    -0.00230    -0.00153    -0.18259    -0.07231
+           8     0.00000    -0.00384    -0.00069    -0.00133    -0.00277     0.05368
+           9    -0.49862     0.03984    -0.41645    -0.29485     0.00176     0.00725
+          10     0.00000     0.00168     0.00247    -0.00006    -0.17567     0.09326
+          11     0.00000     0.00123     0.00524     0.00050     0.00584     0.25965
+          12     0.04689     0.20678     0.52140     0.04201    -0.00142    -0.00880
+          13     0.00000     0.00136     0.00209    -0.00018    -0.17622     0.08013
+          14    -0.00000    -0.00380    -0.00064    -0.00131    -0.00270     0.05536
+          15    -0.72035    -0.08694     0.37125    -0.33821     0.00150    -0.00673
+          16     0.01250     0.11610     0.03039     0.14711    -0.18241    -0.04149
+          17    -0.04720     0.06826    -0.40187     0.02462     0.00618     0.27214
+          18    -0.05877     0.32864    -0.17044     0.09293    -0.00129     0.00349
+          19    -0.01250    -0.11934    -0.03320    -0.14962    -0.18017    -0.04082
+          20     0.04720    -0.06555     0.41265    -0.02353     0.00594     0.25768
+          21    -0.05877     0.32864    -0.17044     0.09293    -0.00129     0.00349
 
                     7           8           9          10          11          12
  
  P.Frequency        0.00      209.61      903.24     1119.45     1157.09     1229.45
  
-           1    -0.00086     0.00000     0.00234     0.00000     0.16203     0.04453
-           2    -0.00091     0.00000     0.04132    -0.00000    -0.02721     0.09309
-           3    -0.22857    -0.01786     0.00000     0.04662    -0.00000     0.00000
-           4    -0.00087    -0.00000    -0.00130    -0.00000    -0.17770    -0.05273
-           5     0.00021    -0.00000     0.03872     0.00000     0.03433    -0.12699
-           6     0.00788    -0.01021    -0.00000    -0.12365     0.00000    -0.00000
-           7    -0.00153     0.00000    -0.46387     0.00000     0.30268    -0.26272
-           8    -0.00133     0.00000    -0.25135     0.00000     0.05175    -0.10594
-           9    -0.29485     0.69382     0.00000     0.00308    -0.00000    -0.00000
-          10    -0.00006     0.00000    -0.45256    -0.00000    -0.30088     0.34608
-          11     0.00050     0.00000    -0.12883     0.00000    -0.00702     0.02297
-          12     0.04201     0.36526     0.00000     0.26291    -0.00000     0.00000
-          13    -0.00018     0.00000     0.45527    -0.00000     0.09169     0.41878
-          14    -0.00131    -0.00000    -0.23003     0.00000     0.02712    -0.12267
-          15    -0.33821    -0.43445    -0.00000     0.15636    -0.00000     0.00000
-          16     0.14711     0.07713     0.22207     0.53616    -0.11451    -0.24652
-          17     0.02462    -0.26328    -0.21248     0.12374    -0.05130     0.21217
-          18     0.09293    -0.12745    -0.02906     0.20105    -0.02859     0.09107
-          19    -0.14962    -0.07713     0.22207    -0.53616    -0.11451    -0.24652
-          20    -0.02353     0.26328    -0.21248    -0.12374    -0.05130     0.21217
-          21     0.09293    -0.12745     0.02906     0.20105     0.02859    -0.09107
+           1    -0.00322     0.00000     0.00234     0.00000     0.16203     0.04453
+           2     0.20687     0.00000     0.04132    -0.00000    -0.02721     0.09309
+           3    -0.00043    -0.01786     0.00000     0.04662    -0.00000     0.00000
+           4    -0.00017    -0.00000    -0.00130    -0.00000    -0.17770    -0.05273
+           5    -0.06080    -0.00000     0.03872     0.00000     0.03433    -0.12699
+           6     0.00309    -0.01021    -0.00000    -0.12365     0.00000    -0.00000
+           7     0.15842     0.00000    -0.46387     0.00000     0.30268    -0.26272
+           8     0.30827     0.00000    -0.25135     0.00000     0.05175    -0.10594
+           9    -0.00296     0.69382     0.00000     0.00308    -0.00000    -0.00000
+          10    -0.19475     0.00000    -0.45256    -0.00000    -0.30088     0.34608
+          11    -0.13109     0.00000    -0.12883     0.00000    -0.00702     0.02297
+          12     0.00545     0.36526     0.00000     0.26291    -0.00000     0.00000
+          13    -0.16674     0.00000     0.45527    -0.00000     0.09169     0.41878
+          14     0.30467    -0.00000    -0.23003     0.00000     0.02712    -0.12267
+          15    -0.00052    -0.43445    -0.00000     0.15636    -0.00000     0.00000
+          16     0.09419     0.07713     0.22207     0.53616    -0.11451    -0.24652
+          17    -0.14354    -0.26328    -0.21248     0.12374    -0.05130     0.21217
+          18     0.00349    -0.12745    -0.02906     0.20105    -0.02859     0.09107
+          19     0.08974    -0.07713     0.22207    -0.53616    -0.11451    -0.24652
+          20    -0.14107     0.26328    -0.21248    -0.12374    -0.05130     0.21217
+          21     0.00349    -0.12745     0.02906     0.20105     0.02859    -0.09107
 
                    13          14          15          16          17          18
  
@@ -1515,12 +1514,12 @@ Iterative solution of linear equations
   Mode   [cm**-1]  ||      [d/dqX]             [d/dqY]           [d/dqZ]
  ------ ---------- || ------------------ ------------------ -----------------
     1     -599.689 ||       0.000              -0.000             2.734
-    2       -0.000 ||      -0.024               0.072            -0.001
-    3       -0.000 ||       0.011              -0.034            -0.001
-    4       -0.000 ||       0.000              -0.001             0.044
-    5       -0.000 ||       0.000              -0.001            -0.060
-    6       -0.000 ||       0.000              -0.001             0.000
-    7        0.000 ||       0.000              -0.000            -0.067
+    2       -0.000 ||       0.000              -0.001            -0.060
+    3       -0.000 ||       0.000              -0.001             0.044
+    4       -0.000 ||       0.000              -0.000            -0.067
+    5        0.000 ||       0.000              -0.001             0.000
+    6        0.000 ||       0.011              -0.034            -0.001
+    7        0.000 ||      -0.024               0.072            -0.001
     8      209.611 ||      -0.000               0.000             0.814
     9      903.242 ||      -0.152              -0.566            -0.000
    10     1119.451 ||      -0.000              -0.000             0.268
@@ -1546,12 +1545,12 @@ Iterative solution of linear equations
   Mode   [cm**-1]  || [atomic units] [(debye/angs)**2] [(KM/mol)] [arbitrary]
  ------ ---------- || -------------- ----------------- ---------- -----------
     1     -599.689 ||    0.323901           7.473       315.755      91.339
-    2       -0.000 ||    0.000249           0.006         0.243       0.070
-    3       -0.000 ||    0.000055           0.001         0.053       0.015
-    4       -0.000 ||    0.000085           0.002         0.083       0.024
-    5       -0.000 ||    0.000155           0.004         0.151       0.044
-    6       -0.000 ||    0.000000           0.000         0.000       0.000
-    7        0.000 ||    0.000193           0.004         0.188       0.054
+    2       -0.000 ||    0.000155           0.004         0.151       0.044
+    3       -0.000 ||    0.000085           0.002         0.083       0.024
+    4       -0.000 ||    0.000193           0.004         0.188       0.054
+    5        0.000 ||    0.000000           0.000         0.000       0.000
+    6        0.000 ||    0.000055           0.001         0.053       0.015
+    7        0.000 ||    0.000249           0.006         0.243       0.070
     8      209.611 ||    0.028733           0.663        28.010       8.102
     9      903.242 ||    0.014872           0.343        14.498       4.194
    10     1119.451 ||    0.003102           0.072         3.024       0.875
@@ -1561,7 +1560,7 @@ Iterative solution of linear equations
    14     1422.781 ||    0.003928           0.091         3.829       1.108
    15     1474.121 ||    0.012361           0.285        12.050       3.486
    16     1587.556 ||    0.047768           1.102        46.566      13.470
-   17     2899.408 ||    0.104645           2.414       102.013      29.510
+   17     2899.408 ||    0.104645           2.414       102.013      29.509
    18     2946.304 ||    0.075658           1.745        73.755      21.335
    19     3056.449 ||    0.022440           0.518        21.876       6.328
    20     3543.009 ||    0.016637           0.384        16.219       4.692
@@ -1593,7 +1592,7 @@ Iterative solution of linear equations
     3 H                    1.0000     2.39148750    -1.62166220    -0.49861521
     4 H                    1.0000    -2.03950185     1.94017717     0.04688844
     5 H                    1.0000     2.35521046     1.65765404    -0.72034959
-    6 H                    1.0000    -2.14013483    -0.99857421     1.63817762
+    6 H                    1.0000    -2.14013482    -0.99857421     1.63817762
     7 H                    1.0000    -2.16513522    -0.90416705    -1.75572624
 
 
@@ -1612,7 +1611,7 @@ Iterative solution of linear equations
    Maximum component (any atom: x,y, or z) displacement:  0.360
     1 N                    7.0000     1.36885441     0.00853811     0.05985494
     2 C                    6.0000    -1.33065115    -0.02219908    -0.01569123
-    3 H                    1.0000     2.39148749    -1.62166221    -0.24930761
+    3 H                    1.0000     2.39148749    -1.62166221    -0.24930760
     4 H                    1.0000    -2.03950186     1.94017717     0.02344422
     5 H                    1.0000     2.35521046     1.65765404    -0.36017480
     6 H                    1.0000    -2.14638493    -0.97497243     1.66756476
@@ -1623,7 +1622,7 @@ Iterative solution of linear equations
    Maximum component (any atom: x,y, or z) displacement:  0.360
     1 N                    7.0000     1.36885441     0.00853811    -0.05985494
     2 C                    6.0000    -1.33065115    -0.02219907     0.01569123
-    3 H                    1.0000     2.39148748    -1.62166221     0.24930761
+    3 H                    1.0000     2.39148748    -1.62166221     0.24930760
     4 H                    1.0000    -2.03950188     1.94017716    -0.02344422
     5 H                    1.0000     2.35521045     1.65765404     0.36017480
     6 H                    1.0000    -2.15888513    -0.92776886     1.72633905
@@ -1676,7 +1675,7 @@ Iterative solution of linear equations
 
  vib:animation  F
 
- Task  times  cpu:        5.0s     wall:        5.1s
+ Task  times  cpu:        5.0s     wall:        5.2s
 
 
                                 NWChem Input Module
@@ -1694,7 +1693,6 @@ Iterative solution of linear equations
                           ch3nh2 optimization with tropt
 
 
-  no constraints, skipping    0.0000000000000000     
  maximum gradient threshold         (gmax) =   0.000450
  rms gradient threshold             (grms) =   0.000300
  maximum cartesian step threshold   (xmax) =   0.001800
@@ -1745,7 +1743,7 @@ Iterative solution of linear equations
 
   The DFT is already converged 
 
-         Total DFT energy =    -95.010491996585
+         Total DFT energy =    -95.010491996588
 
 
             General Information
@@ -1840,9 +1838,8 @@ Iterative solution of linear equations
                  ----------------------------------------
                  |  CPU   |       0.00   |       0.12   |
                  ----------------------------------------
-                 |  WALL  |       0.00   |       0.12   |
+                 |  WALL  |       0.00   |       0.13   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 
   Using Cartesian Hessian from previous frequency calculation
 
@@ -1885,7 +1882,7 @@ Iterative solution of linear equations
 
 @ Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
 @ ---- ---------------- -------- -------- -------- -------- -------- --------
-@    0     -95.01049200  0.0D+00  0.00343  0.00107  0.00000  0.00000      5.4
+@    0     -95.01049200  0.0D+00  0.00343  0.00107  0.00000  0.00000      5.5
                                                        ok       ok  
 
 
@@ -1922,14 +1919,6 @@ Iterative solution of linear equations
  hard case encountered
 lambda for step:  0.264E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -2016,12 +2005,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      5.4
-   Time prior to 1st pass:      5.4
+   Time after variat. SCF:      5.5
+   Time prior to 1st pass:      5.5
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161628
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -2033,40 +2022,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861952
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      18.000000331724
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0100511814 -1.37D+02  1.95D-03  3.20D-03     5.5
+ d= 0,ls=0.0,diis     1    -95.0100511814 -1.37D+02  1.95D-03  3.20D-03     5.7
  Grid integrated density:      18.000000333717
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0106493045 -5.98D-04  3.29D-04  6.97D-05     5.6
+ d= 0,ls=0.0,diis     2    -95.0106493045 -5.98D-04  3.29D-04  6.97D-05     5.7
  Grid integrated density:      18.000000338587
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0106402577  9.05D-06  1.95D-04  1.62D-04     5.6
+ d= 0,ls=0.0,diis     3    -95.0106402577  9.05D-06  1.95D-04  1.62D-04     5.7
  Grid integrated density:      18.000000334930
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0106573033 -1.70D-05  3.36D-05  2.06D-06     5.6
+ d= 0,ls=0.0,diis     4    -95.0106573033 -1.70D-05  3.36D-05  2.06D-06     5.8
  Grid integrated density:      18.000000335297
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0106575687 -2.65D-07  4.12D-06  1.84D-08     5.7
+ d= 0,ls=0.0,diis     5    -95.0106575687 -2.65D-07  4.12D-06  1.84D-08     5.8
  Grid integrated density:      18.000000335287
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0106575706 -1.92D-09  1.30D-06  5.27D-09     5.7
+ d= 0,ls=0.0,diis     6    -95.0106575706 -1.92D-09  1.30D-06  5.27D-09     5.9
 
 
-         Total DFT energy =      -95.010657570621
-      One electron energy =     -211.650552357601
-           Coulomb energy =       87.868088941970
-    Exchange-Corr. energy =      -13.275209655187
- Nuclear repulsion energy =       42.047015500198
+         Total DFT energy =      -95.010657570614
+      One electron energy =     -211.650552343471
+           Coulomb energy =       87.868088935077
+    Exchange-Corr. energy =      -13.275209655040
+ Nuclear repulsion energy =       42.047015492819
 
  Numeric. integr. density =       18.000000335287
 
@@ -2423,7 +2412,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center=  1.3D-01, -1.7D-02, -5.9D-02, r^2= 1.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    27      1.234746  2 C  dxz                3     -1.054591  1 N  s          
+    27      1.234745  2 C  dxz                3     -1.054591  1 N  s          
     12      1.044318  1 N  dxz                7      0.859225  1 N  px         
     10     -0.813038  1 N  dxx               18      0.744861  2 C  s          
     19      0.646748  2 C  px                29      0.625827  2 C  dyz        
@@ -2476,9 +2465,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          16.821526731839          -0.761308579545           0.735699817461
-          -0.761308579545          78.113944207692          -0.029875385266
-           0.735699817461          -0.029875385266          83.300864281722
+          16.821526737111          -0.761308580280           0.735699819621
+          -0.761308580280          78.113944250514          -0.029875386356
+           0.735699819621          -0.029875386356          83.300864324440
 
      Multipole analysis of the density
      ---------------------------------
@@ -2499,7 +2488,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.085913     -8.928434     -8.928434      5.770956
 
 
- Parallel integral file used      11 records with       0 large values
+ Parallel integral file used      10 records with       0 large values
 
 
             General Information
@@ -2594,9 +2583,8 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  CPU   |       0.00   |       0.12   |
                  ----------------------------------------
-                 |  WALL  |       0.00   |       0.12   |
+                 |  WALL  |       0.00   |       0.13   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000153132
 
  energy change =  -0.000166
@@ -2620,7 +2608,7 @@ predicted energy change:          0.000153132
     3 H                    1.0000     2.38588564    -1.61697523     0.01640553
     4 H                    1.0000    -2.03728908     1.93738363    -0.00698396
     5 H                    1.0000     2.35066840     1.65396031     0.04231514
-    6 H                    1.0000    -2.13656916    -0.94503331     1.70087674
+    6 H                    1.0000    -2.13656915    -0.94503331     1.70087674
     7 H                    1.0000    -2.17223679    -0.95600933    -1.68919541
 
       Atomic Mass 
@@ -2631,18 +2619,18 @@ predicted energy change:          0.000153132
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      42.0470155002
+ Effective nuclear repulsion energy (a.u.)      42.0470154928
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.0634123928     0.0022580270    -0.3733794820
+     0.0634123881     0.0022580300    -0.3733794815
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    1     -95.01065757 -1.7D-04  0.00042  0.00020  0.01724  0.05629      5.9
+@    1     -95.01065757 -1.7D-04  0.00042  0.00020  0.01724  0.05629      6.1
                                      ok       ok                    
 
 
@@ -2680,14 +2668,6 @@ newton step  0.330     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.553E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -2774,12 +2754,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      6.0
-   Time prior to 1st pass:      6.0
+   Time after variat. SCF:      6.1
+   Time prior to 1st pass:      6.1
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -2791,42 +2771,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      18.000000100927
+ Grid integrated density:      18.000000100947
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0104359946 -1.37D+02  1.95D-03  3.22D-03     6.1
- Grid integrated density:      18.000000110238
+ d= 0,ls=0.0,diis     1    -95.0104359946 -1.37D+02  1.95D-03  3.22D-03     6.3
+ Grid integrated density:      18.000000110257
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0110406923 -6.05D-04  2.22D-04  2.57D-05     6.1
- Grid integrated density:      18.000000107884
+ d= 0,ls=0.0,diis     2    -95.0110406923 -6.05D-04  2.22D-04  2.57D-05     6.3
+ Grid integrated density:      18.000000107904
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0110408528 -1.60D-07  1.08D-04  3.06D-05     6.2
- Grid integrated density:      18.000000108896
+ d= 0,ls=0.0,diis     3    -95.0110408528 -1.60D-07  1.08D-04  3.06D-05     6.3
+ Grid integrated density:      18.000000108916
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0110440415 -3.19D-06  3.08D-05  3.10D-06     6.2
- Grid integrated density:      18.000000108862
+ d= 0,ls=0.0,diis     4    -95.0110440415 -3.19D-06  3.08D-05  3.10D-06     6.4
+ Grid integrated density:      18.000000108882
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0110443848 -3.43D-07  3.65D-06  1.59D-08     6.3
- Grid integrated density:      18.000000108870
+ d= 0,ls=0.0,diis     5    -95.0110443848 -3.43D-07  3.65D-06  1.59D-08     6.4
+ Grid integrated density:      18.000000108889
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0110443867 -1.87D-09  9.65D-07  2.15D-09     6.3
+ d= 0,ls=0.0,diis     6    -95.0110443867 -1.87D-09  9.65D-07  2.15D-09     6.5
 
 
-         Total DFT energy =      -95.011044386707
-      One electron energy =     -211.653126581271
-           Coulomb energy =       87.867593695676
+         Total DFT energy =      -95.011044386709
+      One electron energy =     -211.653126580302
+           Coulomb energy =       87.867593695240
     Exchange-Corr. energy =      -13.275292654331
- Nuclear repulsion energy =       42.049781153219
+ Nuclear repulsion energy =       42.049781152683
 
- Numeric. integr. density =       18.000000108870
+ Numeric. integr. density =       18.000000108889
 
      Total iterative time =      0.4s
 
@@ -3234,9 +3214,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          16.879517128399          -0.772750860863           1.467927851294
-          -0.772750860863          78.093757179430          -0.058498460136
-           1.467927851294          -0.058498460136          83.186893999178
+          16.879517129711          -0.772750861173           1.467927853277
+          -0.772750861173          78.093757181996          -0.058498461257
+           1.467927853277          -0.058498461257          83.186894001611
 
      Multipole analysis of the density
      ---------------------------------
@@ -3257,7 +3237,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.088957     -8.966025     -8.966025      5.843092
 
 
- Parallel integral file used      10 records with       0 large values
+ Parallel integral file used      11 records with       0 large values
 
 
             General Information
@@ -3354,7 +3334,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000378803
 
  energy change =  -0.000387
@@ -3389,18 +3368,18 @@ predicted energy change:          0.000378803
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      42.0497811532
+ Effective nuclear repulsion energy (a.u.)      42.0497811527
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.0840506042     0.0112370208    -0.7521418187
+     0.0840506042     0.0112370214    -0.7521418181
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    2     -95.01104439 -3.9D-04  0.00082  0.00041  0.01728  0.05662      6.5
+@    2     -95.01104439 -3.9D-04  0.00082  0.00041  0.01728  0.05662      6.7
                                                                     
 
 
@@ -3438,14 +3417,6 @@ newton step  0.647     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.827E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -3532,12 +3503,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      6.5
-   Time prior to 1st pass:      6.5
+   Time after variat. SCF:      6.7
+   Time prior to 1st pass:      6.7
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -3549,40 +3520,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      18.000000069038
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0110460098 -1.37D+02  1.98D-03  3.29D-03     6.7
+ d= 0,ls=0.0,diis     1    -95.0110460098 -1.37D+02  1.98D-03  3.29D-03     6.9
  Grid integrated density:      18.000000081742
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0116629779 -6.17D-04  2.57D-04  3.69D-05     6.7
+ d= 0,ls=0.0,diis     2    -95.0116629779 -6.17D-04  2.57D-04  3.69D-05     6.9
  Grid integrated density:      18.000000078010
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0116613892  1.59D-06  1.34D-04  5.90D-05     6.8
+ d= 0,ls=0.0,diis     3    -95.0116613892  1.59D-06  1.34D-04  5.90D-05     6.9
  Grid integrated density:      18.000000078963
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0116675523 -6.16D-06  3.41D-05  3.17D-06     6.8
+ d= 0,ls=0.0,diis     4    -95.0116675523 -6.16D-06  3.41D-05  3.17D-06     7.0
  Grid integrated density:      18.000000079273
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0116679166 -3.64D-07  4.00D-06  2.03D-08     6.9
+ d= 0,ls=0.0,diis     5    -95.0116679166 -3.64D-07  4.00D-06  2.03D-08     7.0
  Grid integrated density:      18.000000079286
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0116679186 -2.02D-09  1.30D-06  5.53D-09     6.9
+ d= 0,ls=0.0,diis     6    -95.0116679186 -2.02D-09  1.30D-06  5.53D-09     7.1
 
 
-         Total DFT energy =      -95.011667918610
-      One electron energy =     -211.646517415959
-           Coulomb energy =       87.861615336365
-    Exchange-Corr. energy =      -13.275213544602
- Nuclear repulsion energy =       42.048447705586
+         Total DFT energy =      -95.011667918638
+      One electron energy =     -211.646517415919
+           Coulomb energy =       87.861615336290
+    Exchange-Corr. energy =      -13.275213544600
+ Nuclear repulsion energy =       42.048447705591
 
  Numeric. integr. density =       18.000000079286
 
@@ -3859,7 +3830,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center= -3.9D-01,  3.5D-03, -2.8D-02, r^2= 1.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    18      1.920898  2 C  s                  3     -1.488141  1 N  s          
+    18      1.920899  2 C  s                  3     -1.488142  1 N  s          
     29      1.014055  2 C  dyz               27     -0.921631  2 C  dxz        
     40     -0.651581  7 H  s                 24     -0.630461  2 C  pz         
      7      0.548588  1 N  px                12      0.527600  1 N  dxz        
@@ -3992,9 +3963,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          16.980855959189          -0.779790320789           2.208266286489
-          -0.779790320789          78.087591705826          -0.085568509868
-           2.208266286489          -0.085568509868          83.025088220291
+          16.980855959654          -0.779790318999           2.208266289502
+          -0.779790318999          78.087591705822          -0.085568510985
+           2.208266289502          -0.085568510985          83.025088220443
 
      Multipole analysis of the density
      ---------------------------------
@@ -4112,7 +4083,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000625895
 
  energy change =  -0.000624
@@ -4153,12 +4123,12 @@ predicted energy change:          0.000625895
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.1158809409     0.0265352488    -1.1354160881
+     0.1158809420     0.0265352498    -1.1354160872
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    3     -95.01166792 -6.2D-04  0.00117  0.00061  0.01762  0.05709      7.1
+@    3     -95.01166792 -6.2D-04  0.00117  0.00061  0.01762  0.05709      7.3
                                                                     
 
 
@@ -4196,14 +4166,6 @@ newton step  0.938     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.107E-01
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -4290,12 +4252,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      7.1
-   Time prior to 1st pass:      7.1
+   Time after variat. SCF:      7.3
+   Time prior to 1st pass:      7.3
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -4307,40 +4269,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      18.000000157723
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0118490891 -1.37D+02  2.03D-03  3.39D-03     7.3
+ d= 0,ls=0.0,diis     1    -95.0118490891 -1.37D+02  2.03D-03  3.39D-03     7.4
  Grid integrated density:      18.000000170967
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0124846655 -6.36D-04  3.04D-04  5.48D-05     7.3
+ d= 0,ls=0.0,diis     2    -95.0124846655 -6.36D-04  3.04D-04  5.48D-05     7.5
  Grid integrated density:      18.000000164304
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0124805075  4.16D-06  1.65D-04  1.02D-04     7.4
+ d= 0,ls=0.0,diis     3    -95.0124805075  4.16D-06  1.65D-04  1.02D-04     7.5
  Grid integrated density:      18.000000166201
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0124912062 -1.07D-05  3.68D-05  3.28D-06     7.4
+ d= 0,ls=0.0,diis     4    -95.0124912062 -1.07D-05  3.68D-05  3.28D-06     7.6
  Grid integrated density:      18.000000166695
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0124915933 -3.87D-07  4.47D-06  2.79D-08     7.4
+ d= 0,ls=0.0,diis     5    -95.0124915933 -3.87D-07  4.47D-06  2.79D-08     7.6
  Grid integrated density:      18.000000166730
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0124915958 -2.47D-09  1.65D-06  9.70D-09     7.5
+ d= 0,ls=0.0,diis     6    -95.0124915957 -2.47D-09  1.65D-06  9.70D-09     7.7
 
 
-         Total DFT energy =      -95.012491595751
-      One electron energy =     -211.630173930397
-           Coulomb energy =       87.849706897322
-    Exchange-Corr. energy =      -13.274916755695
- Nuclear repulsion energy =       42.042892193019
+         Total DFT energy =      -95.012491595725
+      One electron energy =     -211.630173929692
+           Coulomb energy =       87.849706896972
+    Exchange-Corr. energy =      -13.274916755682
+ Nuclear repulsion energy =       42.042892192676
 
  Numeric. integr. density =       18.000000166730
 
@@ -4481,7 +4443,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     22      1.388023  2 C  px                36     -1.293639  5 H  s          
      7      0.780426  1 N  px                32     -0.646192  3 H  s          
      8      0.520422  1 N  py                 4      0.332764  1 N  px         
-    24     -0.253288  2 C  pz                18     -0.217987  2 C  s          
+    24     -0.253289  2 C  pz                18     -0.217987  2 C  s          
 
  Vector   15  Occ=0.000000D+00  E= 1.731202D-01
               MO Center= -8.5D-01, -1.2D-01, -9.0D-02, r^2= 3.3D+00
@@ -4750,9 +4712,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          17.126911942010          -0.786304635010           2.962012624542
-          -0.786304635010          78.096375664916          -0.110636486893
-           2.962012624542          -0.110636486893          82.813463232948
+          17.126911942418          -0.786304634546           2.962012626802
+          -0.786304634546          78.096375667273          -0.110636488032
+           2.962012626802          -0.110636488032          82.813463235051
 
      Multipole analysis of the density
      ---------------------------------
@@ -4870,7 +4832,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000844299
 
  energy change =  -0.000824
@@ -4905,18 +4866,18 @@ predicted energy change:          0.000844299
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      42.0428921930
+ Effective nuclear repulsion energy (a.u.)      42.0428921927
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.1617305538     0.0486694989    -1.5249829871
+     0.1617305547     0.0486694994    -1.5249829864
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    4     -95.01249160 -8.2D-04  0.00147  0.00078  0.01820  0.05786      7.7
+@    4     -95.01249160 -8.2D-04  0.00147  0.00078  0.01820  0.05786      7.9
                                                                     
 
 
@@ -4954,14 +4915,6 @@ newton step   1.19     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.125E-01
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -5048,12 +5001,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      7.7
-   Time prior to 1st pass:      7.7
+   Time after variat. SCF:      7.9
+   Time prior to 1st pass:      7.9
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -5065,40 +5018,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      18.000000189067
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0127869586 -1.37D+02  2.08D-03  3.51D-03     7.9
+ d= 0,ls=0.0,diis     1    -95.0127869585 -1.37D+02  2.08D-03  3.51D-03     8.0
  Grid integrated density:      18.000000200508
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0134446727 -6.58D-04  3.63D-04  8.16D-05     7.9
+ d= 0,ls=0.0,diis     2    -95.0134446727 -6.58D-04  3.63D-04  8.16D-05     8.1
  Grid integrated density:      18.000000192178
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0134369879  7.68D-06  2.01D-04  1.64D-04     7.9
+ d= 0,ls=0.0,diis     3    -95.0134369878  7.68D-06  2.01D-04  1.64D-04     8.1
  Grid integrated density:      18.000000194608
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0134541734 -1.72D-05  3.99D-05  3.60D-06     8.0
+ d= 0,ls=0.0,diis     4    -95.0134541734 -1.72D-05  3.99D-05  3.60D-06     8.2
  Grid integrated density:      18.000000195191
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0134546047 -4.31D-07  4.97D-06  3.70D-08     8.0
+ d= 0,ls=0.0,diis     5    -95.0134546047 -4.31D-07  4.97D-06  3.70D-08     8.2
  Grid integrated density:      18.000000195245
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0134546078 -3.10D-09  1.95D-06  1.39D-08     8.1
+ d= 0,ls=0.0,diis     6    -95.0134546078 -3.10D-09  1.95D-06  1.39D-08     8.2
 
 
-         Total DFT energy =      -95.013454607825
-      One electron energy =     -211.603812399620
-           Coulomb energy =       87.831693612961
-    Exchange-Corr. energy =      -13.274379321087
- Nuclear repulsion energy =       42.033043499920
+         Total DFT energy =      -95.013454607779
+      One electron energy =     -211.603812398594
+           Coulomb energy =       87.831693612419
+    Exchange-Corr. energy =      -13.274379321056
+ Nuclear repulsion energy =       42.033043499451
 
  Numeric. integr. density =       18.000000195245
 
@@ -5508,9 +5461,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          17.317984894406          -0.794461491479           3.732448965906
-          -0.794461491479          78.124118221407          -0.133078289267
-           3.732448965906          -0.133078289267          82.550289084781
+          17.317984894968          -0.794461491420           3.732448968014
+          -0.794461491420          78.124118224439          -0.133078290393
+           3.732448968014          -0.133078290393          82.550289087222
 
      Multipole analysis of the density
      ---------------------------------
@@ -5628,7 +5581,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.001013597
 
  energy change =  -0.000963
@@ -5663,18 +5615,18 @@ predicted energy change:          0.001013597
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      42.0330434999
+ Effective nuclear repulsion energy (a.u.)      42.0330434995
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.2218046314     0.0787713562    -1.9218223430
+     0.2218046323     0.0787713565    -1.9218223423
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    5     -95.01345461 -9.6D-04  0.00198  0.00092  0.01900  0.05882      8.3
+@    5     -95.01345461 -9.6D-04  0.00198  0.00092  0.01900  0.05882      8.5
                                                                     
 
 
@@ -5712,14 +5664,6 @@ newton step   1.40     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.135E-01
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -5806,12 +5750,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      8.3
-   Time prior to 1st pass:      8.3
+   Time after variat. SCF:      8.5
+   Time prior to 1st pass:      8.5
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -5823,40 +5767,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      17.999999515516
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0137715654 -1.37D+02  2.14D-03  3.63D-03     8.4
+ d= 0,ls=0.0,diis     1    -95.0137715655 -1.37D+02  2.14D-03  3.63D-03     8.6
  Grid integrated density:      17.999999529814
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0144498830 -6.78D-04  4.33D-04  1.21D-04     8.5
+ d= 0,ls=0.0,diis     2    -95.0144498830 -6.78D-04  4.33D-04  1.21D-04     8.7
  Grid integrated density:      17.999999527999
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0144375687  1.23D-05  2.42D-04  2.49D-04     8.5
+ d= 0,ls=0.0,diis     3    -95.0144375687  1.23D-05  2.42D-04  2.49D-04     8.7
  Grid integrated density:      17.999999526881
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0144636804 -2.61D-05  4.31D-05  4.10D-06     8.6
+ d= 0,ls=0.0,diis     4    -95.0144636804 -2.61D-05  4.31D-05  4.10D-06     8.7
  Grid integrated density:      17.999999527584
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0144641758 -4.95D-07  5.46D-06  4.60D-08     8.6
+ d= 0,ls=0.0,diis     5    -95.0144641758 -4.95D-07  5.46D-06  4.60D-08     8.8
  Grid integrated density:      17.999999527603
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0144641796 -3.78D-09  2.20D-06  1.79D-08     8.7
+ d= 0,ls=0.0,diis     6    -95.0144641796 -3.78D-09  2.20D-06  1.79D-08     8.8
 
 
-         Total DFT energy =      -95.014464179580
-      One electron energy =     -211.566858989837
-           Coulomb energy =       87.807278196603
-    Exchange-Corr. energy =      -13.273564356026
- Nuclear repulsion energy =       42.018680969680
+         Total DFT energy =      -95.014464179623
+      One electron energy =     -211.566858989066
+           Coulomb energy =       87.807278196182
+    Exchange-Corr. energy =      -13.273564356020
+ Nuclear repulsion energy =       42.018680969282
 
  Numeric. integr. density =       17.999999527603
 
@@ -6266,9 +6210,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          17.552779148800          -0.807315638503           4.520135357650
-          -0.807315638503          78.177824362894          -0.152163388217
-           4.520135357650          -0.152163388217          82.236190068367
+          17.552779149334          -0.807315638651           4.520135359570
+          -0.807315638651          78.177824365764          -0.152163389291
+           4.520135359570          -0.152163389291          82.236190070435
 
      Multipole analysis of the density
      ---------------------------------
@@ -6386,7 +6330,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.001105857
 
  energy change =  -0.001010
@@ -6421,18 +6364,18 @@ predicted energy change:          0.001105857
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      42.0186809697
+ Effective nuclear repulsion energy (a.u.)      42.0186809693
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.2950403560     0.1187470836    -2.3252708953
+     0.2950403568     0.1187470839    -2.3252708946
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    6     -95.01446418 -1.0D-03  0.00253  0.00101  0.01997  0.05976      8.9
+@    6     -95.01446418 -1.0D-03  0.00253  0.00101  0.01997  0.05976      9.0
                                                                     
 
 
@@ -6470,14 +6413,6 @@ newton step   111.     exceeded trust radius  0.300
 lambda iteration converged in   4 cycles
 lambda for step:  0.110E-01
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -6564,12 +6499,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      8.9
-   Time prior to 1st pass:      8.9
+   Time after variat. SCF:      9.1
+   Time prior to 1st pass:      9.1
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -6581,40 +6516,40 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
  Grid integrated density:      17.999998897249
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0146744683 -1.37D+02  2.25D-03  3.76D-03     9.0
+ d= 0,ls=0.0,diis     1    -95.0146744683 -1.37D+02  2.25D-03  3.76D-03     9.2
  Grid integrated density:      17.999998913916
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0153807701 -7.06D-04  5.99D-04  2.59D-04     9.1
+ d= 0,ls=0.0,diis     2    -95.0153807701 -7.06D-04  5.99D-04  2.59D-04     9.2
  Grid integrated density:      17.999998925496
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0153513906  2.94D-05  3.45D-04  5.53D-04     9.1
+ d= 0,ls=0.0,diis     3    -95.0153513906  2.94D-05  3.45D-04  5.53D-04     9.3
  Grid integrated density:      17.999998917095
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0154095363 -5.81D-05  4.56D-05  3.88D-06     9.2
+ d= 0,ls=0.0,diis     4    -95.0154095363 -5.81D-05  4.56D-05  3.88D-06     9.3
  Grid integrated density:      17.999998917835
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0154100328 -4.96D-07  5.69D-06  4.83D-08     9.2
+ d= 0,ls=0.0,diis     5    -95.0154100327 -4.96D-07  5.69D-06  4.83D-08     9.4
  Grid integrated density:      17.999998917811
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0154100366 -3.86D-09  2.32D-06  2.00D-08     9.2
+ d= 0,ls=0.0,diis     6    -95.0154100366 -3.86D-09  2.32D-06  2.00D-08     9.4
 
 
-         Total DFT energy =      -95.015410036622
-      One electron energy =     -211.429376294272
-           Coulomb energy =       87.731550379662
-    Exchange-Corr. energy =      -13.270254457835
- Nuclear repulsion energy =       41.952670335824
+         Total DFT energy =      -95.015410036604
+      One electron energy =     -211.429376293986
+           Coulomb energy =       87.731550379506
+    Exchange-Corr. energy =      -13.270254457817
+ Nuclear repulsion energy =       41.952670335694
 
  Numeric. integr. density =       17.999998917811
 
@@ -7024,9 +6959,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          17.844226363902          -0.802995878155           5.320125475417
-          -0.802995878155          78.487674441071          -0.177237140739
-           5.320125475417          -0.177237140739          82.118348103018
+          17.844226364645          -0.802995878780           5.320125476308
+          -0.802995878780          78.487674441569          -0.177237141548
+           5.320125476308          -0.177237141548          82.118348102747
 
      Multipole analysis of the density
      ---------------------------------
@@ -7144,7 +7079,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.001001019
 
  energy change =  -0.000946
@@ -7179,18 +7113,18 @@ predicted energy change:          0.001001019
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.9526703358
+ Effective nuclear repulsion energy (a.u.)      41.9526703357
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.3820908184     0.1744540151    -2.7332172482
+     0.3820908188     0.1744540153    -2.7332172478
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    7     -95.01541004 -9.5D-04  0.00141  0.00070  0.02120  0.06022      9.5
+@    7     -95.01541004 -9.5D-04  0.00141  0.00070  0.02120  0.06022      9.6
                                                                     
 
 
@@ -7228,14 +7162,6 @@ newton step   6.83     exceeded trust radius  0.300
 lambda iteration converged in   5 cycles
 lambda for step:  0.797E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -7322,12 +7248,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:      9.5
-   Time prior to 1st pass:      9.5
+   Time after variat. SCF:      9.6
+   Time prior to 1st pass:      9.6
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -7339,42 +7265,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999273723
+ Grid integrated density:      17.999999273726
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0154509526 -1.37D+02  2.17D-03  3.35D-03     9.6
- Grid integrated density:      17.999999292598
+ d= 0,ls=0.0,diis     1    -95.0154509526 -1.37D+02  2.17D-03  3.35D-03     9.8
+ Grid integrated density:      17.999999292601
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0160836839 -6.33D-04  6.18D-04  2.78D-04     9.7
- Grid integrated density:      17.999999304359
+ d= 0,ls=0.0,diis     2    -95.0160836839 -6.33D-04  6.18D-04  2.78D-04     9.8
+ Grid integrated density:      17.999999304361
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0160536727  3.00D-05  3.51D-04  5.79D-04     9.7
- Grid integrated density:      17.999999295763
+ d= 0,ls=0.0,diis     3    -95.0160536727  3.00D-05  3.51D-04  5.79D-04     9.9
+ Grid integrated density:      17.999999295765
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0161146078 -6.09D-05  4.42D-05  3.74D-06     9.7
- Grid integrated density:      17.999999296570
+ d= 0,ls=0.0,diis     4    -95.0161146078 -6.09D-05  4.42D-05  3.74D-06     9.9
+ Grid integrated density:      17.999999296573
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0161150871 -4.79D-07  4.93D-06  3.38D-08     9.8
- Grid integrated density:      17.999999296549
+ d= 0,ls=0.0,diis     5    -95.0161150872 -4.79D-07  4.93D-06  3.38D-08    10.0
+ Grid integrated density:      17.999999296551
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0161150899 -2.74D-09  1.99D-06  1.46D-08     9.8
+ d= 0,ls=0.0,diis     6    -95.0161150899 -2.74D-09  1.99D-06  1.46D-08    10.0
 
 
-         Total DFT energy =      -95.016115089877
-      One electron energy =     -211.343595972643
-           Coulomb energy =       87.681106743447
-    Exchange-Corr. energy =      -13.267577486278
- Nuclear repulsion energy =       41.913951625597
+         Total DFT energy =      -95.016115089911
+      One electron energy =     -211.343595971533
+           Coulomb energy =       87.681106742832
+    Exchange-Corr. energy =      -13.267577486256
+ Nuclear repulsion energy =       41.913951625047
 
- Numeric. integr. density =       17.999999296549
+ Numeric. integr. density =       17.999999296551
 
      Total iterative time =      0.4s
 
@@ -7782,9 +7708,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.144043783582          -0.863012676764           6.084985803258
-          -0.863012676764          78.662034855744          -0.208683044767
-           6.084985803258          -0.208683044767          81.791224832395
+          18.144043783659          -0.863012677195           6.084985803713
+          -0.863012677195          78.662034859371          -0.208683045344
+           6.084985803713          -0.208683045344          81.791224835606
 
      Multipole analysis of the density
      ---------------------------------
@@ -7805,7 +7731,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.121328     -9.752967     -9.752967      7.384606
 
 
- Parallel integral file used       9 records with       0 large values
+ Parallel integral file used      10 records with       0 large values
 
 
             General Information
@@ -7902,7 +7828,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000768129
 
  energy change =  -0.000705
@@ -7937,18 +7862,18 @@ predicted energy change:          0.000768129
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.9139516256
+ Effective nuclear repulsion energy (a.u.)      41.9139516250
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.4540042231     0.2560396844    -3.1101338142
+     0.4540042237     0.2560396849    -3.1101338141
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    8     -95.01611509 -7.1D-04  0.00151  0.00056  0.02245  0.05869     10.0
+@    8     -95.01611509 -7.1D-04  0.00151  0.00056  0.02245  0.05869     10.2
                                                                     
 
 
@@ -7986,14 +7911,6 @@ newton step   2.60     exceeded trust radius  0.300
 lambda iteration converged in   6 cycles
 lambda for step:  0.414E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -8080,12 +7997,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     10.1
-   Time prior to 1st pass:     10.1
+   Time after variat. SCF:     10.2
+   Time prior to 1st pass:     10.2
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -8097,42 +8014,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999905418
+ Grid integrated density:      17.999999905402
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0159884655 -1.37D+02  1.93D-03  2.60D-03    10.2
- Grid integrated density:      17.999999919778
+ d= 0,ls=0.0,diis     1    -95.0159884654 -1.37D+02  1.93D-03  2.60D-03    10.4
+ Grid integrated density:      17.999999919763
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0165282323 -5.40D-04  4.38D-04  1.27D-04    10.2
- Grid integrated density:      17.999999924340
+ d= 0,ls=0.0,diis     2    -95.0165282322 -5.40D-04  4.38D-04  1.27D-04    10.4
+ Grid integrated density:      17.999999924325
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0165135233  1.47D-05  2.50D-04  2.76D-04    10.3
- Grid integrated density:      17.999999920363
+ d= 0,ls=0.0,diis     3    -95.0165135233  1.47D-05  2.50D-04  2.76D-04    10.5
+ Grid integrated density:      17.999999920348
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0165426177 -2.91D-05  3.76D-05  3.25D-06    10.3
- Grid integrated density:      17.999999920974
+ d= 0,ls=0.0,diis     4    -95.0165426176 -2.91D-05  3.76D-05  3.25D-06    10.5
+ Grid integrated density:      17.999999920959
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0165430181 -4.00D-07  4.79D-06  3.26D-08    10.4
- Grid integrated density:      17.999999920966
+ d= 0,ls=0.0,diis     5    -95.0165430181 -4.00D-07  4.79D-06  3.26D-08    10.5
+ Grid integrated density:      17.999999920951
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0165430207 -2.63D-09  1.95D-06  1.34D-08    10.4
+ d= 0,ls=0.0,diis     6    -95.0165430207 -2.63D-09  1.95D-06  1.34D-08    10.6
 
 
-         Total DFT energy =      -95.016543020735
-      One electron energy =     -211.294559917837
-           Coulomb energy =       87.650467914663
-    Exchange-Corr. energy =      -13.266702652850
- Nuclear repulsion energy =       41.894251635289
+         Total DFT energy =      -95.016543020688
+      One electron energy =     -211.294559924865
+           Coulomb energy =       87.650467918167
+    Exchange-Corr. energy =      -13.266702653015
+ Nuclear repulsion energy =       41.894251639025
 
- Numeric. integr. density =       17.999999920966
+ Numeric. integr. density =       17.999999920951
 
      Total iterative time =      0.4s
 
@@ -8491,7 +8408,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     12      1.007169  1 N  dxz               18     -0.916627  2 C  s          
      7     -0.635312  1 N  px                10      0.621730  1 N  dxx        
     29      0.583224  2 C  dyz               11      0.530730  1 N  dxy        
-    37      0.524699  6 H  s                 15     -0.499544  1 N  dzz        
+    37      0.524699  6 H  s                 15     -0.499543  1 N  dzz        
 
  Vector   37  Occ=0.000000D+00  E= 2.089152D+00
               MO Center=  6.1D-01,  3.1D-02, -2.5D-01, r^2= 1.3D+00
@@ -8540,9 +8457,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.366361877385          -1.001875237566           6.683669730186
-          -1.001875237566          78.846930395269          -0.261938003468
-           6.683669730186          -0.261938003468          81.503477161067
+          18.366361876303          -1.001875239338           6.683669730845
+          -1.001875239338          78.846930378212          -0.261938003745
+           6.683669730845          -0.261938003745          81.503477141952
 
      Multipole analysis of the density
      ---------------------------------
@@ -8660,7 +8577,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000460241
 
  energy change =  -0.000428
@@ -8695,18 +8611,18 @@ predicted energy change:          0.000460241
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8942516353
+ Effective nuclear repulsion energy (a.u.)      41.8942516390
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5071155522     0.4006481802    -3.3752622186
+     0.5071155532     0.4006481804    -3.3752622186
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@    9     -95.01654302 -4.3D-04  0.00122  0.00044  0.02477  0.07024     10.6
+@    9     -95.01654302 -4.3D-04  0.00122  0.00044  0.02477  0.07024     10.8
                                                                     
 
 
@@ -8744,14 +8660,6 @@ newton step   1.65     exceeded trust radius  0.300
 lambda iteration converged in   7 cycles
 lambda for step:  0.243E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -8838,12 +8746,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     10.6
-   Time prior to 1st pass:     10.6
+   Time after variat. SCF:     10.8
+   Time prior to 1st pass:     10.8
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -8855,42 +8763,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      18.000000108156
+ Grid integrated density:      18.000000108181
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0163774886 -1.37D+02  1.69D-03  1.84D-03    10.8
- Grid integrated density:      18.000000115159
+ d= 0,ls=0.0,diis     1    -95.0163774886 -1.37D+02  1.69D-03  1.84D-03    11.0
+ Grid integrated density:      18.000000115184
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0168202583 -4.43D-04  3.53D-04  8.37D-05    10.8
- Grid integrated density:      18.000000117499
+ d= 0,ls=0.0,diis     2    -95.0168202584 -4.43D-04  3.53D-04  8.37D-05    11.0
+ Grid integrated density:      18.000000117524
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0168060550  1.42D-05  2.17D-04  2.21D-04    10.9
- Grid integrated density:      18.000000115630
+ d= 0,ls=0.0,diis     3    -95.0168060551  1.42D-05  2.17D-04  2.21D-04    11.1
+ Grid integrated density:      18.000000115655
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0168295215 -2.35D-05  2.37D-05  8.46D-07    10.9
- Grid integrated density:      18.000000115868
+ d= 0,ls=0.0,diis     4    -95.0168295215 -2.35D-05  2.37D-05  8.46D-07    11.1
+ Grid integrated density:      18.000000115893
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0168296387 -1.17D-07  3.66D-06  1.29D-08    11.0
- Grid integrated density:      18.000000115846
+ d= 0,ls=0.0,diis     5    -95.0168296387 -1.17D-07  3.66D-06  1.29D-08    11.1
+ Grid integrated density:      18.000000115870
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0168296405 -1.83D-09  6.52D-07  5.98D-10    11.0
+ d= 0,ls=0.0,diis     6    -95.0168296405 -1.83D-09  6.52D-07  5.98D-10    11.2
 
 
-         Total DFT energy =      -95.016829640499
-      One electron energy =     -211.183484210429
-           Coulomb energy =       87.592388728136
-    Exchange-Corr. energy =      -13.263773494301
- Nuclear repulsion energy =       41.838039336095
+         Total DFT energy =      -95.016829640531
+      One electron energy =     -211.183484142256
+           Coulomb energy =       87.592388693844
+    Exchange-Corr. energy =      -13.263773492692
+ Nuclear repulsion energy =       41.838039300573
 
- Numeric. integr. density =       18.000000115846
+ Numeric. integr. density =       18.000000115870
 
      Total iterative time =      0.4s
 
@@ -9126,8 +9034,8 @@ File balance: exchanges=     0  moved=     0  time=   0.0
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     18      5.323270  2 C  s                 38     -1.645080  6 H  s          
-    17     -1.587887  2 C  s                 34     -1.356825  4 H  s          
-    40     -1.199666  7 H  s                 32     -0.959960  3 H  s          
+    17     -1.587887  2 C  s                 34     -1.356826  4 H  s          
+    40     -1.199667  7 H  s                 32     -0.959960  3 H  s          
      7      0.919886  1 N  px                36     -0.841052  5 H  s          
      3      0.766380  1 N  s                  2     -0.621517  1 N  s          
 
@@ -9156,7 +9064,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      3      2.359321  1 N  s                 34      1.274806  4 H  s          
-    36     -1.166437  5 H  s                  2     -0.969150  1 N  s          
+    36     -1.166437  5 H  s                  2     -0.969149  1 N  s          
     32     -0.948081  3 H  s                 33     -0.812283  4 H  s          
     40      0.814602  7 H  s                 39     -0.679966  7 H  s          
      7      0.601537  1 N  px                23     -0.476092  2 C  py         
@@ -9298,9 +9206,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.479378644442          -1.179734929471           6.930698233582
-          -1.179734929471          79.168764868416          -0.360208691230
-           6.930698233582          -0.360208691230          81.586535568034
+          18.479378659034          -1.179734908597           6.930698247494
+          -1.179734908597          79.168765048338          -0.360208692755
+           6.930698247494          -0.360208692755          81.586535742813
 
      Multipole analysis of the density
      ---------------------------------
@@ -9321,7 +9229,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.085305     -9.976185     -9.976185      7.867066
 
 
- Parallel integral file used      10 records with       0 large values
+ Parallel integral file used       9 records with       0 large values
 
 
             General Information
@@ -9418,7 +9326,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000274164
 
  energy change =  -0.000287
@@ -9439,9 +9346,9 @@ predicted energy change:          0.000274164
  ---- ---------------- ---------- -------------- -------------- --------------
     1 N                    7.0000     1.42028464     0.08092736    -0.52049140
     2 C                    6.0000    -1.28952163     0.00457149    -0.06582180
-    3 H                    1.0000     2.26503094    -1.57410491     0.03282800
-    4 H                    1.0000    -2.05973085     1.94272969    -0.14221261
-    5 H                    1.0000     2.23880174     1.49916569     0.51650880
+    3 H                    1.0000     2.26503095    -1.57410491     0.03282800
+    4 H                    1.0000    -2.05973086     1.94272969    -0.14221261
+    5 H                    1.0000     2.23880175     1.49916569     0.51650880
     6 H                    1.0000    -1.89408989    -0.83023328     1.76896248
     7 H                    1.0000    -2.24064568    -1.06328929    -1.58977348
 
@@ -9453,18 +9360,18 @@ predicted energy change:          0.000274164
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8380393361
+ Effective nuclear repulsion energy (a.u.)      41.8380393006
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5142289290     0.5681883473    -3.4520573944
+     0.5142289266     0.5681883485    -3.4520574075
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   10     -95.01682964 -2.9D-04  0.00083  0.00028  0.02687  0.07200     11.2
+@   10     -95.01682964 -2.9D-04  0.00083  0.00028  0.02687  0.07200     11.4
                                               ok                    
 
 
@@ -9502,14 +9409,6 @@ newton step   5.06     exceeded trust radius  0.300
 lambda iteration converged in   5 cycles
 lambda for step:  0.280E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -9596,12 +9495,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     11.3
-   Time prior to 1st pass:     11.3
+   Time after variat. SCF:     11.4
+   Time prior to 1st pass:     11.4
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -9613,42 +9512,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999787298
+ Grid integrated density:      17.999999787321
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0165791755 -1.37D+02  1.64D-03  1.81D-03    11.4
- Grid integrated density:      17.999999795021
+ d= 0,ls=0.0,diis     1    -95.0165791755 -1.37D+02  1.64D-03  1.81D-03    11.6
+ Grid integrated density:      17.999999795044
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0170166695 -4.37D-04  3.21D-04  8.03D-05    11.4
- Grid integrated density:      17.999999794368
+ d= 0,ls=0.0,diis     2    -95.0170166696 -4.37D-04  3.21D-04  8.03D-05    11.6
+ Grid integrated density:      17.999999794391
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0170047182  1.20D-05  2.06D-04  1.95D-04    11.5
- Grid integrated density:      17.999999794979
+ d= 0,ls=0.0,diis     3    -95.0170047183  1.20D-05  2.06D-04  1.95D-04    11.6
+ Grid integrated density:      17.999999795002
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0170254263 -2.07D-05  2.80D-05  1.16D-06    11.5
- Grid integrated density:      17.999999794813
+ d= 0,ls=0.0,diis     4    -95.0170254264 -2.07D-05  2.80D-05  1.16D-06    11.7
+ Grid integrated density:      17.999999794836
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0170255742 -1.48D-07  4.53D-06  2.68D-08    11.6
- Grid integrated density:      17.999999794837
+ d= 0,ls=0.0,diis     5    -95.0170255743 -1.48D-07  4.53D-06  2.68D-08    11.7
+ Grid integrated density:      17.999999794860
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0170255772 -2.97D-09  1.39D-06  5.99D-09    11.6
+ d= 0,ls=0.0,diis     6    -95.0170255772 -2.97D-09  1.39D-06  5.99D-09    11.8
 
 
-         Total DFT energy =      -95.017025577180
-      One electron energy =     -211.437549132172
-           Coulomb energy =       87.718744154808
-    Exchange-Corr. energy =      -13.269607299528
- Nuclear repulsion energy =       41.971386699712
+         Total DFT energy =      -95.017025577230
+      One electron energy =     -211.437549131419
+           Coulomb energy =       87.718744153854
+    Exchange-Corr. energy =      -13.269607299607
+ Nuclear repulsion energy =       41.971386699942
 
- Numeric. integr. density =       17.999999794837
+ Numeric. integr. density =       17.999999794860
 
      Total iterative time =      0.4s
 
@@ -9853,7 +9752,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center=  5.6D-01,  1.8D-01, -2.3D-01, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     7      1.639140  1 N  px                 9      1.226506  1 N  pz         
+     7      1.639141  1 N  px                 9      1.226506  1 N  pz         
     32     -0.964690  3 H  s                 22      0.956506  2 C  px         
     24     -0.760134  2 C  pz                36     -0.686263  5 H  s          
     38      0.683785  6 H  s                  8     -0.657686  1 N  py         
@@ -9897,7 +9796,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      3     -1.708218  1 N  s                 24      0.934698  2 C  pz         
     32      0.866413  3 H  s                 37      0.669330  6 H  s          
     17     -0.659684  2 C  s                  2      0.624119  1 N  s          
-    31     -0.519795  3 H  s                 36      0.385072  5 H  s          
+    31     -0.519795  3 H  s                 36      0.385073  5 H  s          
 
  Vector   26  Occ=0.000000D+00  E= 8.423777D-01
               MO Center= -6.1D-01,  1.9D-02, -2.7D-01, r^2= 2.8D+00
@@ -10056,9 +9955,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.489570538060          -1.467184326436           6.989804731875
-          -1.467184326436          78.530025211708          -0.450369000328
-           6.989804731875          -0.450369000328          80.785184247435
+          18.489570553161          -1.467184318776           6.989804781677
+          -1.467184318776          78.530025224368          -0.450368991634
+           6.989804781677          -0.450368991634          80.785184220751
 
      Multipole analysis of the density
      ---------------------------------
@@ -10079,7 +9978,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.042865     -9.988595     -9.988595      7.934326
 
 
- Parallel integral file used      10 records with       0 large values
+ Parallel integral file used      11 records with       0 large values
 
 
             General Information
@@ -10176,7 +10075,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000263799
 
  energy change =  -0.000196
@@ -10211,18 +10109,18 @@ predicted energy change:          0.000263799
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.9713866997
+ Effective nuclear repulsion energy (a.u.)      41.9713866999
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5174380772     0.7355662430    -3.4204252338
+     0.5174380811     0.7355662496    -3.4204252571
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   11     -95.01702558 -2.0D-04  0.00392  0.00126  0.02721  0.06858     11.8
+@   11     -95.01702558 -2.0D-04  0.00392  0.00126  0.02721  0.06858     12.0
                                                                     
 
 
@@ -10260,14 +10158,6 @@ newton step   1.39     exceeded trust radius  0.300
 lambda iteration converged in   7 cycles
 lambda for step:  0.190E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -10354,12 +10244,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     11.8
-   Time prior to 1st pass:     11.8
+   Time after variat. SCF:     12.0
+   Time prior to 1st pass:     12.0
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -10371,42 +10261,42 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999148856
+ Grid integrated density:      17.999999148826
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0168246245 -1.37D+02  1.63D-03  1.78D-03    12.0
- Grid integrated density:      17.999999147277
+ d= 0,ls=0.0,diis     1    -95.0168246244 -1.37D+02  1.63D-03  1.78D-03    12.1
+ Grid integrated density:      17.999999147246
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0172522942 -4.28D-04  3.85D-04  1.14D-04    12.0
- Grid integrated density:      17.999999151340
+ d= 0,ls=0.0,diis     2    -95.0172522942 -4.28D-04  3.85D-04  1.14D-04    12.2
+ Grid integrated density:      17.999999151309
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0172356471  1.66D-05  2.42D-04  2.73D-04    12.1
- Grid integrated density:      17.999999149421
+ d= 0,ls=0.0,diis     3    -95.0172356471  1.66D-05  2.42D-04  2.73D-04    12.2
+ Grid integrated density:      17.999999149390
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0172646751 -2.90D-05  2.60D-05  1.08D-06    12.1
- Grid integrated density:      17.999999149285
+ d= 0,ls=0.0,diis     4    -95.0172646751 -2.90D-05  2.60D-05  1.08D-06    12.3
+ Grid integrated density:      17.999999149254
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0172648150 -1.40D-07  4.85D-06  3.08D-08    12.2
- Grid integrated density:      17.999999149296
+ d= 0,ls=0.0,diis     5    -95.0172648150 -1.40D-07  4.85D-06  3.08D-08    12.3
+ Grid integrated density:      17.999999149265
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     6    -95.0172648184 -3.46D-09  1.49D-06  6.80D-09    12.2
+ d= 0,ls=0.0,diis     6    -95.0172648184 -3.46D-09  1.49D-06  6.80D-09    12.4
 
 
-         Total DFT energy =      -95.017264818444
-      One electron energy =     -211.236728224591
-           Coulomb energy =       87.618224741741
-    Exchange-Corr. energy =      -13.264235495441
- Nuclear repulsion energy =       41.865474159847
+         Total DFT energy =      -95.017264818413
+      One electron energy =     -211.236728251291
+           Coulomb energy =       87.618224753759
+    Exchange-Corr. energy =      -13.264235496498
+ Nuclear repulsion energy =       41.865474175617
 
- Numeric. integr. density =       17.999999149296
+ Numeric. integr. density =       17.999999149265
 
      Total iterative time =      0.4s
 
@@ -10631,7 +10521,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center=  4.1D-01,  1.5D-01,  8.2D-02, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    18      2.078984  2 C  s                 40     -1.705572  7 H  s          
+    18      2.078985  2 C  s                 40     -1.705572  7 H  s          
     36      1.481091  5 H  s                 32     -1.137782  3 H  s          
      8     -1.013619  1 N  py                24     -0.870651  2 C  pz         
     35     -0.826892  5 H  s                 17     -0.574556  2 C  s          
@@ -10741,7 +10631,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center=  3.1D-01,  3.5D-02, -1.9D-01, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-     3      2.323274  1 N  s                 18     -1.510560  2 C  s          
+     3      2.323275  1 N  s                 18     -1.510560  2 C  s          
     15     -0.838906  1 N  dzz               14      0.746152  1 N  dyz        
     29     -0.674863  2 C  dyz                2     -0.646021  1 N  s          
      7     -0.595945  1 N  px                31     -0.535121  3 H  s          
@@ -10810,13 +10700,13 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  center of mass
  --------------
- x =   0.08651055 y =   0.06045123 z =  -0.23665237
+ x =   0.08651056 y =   0.06045124 z =  -0.23665237
 
  moments of inertia (a.u.)
  ------------------
-          18.535969685450          -1.622860202902           6.955356256272
-          -1.622860202902          79.057596929118          -0.575646659620
-           6.955356256272          -0.575646659620          81.239689993243
+          18.535969726697          -1.622860169472           6.955356481579
+          -1.622860169472          79.057596911121          -0.575646639475
+           6.955356481579          -0.575646639475          81.239689853477
 
      Multipole analysis of the density
      ---------------------------------
@@ -10827,7 +10717,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
      1   1 0 0     -0.012854     -0.257768     -0.257768      0.502682
      1   0 1 0     -0.130206     -0.513648     -0.513648      0.897091
-     1   0 0 1      0.584357      1.985822      1.985822     -3.387288
+     1   0 0 1      0.584357      1.985823      1.985823     -3.387288
 
      2   2 0 0    -10.119860    -28.519916    -28.519916     46.919972
      2   1 1 0     -0.430776     -0.553188     -0.553188      0.675600
@@ -10837,7 +10727,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -12.003857     -9.997858     -9.997858      7.991859
 
 
- Parallel integral file used      11 records with       0 large values
+ Parallel integral file used      10 records with       0 large values
 
 
             General Information
@@ -10930,15 +10820,14 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  Time  |  1-e(secs)   |  2-e(secs)   |
                  ----------------------------------------
-                 |  CPU   |       0.00   |       0.13   |
+                 |  CPU   |       0.00   |       0.12   |
                  ----------------------------------------
-                 |  WALL  |       0.00   |       0.13   |
+                 |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000241659
 
  energy change =  -0.000239
- energy ratio  =   0.989997
+ energy ratio  =   0.989996
  trust radius  =   0.300000
 
           --------
@@ -10953,13 +10842,13 @@ predicted energy change:          0.000241659
 
   No.       Tag          Charge          X              Y              Z
  ---- ---------------- ---------- -------------- -------------- --------------
-    1 N                    7.0000     1.41700982     0.12539325    -0.51454507
-    2 C                    6.0000    -1.28790122     0.01699287    -0.06000358
+    1 N                    7.0000     1.41700982     0.12539325    -0.51454508
+    2 C                    6.0000    -1.28790122     0.01699287    -0.06000357
     3 H                    1.0000     2.25133556    -1.57657116    -0.10475829
-    4 H                    1.0000    -2.08912872     1.93786344    -0.22092064
-    5 H                    1.0000     2.24481121     1.44252536     0.64247347
+    4 H                    1.0000    -2.08912873     1.93786344    -0.22092064
+    5 H                    1.0000     2.24481121     1.44252535     0.64247347
     6 H                    1.0000    -1.88726413    -0.75860927     1.80386797
-    7 H                    1.0000    -2.20873325    -1.12782773    -1.54611387
+    7 H                    1.0000    -2.20873324    -1.12782773    -1.54611386
 
       Atomic Mass 
       ----------- 
@@ -10969,18 +10858,18 @@ predicted energy change:          0.000241659
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8654741598
+ Effective nuclear repulsion energy (a.u.)      41.8654741756
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5026820962     0.8970905906    -3.3872882982
+     0.5026821289     0.8970905968    -3.3872883358
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   12     -95.01726482 -2.4D-04  0.00031  0.00013  0.02744  0.06890     12.4
+@   12     -95.01726482 -2.4D-04  0.00031  0.00013  0.02744  0.06890     12.6
                                      ok       ok                    
 
 
@@ -11018,14 +10907,6 @@ newton step  0.953     exceeded trust radius  0.300
 lambda iteration converged in   5 cycles
 lambda for step:  0.124E-02
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -11112,12 +10993,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     12.4
-   Time prior to 1st pass:     12.4
+   Time after variat. SCF:     12.6
+   Time prior to 1st pass:     12.6
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -11129,39 +11010,39 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999221907
+ Grid integrated density:      17.999999221880
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0169743849 -1.37D+02  1.59D-03  1.70D-03    12.6
- Grid integrated density:      17.999999227942
+ d= 0,ls=0.0,diis     1    -95.0169743849 -1.37D+02  1.59D-03  1.70D-03    12.7
+ Grid integrated density:      17.999999227914
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0173989801 -4.25D-04  1.33D-04  1.05D-05    12.6
- Grid integrated density:      17.999999227915
+ d= 0,ls=0.0,diis     2    -95.0173989801 -4.25D-04  1.33D-04  1.05D-05    12.8
+ Grid integrated density:      17.999999227888
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0173998181 -8.38D-07  6.03D-05  4.89D-06    12.7
- Grid integrated density:      17.999999227791
+ d= 0,ls=0.0,diis     3    -95.0173998181 -8.38D-07  6.03D-05  4.89D-06    12.8
+ Grid integrated density:      17.999999227764
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0174005041 -6.86D-07  9.48D-06  1.81D-07    12.7
- Grid integrated density:      17.999999227913
+ d= 0,ls=0.0,diis     4    -95.0174005041 -6.86D-07  9.48D-06  1.81D-07    12.9
+ Grid integrated density:      17.999999227886
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0174005175 -1.34D-08  3.96D-06  6.39D-08    12.8
+ d= 0,ls=0.0,diis     5    -95.0174005175 -1.34D-08  3.96D-06  6.39D-08    12.9
 
 
-         Total DFT energy =      -95.017400517485
-      One electron energy =     -211.258677012954
-           Coulomb energy =       87.629431162470
-    Exchange-Corr. energy =      -13.264590696006
- Nuclear repulsion energy =       41.876436029005
+         Total DFT energy =      -95.017400517458
+      One electron energy =     -211.258677005380
+           Coulomb energy =       87.629431159524
+    Exchange-Corr. energy =      -13.264590695858
+ Nuclear repulsion energy =       41.876436024256
 
- Numeric. integr. density =       17.999999227913
+ Numeric. integr. density =       17.999999227886
 
      Total iterative time =      0.3s
 
@@ -11368,7 +11249,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
   ----- ------------  ---------------      ----- ------------  ---------------
      7      1.655900  1 N  px                 9      1.218936  1 N  pz         
     22      0.957600  2 C  px                32     -0.884582  3 H  s          
-    36     -0.758051  5 H  s                 24     -0.706384  2 C  pz         
+    36     -0.758052  5 H  s                 24     -0.706384  2 C  pz         
     38      0.644681  6 H  s                  4     -0.579111  1 N  px         
      8     -0.556976  1 N  py                 6     -0.543551  1 N  pz         
 
@@ -11565,13 +11446,13 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  center of mass
  --------------
- x =   0.08653140 y =   0.07161382 z =  -0.23276241
+ x =   0.08653139 y =   0.07161382 z =  -0.23276241
 
  moments of inertia (a.u.)
  ------------------
-          18.544243132978          -1.792783085621           6.920424635869
-          -1.792783085621          79.042581299533          -0.690087703779
-           6.920424635869          -0.690087703779          81.104890770843
+          18.544243117157          -1.792783118672           6.920424587824
+          -1.792783118672          79.042581325859          -0.690087698007
+           6.920424587824          -0.690087698007          81.104890813193
 
      Multipole analysis of the density
      ---------------------------------
@@ -11689,7 +11570,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000139335
 
  energy change =  -0.000136
@@ -11711,7 +11591,7 @@ predicted energy change:          0.000139335
     1 N                    7.0000     1.41638604     0.14607753    -0.50789525
     2 C                    6.0000    -1.28710492     0.02406279    -0.05687983
     3 H                    1.0000     2.24497871    -1.57524654    -0.17551585
-    4 H                    1.0000    -2.10582897     1.93393442    -0.25987435
+    4 H                    1.0000    -2.10582897     1.93393442    -0.25987434
     5 H                    1.0000     2.24807212     1.41147112     0.70288443
     6 H                    1.0000    -1.88589713    -0.72128311     1.81994068
     7 H                    1.0000    -2.19047659    -1.15924947    -1.52265984
@@ -11724,18 +11604,18 @@ predicted energy change:          0.000139335
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8764360290
+ Effective nuclear repulsion energy (a.u.)      41.8764360243
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5029209474     1.0565458791    -3.3317706445
+     0.5029209391     1.0565458830    -3.3317706401
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   13     -95.01740052 -1.4D-04  0.00026  0.00011  0.02720  0.07076     13.0
+@   13     -95.01740052 -1.4D-04  0.00026  0.00011  0.02720  0.07076     13.1
                                      ok       ok                    
 
 
@@ -11773,14 +11653,6 @@ newton step  0.509     exceeded trust radius  0.300
 lambda iteration converged in   6 cycles
 lambda for step:  0.474E-03
 step magnitude :  0.300    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -11867,12 +11739,12 @@ step magnitude :  0.300
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     13.0
-   Time prior to 1st pass:     13.0
+   Time after variat. SCF:     13.1
+   Time prior to 1st pass:     13.1
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -11884,39 +11756,39 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999999017638
+ Grid integrated density:      17.999999017705
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0170480737 -1.37D+02  1.59D-03  1.70D-03    13.1
- Grid integrated density:      17.999999017348
+ d= 0,ls=0.0,diis     1    -95.0170480737 -1.37D+02  1.59D-03  1.70D-03    13.3
+ Grid integrated density:      17.999999017415
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0174711247 -4.23D-04  1.48D-04  1.29D-05    13.2
- Grid integrated density:      17.999999018556
+ d= 0,ls=0.0,diis     2    -95.0174711248 -4.23D-04  1.48D-04  1.29D-05    13.3
+ Grid integrated density:      17.999999018623
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0174719144 -7.90D-07  7.04D-05  8.00D-06    13.2
- Grid integrated density:      17.999999017465
+ d= 0,ls=0.0,diis     3    -95.0174719145 -7.90D-07  7.04D-05  8.00D-06    13.4
+ Grid integrated density:      17.999999017532
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0174728900 -9.76D-07  1.64D-05  9.29D-07    13.3
- Grid integrated density:      17.999999017879
+ d= 0,ls=0.0,diis     4    -95.0174728900 -9.76D-07  1.64D-05  9.29D-07    13.4
+ Grid integrated density:      17.999999017946
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0174729874 -9.74D-08  3.90D-06  3.45D-08    13.3
+ d= 0,ls=0.0,diis     5    -95.0174729874 -9.74D-08  3.90D-06  3.45D-08    13.5
 
 
-         Total DFT energy =      -95.017472987373
-      One electron energy =     -211.257859095208
-           Coulomb energy =       87.629039649701
-    Exchange-Corr. energy =      -13.264475457895
- Nuclear repulsion energy =       41.875821916030
+         Total DFT energy =      -95.017472987416
+      One electron energy =     -211.257859087184
+           Coulomb energy =       87.629039644799
+    Exchange-Corr. energy =      -13.264475457763
+ Nuclear repulsion energy =       41.875821912732
 
- Numeric. integr. density =       17.999999017879
+ Numeric. integr. density =       17.999999017946
 
      Total iterative time =      0.3s
 
@@ -12124,7 +11996,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      7      1.662958  1 N  px                 9      1.231082  1 N  pz         
     22      0.961917  2 C  px                32     -0.843069  3 H  s          
     36     -0.801983  5 H  s                 24     -0.692894  2 C  pz         
-    38      0.635423  6 H  s                  4     -0.582205  1 N  px         
+    38      0.635424  6 H  s                  4     -0.582205  1 N  px         
      6     -0.546044  1 N  pz                 8     -0.494069  1 N  py         
 
  Vector   22  Occ=0.000000D+00  E= 7.590493D-01
@@ -12133,7 +12005,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
   ----- ------------  ---------------      ----- ------------  ---------------
     18      2.949390  2 C  s                 34     -1.611861  4 H  s          
     40     -1.081072  7 H  s                 24     -0.839785  2 C  pz         
-    17     -0.826538  2 C  s                 37     -0.684611  6 H  s          
+    17     -0.826537  2 C  s                 37     -0.684611  6 H  s          
     32      0.674414  3 H  s                 31     -0.630306  3 H  s          
     38      0.569633  6 H  s                 23      0.566557  2 C  py         
 
@@ -12262,7 +12134,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     26      1.646275  2 C  dxy               11      1.024804  1 N  dxy        
-    33      0.717373  4 H  s                 39     -0.677044  7 H  s          
+    33      0.717372  4 H  s                 39     -0.677044  7 H  s          
     27      0.601014  2 C  dxz               29      0.568044  2 C  dyz        
     34     -0.442612  4 H  s                 14     -0.412303  1 N  dyz        
     40      0.414302  7 H  s                 12      0.341385  1 N  dxz        
@@ -12273,7 +12145,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
   ----- ------------  ---------------      ----- ------------  ---------------
     27      1.490309  2 C  dxz               12      1.060469  1 N  dxz        
     37      0.759673  6 H  s                 18     -0.716415  2 C  s          
-     3      0.673949  1 N  s                 29      0.674770  2 C  dyz        
+     3      0.673948  1 N  s                 29      0.674770  2 C  dyz        
     10      0.513849  1 N  dxx               26     -0.513548  2 C  dxy        
     38     -0.510958  6 H  s                  7     -0.477061  1 N  px         
 
@@ -12324,9 +12196,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.539658557687          -1.960590360475           6.852727752896
-          -1.960590360475          79.111773224164          -0.795744550448
-           6.852727752896          -0.795744550448          81.039506602418
+          18.539658595736          -1.960590318800           6.852727862949
+          -1.960590318800          79.111773243703          -0.795744552173
+           6.852727862949          -0.795744552173          81.039506572235
 
      Multipole analysis of the density
      ---------------------------------
@@ -12444,11 +12316,10 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000073917
 
  energy change =  -0.000072
- energy ratio  =   0.980416
+ energy ratio  =   0.980417
  trust radius  =   0.300000
 
           --------
@@ -12463,11 +12334,11 @@ predicted energy change:          0.000073917
 
   No.       Tag          Charge          X              Y              Z
  ---- ---------------- ---------- -------------- -------------- --------------
-    1 N                    7.0000     1.41617499     0.16701377    -0.50006669
+    1 N                    7.0000     1.41617500     0.16701377    -0.50006670
     2 C                    6.0000    -1.28733421     0.03170395    -0.05414402
     3 H                    1.0000     2.23857212    -1.57039669    -0.24466330
     4 H                    1.0000    -2.12522768     1.92889651    -0.29859600
-    5 H                    1.0000     2.25541943     1.37690145     0.76159647
+    5 H                    1.0000     2.25541942     1.37690145     0.76159647
     6 H                    1.0000    -1.88496832    -0.68411069     1.83452440
     7 H                    1.0000    -2.17250705    -1.19024155    -1.49865085
 
@@ -12479,18 +12350,18 @@ predicted energy change:          0.000073917
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8758219160
+ Effective nuclear repulsion energy (a.u.)      41.8758219127
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5005081591     1.2203690995    -3.2711202463
+     0.5005081803     1.2203690937    -3.2711202725
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   14     -95.01747299 -7.2D-05  0.00013  0.00005  0.02714  0.06922     13.5
+@   14     -95.01747299 -7.2D-05  0.00013  0.00005  0.02714  0.06922     13.7
                                      ok       ok                    
 
 
@@ -12526,14 +12397,6 @@ predicted energy change:          0.000073917
 
 lambda for step:   0.00    
 step magnitude :  0.184    
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -12620,12 +12483,12 @@ step magnitude :  0.184
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     13.5
-   Time prior to 1st pass:     13.5
+   Time after variat. SCF:     13.7
+   Time prior to 1st pass:     13.7
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -12637,39 +12500,39 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999998961823
+ Grid integrated density:      17.999998961821
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0173247203 -1.37D+02  9.77D-04  6.37D-04    13.7
- Grid integrated density:      17.999998961516
+ d= 0,ls=0.0,diis     1    -95.0173247203 -1.37D+02  9.77D-04  6.37D-04    13.8
+ Grid integrated density:      17.999998961513
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0174842453 -1.60D-04  8.33D-05  4.15D-06    13.7
- Grid integrated density:      17.999998962020
+ d= 0,ls=0.0,diis     2    -95.0174842453 -1.60D-04  8.33D-05  4.15D-06    13.9
+ Grid integrated density:      17.999998962017
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0174845381 -2.93D-07  3.90D-05  2.28D-06    13.8
- Grid integrated density:      17.999998961498
+ d= 0,ls=0.0,diis     3    -95.0174845381 -2.93D-07  3.90D-05  2.28D-06    13.9
+ Grid integrated density:      17.999998961495
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     4    -95.0174848286 -2.91D-07  8.46D-06  2.30D-07    13.8
- Grid integrated density:      17.999998961754
+ d= 0,ls=0.0,diis     4    -95.0174848286 -2.91D-07  8.46D-06  2.30D-07    14.0
+ Grid integrated density:      17.999998961751
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     5    -95.0174848515 -2.29D-08  2.48D-06  1.65D-08    13.9
+ d= 0,ls=0.0,diis     5    -95.0174848516 -2.29D-08  2.48D-06  1.65D-08    14.0
 
 
-         Total DFT energy =      -95.017484851541
-      One electron energy =     -211.255663296121
-           Coulomb energy =       87.627785956110
-    Exchange-Corr. energy =      -13.264441629148
- Nuclear repulsion energy =       41.874834117618
+         Total DFT energy =      -95.017484851551
+      One electron energy =     -211.255663307103
+           Coulomb energy =       87.627785962765
+    Exchange-Corr. energy =      -13.264441629476
+ Nuclear repulsion energy =       41.874834122263
 
- Numeric. integr. density =       17.999998961754
+ Numeric. integr. density =       17.999998961751
 
      Total iterative time =      0.3s
 
@@ -12794,7 +12657,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
               MO Center= -8.5D-01,  6.1D-02, -1.3D-01, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
-    34     -1.867068  4 H  s                 40      1.859301  7 H  s          
+    34     -1.867067  4 H  s                 40      1.859301  7 H  s          
     23      1.774454  2 C  py                24      0.660726  2 C  pz         
     20      0.456307  2 C  py                32      0.360443  3 H  s          
     36     -0.349600  5 H  s                 21      0.168662  2 C  pz         
@@ -13027,7 +12890,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
     27      1.481217  2 C  dxz               12      1.029310  1 N  dxz        
     37      0.762197  6 H  s                 18     -0.712983  2 C  s          
     29      0.680741  2 C  dyz                3      0.667523  1 N  s          
-    26     -0.542852  2 C  dxy               10      0.511271  1 N  dxx        
+    26     -0.542851  2 C  dxy               10      0.511271  1 N  dxx        
     38     -0.512053  6 H  s                  7     -0.474508  1 N  px         
 
  Vector   37  Occ=0.000000D+00  E= 2.087162D+00
@@ -13077,9 +12940,9 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  moments of inertia (a.u.)
  ------------------
-          18.543796231737          -2.047183248354           6.834745214203
-          -2.047183248354          79.168772712676          -0.856967985572
-           6.834745214203          -0.856967985572          80.989604403491
+          18.543796198465          -2.047183279989           6.834745136420
+          -2.047183279989          79.168772691886          -0.856967976684
+           6.834745136420          -0.856967976684          80.989604422236
 
      Multipole analysis of the density
      ---------------------------------
@@ -13197,11 +13060,10 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000012209
 
  energy change =  -0.000012
- energy ratio  =   0.971773
+ energy ratio  =   0.971770
  trust radius  =   0.300000
 
           --------
@@ -13216,12 +13078,12 @@ predicted energy change:          0.000012209
 
   No.       Tag          Charge          X              Y              Z
  ---- ---------------- ---------- -------------- -------------- --------------
-    1 N                    7.0000     1.41672685     0.17946452    -0.49626115
-    2 C                    6.0000    -1.28701744     0.03659631    -0.05237483
+    1 N                    7.0000     1.41672685     0.17946452    -0.49626114
+    2 C                    6.0000    -1.28701745     0.03659631    -0.05237483
     3 H                    1.0000     2.23505955    -1.56594089    -0.28686341
     4 H                    1.0000    -2.13662027     1.92536505    -0.32228865
-    5 H                    1.0000     2.25755813     1.35375912     0.79759560
-    6 H                    1.0000    -1.88433725    -0.66076939     1.84325803
+    5 H                    1.0000     2.25755814     1.35375912     0.79759560
+    6 H                    1.0000    -1.88433725    -0.66076940     1.84325803
     7 H                    1.0000    -2.16124030    -1.20870798    -1.48306560
 
       Atomic Mass 
@@ -13232,18 +13094,18 @@ predicted energy change:          0.000012209
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8748341176
+ Effective nuclear repulsion energy (a.u.)      41.8748341223
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5054031758     1.3195353965    -3.2394410437
+     0.5054031533     1.3195353954    -3.2394410178
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   15     -95.01748485 -1.2D-05  0.00007  0.00003  0.01674  0.04226     14.1
+@   15     -95.01748485 -1.2D-05  0.00007  0.00003  0.01674  0.04226     14.2
                                      ok       ok                    
 
 
@@ -13279,14 +13141,6 @@ predicted energy change:          0.000012209
 
 lambda for step:   0.00    
 step magnitude :  0.490E-02
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
                                  NWChem DFT Module
                                  -----------------
@@ -13373,12 +13227,12 @@ step magnitude :  0.490E-02
 
 ch3nh2 optimization with tropt
 
-   Time after variat. SCF:     14.1
-   Time prior to 1st pass:     14.1
+   Time after variat. SCF:     14.2
+   Time prior to 1st pass:     14.2
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -13390,33 +13244,33 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  Grid_pts file          = ./ch3nh2.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     25        Max. recs in file   =    861942
+ Max. records in memory =     25        Max. recs in file   =    863442
 
- Grid integrated density:      17.999998948549
+ Grid integrated density:      17.999998948535
  Requested integration accuracy:   0.10E-13
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.68            85675002
+           Heap Space remaining (MW):       85.68            85675008
           Stack Space remaining (MW):       86.25            86246748
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1    -95.0174847440 -1.37D+02  4.10D-05  9.62D-07    14.2
- Grid integrated density:      17.999998948443
+ d= 0,ls=0.0,diis     1    -95.0174847440 -1.37D+02  4.10D-05  9.62D-07    14.4
+ Grid integrated density:      17.999998948428
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     2    -95.0174849393 -1.95D-07  8.83D-06  5.30D-08    14.3
- Grid integrated density:      17.999998948253
+ d= 0,ls=0.0,diis     2    -95.0174849393 -1.95D-07  8.83D-06  5.30D-08    14.4
+ Grid integrated density:      17.999998948239
  Requested integration accuracy:   0.10E-13
- d= 0,ls=0.0,diis     3    -95.0174849360  3.33D-09  4.58D-06  8.85D-08    14.3
+ d= 0,ls=0.0,diis     3    -95.0174849360  3.33D-09  4.58D-06  8.85D-08    14.5
 
 
-         Total DFT energy =      -95.017484935981
-      One electron energy =     -211.254310763499
-           Coulomb energy =       87.626926244312
-    Exchange-Corr. energy =      -13.264388738207
- Nuclear repulsion energy =       41.874288321412
+         Total DFT energy =      -95.017484935989
+      One electron energy =     -211.254310759868
+           Coulomb energy =       87.626926243706
+    Exchange-Corr. energy =      -13.264388738348
+ Nuclear repulsion energy =       41.874288318521
 
- Numeric. integr. density =       17.999998948253
+ Numeric. integr. density =       17.999998948239
 
      Total iterative time =      0.2s
 
@@ -13642,7 +13496,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      1.681892  3 H  s                 36     -1.680464  5 H  s          
-     8      1.152259  1 N  py                34     -1.028382  4 H  s          
+     8      1.152259  1 N  py                34     -1.028381  4 H  s          
     40      1.021254  7 H  s                 23      0.816080  2 C  py         
     31     -0.634132  3 H  s                 35      0.631323  5 H  s          
      5     -0.569905  1 N  py                 9      0.428305  1 N  pz         
@@ -13820,13 +13674,13 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
  center of mass
  --------------
- x =   0.08651679 y =   0.08994306 z =  -0.22606284
+ x =   0.08651679 y =   0.08994305 z =  -0.22606285
 
  moments of inertia (a.u.)
  ------------------
-          18.534227557154          -2.048731481664           6.810974835603
-          -2.048731481664          79.174102715845          -0.856852091729
-           6.810974835603          -0.856852091729          81.006796593596
+          18.534227572168          -2.048731459082           6.810974879382
+          -2.048731459082          79.174102723480          -0.856852086960
+           6.810974879382          -0.856852086960          81.006796596434
 
      Multipole analysis of the density
      ---------------------------------
@@ -13847,7 +13701,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
      2   0 0 2    -11.845499     -9.998410     -9.998410      8.151322
 
 
- Parallel integral file used      10 records with       0 large values
+ Parallel integral file used      11 records with       0 large values
 
 
             General Information
@@ -13944,40 +13798,39 @@ File balance: exchanges=     0  moved=     0  time=   0.0
                  ----------------------------------------
                  |  WALL  |       0.00   |       0.12   |
                  ----------------------------------------
-  no constraints, skipping    0.0000000000000000     
 predicted energy change:          0.000000159
 
  energy change =  -0.000000
- energy ratio  =   0.529606
+ energy ratio  =   0.529595
  trust radius  =   0.300000
 
           --------
+ Convergence reached over gradient and energy
+ Convergence reached over gradient and energy
+ Convergence reached over gradient and energy
           Step  16
           --------
- Convergence reached over gradient and energy
- Convergence reached over gradient and energy
- Energy change =    8.4440358705251128E-008
- Energy precision =    4.9999998736893758E-006
- Convergence reached over gradient and energy
- Energy change =    8.4440358705251128E-008
- Energy precision =    4.9999998736893758E-006
 
 
                          Geometry "geometry" -> "geometry"
                          ---------------------------------
 
+ Energy change =    8.4437616010291094E-008
+ Energy precision =    4.9999998736893758E-006
+ Energy change =    8.4437616010291094E-008
+ Energy precision =    4.9999998736893758E-006
+ Energy change =    8.4437616010291094E-008
+ Energy precision =    4.9999998736893758E-006
  Output coordinates in a.u. (scale by  1.000000000 to convert to a.u.)
 
   No.       Tag          Charge          X              Y              Z
  ---- ---------------- ---------- -------------- -------------- --------------
-    1 N                    7.0000     1.41655115     0.17930685    -0.49543934
+    1 N                    7.0000     1.41655115     0.17930685    -0.49543935
     2 C                    6.0000    -1.28734136     0.03654045    -0.05268577
     3 H                    1.0000     2.23520220    -1.56585487    -0.28593779
-    4 H                    1.0000    -2.13704168     1.92540489    -0.32182733
- Energy change =    8.4440358705251128E-008
- Energy precision =    4.9999998736893758E-006
-    5 H                    1.0000     2.25900840     1.35423323     0.79664789
-    6 H                    1.0000    -1.88431736    -0.66132188     1.84274135
+    4 H                    1.0000    -2.13704168     1.92540489    -0.32182732
+    5 H                    1.0000     2.25900839     1.35423324     0.79664789
+    6 H                    1.0000    -1.88431736    -0.66132189     1.84274135
     7 H                    1.0000    -2.16193208    -1.20854192    -1.48349901
 
       Atomic Mass 
@@ -13988,18 +13841,18 @@ predicted energy change:          0.000000159
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8742883214
+ Effective nuclear repulsion energy (a.u.)      41.8742883185
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5027294001     1.3183100793    -3.2360649318
+     0.5027294090     1.3183100687    -3.2360649409
 
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   16     -95.01748494 -8.4D-08  0.00004  0.00001  0.00057  0.00145     14.5
+@   16     -95.01748494 -8.4D-08  0.00004  0.00001  0.00057  0.00145     14.7
                                      ok       ok       ok       ok  
 
 
@@ -14028,13 +13881,13 @@ predicted energy change:          0.000000159
    15 Bend                     6     2     7               107.47511   -0.00000
    16 Torsion                  3     1     2     4        -178.96017   -0.00000
    17 Torsion                  3     1     2     6          59.10246    0.00000
-   18 Torsion                  3     1     2     7         -62.83656    0.00000
+   18 Torsion                  3     1     2     7         -62.83657    0.00000
    19 Torsion                  4     2     1     5          62.85139   -0.00000
    20 Torsion                  5     1     2     6         -59.08598   -0.00000
    21 Torsion                  5     1     2     7         178.97499   -0.00000
 
  Convergence reached over gradient and energy
- Energy change =    8.4440358705251128E-008
+ Energy change =    8.4437616010291094E-008
  Energy precision =    4.9999998736893758E-006
 
       ----------------------
@@ -14044,7 +13897,7 @@ predicted energy change:          0.000000159
 
   Step       Energy      Delta E   Gmax     Grms     Xrms     Xmax   Walltime
   ---- ---------------- -------- -------- -------- -------- -------- --------
-@   16     -95.01748494 -8.4D-08  0.00004  0.00001  0.00057  0.00145     14.5
+@   16     -95.01748494 -8.4D-08  0.00004  0.00001  0.00057  0.00145     14.7
                                      ok       ok       ok       ok  
 
 
@@ -14073,7 +13926,7 @@ predicted energy change:          0.000000159
    15 Bend                     6     2     7               107.47511   -0.00000
    16 Torsion                  3     1     2     4        -178.96017   -0.00000
    17 Torsion                  3     1     2     6          59.10246    0.00000
-   18 Torsion                  3     1     2     7         -62.83656    0.00000
+   18 Torsion                  3     1     2     7         -62.83657    0.00000
    19 Torsion                  4     2     1     5          62.85139   -0.00000
    20 Torsion                  5     1     2     6         -59.08598   -0.00000
    21 Torsion                  5     1     2     7         178.97499   -0.00000
@@ -14087,12 +13940,12 @@ predicted energy change:          0.000000159
 
   No.       Tag          Charge          X              Y              Z
  ---- ---------------- ---------- -------------- -------------- --------------
-    1 N                    7.0000     1.41655115     0.17930685    -0.49543934
+    1 N                    7.0000     1.41655115     0.17930685    -0.49543935
     2 C                    6.0000    -1.28734136     0.03654045    -0.05268577
     3 H                    1.0000     2.23520220    -1.56585487    -0.28593779
-    4 H                    1.0000    -2.13704168     1.92540489    -0.32182733
-    5 H                    1.0000     2.25900840     1.35423323     0.79664789
-    6 H                    1.0000    -1.88431736    -0.66132188     1.84274135
+    4 H                    1.0000    -2.13704168     1.92540489    -0.32182732
+    5 H                    1.0000     2.25900839     1.35423324     0.79664789
+    6 H                    1.0000    -1.88431736    -0.66132189     1.84274135
     7 H                    1.0000    -2.16193208    -1.20854192    -1.48349901
 
       Atomic Mass 
@@ -14103,13 +13956,13 @@ predicted energy change:          0.000000159
       H                  1.007825
 
 
- Effective nuclear repulsion energy (a.u.)      41.8742883214
+ Effective nuclear repulsion energy (a.u.)      41.8742883185
 
             Nuclear Dipole moment (a.u.) 
             ----------------------------
         X                 Y               Z
  ---------------- ---------------- ----------------
-     0.5027294001     1.3183100793    -3.2360649318
+     0.5027294090     1.3183100687    -3.2360649409
 
 
                 Final and change from initial internal coordinates
@@ -14141,7 +13994,7 @@ predicted energy change:          0.000000159
    15 Bend                     6     2     7               107.47511   -0.18690
    16 Torsion                  3     1     2     4        -178.96017    1.03983
    17 Torsion                  3     1     2     6          59.10246   -2.43973
-   18 Torsion                  3     1     2     7         -62.83656   -1.29438
+   18 Torsion                  3     1     2     7         -62.83657   -1.29438
    19 Torsion                  4     2     1     5          62.85139   62.85139
    20 Torsion                  5     1     2     6         -59.08598   59.37183
    21 Torsion                  5     1     2     7         178.97499   60.51718
@@ -14201,6 +14054,7 @@ predicted energy change:          0.000000159
                               NWChem Analytic Hessian
                               -----------------------
 
+ restr:                     2
 
                                  NWChem DFT Module
                                  -----------------
@@ -14223,7 +14077,7 @@ predicted energy change:          0.000000159
 
   The DFT is already converged 
 
-         Total DFT energy =    -95.017484935981
+         Total DFT energy =    -95.017484935989
 
   stpr_wrt_fd_from_sq: overwrite of existing file:./ch3nh2.hess
  stpr_wrt_fd_dipole: overwrite of existing file./ch3nh2.fd_ddipole
@@ -14241,6 +14095,7 @@ predicted energy change:          0.000000159
 
  HESSIAN: the two electron contributions are done in       0.5s
 
+ Restarting rhs from: ./ch3nh2.cphf_rhs                                                                                                                                                                                                                                               
                                 NWChem CPHF Module
                                 ------------------
 
@@ -14258,7 +14113,7 @@ predicted energy change:          0.000000159
 
  Integral file          = ./ch3nh2.aoints.0
  Record size in doubles =  65536        No. of integs per rec  =  43688
- Max. records in memory =      4        Max. records in file   = 161626
+ Max. records in memory =      4        Max. records in file   = 161907
  No. of bits per label  =      8        No. of bits per value  =     64
 
 
@@ -14281,6 +14136,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
  For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
 
 
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
  cphf_solve2:SCF residual greater than 1d-2                   0
  ------------------------------------------------------------------------
  ------------------------------------------------------------------------
@@ -14294,10 +14150,6 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
 
  For further details see manual section: No section for this category                                                                                                                                                                                                                                   
-[3] ARMCI Error: 3:cphf_solve2:SCF residual greater than 1d-2:
-[0] ARMCI Error: 0:cphf_solve2:SCF residual greater than 1d-2:
-[1] ARMCI Error: 1:cphf_solve2:SCF residual greater than 1d-2:
-[2] ARMCI Error: 2:cphf_solve2:SCF residual greater than 1d-2:
  cphf_solve2:SCF residual greater than 1d-2                   0
  ------------------------------------------------------------------------
  ------------------------------------------------------------------------
@@ -14311,7 +14163,7 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
 
  For further details see manual section: No section for this category                                                                                                                                                                                                                                   
- SCF residual:    3.5078829910708387     
+ SCF residual:    3.5078829909243487     
  ------------------------------------------------------------------------
  cphf_solve2:SCF residual greater than 1d-2                   0
  ------------------------------------------------------------------------
@@ -14326,14 +14178,17 @@ File balance: exchanges=     0  moved=     0  time=   0.0
 
 
  For further details see manual section: No section for this category                                                                                                                                                                                                                                   
- For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+[3] ARMCI Error: 3:cphf_solve2:SCF residual greater than 1d-2:
+[0] ARMCI Error: 0:cphf_solve2:SCF residual greater than 1d-2:
+[1] ARMCI Error: 1:cphf_solve2:SCF residual greater than 1d-2:
+[2] ARMCI Error: 2:cphf_solve2:SCF residual greater than 1d-2:
 --------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+MPI_ABORT was invoked on rank 1 in communicator MPI COMMUNICATOR 3 DUP FROM 0
 with errorcode -1.
 
 NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
 You may or may not see output from other processes, depending on
 exactly when Open MPI kills them.
 --------------------------------------------------------------------------
-[list1234-B360M-H:26104] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[list1234-B360M-H:26104] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[list1234-B360M-H:05499] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[list1234-B360M-H:05499] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

@@ -1,4 +1,4 @@
- argument  1 = /home/list1234/source/nwchem-6.8.1-release/QA/tests/acr_lcblyp/acr_lcblyp.nw
+ argument  1 = /home/list1234/source/nwchem-6.8.1/QA/tests/acr_lcblyp/acr_lcblyp.nw
 
 
 
@@ -56,7 +56,7 @@ task dft property
                        Pacific Northwest National Laboratory
                                 Richland, WA 99352
 
-                              Copyright (c) 1994-2018
+                              Copyright (c) 1994-2017
                        Pacific Northwest National Laboratory
                             Battelle Memorial Institute
 
@@ -82,16 +82,16 @@ task dft property
            ---------------
 
     hostname        = list1234-B360M-H
-    program         = /home/list1234/source/nwchem-6.8.1-release/bin/LINUX64/nwchem
-    date            = Sun Jun 30 13:49:53 2019
+    program         = /home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem
+    date            = Sun Jun 30 23:24:46 2019
 
-    compiled        = Sun_Jun_30_11:55:59_2019
-    source          = /home/list1234/source/nwchem-6.8.1-release
-    nwchem branch   = Development
-    nwchem revision = N/A
+    compiled        = Sun_Jun_30_20:37:07_2019
+    source          = /home/list1234/source/nwchem-6.8.1
+    nwchem branch   = 6.8.1
+    nwchem revision = v6.8-160-gc00cf755d
     ga revision     = 5.6.5
     use scalapack   = T
-    input           = /home/list1234/source/nwchem-6.8.1-release/QA/tests/acr_lcblyp/acr_lcblyp.nw
+    input           = /home/list1234/source/nwchem-6.8.1/QA/tests/acr_lcblyp/acr_lcblyp.nw
     prefix          = acr-lcblyp.
     data base       = ./acr-lcblyp.db
     status          = startup
@@ -103,10 +103,10 @@ task dft property
            Memory information
            ------------------
 
-    heap     =   86247162 doubles =    658.0 Mbytes
-    stack    =   86247167 doubles =    658.0 Mbytes
+    heap     =   86247164 doubles =    658.0 Mbytes
+    stack    =   86247169 doubles =    658.0 Mbytes
     global   =  172494336 doubles =   1316.0 Mbytes (distinct from heap & stack)
-    total    =  344988665 doubles =   2632.1 Mbytes
+    total    =  344988669 doubles =   2632.1 Mbytes
     verify   = yes
     hardfail = no 
 
@@ -129,8 +129,6 @@ task dft property
           ------
           auto-z
           ------
-  no constraints, skipping    0.0000000000000000     
-  no constraints, skipping    0.0000000000000000     
 
 
                              Geometry "geometry" -> ""
@@ -514,24 +512,24 @@ task dft property
 
  Grid_pts file          = ./acr-lcblyp.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     16        Max. recs in file   =    862033
+ Max. records in memory =     16        Max. recs in file   =    863573
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       86.05            86048986
-          Stack Space remaining (MW):       86.25            86246060
+           Heap Space remaining (MW):       86.05            86048988
+          Stack Space remaining (MW):       86.25            86246068
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -191.6344687676 -2.95D+02  7.71D-03  1.07D+00     9.6
- d= 0,ls=0.0,diis     2   -191.6237870798  1.07D-02  4.38D-03  1.44D+00    18.9
- d= 0,ls=0.0,diis     3   -191.7438316823 -1.20D-01  5.57D-04  2.91D-02    29.0
- d= 0,ls=0.0,diis     4   -191.7466293751 -2.80D-03  2.29D-04  1.42D-03    39.2
+ d= 0,ls=0.0,diis     1   -191.6344687676 -2.95D+02  7.71D-03  1.07D+00     9.8
+ d= 0,ls=0.0,diis     2   -191.6237870798  1.07D-02  4.38D-03  1.44D+00    19.0
+ d= 0,ls=0.0,diis     3   -191.7438316823 -1.20D-01  5.57D-04  2.91D-02    29.1
+ d= 0,ls=0.0,diis     4   -191.7466293752 -2.80D-03  2.29D-04  1.42D-03    39.3
  d= 0,ls=0.0,diis     5   -191.7468325685 -2.03D-04  1.01D-04  1.44D-04    49.3
   Resetting Diis
- d= 0,ls=0.0,diis     6   -191.7468673621 -3.48D-05  4.07D-05  2.56D-05    59.3
- d= 0,ls=0.0,diis     7   -191.7468722864 -4.92D-06  2.65D-05  5.14D-06    69.4
- d= 0,ls=0.0,diis     8   -191.7468727243 -4.38D-07  5.37D-06  3.97D-06    79.5
+ d= 0,ls=0.0,diis     6   -191.7468673621 -3.48D-05  4.07D-05  2.56D-05    59.4
+ d= 0,ls=0.0,diis     7   -191.7468722864 -4.92D-06  2.65D-05  5.14D-06    69.5
+ d= 0,ls=0.0,diis     8   -191.7468727243 -4.38D-07  5.37D-06  3.97D-06    79.6
 
 
          Total DFT energy =     -191.746872724273
@@ -542,7 +540,7 @@ task dft property
 
  Numeric. integr. density =       30.000002872673
 
-     Total iterative time =     78.9s
+     Total iterative time =     79.0s
 
 
 
@@ -565,27 +563,27 @@ task dft property
     91      0.970819  4 O  s                 93      0.051402  4 O  s          
 
  Vector    2  Occ=2.000000D+00  E=-1.040292D+01  Symmetry=a'
-              MO Center=  3.5D-01, -6.7D-01,  5.2D-19, r^2= 2.8D-02
+              MO Center=  3.5D-01, -6.7D-01, -7.5D-20, r^2= 2.8D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     61      0.978920  3 C  s                 63      0.051146  3 C  s          
 
  Vector    3  Occ=2.000000D+00  E=-1.034062D+01  Symmetry=a'
-              MO Center=  1.3D-01,  1.8D+00,  2.6D-17, r^2= 3.3D-02
+              MO Center=  1.3D-01,  1.8D+00,  5.1D-18, r^2= 3.3D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      1      0.979224  1 C  s                  3      0.052320  1 C  s          
     31      0.051170  2 C  s          
 
  Vector    4  Occ=2.000000D+00  E=-1.033184D+01  Symmetry=a'
-              MO Center= -4.5D-01,  5.6D-01, -3.5D-17, r^2= 3.3D-02
+              MO Center= -4.5D-01,  5.6D-01, -1.6D-17, r^2= 3.3D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     31      0.977721  2 C  s                  1     -0.053969  1 C  s          
     33      0.052175  2 C  s          
 
  Vector    5  Occ=2.000000D+00  E=-1.199218D+00  Symmetry=a'
-              MO Center=  1.8D-02, -1.4D+00,  3.7D-16, r^2= 5.4D-01
+              MO Center=  1.8D-02, -1.4D+00,  2.5D-17, r^2= 5.4D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     92      0.437279  4 O  s                 62      0.246971  3 C  s          
@@ -595,7 +593,7 @@ task dft property
     69     -0.071070  3 C  py                63      0.062181  3 C  s          
 
  Vector    6  Occ=2.000000D+00  E=-9.596978D-01  Symmetry=a'
-              MO Center= -8.6D-02,  8.9D-01, -2.7D-15, r^2= 1.4D+00
+              MO Center= -8.6D-02,  8.9D-01, -1.8D-15, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      0.339849  2 C  s                  2      0.303192  1 C  s          
@@ -605,7 +603,7 @@ task dft property
     69      0.073998  3 C  py                 3      0.073564  1 C  s          
 
  Vector    7  Occ=2.000000D+00  E=-7.924508D-01  Symmetry=a'
-              MO Center=  1.2D-01,  6.3D-01,  7.6D-16, r^2= 2.6D+00
+              MO Center=  1.2D-01,  6.3D-01, -9.3D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2      0.293541  1 C  s                 62     -0.259564  3 C  s          
@@ -615,7 +613,7 @@ task dft property
     69     -0.105992  3 C  py                64     -0.100398  3 C  s          
 
  Vector    8  Occ=2.000000D+00  E=-7.154365D-01  Symmetry=a'
-              MO Center=  1.1D-01,  1.7D-01,  8.0D-16, r^2= 2.6D+00
+              MO Center=  1.1D-01,  1.7D-01,  6.1D-31, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      0.208954  2 C  s                 62     -0.190395  3 C  s          
@@ -625,7 +623,7 @@ task dft property
    163     -0.108688  8 H  s                 35     -0.106524  2 C  px         
 
  Vector    9  Occ=2.000000D+00  E=-6.139865D-01  Symmetry=a'
-              MO Center=  2.8D-01,  2.8D-01,  7.9D-17, r^2= 2.8D+00
+              MO Center=  2.8D-01,  2.8D-01, -3.4D-17, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      0.191171  3 C  px                65      0.171115  3 C  px         
@@ -635,7 +633,7 @@ task dft property
     95      0.123378  4 O  px               164      0.116878  8 H  s          
 
  Vector   10  Occ=2.000000D+00  E=-6.100511D-01  Symmetry=a'
-              MO Center= -1.9D-01,  3.3D-01, -1.6D-15, r^2= 4.1D+00
+              MO Center= -1.9D-01,  3.3D-01,  8.8D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      0.193203  1 C  py                99      0.193554  4 O  py         
@@ -645,7 +643,7 @@ task dft property
     38     -0.135550  2 C  px                62      0.130499  3 C  s          
 
  Vector   11  Occ=2.000000D+00  E=-5.515104D-01  Symmetry=a'
-              MO Center= -6.5D-02, -5.1D-01, -1.5D-15, r^2= 3.4D+00
+              MO Center= -6.5D-02, -5.1D-01, -1.4D-14, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     99      0.265038  4 O  py                96      0.229655  4 O  py         
@@ -655,7 +653,7 @@ task dft property
     92     -0.127319  4 O  s                164     -0.118721  8 H  s          
 
  Vector   12  Occ=2.000000D+00  E=-5.325952D-01  Symmetry=a"
-              MO Center=  2.6D-02, -1.0D+00,  1.1D-15, r^2= 1.6D+00
+              MO Center=  2.6D-02, -1.0D+00,  1.5D-14, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      0.298301  4 O  pz                97      0.251804  4 O  pz         
@@ -665,7 +663,7 @@ task dft property
     10      0.073972  1 C  pz                 7      0.060047  1 C  pz         
 
  Vector   13  Occ=2.000000D+00  E=-5.165105D-01  Symmetry=a'
-              MO Center= -1.6D-01,  1.0D+00,  6.5D-16, r^2= 2.8D+00
+              MO Center= -1.6D-01,  1.0D+00, -4.0D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.197135  1 C  px                 5      0.184014  1 C  px         
@@ -675,7 +673,7 @@ task dft property
    135      0.127275  6 H  s                 11      0.122914  1 C  px         
 
  Vector   14  Occ=2.000000D+00  E=-4.090520D-01  Symmetry=a"
-              MO Center= -1.3D-01,  6.8D-01,  2.1D-15, r^2= 2.5D+00
+              MO Center= -1.3D-01,  6.8D-01,  6.2D-17, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.256081  1 C  pz                40      0.253948  2 C  pz         
@@ -685,7 +683,7 @@ task dft property
    103     -0.144633  4 O  pz                73     -0.043183  3 C  pz         
 
  Vector   15  Occ=2.000000D+00  E=-3.842437D-01  Symmetry=a'
-              MO Center=  9.2D-02, -1.2D+00,  4.4D-16, r^2= 1.8D+00
+              MO Center=  9.2D-02, -1.2D+00, -6.3D-16, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      0.420852  2 C  s                 98      0.351840  4 O  px         
@@ -695,7 +693,7 @@ task dft property
     39     -0.142126  2 C  py                41      0.135117  2 C  px         
 
  Vector   16  Occ=0.000000D+00  E= 1.322006D-02  Symmetry=a"
-              MO Center=  6.7D-02,  2.8D-01, -9.5D-16, r^2= 3.3D+00
+              MO Center=  6.7D-02,  2.8D-01,  1.1D-15, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      0.461882  1 C  pz                43     -0.306763  2 C  pz         
@@ -705,7 +703,7 @@ task dft property
     97      0.188316  4 O  pz                67     -0.172276  3 C  pz         
 
  Vector   17  Occ=0.000000D+00  E= 1.140245D-01  Symmetry=a'
-              MO Center=  8.6D-01,  1.9D+00,  5.2D-16, r^2= 6.0D+00
+              MO Center=  8.6D-01,  1.9D+00, -4.5D-15, r^2= 6.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      3.337615  1 C  s                137     -1.582868  6 H  s          
@@ -715,7 +713,7 @@ task dft property
    151     -0.566603  7 H  s                 42     -0.479527  2 C  py         
 
  Vector   18  Occ=0.000000D+00  E= 1.245883D-01  Symmetry=a'
-              MO Center= -4.7D-01,  1.1D+00,  2.5D-14, r^2= 7.7D+00
+              MO Center= -4.7D-01,  1.1D+00, -6.6D-17, r^2= 7.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    151     -1.634225  7 H  s                 34      1.522570  2 C  s          
@@ -725,7 +723,7 @@ task dft property
      4      0.524059  1 C  s                 42     -0.454810  2 C  py         
 
  Vector   19  Occ=0.000000D+00  E= 1.333654D-01  Symmetry=a"
-              MO Center=  8.6D-02,  1.1D-01, -2.3D-14, r^2= 3.3D+00
+              MO Center=  8.6D-02,  1.1D-01, -5.4D-15, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.842813  2 C  pz                73     -0.724709  3 C  pz         
@@ -735,7 +733,7 @@ task dft property
     97      0.148554  4 O  pz               100      0.147618  4 O  pz         
 
  Vector   20  Occ=0.000000D+00  E= 1.643364D-01  Symmetry=a'
-              MO Center= -9.0D-02,  3.2D-01, -1.5D-16, r^2= 8.8D+00
+              MO Center= -9.0D-02,  3.2D-01,  4.8D-17, r^2= 8.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    151      2.184238  7 H  s                 64     -1.914707  3 C  s          
@@ -745,7 +743,7 @@ task dft property
     72     -0.731688  3 C  py                11     -0.563661  1 C  px         
 
  Vector   21  Occ=0.000000D+00  E= 1.853167D-01  Symmetry=a'
-              MO Center=  4.6D-01,  1.6D+00, -1.3D-15, r^2= 8.0D+00
+              MO Center=  4.6D-01,  1.6D+00,  8.7D-15, r^2= 8.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    137      2.453355  6 H  s                123     -2.226975  5 H  s          
@@ -755,7 +753,7 @@ task dft property
     64      0.764555  3 C  s                  4     -0.377037  1 C  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.437717D-01  Symmetry=a'
-              MO Center=  5.8D-01,  4.1D-01, -3.8D-16, r^2= 7.1D+00
+              MO Center=  5.8D-01,  4.1D-01, -1.2D-15, r^2= 7.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.090800  2 C  s                  4     -3.541014  1 C  s          
@@ -765,7 +763,7 @@ task dft property
     69     -0.490763  3 C  py               137      0.492759  6 H  s          
 
  Vector   23  Occ=0.000000D+00  E= 2.943710D-01  Symmetry=a'
-              MO Center= -1.1D-01,  6.7D-01,  2.9D-15, r^2= 6.4D+00
+              MO Center= -1.1D-01,  6.7D-01,  6.0D-16, r^2= 6.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.623769  2 C  s                 64     -4.552132  3 C  s          
@@ -775,7 +773,7 @@ task dft property
     71      0.898072  3 C  px               102      0.795079  4 O  py         
 
  Vector   24  Occ=0.000000D+00  E= 3.368070D-01  Symmetry=a'
-              MO Center= -3.5D-01,  7.6D-01, -9.1D-17, r^2= 5.3D+00
+              MO Center= -3.5D-01,  7.6D-01,  1.5D-15, r^2= 5.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      5.431053  1 C  s                 42     -5.068811  2 C  py         
@@ -785,7 +783,7 @@ task dft property
     64     -1.279063  3 C  s                 41     -1.043260  2 C  px         
 
  Vector   25  Occ=0.000000D+00  E= 3.510114D-01  Symmetry=a"
-              MO Center=  6.9D-02,  5.0D-01,  5.5D-15, r^2= 4.2D+00
+              MO Center=  6.9D-02,  5.0D-01, -3.3D-15, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     73      0.672274  3 C  pz                13      0.595481  1 C  pz         
@@ -795,7 +793,7 @@ task dft property
     52      0.094820  2 C  d  1              37     -0.083408  2 C  pz         
 
  Vector   26  Occ=0.000000D+00  E= 3.806945D-01  Symmetry=a'
-              MO Center=  3.7D-01,  8.9D-01, -6.3D-15, r^2= 3.6D+00
+              MO Center=  3.7D-01,  8.9D-01,  2.0D-15, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.650134  3 C  s                 42      1.830671  2 C  py         
@@ -805,7 +803,7 @@ task dft property
    150     -0.820190  7 H  s                 12      0.593971  1 C  py         
 
  Vector   27  Occ=0.000000D+00  E= 4.114183D-01  Symmetry=a"
-              MO Center=  2.3D-01,  2.9D-01, -6.0D-15, r^2= 5.2D+00
+              MO Center=  2.3D-01,  2.9D-01,  7.5D-16, r^2= 5.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     73      1.352902  3 C  pz                13     -0.728998  1 C  pz         
@@ -815,7 +813,7 @@ task dft property
      7      0.137058  1 C  pz                80      0.100124  3 C  d -1       
 
  Vector   28  Occ=0.000000D+00  E= 4.137691D-01  Symmetry=a'
-              MO Center= -1.2D-01,  4.6D-01, -3.2D-16, r^2= 4.5D+00
+              MO Center= -1.2D-01,  4.6D-01,  3.7D-16, r^2= 4.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      4.027267  3 C  s                  4     -3.252019  1 C  s          
@@ -825,7 +823,7 @@ task dft property
    150      0.936318  7 H  s                164     -0.920552  8 H  s          
 
  Vector   29  Occ=0.000000D+00  E= 4.470511D-01  Symmetry=a'
-              MO Center=  2.0D-01,  2.1D-01,  1.7D-15, r^2= 5.6D+00
+              MO Center=  2.0D-01,  2.1D-01,  3.0D-15, r^2= 5.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      3.361605  2 C  s                 71      2.710400  3 C  px         
@@ -835,7 +833,7 @@ task dft property
    123     -1.373452  5 H  s                 41      1.276132  2 C  px         
 
  Vector   30  Occ=0.000000D+00  E= 4.621928D-01  Symmetry=a"
-              MO Center= -3.1D-01,  9.4D-01, -2.4D-14, r^2= 4.0D+00
+              MO Center= -3.1D-01,  9.4D-01, -8.4D-16, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      1.917261  2 C  pz                13     -1.407654  1 C  pz         
@@ -845,7 +843,7 @@ task dft property
     80     -0.164891  3 C  d -1              70      0.155711  3 C  pz         
 
  Vector   31  Occ=0.000000D+00  E= 4.823633D-01  Symmetry=a'
-              MO Center=  2.0D-01,  4.1D-01,  1.9D-14, r^2= 5.0D+00
+              MO Center=  2.0D-01,  4.1D-01,  4.4D-15, r^2= 5.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      4.845435  1 C  s                 71      3.020186  3 C  px         
@@ -855,7 +853,7 @@ task dft property
     72     -1.113592  3 C  py               122     -0.929010  5 H  s          
 
  Vector   32  Occ=0.000000D+00  E= 5.042187D-01  Symmetry=a'
-              MO Center=  3.4D-01,  5.9D-01,  5.0D-15, r^2= 5.9D+00
+              MO Center=  3.4D-01,  5.9D-01, -4.2D-15, r^2= 5.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     71      2.271299  3 C  px               165     -2.202696  8 H  s          
@@ -865,7 +863,7 @@ task dft property
    122      0.872778  5 H  s                169      0.732006  8 H  px         
 
  Vector   33  Occ=0.000000D+00  E= 5.407171D-01  Symmetry=a'
-              MO Center= -6.5D-02,  1.0D+00,  3.9D-16, r^2= 6.7D+00
+              MO Center= -6.5D-02,  1.0D+00,  1.0D-15, r^2= 6.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      5.678940  3 C  s                  4      3.429263  1 C  s          
@@ -875,7 +873,7 @@ task dft property
    122     -1.294638  5 H  s                 72      1.164189  3 C  py         
 
  Vector   34  Occ=0.000000D+00  E= 5.494535D-01  Symmetry=a'
-              MO Center= -1.4D-01, -2.1D-01,  5.4D-17, r^2= 6.4D+00
+              MO Center= -1.4D-01, -2.1D-01, -8.8D-16, r^2= 6.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      6.051721  3 C  s                  4     -4.898486  1 C  s          
@@ -885,7 +883,7 @@ task dft property
    151      1.802934  7 H  s                137      1.282009  6 H  s          
 
  Vector   35  Occ=0.000000D+00  E= 5.531026D-01  Symmetry=a'
-              MO Center=  3.2D-01,  2.2D-01, -2.8D-16, r^2= 5.9D+00
+              MO Center=  3.2D-01,  2.2D-01, -6.2D-16, r^2= 5.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      6.690670  1 C  s                 34     -3.581016  2 C  s          
@@ -895,7 +893,7 @@ task dft property
    164      1.704110  8 H  s                150      1.491020  7 H  s          
 
  Vector   36  Occ=0.000000D+00  E= 5.725860D-01  Symmetry=a'
-              MO Center= -3.0D-01,  8.6D-01, -2.9D-15, r^2= 6.1D+00
+              MO Center= -3.0D-01,  8.6D-01, -1.6D-15, r^2= 6.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.763451  2 C  s                  4     -3.370892  1 C  s          
@@ -905,7 +903,7 @@ task dft property
    122      1.423876  5 H  s                 72     -1.406376  3 C  py         
 
  Vector   37  Occ=0.000000D+00  E= 6.207286D-01  Symmetry=a'
-              MO Center=  8.9D-02,  3.4D-01,  1.7D-15, r^2= 5.1D+00
+              MO Center=  8.9D-02,  3.4D-01, -9.6D-16, r^2= 5.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      8.218417  3 C  s                 34     -5.729880  2 C  s          
@@ -915,7 +913,7 @@ task dft property
    151     -1.710066  7 H  s                123      1.454494  5 H  s          
 
  Vector   38  Occ=0.000000D+00  E= 6.246186D-01  Symmetry=a"
-              MO Center=  1.2D-01,  1.4D+00,  9.3D-16, r^2= 3.1D+00
+              MO Center=  1.2D-01,  1.4D+00,  6.4D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.730944  2 C  pz                73     -0.480438  3 C  pz         
@@ -925,7 +923,7 @@ task dft property
     20     -0.180883  1 C  d -1             100      0.144988  4 O  pz         
 
  Vector   39  Occ=0.000000D+00  E= 6.521046D-01  Symmetry=a'
-              MO Center= -7.0D-02, -3.7D-01, -1.3D-14, r^2= 5.5D+00
+              MO Center= -7.0D-02, -3.7D-01, -7.1D-15, r^2= 5.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34     11.582468  2 C  s                  4     -6.740905  1 C  s          
@@ -935,7 +933,7 @@ task dft property
     42      1.712307  2 C  py                12      1.623413  1 C  py         
 
  Vector   40  Occ=0.000000D+00  E= 6.865770D-01  Symmetry=a"
-              MO Center=  2.1D-01, -2.0D-01, -6.3D-16, r^2= 3.4D+00
+              MO Center=  2.1D-01, -2.0D-01,  1.9D-15, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    103     -0.453191  4 O  pz                43      0.450892  2 C  pz         
@@ -945,7 +943,7 @@ task dft property
     20     -0.168963  1 C  d -1              80     -0.156756  3 C  d -1       
 
  Vector   41  Occ=0.000000D+00  E= 7.136994D-01  Symmetry=a'
-              MO Center= -8.9D-02,  5.7D-01, -5.6D-15, r^2= 5.1D+00
+              MO Center= -8.9D-02,  5.7D-01, -1.0D-15, r^2= 5.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4     10.845201  1 C  s                 34     -8.987829  2 C  s          
@@ -955,7 +953,7 @@ task dft property
     64     -1.073002  3 C  s                137      1.055008  6 H  s          
 
  Vector   42  Occ=0.000000D+00  E= 7.553995D-01  Symmetry=a"
-              MO Center= -1.4D-01,  7.1D-01, -4.6D-16, r^2= 3.5D+00
+              MO Center= -1.4D-01,  7.1D-01, -3.0D-15, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      0.621541  7 H  pz               143      0.514094  6 H  pz         
@@ -965,7 +963,7 @@ task dft property
     20      0.178435  1 C  d -1              40      0.136989  2 C  pz         
 
  Vector   43  Occ=0.000000D+00  E= 7.604137D-01  Symmetry=a'
-              MO Center=  9.1D-02,  5.4D-01,  3.2D-15, r^2= 5.8D+00
+              MO Center=  9.1D-02,  5.4D-01,  1.5D-15, r^2= 5.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.540448  2 C  s                 41      3.703340  2 C  px         
@@ -975,7 +973,7 @@ task dft property
     71      2.073071  3 C  px               122     -1.567401  5 H  s          
 
  Vector   44  Occ=0.000000D+00  E= 8.024279D-01  Symmetry=a"
-              MO Center= -1.0D-01, -1.4D+00,  9.2D-14, r^2= 3.6D+00
+              MO Center= -1.0D-01, -1.4D+00, -5.5D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    103      1.719315  4 O  pz                73     -1.092651  3 C  pz         
@@ -985,7 +983,7 @@ task dft property
     20     -0.170893  1 C  d -1              40     -0.142325  2 C  pz         
 
  Vector   45  Occ=0.000000D+00  E= 8.034393D-01  Symmetry=a'
-              MO Center= -5.2D-02,  5.7D-02, -6.9D-14, r^2= 4.9D+00
+              MO Center= -5.2D-02,  5.7D-02,  3.2D-15, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     41      5.201448  2 C  px                 4     -4.345344  1 C  s          
@@ -995,7 +993,7 @@ task dft property
     34      1.328955  2 C  s                 12      1.173394  1 C  py         
 
  Vector   46  Occ=0.000000D+00  E= 8.592066D-01  Symmetry=a'
-              MO Center=  4.4D-02, -1.1D+00, -1.5D-15, r^2= 4.9D+00
+              MO Center=  4.4D-02, -1.1D+00,  2.4D-16, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      8.293636  2 C  s                  4     -4.441511  1 C  s          
@@ -1005,7 +1003,7 @@ task dft property
    164      1.485377  8 H  s                 83     -1.099839  3 C  d  2       
 
  Vector   47  Occ=0.000000D+00  E= 8.926254D-01  Symmetry=a"
-              MO Center=  2.4D-01,  4.5D-01, -7.0D-16, r^2= 4.1D+00
+              MO Center=  2.4D-01,  4.5D-01, -9.0D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    129      0.674913  5 H  pz                73     -0.667672  3 C  pz         
@@ -1015,7 +1013,7 @@ task dft property
     52     -0.257087  2 C  d  1              70     -0.223972  3 C  pz         
 
  Vector   48  Occ=0.000000D+00  E= 9.456506D-01  Symmetry=a'
-              MO Center=  4.3D-01,  1.2D+00,  5.4D-16, r^2= 4.3D+00
+              MO Center=  4.3D-01,  1.2D+00, -3.0D-16, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -4.265917  3 C  s                 34      3.911535  2 C  s          
@@ -1025,7 +1023,7 @@ task dft property
     42     -1.365939  2 C  py               123     -1.248735  5 H  s          
 
  Vector   49  Occ=0.000000D+00  E= 9.858373D-01  Symmetry=a'
-              MO Center= -1.3D-01,  1.3D+00, -6.1D-16, r^2= 4.1D+00
+              MO Center= -1.3D-01,  1.3D+00,  1.7D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      3.130712  3 C  s                 41     -1.854811  2 C  px         
@@ -1035,7 +1033,7 @@ task dft property
    151     -0.688401  7 H  s                 23     -0.642076  1 C  d  2       
 
  Vector   50  Occ=0.000000D+00  E= 1.043155D+00  Symmetry=a'
-              MO Center= -3.2D-02,  2.6D-01, -1.4D-15, r^2= 3.9D+00
+              MO Center= -3.2D-02,  2.6D-01, -4.4D-17, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.046713  2 C  s                  4     -4.775803  1 C  s          
@@ -1045,7 +1043,7 @@ task dft property
    164     -1.176970  8 H  s                151      1.063662  7 H  s          
 
  Vector   51  Occ=0.000000D+00  E= 1.066475D+00  Symmetry=a"
-              MO Center=  3.5D-01,  8.7D-01, -8.4D-16, r^2= 4.3D+00
+              MO Center=  3.5D-01,  8.7D-01, -8.0D-18, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      1.054791  1 C  pz                43     -0.957203  2 C  pz         
@@ -1055,7 +1053,7 @@ task dft property
     40     -0.305883  2 C  pz                52      0.292664  2 C  d  1       
 
  Vector   52  Occ=0.000000D+00  E= 1.067768D+00  Symmetry=a'
-              MO Center=  2.6D-01,  3.6D-02, -1.3D-16, r^2= 4.7D+00
+              MO Center=  2.6D-01,  3.6D-02,  6.6D-16, r^2= 4.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -3.240245  3 C  s                 34      3.185436  2 C  s          
@@ -1065,7 +1063,7 @@ task dft property
    122     -0.978151  5 H  s                127     -0.970653  5 H  px         
 
  Vector   53  Occ=0.000000D+00  E= 1.091190D+00  Symmetry=a"
-              MO Center= -8.6D-02,  4.3D-01,  1.8D-16, r^2= 4.0D+00
+              MO Center= -8.6D-02,  4.3D-01, -6.9D-16, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      1.126893  7 H  pz               171     -0.893533  8 H  pz         
@@ -1075,7 +1073,7 @@ task dft property
     22     -0.465788  1 C  d  1             103     -0.167976  4 O  pz         
 
  Vector   54  Occ=0.000000D+00  E= 1.119061D+00  Symmetry=a"
-              MO Center=  1.2D-01,  8.5D-01, -1.5D-15, r^2= 3.9D+00
+              MO Center=  1.2D-01,  8.5D-01, -1.4D-15, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.957537  2 C  pz               143     -0.834149  6 H  pz         
@@ -1085,7 +1083,7 @@ task dft property
    129     -0.459380  5 H  pz               157     -0.454202  7 H  pz         
 
  Vector   55  Occ=0.000000D+00  E= 1.164527D+00  Symmetry=a'
-              MO Center=  2.4D-01,  4.0D-01,  1.3D-16, r^2= 4.4D+00
+              MO Center=  2.4D-01,  4.0D-01, -2.8D-17, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      3.832070  2 C  s                 64     -3.511538  3 C  s          
@@ -1095,7 +1093,7 @@ task dft property
    122      1.072167  5 H  s                164     -0.992739  8 H  s          
 
  Vector   56  Occ=0.000000D+00  E= 1.197250D+00  Symmetry=a"
-              MO Center=  1.2D-01,  9.2D-01, -1.1D-15, r^2= 4.0D+00
+              MO Center=  1.2D-01,  9.2D-01, -1.6D-15, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     20      1.321046  1 C  d -1             129     -1.082428  5 H  pz         
@@ -1105,7 +1103,7 @@ task dft property
     70      0.207300  3 C  pz                22      0.188453  1 C  d  1       
 
  Vector   57  Occ=0.000000D+00  E= 1.216545D+00  Symmetry=a'
-              MO Center= -3.1D-01,  5.7D-01,  1.1D-16, r^2= 4.4D+00
+              MO Center= -3.1D-01,  5.7D-01, -7.3D-16, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     42      5.404739  2 C  py                 4     -4.848035  1 C  s          
@@ -1115,7 +1113,7 @@ task dft property
    156     -1.196864  7 H  py                39      1.039174  2 C  py         
 
  Vector   58  Occ=0.000000D+00  E= 1.250203D+00  Symmetry=a'
-              MO Center=  1.7D-01,  7.4D-01,  3.1D-16, r^2= 4.4D+00
+              MO Center=  1.7D-01,  7.4D-01,  9.4D-16, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      3.526835  7 H  s                 64      3.004921  3 C  s          
@@ -1125,7 +1123,7 @@ task dft property
    155      1.548772  7 H  px                11      1.216824  1 C  px         
 
  Vector   59  Occ=0.000000D+00  E= 1.278984D+00  Symmetry=a'
-              MO Center=  1.4D-01,  1.3D-01, -6.4D-16, r^2= 4.9D+00
+              MO Center=  1.4D-01,  1.3D-01, -1.6D-15, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.930483  3 C  s                136      2.787043  6 H  s          
@@ -1135,7 +1133,7 @@ task dft property
     79     -1.689498  3 C  d -2              94      1.564560  4 O  s          
 
  Vector   60  Occ=0.000000D+00  E= 1.332475D+00  Symmetry=a'
-              MO Center=  9.8D-02,  5.8D-02,  2.9D-16, r^2= 5.2D+00
+              MO Center=  9.8D-02,  5.8D-02,  3.4D-16, r^2= 5.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      5.183119  2 C  s                 64     -4.560959  3 C  s          
@@ -1145,7 +1143,7 @@ task dft property
     68      1.866808  3 C  px                 8      1.702978  1 C  px         
 
  Vector   61  Occ=0.000000D+00  E= 1.364287D+00  Symmetry=a"
-              MO Center= -3.6D-02,  4.5D-01, -4.3D-15, r^2= 3.8D+00
+              MO Center= -3.6D-02,  4.5D-01, -4.6D-15, r^2= 3.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      1.738180  2 C  d -1              22     -1.245786  1 C  d  1       
@@ -1155,7 +1153,7 @@ task dft property
     52     -0.450025  2 C  d  1              43      0.341965  2 C  pz         
 
  Vector   62  Occ=0.000000D+00  E= 1.364760D+00  Symmetry=a'
-              MO Center= -2.1D-01,  1.2D+00,  1.6D-15, r^2= 5.0D+00
+              MO Center= -2.1D-01,  1.2D+00,  1.4D-15, r^2= 5.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -6.409803  3 C  s                  4      5.935443  1 C  s          
@@ -1165,7 +1163,7 @@ task dft property
      9     -1.337016  1 C  py                 8      1.252064  1 C  px         
 
  Vector   63  Occ=0.000000D+00  E= 1.424347D+00  Symmetry=a'
-              MO Center=  9.1D-02,  6.4D-01,  1.1D-16, r^2= 5.6D+00
+              MO Center=  9.1D-02,  6.4D-01, -1.7D-16, r^2= 5.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      7.103115  3 C  s                122      4.836995  5 H  s          
@@ -1175,7 +1173,7 @@ task dft property
     71     -2.370819  3 C  px               128     -2.265743  5 H  py         
 
  Vector   64  Occ=0.000000D+00  E= 1.479593D+00  Symmetry=a'
-              MO Center=  3.0D-01,  7.7D-01,  3.7D-16, r^2= 4.8D+00
+              MO Center=  3.0D-01,  7.7D-01,  8.2D-16, r^2= 4.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      7.860973  2 C  s                150     -2.432921  7 H  s          
@@ -1185,7 +1183,7 @@ task dft property
     72     -1.368466  3 C  py                51     -1.298891  2 C  d  0       
 
  Vector   65  Occ=0.000000D+00  E= 1.495587D+00  Symmetry=a"
-              MO Center= -2.9D-01,  7.8D-01, -1.4D-15, r^2= 3.4D+00
+              MO Center= -2.9D-01,  7.8D-01,  1.9D-15, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.842712  2 C  d  1             157     -1.203696  7 H  pz         
@@ -1195,7 +1193,7 @@ task dft property
     73      0.311198  3 C  pz                82     -0.279719  3 C  d  1       
 
  Vector   66  Occ=0.000000D+00  E= 1.499833D+00  Symmetry=a'
-              MO Center=  5.9D-01,  6.2D-01,  5.7D-16, r^2= 4.5D+00
+              MO Center=  5.9D-01,  6.2D-01, -7.2D-16, r^2= 4.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      7.667654  2 C  s                 64     -5.319163  3 C  s          
@@ -1205,7 +1203,7 @@ task dft property
    122      2.159282  5 H  s                141      2.134073  6 H  px         
 
  Vector   67  Occ=0.000000D+00  E= 1.565477D+00  Symmetry=a'
-              MO Center= -3.4D-01,  8.1D-01,  1.4D-15, r^2= 4.1D+00
+              MO Center= -3.4D-01,  8.1D-01,  7.7D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     19      2.182846  1 C  d -2             122      1.881392  5 H  s          
@@ -1215,7 +1213,7 @@ task dft property
    142     -1.132105  6 H  py               155      1.058709  7 H  px         
 
  Vector   68  Occ=0.000000D+00  E= 1.596043D+00  Symmetry=a'
-              MO Center= -6.5D-02,  1.2D+00,  5.1D-16, r^2= 4.2D+00
+              MO Center= -6.5D-02,  1.2D+00,  1.2D-15, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4     10.720664  1 C  s                 34    -10.719744  2 C  s          
@@ -1225,7 +1223,7 @@ task dft property
     64      2.727496  3 C  s                 38      2.557395  2 C  px         
 
  Vector   69  Occ=0.000000D+00  E= 1.719426D+00  Symmetry=a'
-              MO Center= -8.7D-02,  3.3D-01,  3.4D-16, r^2= 3.9D+00
+              MO Center= -8.7D-02,  3.3D-01,  2.6D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.801527  2 C  s                 64     -4.802362  3 C  s          
@@ -1235,7 +1233,7 @@ task dft property
     94     -1.208625  4 O  s                 49      1.155499  2 C  d -2       
 
  Vector   70  Occ=0.000000D+00  E= 1.793150D+00  Symmetry=a'
-              MO Center= -1.2D-01, -1.7D-01,  6.1D-16, r^2= 4.1D+00
+              MO Center= -1.2D-01, -1.7D-01,  2.5D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      3.828579  6 H  s                 49     -2.783594  2 C  d -2       
@@ -1245,7 +1243,7 @@ task dft property
     19     -1.511566  1 C  d -2             141     -1.378217  6 H  px         
 
  Vector   71  Occ=0.000000D+00  E= 1.827462D+00  Symmetry=a"
-              MO Center=  4.0D-02, -1.3D+00, -6.1D-16, r^2= 2.2D+00
+              MO Center=  4.0D-02, -1.3D+00,  8.1D-15, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.917422  3 C  d  1             112     -0.912066  4 O  d  1       
@@ -1255,7 +1253,7 @@ task dft property
    143     -0.226643  6 H  pz                52      0.200305  2 C  d  1       
 
  Vector   72  Occ=0.000000D+00  E= 1.838732D+00  Symmetry=a'
-              MO Center= -1.5D-01, -2.1D-01,  4.9D-16, r^2= 4.1D+00
+              MO Center= -1.5D-01, -2.1D-01, -8.8D-15, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      4.506320  6 H  s                  4     -2.944029  1 C  s          
@@ -1265,7 +1263,7 @@ task dft property
    122     -1.686253  5 H  s                 34      1.643307  2 C  s          
 
  Vector   73  Occ=0.000000D+00  E= 2.035941D+00  Symmetry=a"
-              MO Center=  7.8D-02, -8.0D-01,  3.4D-15, r^2= 2.0D+00
+              MO Center=  7.8D-02, -8.0D-01,  4.2D-15, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     67      0.826650  3 C  pz               110     -0.776003  4 O  d -1       
@@ -1275,7 +1273,7 @@ task dft property
     40     -0.402163  2 C  pz                37      0.393270  2 C  pz         
 
  Vector   74  Occ=0.000000D+00  E= 2.042609D+00  Symmetry=a'
-              MO Center=  8.4D-02,  2.5D-02,  1.2D-16, r^2= 3.2D+00
+              MO Center=  8.4D-02,  2.5D-02,  3.3D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      5.244021  7 H  s                 53     -3.182495  2 C  d  2       
@@ -1285,7 +1283,7 @@ task dft property
    136      1.562669  6 H  s                 79      1.518845  3 C  d -2       
 
  Vector   75  Occ=0.000000D+00  E= 2.102088D+00  Symmetry=a"
-              MO Center=  6.1D-03,  4.0D-01, -1.6D-15, r^2= 3.1D+00
+              MO Center=  6.1D-03,  4.0D-01, -1.5D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.943891  1 C  pz                40      0.815395  2 C  pz         
@@ -1295,7 +1293,7 @@ task dft property
    112      0.372325  4 O  d  1              43     -0.282998  2 C  pz         
 
  Vector   76  Occ=0.000000D+00  E= 2.164156D+00  Symmetry=a'
-              MO Center=  1.7D-01, -9.4D-01, -2.1D-15, r^2= 3.1D+00
+              MO Center=  1.7D-01, -9.4D-01, -2.9D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    164      5.093022  8 H  s                 94     -3.349582  4 O  s          
@@ -1305,7 +1303,7 @@ task dft property
      4     -1.229226  1 C  s                 72     -1.165550  3 C  py         
 
  Vector   77  Occ=0.000000D+00  E= 2.227996D+00  Symmetry=a"
-              MO Center=  3.3D-02, -4.6D-02, -2.5D-15, r^2= 3.1D+00
+              MO Center=  3.3D-02, -4.6D-02,  1.4D-16, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     70      1.328270  3 C  pz                10     -1.034846  1 C  pz         
@@ -1315,7 +1313,7 @@ task dft property
     82      0.423404  3 C  d  1              73     -0.283137  3 C  pz         
 
  Vector   78  Occ=0.000000D+00  E= 2.228159D+00  Symmetry=a'
-              MO Center=  1.3D-02,  1.3D+00, -5.3D-17, r^2= 2.8D+00
+              MO Center=  1.3D-02,  1.3D+00, -2.6D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      4.364112  5 H  s                  9     -2.470064  1 C  py         
@@ -1325,7 +1323,7 @@ task dft property
    128     -1.118436  5 H  py                12     -0.966431  1 C  py         
 
  Vector   79  Occ=0.000000D+00  E= 2.269657D+00  Symmetry=a'
-              MO Center=  4.8D-02, -1.2D+00,  2.5D-15, r^2= 2.8D+00
+              MO Center=  4.8D-02, -1.2D+00,  1.0D-15, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94     -2.576398  4 O  s                 64      2.516515  3 C  s          
@@ -1335,7 +1333,7 @@ task dft property
    122      1.238768  5 H  s                136     -1.232207  6 H  s          
 
  Vector   80  Occ=0.000000D+00  E= 2.327069D+00  Symmetry=a'
-              MO Center= -8.3D-02,  5.5D-01,  1.1D-15, r^2= 2.5D+00
+              MO Center= -8.3D-02,  5.5D-01, -2.1D-15, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.853596  7 H  s                 68      1.432614  3 C  px         
@@ -1345,7 +1343,7 @@ task dft property
    136     -0.737336  6 H  s                  8      0.662803  1 C  px         
 
  Vector   81  Occ=0.000000D+00  E= 2.335514D+00  Symmetry=a"
-              MO Center= -1.0D-01,  7.8D-01, -4.9D-16, r^2= 1.8D+00
+              MO Center= -1.0D-01,  7.8D-01,  1.9D-15, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     40      1.424877  2 C  pz                10     -1.016054  1 C  pz         
@@ -1355,7 +1353,7 @@ task dft property
     13      0.282971  1 C  pz                80     -0.227652  3 C  d -1       
 
  Vector   82  Occ=0.000000D+00  E= 2.445779D+00  Symmetry=a'
-              MO Center= -2.6D-02,  5.8D-01,  5.3D-17, r^2= 3.2D+00
+              MO Center= -2.6D-02,  5.8D-01, -3.8D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      3.585428  6 H  s                  8     -2.860054  1 C  px         
@@ -1365,7 +1363,7 @@ task dft property
    155     -1.055763  7 H  px                42     -1.034427  2 C  py         
 
  Vector   83  Occ=0.000000D+00  E= 2.500208D+00  Symmetry=a'
-              MO Center= -2.6D-01,  7.4D-01, -1.8D-15, r^2= 2.5D+00
+              MO Center= -2.6D-01,  7.4D-01, -2.0D-15, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      4.123959  1 C  s                 34     -3.348117  2 C  s          
@@ -1375,7 +1373,7 @@ task dft property
     72      1.035152  3 C  py                71      0.857312  3 C  px         
 
  Vector   84  Occ=0.000000D+00  E= 2.520442D+00  Symmetry=a"
-              MO Center=  3.4D-03,  5.4D-01,  1.5D-15, r^2= 1.8D+00
+              MO Center=  3.4D-03,  5.4D-01,  9.9D-16, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     45      0.442817  2 C  d -1              50     -0.354520  2 C  d -1       
@@ -1385,7 +1383,7 @@ task dft property
    112     -0.208244  4 O  d  1              25      0.193656  1 C  f -2       
 
  Vector   85  Occ=0.000000D+00  E= 2.573354D+00  Symmetry=a'
-              MO Center=  3.0D-01, -5.3D-01,  4.9D-16, r^2= 2.9D+00
+              MO Center=  3.0D-01, -5.3D-01,  3.9D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53     -2.108745  2 C  d  2              34      2.042133  2 C  s          
@@ -1395,7 +1393,7 @@ task dft property
     19     -1.395529  1 C  d -2             101     -1.153602  4 O  px         
 
  Vector   86  Occ=0.000000D+00  E= 2.586072D+00  Symmetry=a'
-              MO Center=  2.0D-01,  4.4D-01,  1.1D-16, r^2= 3.0D+00
+              MO Center=  2.0D-01,  4.4D-01, -1.8D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     41      2.939849  2 C  px                 4     -2.395596  1 C  s          
@@ -1405,7 +1403,7 @@ task dft property
    123     -0.743212  5 H  s                 94      0.726076  4 O  s          
 
  Vector   87  Occ=0.000000D+00  E= 2.654950D+00  Symmetry=a'
-              MO Center=  1.5D-01,  5.2D-01, -3.1D-16, r^2= 3.2D+00
+              MO Center=  1.5D-01,  5.2D-01,  2.3D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      1.824534  1 C  px                41     -1.624995  2 C  px         
@@ -1415,7 +1413,7 @@ task dft property
     12     -1.022649  1 C  py                94      0.912047  4 O  s          
 
  Vector   88  Occ=0.000000D+00  E= 2.668888D+00  Symmetry=a"
-              MO Center= -5.4D-02,  5.4D-01,  3.5D-17, r^2= 2.5D+00
+              MO Center= -5.4D-02,  5.4D-01,  8.0D-16, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.408067  3 C  d  1              15      0.393663  1 C  d -1       
@@ -1425,7 +1423,7 @@ task dft property
     75     -0.285044  3 C  d -1              59      0.235674  2 C  f  2       
 
  Vector   89  Occ=0.000000D+00  E= 2.740344D+00  Symmetry=a'
-              MO Center=  8.5D-02,  8.1D-01, -6.7D-16, r^2= 3.1D+00
+              MO Center=  8.5D-02,  8.1D-01, -3.8D-16, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      3.077516  5 H  s                  8      2.859940  1 C  px         
@@ -1435,7 +1433,7 @@ task dft property
      9     -1.476365  1 C  py                38     -1.348212  2 C  px         
 
  Vector   90  Occ=0.000000D+00  E= 2.822311D+00  Symmetry=a'
-              MO Center=  1.4D-01,  6.7D-01, -1.5D-15, r^2= 2.8D+00
+              MO Center=  1.4D-01,  6.7D-01, -8.6D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136     -2.615498  6 H  s                  8      2.575937  1 C  px         
@@ -1445,7 +1443,7 @@ task dft property
      9     -1.084459  1 C  py                12     -1.074391  1 C  py         
 
  Vector   91  Occ=0.000000D+00  E= 2.826980D+00  Symmetry=a"
-              MO Center= -6.6D-02,  1.3D+00,  9.8D-16, r^2= 2.0D+00
+              MO Center= -6.6D-02,  1.3D+00,  1.8D-15, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      0.523761  7 H  pz                57      0.501121  2 C  f  0       
@@ -1455,7 +1453,7 @@ task dft property
     40     -0.269563  2 C  pz                29      0.261100  1 C  f  2       
 
  Vector   92  Occ=0.000000D+00  E= 2.864385D+00  Symmetry=a'
-              MO Center= -1.4D-01,  3.1D-01,  9.2D-16, r^2= 2.1D+00
+              MO Center= -1.4D-01,  3.1D-01, -1.2D-15, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.268925  2 C  s                  9      2.187409  1 C  py         
@@ -1465,7 +1463,7 @@ task dft property
     69     -1.314085  3 C  py                38      1.244449  2 C  px         
 
  Vector   93  Occ=0.000000D+00  E= 2.866045D+00  Symmetry=a"
-              MO Center=  5.0D-02,  9.1D-01,  9.7D-16, r^2= 1.9D+00
+              MO Center=  5.0D-02,  9.1D-01,  9.8D-16, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     22      0.745182  1 C  d  1              59      0.585385  2 C  f  2       
@@ -1475,7 +1473,7 @@ task dft property
     52      0.306342  2 C  d  1              77     -0.304071  3 C  d  1       
 
  Vector   94  Occ=0.000000D+00  E= 2.929570D+00  Symmetry=a"
-              MO Center=  3.9D-01, -9.4D-02, -1.1D-16, r^2= 2.3D+00
+              MO Center=  3.9D-01, -9.4D-02, -2.5D-16, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82     -0.602057  3 C  d  1              43      0.567328  2 C  pz         
@@ -1485,7 +1483,7 @@ task dft property
     15     -0.312497  1 C  d -1             157     -0.312295  7 H  pz         
 
  Vector   95  Occ=0.000000D+00  E= 2.952997D+00  Symmetry=a"
-              MO Center=  1.1D-01,  1.4D+00,  2.1D-14, r^2= 1.9D+00
+              MO Center=  1.1D-01,  1.4D+00,  1.1D-15, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     27      0.722288  1 C  f  0             143      0.667752  6 H  pz         
@@ -1495,7 +1493,7 @@ task dft property
     22      0.288882  1 C  d  1             129      0.255672  5 H  pz         
 
  Vector   96  Occ=0.000000D+00  E= 2.971010D+00  Symmetry=a'
-              MO Center= -3.5D-02,  7.0D-01, -2.1D-14, r^2= 2.8D+00
+              MO Center= -3.5D-02,  7.0D-01,  4.2D-15, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      2.248917  2 C  s                 64     -1.978914  3 C  s          
@@ -1505,7 +1503,7 @@ task dft property
    150      0.777667  7 H  s                151      0.757027  7 H  s          
 
  Vector   97  Occ=0.000000D+00  E= 3.001588D+00  Symmetry=a'
-              MO Center= -4.9D-02,  6.7D-01,  1.6D-16, r^2= 2.6D+00
+              MO Center= -4.9D-02,  6.7D-01, -3.8D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      3.863153  7 H  s                 38      3.786711  2 C  px         
@@ -1515,7 +1513,7 @@ task dft property
     49     -1.127054  2 C  d -2              79      1.040802  3 C  d -2       
 
  Vector   98  Occ=0.000000D+00  E= 3.017630D+00  Symmetry=a'
-              MO Center=  2.0D-01,  5.1D-01,  2.5D-16, r^2= 3.3D+00
+              MO Center=  2.0D-01,  5.1D-01, -2.6D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      4.120933  3 C  s                 42      3.653764  2 C  py         
@@ -1525,7 +1523,7 @@ task dft property
     11      1.633804  1 C  px               136     -1.623561  6 H  s          
 
  Vector   99  Occ=0.000000D+00  E= 3.042436D+00  Symmetry=a"
-              MO Center=  1.9D-02,  4.9D-01, -4.0D-16, r^2= 2.3D+00
+              MO Center=  1.9D-02,  4.9D-01, -4.3D-16, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     80      1.107990  3 C  d -1              50      0.591196  2 C  d -1       
@@ -1535,7 +1533,7 @@ task dft property
     89      0.408080  3 C  f  2              29     -0.354661  1 C  f  2       
 
  Vector  100  Occ=0.000000D+00  E= 3.061855D+00  Symmetry=a'
-              MO Center=  1.1D-01,  1.2D+00,  1.6D-15, r^2= 2.6D+00
+              MO Center=  1.1D-01,  1.2D+00,  7.7D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.266194  1 C  s                 38     -1.873183  2 C  px         
@@ -1545,7 +1543,7 @@ task dft property
     53      1.107974  2 C  d  2              12     -1.095774  1 C  py         
 
  Vector  101  Occ=0.000000D+00  E= 3.063590D+00  Symmetry=a"
-              MO Center= -1.9D-01,  2.9D-01, -2.2D-15, r^2= 2.2D+00
+              MO Center= -1.9D-01,  2.9D-01, -9.2D-16, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.041012  2 C  d  1              20     -0.765575  1 C  d -1       
@@ -1555,7 +1553,7 @@ task dft property
     13      0.335912  1 C  pz                57      0.310374  2 C  f  0       
 
  Vector  102  Occ=0.000000D+00  E= 3.112102D+00  Symmetry=a'
-              MO Center= -2.5D-01,  6.9D-01, -3.6D-16, r^2= 2.7D+00
+              MO Center= -2.5D-01,  6.9D-01, -7.8D-17, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      3.446925  1 C  py                34      2.529095  2 C  s          
@@ -1565,7 +1563,7 @@ task dft property
    150      1.440204  7 H  s                 83     -1.371828  3 C  d  2       
 
  Vector  103  Occ=0.000000D+00  E= 3.168592D+00  Symmetry=a"
-              MO Center=  2.4D-01,  2.5D-02, -1.4D-15, r^2= 2.7D+00
+              MO Center=  2.4D-01,  2.5D-02,  5.1D-16, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.774214  3 C  d  1              80      0.720054  3 C  d -1       
@@ -1575,7 +1573,7 @@ task dft property
     75     -0.397018  3 C  d -1              15     -0.366501  1 C  d -1       
 
  Vector  104  Occ=0.000000D+00  E= 3.174667D+00  Symmetry=a'
-              MO Center=  1.6D-01,  4.5D-01,  3.1D-15, r^2= 2.9D+00
+              MO Center=  1.6D-01,  4.5D-01, -1.1D-15, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.273168  2 C  s                 64     -3.206085  3 C  s          
@@ -1585,7 +1583,7 @@ task dft property
     38      0.909857  2 C  px                72     -0.883461  3 C  py         
 
  Vector  105  Occ=0.000000D+00  E= 3.199142D+00  Symmetry=a'
-              MO Center=  1.4D-01,  8.2D-01, -1.3D-15, r^2= 2.9D+00
+              MO Center=  1.4D-01,  8.2D-01,  6.8D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.938491  1 C  s                 64     -1.573702  3 C  s          
@@ -1595,7 +1593,7 @@ task dft property
    164      0.694118  8 H  s                 49      0.605254  2 C  d -2       
 
  Vector  106  Occ=0.000000D+00  E= 3.238863D+00  Symmetry=a"
-              MO Center=  2.3D-01,  6.6D-01,  3.7D-15, r^2= 3.2D+00
+              MO Center=  2.3D-01,  6.6D-01, -2.3D-15, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     20      1.145745  1 C  d -1              40      1.050019  2 C  pz         
@@ -1605,7 +1603,7 @@ task dft property
    110     -0.418762  4 O  d -1              15     -0.414993  1 C  d -1       
 
  Vector  107  Occ=0.000000D+00  E= 3.270035D+00  Symmetry=a"
-              MO Center=  1.9D-01, -2.4D-01, -1.1D-16, r^2= 2.6D+00
+              MO Center=  1.9D-01, -2.4D-01, -3.2D-17, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.078312  2 C  d  1              20     -0.813662  1 C  d -1       
@@ -1615,7 +1613,7 @@ task dft property
     87     -0.425472  3 C  f  0              43     -0.380894  2 C  pz         
 
  Vector  108  Occ=0.000000D+00  E= 3.272301D+00  Symmetry=a'
-              MO Center=  2.6D-03,  7.1D-01, -1.1D-15, r^2= 2.8D+00
+              MO Center=  2.6D-03,  7.1D-01,  3.2D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.697527  2 C  d  2             150     -2.108532  7 H  s          
@@ -1625,7 +1623,7 @@ task dft property
    141     -0.599066  6 H  px                68     -0.584256  3 C  px         
 
  Vector  109  Occ=0.000000D+00  E= 3.333773D+00  Symmetry=a'
-              MO Center=  2.4D-01,  5.1D-01, -3.0D-16, r^2= 3.6D+00
+              MO Center=  2.4D-01,  5.1D-01, -2.1D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.909828  1 C  py                49      1.690545  2 C  d -2       
@@ -1635,7 +1633,7 @@ task dft property
     39      0.959662  2 C  py                 4      0.729641  1 C  s          
 
  Vector  110  Occ=0.000000D+00  E= 3.360056D+00  Symmetry=a"
-              MO Center= -3.5D-01,  7.4D-01,  2.6D-16, r^2= 2.6D+00
+              MO Center= -3.5D-01,  7.4D-01, -2.4D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      1.045963  2 C  d -1              82      0.685588  3 C  d  1       
@@ -1645,7 +1643,7 @@ task dft property
     59     -0.329220  2 C  f  2              55      0.296475  2 C  f -2       
 
  Vector  111  Occ=0.000000D+00  E= 3.406273D+00  Symmetry=a"
-              MO Center=  1.6D-01,  1.2D+00, -3.4D-16, r^2= 3.0D+00
+              MO Center=  1.6D-01,  1.2D+00,  4.6D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.792303  2 C  d -1              22     -0.637534  1 C  d  1       
@@ -1655,7 +1653,7 @@ task dft property
     75      0.288351  3 C  d -1              47     -0.273949  2 C  d  1       
 
  Vector  112  Occ=0.000000D+00  E= 3.407401D+00  Symmetry=a'
-              MO Center=  2.8D-01,  4.6D-01, -1.5D-15, r^2= 3.2D+00
+              MO Center=  2.8D-01,  4.6D-01,  7.6D-17, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      2.763987  1 C  py                39      2.565596  2 C  py         
@@ -1665,7 +1663,7 @@ task dft property
     79     -1.553435  3 C  d -2              34      1.436662  2 C  s          
 
  Vector  113  Occ=0.000000D+00  E= 3.468642D+00  Symmetry=a'
-              MO Center= -3.0D-01,  7.3D-01,  9.0D-17, r^2= 3.0D+00
+              MO Center= -3.0D-01,  7.3D-01,  3.2D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      3.463418  1 C  px               136     -3.407485  6 H  s          
@@ -1675,7 +1673,7 @@ task dft property
     64     -1.265824  3 C  s                 23      1.102768  1 C  d  2       
 
  Vector  114  Occ=0.000000D+00  E= 3.502718D+00  Symmetry=a'
-              MO Center=  6.6D-02,  2.8D-02, -1.5D-16, r^2= 3.4D+00
+              MO Center=  6.6D-02,  2.8D-02,  3.2D-17, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     83      2.490628  3 C  d  2              34      2.348631  2 C  s          
@@ -1685,7 +1683,7 @@ task dft property
     53      1.484236  2 C  d  2               4     -1.395657  1 C  s          
 
  Vector  115  Occ=0.000000D+00  E= 3.557646D+00  Symmetry=a'
-              MO Center=  3.5D-01,  1.8D-01,  2.7D-17, r^2= 3.0D+00
+              MO Center=  3.5D-01,  1.8D-01, -3.8D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    164     -3.219936  8 H  s                 68      3.032614  3 C  px         
@@ -1695,7 +1693,7 @@ task dft property
     23     -1.053333  1 C  d  2               4     -1.028912  1 C  s          
 
  Vector  116  Occ=0.000000D+00  E= 3.611201D+00  Symmetry=a'
-              MO Center=  2.5D-01,  6.1D-01, -3.1D-16, r^2= 3.3D+00
+              MO Center=  2.5D-01,  6.1D-01, -8.0D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.723681  2 C  d  2              34      2.543804  2 C  s          
@@ -1705,7 +1703,7 @@ task dft property
      4     -1.547327  1 C  s                 83      1.364341  3 C  d  2       
 
  Vector  117  Occ=0.000000D+00  E= 3.620222D+00  Symmetry=a"
-              MO Center=  2.2D-02,  6.6D-01,  8.4D-16, r^2= 3.0D+00
+              MO Center=  2.2D-02,  6.6D-01,  8.3D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.763431  2 C  d -1              22     -0.649417  1 C  d  1       
@@ -1715,7 +1713,7 @@ task dft property
     29      0.382010  1 C  f  2             157     -0.377563  7 H  pz         
 
  Vector  118  Occ=0.000000D+00  E= 3.696418D+00  Symmetry=a'
-              MO Center=  3.0D-01,  7.8D-01,  3.2D-16, r^2= 3.0D+00
+              MO Center=  3.0D-01,  7.8D-01, -2.2D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      4.349740  5 H  s                  4     -3.471306  1 C  s          
@@ -1725,7 +1723,7 @@ task dft property
    128     -1.510826  5 H  py                23      1.344435  1 C  d  2       
 
  Vector  119  Occ=0.000000D+00  E= 3.723918D+00  Symmetry=a"
-              MO Center=  2.5D-02,  5.5D-01,  1.8D-16, r^2= 3.3D+00
+              MO Center=  2.5D-02,  5.5D-01,  3.0D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.603070  2 C  d -1             173     -0.459185  8 H  d -1       
@@ -1735,7 +1733,7 @@ task dft property
     20      0.367609  1 C  d -1              80      0.342182  3 C  d -1       
 
  Vector  120  Occ=0.000000D+00  E= 3.727305D+00  Symmetry=a'
-              MO Center=  4.7D-01,  5.3D-01,  4.0D-16, r^2= 3.6D+00
+              MO Center=  4.7D-01,  5.3D-01,  6.6D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.430117  2 C  s                136      2.570582  6 H  s          
@@ -1745,7 +1743,7 @@ task dft property
    164     -1.189187  8 H  s                 38     -1.175038  2 C  px         
 
  Vector  121  Occ=0.000000D+00  E= 3.803712D+00  Symmetry=a'
-              MO Center= -1.4D-01,  1.3D+00,  6.2D-17, r^2= 3.2D+00
+              MO Center= -1.4D-01,  1.3D+00, -1.2D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      2.325132  6 H  s                122     -1.956109  5 H  s          
@@ -1755,7 +1753,7 @@ task dft property
     68      1.006737  3 C  px                 4     -0.958812  1 C  s          
 
  Vector  122  Occ=0.000000D+00  E= 3.821989D+00  Symmetry=a"
-              MO Center=  3.9D-01,  9.2D-01, -2.8D-18, r^2= 3.5D+00
+              MO Center=  3.9D-01,  9.2D-01,  6.3D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.548316  1 C  pz               173     -0.516826  8 H  d -1       
@@ -1765,7 +1763,7 @@ task dft property
     13      0.331946  1 C  pz                40     -0.333236  2 C  pz         
 
  Vector  123  Occ=0.000000D+00  E= 3.857444D+00  Symmetry=a'
-              MO Center= -1.3D-01,  3.6D-01,  3.3D-16, r^2= 2.8D+00
+              MO Center= -1.3D-01,  3.6D-01,  2.9D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.216249  3 C  s                 49     -1.749754  2 C  d -2       
@@ -1775,7 +1773,7 @@ task dft property
    150      0.766413  7 H  s                136      0.685103  6 H  s          
 
  Vector  124  Occ=0.000000D+00  E= 3.916873D+00  Symmetry=a"
-              MO Center=  1.0D-01,  1.0D+00, -3.7D-16, r^2= 3.9D+00
+              MO Center=  1.0D-01,  1.0D+00, -4.4D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    129     -0.687149  5 H  pz               126      0.682636  5 H  pz         
@@ -1785,7 +1783,7 @@ task dft property
    154      0.266246  7 H  pz               157     -0.255309  7 H  pz         
 
  Vector  125  Occ=0.000000D+00  E= 3.948331D+00  Symmetry=a'
-              MO Center=  2.1D-01,  1.1D+00,  2.9D-16, r^2= 3.4D+00
+              MO Center=  2.1D-01,  1.1D+00,  2.7D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.924061  7 H  s                 38      1.567200  2 C  px         
@@ -1795,7 +1793,7 @@ task dft property
    136     -0.799033  6 H  s                 11      0.750160  1 C  px         
 
  Vector  126  Occ=0.000000D+00  E= 3.984171D+00  Symmetry=a"
-              MO Center= -3.3D-01,  4.5D-01, -5.2D-16, r^2= 3.6D+00
+              MO Center= -3.3D-01,  4.5D-01, -5.0D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    154      0.823567  7 H  pz               157     -0.804214  7 H  pz         
@@ -1805,7 +1803,7 @@ task dft property
    100      0.329000  4 O  pz                80      0.292975  3 C  d -1       
 
  Vector  127  Occ=0.000000D+00  E= 3.993424D+00  Symmetry=a'
-              MO Center=  2.9D-01,  6.9D-01,  5.4D-17, r^2= 3.5D+00
+              MO Center=  2.9D-01,  6.9D-01,  9.1D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      2.930525  2 C  s                  4     -1.553020  1 C  s          
@@ -1815,7 +1813,7 @@ task dft property
     41      0.763527  2 C  px               170      0.641519  8 H  py         
 
  Vector  128  Occ=0.000000D+00  E= 4.013144D+00  Symmetry=a'
-              MO Center= -2.7D-01,  1.0D+00,  5.0D-16, r^2= 3.3D+00
+              MO Center= -2.7D-01,  1.0D+00,  4.4D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150     -3.479430  7 H  s                 53      3.308596  2 C  d  2       
@@ -1825,7 +1823,7 @@ task dft property
    164      1.076482  8 H  s                 79     -0.913441  3 C  d -2       
 
  Vector  129  Occ=0.000000D+00  E= 4.056647D+00  Symmetry=a"
-              MO Center=  5.1D-01,  1.0D+00,  1.5D-17, r^2= 3.0D+00
+              MO Center=  5.1D-01,  1.0D+00,  1.8D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    143      0.889745  6 H  pz               140     -0.834924  6 H  pz         
@@ -1835,7 +1833,7 @@ task dft property
     87      0.375343  3 C  f  0             157     -0.349351  7 H  pz         
 
  Vector  130  Occ=0.000000D+00  E= 4.090315D+00  Symmetry=a"
-              MO Center=  4.7D-01,  1.7D-01,  2.7D-17, r^2= 3.3D+00
+              MO Center=  4.7D-01,  1.7D-01,  7.5D-17, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    171     -0.725028  8 H  pz               168      0.682591  8 H  pz         
@@ -1855,7 +1853,7 @@ task dft property
    127     -0.729124  5 H  px                68      0.655185  3 C  px         
 
  Vector  132  Occ=0.000000D+00  E= 4.181948D+00  Symmetry=a"
-              MO Center= -1.9D-01,  1.2D+00,  2.0D-17, r^2= 3.5D+00
+              MO Center= -1.9D-01,  1.2D+00,  7.3D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      0.742707  2 C  d  1             129      0.713078  5 H  pz         
@@ -1865,7 +1863,7 @@ task dft property
    133     -0.464231  5 H  d  1             145      0.457326  6 H  d -1       
 
  Vector  133  Occ=0.000000D+00  E= 4.242548D+00  Symmetry=a'
-              MO Center= -1.1D-01,  5.4D-01,  1.2D-16, r^2= 3.7D+00
+              MO Center= -1.1D-01,  5.4D-01,  6.7D-17, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.047728  1 C  s                 64     -1.651216  3 C  s          
@@ -1875,7 +1873,7 @@ task dft property
    156      0.791618  7 H  py                11     -0.724250  1 C  px         
 
  Vector  134  Occ=0.000000D+00  E= 4.244032D+00  Symmetry=a"
-              MO Center= -7.8D-02, -7.8D-01,  1.2D-16, r^2= 2.3D+00
+              MO Center= -7.8D-02, -7.8D-01,  1.5D-16, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      1.380101  4 O  pz                70     -0.946728  3 C  pz         
@@ -1885,7 +1883,7 @@ task dft property
     80      0.280106  3 C  d -1              57     -0.276785  2 C  f  0       
 
  Vector  135  Occ=0.000000D+00  E= 4.300705D+00  Symmetry=a'
-              MO Center=  2.2D-01,  6.7D-01,  2.9D-16, r^2= 3.4D+00
+              MO Center=  2.2D-01,  6.7D-01,  2.3D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      3.650083  5 H  s                 53      2.788363  2 C  d  2       
@@ -1895,7 +1893,7 @@ task dft property
    127      1.416604  5 H  px                49      1.369772  2 C  d -2       
 
  Vector  136  Occ=0.000000D+00  E= 4.353126D+00  Symmetry=a'
-              MO Center= -1.3D-01,  4.6D-01, -8.0D-17, r^2= 3.7D+00
+              MO Center= -1.3D-01,  4.6D-01,  2.0D-16, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.788969  3 C  s                 42      2.065939  2 C  py         
@@ -1905,7 +1903,7 @@ task dft property
    122     -1.077884  5 H  s                 68     -1.002954  3 C  px         
 
  Vector  137  Occ=0.000000D+00  E= 4.379886D+00  Symmetry=a"
-              MO Center= -1.5D-01,  9.1D-01, -6.5D-17, r^2= 2.8D+00
+              MO Center= -1.5D-01,  9.1D-01, -3.9D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     40      0.853622  2 C  pz               157     -0.557044  7 H  pz         
@@ -1915,7 +1913,7 @@ task dft property
    161      0.476037  7 H  d  1              70     -0.409331  3 C  pz         
 
  Vector  138  Occ=0.000000D+00  E= 4.432079D+00  Symmetry=a'
-              MO Center= -1.4D-01,  8.7D-01, -4.8D-16, r^2= 2.6D+00
+              MO Center= -1.4D-01,  8.7D-01, -5.6D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.479715  2 C  d  2              23      1.401582  1 C  d  2       
@@ -1925,7 +1923,7 @@ task dft property
    127      0.919416  5 H  px                 9     -0.843238  1 C  py         
 
  Vector  139  Occ=0.000000D+00  E= 4.478578D+00  Symmetry=a'
-              MO Center=  1.7D-01,  2.9D-02,  1.3D-16, r^2= 3.5D+00
+              MO Center=  1.7D-01,  2.9D-02, -1.7D-18, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      3.011319  1 C  s                 34     -2.989430  2 C  s          
@@ -1935,7 +1933,7 @@ task dft property
    150      1.400939  7 H  s                 83     -1.355721  3 C  d  2       
 
  Vector  140  Occ=0.000000D+00  E= 4.515454D+00  Symmetry=a'
-              MO Center=  7.6D-02,  5.5D-01, -4.8D-17, r^2= 3.0D+00
+              MO Center=  7.6D-02,  5.5D-01, -4.1D-17, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     38      2.582388  2 C  px                 9      2.089065  1 C  py         
@@ -1945,7 +1943,7 @@ task dft property
    155      1.019926  7 H  px                79     -1.010245  3 C  d -2       
 
  Vector  141  Occ=0.000000D+00  E= 4.579668D+00  Symmetry=a"
-              MO Center=  1.0D-01,  9.3D-01,  8.6D-17, r^2= 2.1D+00
+              MO Center=  1.0D-01,  9.3D-01,  1.1D-16, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.485306  1 C  pz                40     -1.431676  2 C  pz         
@@ -1955,7 +1953,7 @@ task dft property
     45     -0.563936  2 C  d -1             175      0.545274  8 H  d  1       
 
  Vector  142  Occ=0.000000D+00  E= 4.604644D+00  Symmetry=a'
-              MO Center=  2.6D-01, -1.2D-01,  4.8D-17, r^2= 3.3D+00
+              MO Center=  2.6D-01, -1.2D-01,  1.4D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.934466  7 H  s                 53     -1.601406  2 C  d  2       
@@ -1965,7 +1963,7 @@ task dft property
     94     -0.798792  4 O  s                 34     -0.779595  2 C  s          
 
  Vector  143  Occ=0.000000D+00  E= 4.753723D+00  Symmetry=a'
-              MO Center= -3.6D-02,  9.2D-01, -1.8D-16, r^2= 3.3D+00
+              MO Center= -3.6D-02,  9.2D-01, -2.7D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     49      2.074843  2 C  d -2              23      1.707009  1 C  d  2       
@@ -1975,7 +1973,7 @@ task dft property
     39     -1.065762  2 C  py                11     -1.001487  1 C  px         
 
  Vector  144  Occ=0.000000D+00  E= 4.761038D+00  Symmetry=a"
-              MO Center=  1.4D-01,  6.7D-01, -9.9D-18, r^2= 3.5D+00
+              MO Center=  1.4D-01,  6.7D-01, -1.6D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.195491  1 C  pz               175     -0.778528  8 H  d  1       
@@ -1985,7 +1983,7 @@ task dft property
    171     -0.495442  8 H  pz               147     -0.461860  6 H  d  1       
 
  Vector  145  Occ=0.000000D+00  E= 4.826777D+00  Symmetry=a'
-              MO Center= -1.2D-01,  6.8D-01,  1.3D-16, r^2= 3.7D+00
+              MO Center= -1.2D-01,  6.8D-01,  1.8D-16, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34     -1.886554  2 C  s                  4      1.752506  1 C  s          
@@ -1995,7 +1993,7 @@ task dft property
      8      0.886641  1 C  px                38      0.849553  2 C  px         
 
  Vector  146  Occ=0.000000D+00  E= 4.869328D+00  Symmetry=a"
-              MO Center=  1.7D-01,  4.0D-01,  2.9D-16, r^2= 3.4D+00
+              MO Center=  1.7D-01,  4.0D-01,  2.0D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    175      0.826484  8 H  d  1             131      0.628432  5 H  d -1       
@@ -2005,7 +2003,7 @@ task dft property
     89     -0.458673  3 C  f  2              55      0.445854  2 C  f -2       
 
  Vector  147  Occ=0.000000D+00  E= 4.957022D+00  Symmetry=a'
-              MO Center=  6.5D-01, -8.6D-02,  4.6D-17, r^2= 3.1D+00
+              MO Center=  6.5D-01, -8.6D-02, -3.7D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     69      1.764894  3 C  py               164     -1.456756  8 H  s          
@@ -2015,7 +2013,7 @@ task dft property
     39      0.865531  2 C  py                41     -0.862894  2 C  px         
 
  Vector  148  Occ=0.000000D+00  E= 4.975220D+00  Symmetry=a'
-              MO Center=  1.1D-01,  4.1D-01,  4.5D-16, r^2= 4.3D+00
+              MO Center=  1.1D-01,  4.1D-01,  6.5D-16, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      2.552534  4 O  s                 69      2.322251  3 C  py         
@@ -2025,7 +2023,7 @@ task dft property
     68     -0.823549  3 C  px               141      0.807004  6 H  px         
 
  Vector  149  Occ=0.000000D+00  E= 5.031218D+00  Symmetry=a'
-              MO Center= -1.7D-01,  1.1D+00, -3.3D-16, r^2= 2.9D+00
+              MO Center= -1.7D-01,  1.1D+00, -3.7D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      1.130782  1 C  s                 53     -1.070901  2 C  d  2       
@@ -2035,7 +2033,7 @@ task dft property
     33      0.635304  2 C  s                162     -0.612234  7 H  d  2       
 
  Vector  150  Occ=0.000000D+00  E= 5.063155D+00  Symmetry=a"
-              MO Center=  3.0D-01,  1.5D+00,  3.3D-16, r^2= 2.0D+00
+              MO Center=  3.0D-01,  1.5D+00,  2.3D-16, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    147      1.134354  6 H  d  1              29     -0.873550  1 C  f  2       
@@ -2045,7 +2043,7 @@ task dft property
     27      0.452073  1 C  f  0              40      0.425761  2 C  pz         
 
  Vector  151  Occ=0.000000D+00  E= 5.150587D+00  Symmetry=a'
-              MO Center=  3.5D-02,  1.3D-01, -1.1D-17, r^2= 4.2D+00
+              MO Center=  3.5D-02,  1.3D-01,  7.7D-19, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      3.008387  4 O  s                 69      2.566884  3 C  py         
@@ -2055,7 +2053,7 @@ task dft property
     99      1.273624  4 O  py                38     -1.263840  2 C  px         
 
  Vector  152  Occ=0.000000D+00  E= 5.213391D+00  Symmetry=a'
-              MO Center= -9.4D-02,  6.9D-01, -1.7D-18, r^2= 4.4D+00
+              MO Center= -9.4D-02,  6.9D-01, -1.1D-17, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      3.446749  1 C  py               122     -3.338212  5 H  s          
@@ -2065,7 +2063,7 @@ task dft property
     99      1.150475  4 O  py                53     -1.080443  2 C  d  2       
 
  Vector  153  Occ=0.000000D+00  E= 5.229577D+00  Symmetry=a"
-              MO Center= -4.1D-01,  1.3D+00, -1.6D-16, r^2= 2.4D+00
+              MO Center= -4.1D-01,  1.3D+00, -1.0D-16, r^2= 2.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    161      0.869228  7 H  d  1              59      0.795580  2 C  f  2       
@@ -2085,7 +2083,7 @@ task dft property
    118      0.650829  4 O  f  1             155     -0.599932  7 H  px         
 
  Vector  155  Occ=0.000000D+00  E= 5.364169D+00  Symmetry=a"
-              MO Center= -4.3D-02, -1.6D+00, -7.9D-18, r^2= 9.3D-01
+              MO Center= -4.3D-02, -1.6D+00,  6.3D-17, r^2= 9.3D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    117      0.779118  4 O  f  0             119     -0.447167  4 O  f  2       
@@ -2095,7 +2093,7 @@ task dft property
     59      0.220168  2 C  f  2              89      0.198415  3 C  f  2       
 
  Vector  156  Occ=0.000000D+00  E= 5.436932D+00  Symmetry=a'
-              MO Center=  6.3D-03,  6.1D-01,  4.6D-17, r^2= 3.1D+00
+              MO Center=  6.3D-03,  6.1D-01,  5.2D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      4.835718  7 H  s                 38      3.758704  2 C  px         
@@ -2105,7 +2103,7 @@ task dft property
    141      1.310490  6 H  px                 9      1.232207  1 C  py         
 
  Vector  157  Occ=0.000000D+00  E= 5.510307D+00  Symmetry=a'
-              MO Center=  7.9D-03,  3.0D-01,  4.3D-17, r^2= 2.9D+00
+              MO Center=  7.9D-03,  3.0D-01,  3.1D-17, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      3.336555  6 H  s                  8     -3.027453  1 C  px         
@@ -2115,7 +2113,7 @@ task dft property
     23     -0.744385  1 C  d  2              60      0.680520  2 C  f  3       
 
  Vector  158  Occ=0.000000D+00  E= 5.552046D+00  Symmetry=a'
-              MO Center=  2.3D-02,  2.7D-01,  2.4D-17, r^2= 3.6D+00
+              MO Center=  2.3D-02,  2.7D-01,  6.1D-18, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      2.069008  3 C  px               164     -1.700906  8 H  s          
@@ -2125,7 +2123,7 @@ task dft property
     34      1.177867  2 C  s                 69      1.052558  3 C  py         
 
  Vector  159  Occ=0.000000D+00  E= 5.651704D+00  Symmetry=a'
-              MO Center=  1.8D-01, -1.7D-03,  1.3D-16, r^2= 2.7D+00
+              MO Center=  1.8D-01, -1.7D-03,  8.5D-17, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      4.959031  3 C  px               164     -4.881700  8 H  s          
@@ -2135,7 +2133,7 @@ task dft property
      8     -1.721864  1 C  px                49     -1.509112  2 C  d -2       
 
  Vector  160  Occ=0.000000D+00  E= 5.784296D+00  Symmetry=a"
-              MO Center= -1.8D-02, -1.5D+00,  9.0D-17, r^2= 9.9D-01
+              MO Center= -1.8D-02, -1.5D+00,  1.2D-16, r^2= 9.9D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    119      0.707831  4 O  f  2             115      0.679109  4 O  f -2       
@@ -2145,7 +2143,7 @@ task dft property
    107     -0.181324  4 O  d  1              82     -0.177097  3 C  d  1       
 
  Vector  161  Occ=0.000000D+00  E= 5.911902D+00  Symmetry=a'
-              MO Center=  4.4D-02, -6.0D-01,  6.6D-17, r^2= 3.0D+00
+              MO Center=  4.4D-02, -6.0D-01,  4.8D-17, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      2.370787  1 C  py                39      1.979869  2 C  py         
@@ -2155,7 +2153,7 @@ task dft property
    122     -0.996489  5 H  s                 69      0.977000  3 C  py         
 
  Vector  162  Occ=0.000000D+00  E= 6.026728D+00  Symmetry=a'
-              MO Center=  1.1D-01,  1.7D+00,  3.7D-17, r^2= 2.1D+00
+              MO Center=  1.1D-01,  1.7D+00,  3.1D-17, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      4.861616  1 C  px               122      4.822378  5 H  s          
@@ -2165,7 +2163,7 @@ task dft property
    150     -1.815021  7 H  s                 41     -1.623083  2 C  px         
 
  Vector  163  Occ=0.000000D+00  E= 6.089661D+00  Symmetry=a'
-              MO Center= -3.4D-02,  8.5D-02,  2.8D-17, r^2= 3.1D+00
+              MO Center= -3.4D-02,  8.5D-02,  1.7D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     39      3.351041  2 C  py                 9      3.023301  1 C  py         
@@ -2175,7 +2173,7 @@ task dft property
     23      1.520050  1 C  d  2               4     -1.226722  1 C  s          
 
  Vector  164  Occ=0.000000D+00  E= 6.256213D+00  Symmetry=a'
-              MO Center= -8.8D-02,  5.1D-01,  5.6D-17, r^2= 3.4D+00
+              MO Center= -8.8D-02,  5.1D-01,  5.1D-17, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.690627  1 C  py                24      1.594931  1 C  f -3       
@@ -2185,7 +2183,7 @@ task dft property
     41      1.005693  2 C  px                48     -0.983064  2 C  d  2       
 
  Vector  165  Occ=0.000000D+00  E= 6.312461D+00  Symmetry=a"
-              MO Center=  7.3D-03, -1.4D+00,  5.9D-17, r^2= 8.0D-01
+              MO Center=  7.3D-03, -1.4D+00,  1.4D-16, r^2= 8.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      0.628228  4 O  pz               105      0.614548  4 O  d -1       
@@ -2205,7 +2203,7 @@ task dft property
     99      1.038347  4 O  py                53     -1.020952  2 C  d  2       
 
  Vector  167  Occ=0.000000D+00  E= 6.489599D+00  Symmetry=a"
-              MO Center= -1.2D-01, -1.8D+00,  6.4D-17, r^2= 4.0D-01
+              MO Center= -1.2D-01, -1.8D+00,  1.0D-16, r^2= 4.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    107      1.075228  4 O  d  1             112     -0.657391  4 O  d  1       
@@ -2215,7 +2213,7 @@ task dft property
    171      0.161249  8 H  pz                80      0.159369  3 C  d -1       
 
  Vector  168  Occ=0.000000D+00  E= 6.571031D+00  Symmetry=a'
-              MO Center= -1.1D-01, -1.7D+00,  2.8D-17, r^2= 6.6D-01
+              MO Center= -1.1D-01, -1.7D+00,  1.3D-17, r^2= 6.6D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    106     -0.918974  4 O  d  0              83      0.910563  3 C  d  2       
@@ -2225,7 +2223,7 @@ task dft property
     38      0.630703  2 C  px                 9      0.591958  1 C  py         
 
  Vector  169  Occ=0.000000D+00  E= 6.948761D+00  Symmetry=a"
-              MO Center= -1.4D-01, -1.8D+00, -1.0D-16, r^2= 5.8D-01
+              MO Center= -1.4D-01, -1.8D+00, -5.5D-17, r^2= 5.8D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    110      1.271846  4 O  d -1             105     -0.949312  4 O  d -1       
@@ -2245,7 +2243,7 @@ task dft property
     68      0.604683  3 C  px                24     -0.600561  1 C  f -3       
 
  Vector  171  Occ=0.000000D+00  E= 7.146318D+00  Symmetry=a'
-              MO Center= -1.3D-01, -1.8D+00, -1.9D-17, r^2= 5.6D-01
+              MO Center= -1.3D-01, -1.8D+00, -2.6D-17, r^2= 5.6D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      1.268198  4 O  s                109      1.006647  4 O  d -2       
@@ -2255,7 +2253,7 @@ task dft property
    113     -0.575690  4 O  d  2             106      0.566728  4 O  d  0       
 
  Vector  172  Occ=0.000000D+00  E= 7.238799D+00  Symmetry=a'
-              MO Center= -2.8D-02, -1.2D+00,  3.0D-17, r^2= 1.9D+00
+              MO Center= -2.8D-02, -1.2D+00,  3.1D-17, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     84      1.595648  3 C  f -3              68      1.516495  3 C  px         
@@ -2265,7 +2263,7 @@ task dft property
     24      0.686226  1 C  f -3              69     -0.668307  3 C  py         
 
  Vector  173  Occ=0.000000D+00  E= 1.053548D+01  Symmetry=a'
-              MO Center=  1.6D-01, -5.9D-01,  2.8D-18, r^2= 2.6D+00
+              MO Center=  1.6D-01, -5.9D-01,  8.5D-18, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     62      7.527460  3 C  s                164     -6.387472  8 H  s          
@@ -2275,7 +2273,7 @@ task dft property
     92      3.104320  4 O  s                169      3.025560  8 H  px         
 
  Vector  174  Occ=0.000000D+00  E= 1.119271D+01  Symmetry=a'
-              MO Center= -2.5D-01,  6.5D-01,  9.2D-18, r^2= 2.5D+00
+              MO Center= -2.5D-01,  6.5D-01,  7.8D-18, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      8.194107  2 C  s                150     -6.422907  7 H  s          
@@ -2285,7 +2283,7 @@ task dft property
    155     -2.973565  7 H  px                 9      2.833164  1 C  py         
 
  Vector  175  Occ=0.000000D+00  E= 1.306143D+01  Symmetry=a'
-              MO Center=  1.3D-01, -7.4D-01, -2.8D-18, r^2= 2.1D+00
+              MO Center=  1.3D-01, -7.4D-01,  2.0D-19, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     62      6.982726  3 C  s                 92     -4.621509  4 O  s          
@@ -2295,7 +2293,7 @@ task dft property
     94     -2.437456  4 O  s                  1     -2.423530  1 C  s          
 
  Vector  176  Occ=0.000000D+00  E= 1.425798D+01  Symmetry=a'
-              MO Center= -1.6D-02,  1.1D+00,  8.9D-19, r^2= 2.1D+00
+              MO Center= -1.6D-02,  1.1D+00,  1.2D-18, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2     10.272378  1 C  s                 34     -8.360865  2 C  s          
@@ -2334,7 +2332,7 @@ task dft property
      2   0 0 2    -18.687178     -9.343589     -9.343589      0.000000
 
 
- Task  times  cpu:       78.7s     wall:       79.6s
+ Task  times  cpu:       78.9s     wall:       79.7s
 
 
                                 NWChem Input Module
@@ -2465,33 +2463,33 @@ task dft property
     16 a"         17 a'         18 a'         19 a"         20 a'      
     21 a'         22 a'         23 a'         24 a'         25 a"      
 
-   Time after variat. SCF:     79.7
-   Time prior to 1st pass:     79.7
+   Time after variat. SCF:     79.8
+   Time prior to 1st pass:     79.8
 
  Grid_pts file          = ./acr-lcblyp.gridpts.0
  Record size in doubles =  12289        No. of grid_pts per rec  =   3070
- Max. records in memory =     29        Max. recs in file   =    862023
+ Max. records in memory =     29        Max. recs in file   =    863563
 
 
            Memory utilization after 1st SCF pass: 
-           Heap Space remaining (MW):       85.89            85889226
-          Stack Space remaining (MW):       86.25            86246060
+           Heap Space remaining (MW):       85.89            85889228
+          Stack Space remaining (MW):       86.25            86246068
 
    convergence    iter        energy       DeltaE   RMS-Dens  Diis-err    time
  ---------------- ----- ----------------- --------- --------- ---------  ------
- d= 0,ls=0.0,diis     1   -191.7468727603 -2.95D+02  6.82D-06  3.12D-07    90.0
- d= 0,ls=0.0,diis     2   -191.7468728016 -4.13D-08  1.24D-06  2.68D-07   100.3
+ d= 0,ls=0.0,diis     1   -191.7468727603 -2.95D+02  6.82D-06  3.12D-07    90.1
+ d= 0,ls=0.0,diis     2   -191.7468728016 -4.13D-08  1.24D-06  2.68D-07   100.5
 
 
-         Total DFT energy =     -191.746872801584
-      One electron energy =     -463.659891488437
+         Total DFT energy =     -191.746872801583
+      One electron energy =     -463.659891488436
            Coulomb energy =      194.720855652405
     Exchange-Corr. energy =      -26.053837491299
  Nuclear repulsion energy =      103.246000525747
 
  Numeric. integr. density =       30.000002520291
 
-     Total iterative time =     20.6s
+     Total iterative time =     20.7s
 
 
 
@@ -2514,27 +2512,27 @@ task dft property
     91      0.970819  4 O  s                 93      0.051401  4 O  s          
 
  Vector    2  Occ=2.000000D+00  E=-1.040288D+01  Symmetry=a'
-              MO Center=  3.5D-01, -6.7D-01, -1.4D-19, r^2= 2.8D-02
+              MO Center=  3.5D-01, -6.7D-01,  3.8D-20, r^2= 2.8D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     61      0.978919  3 C  s                 63      0.051147  3 C  s          
 
  Vector    3  Occ=2.000000D+00  E=-1.034051D+01  Symmetry=a'
-              MO Center=  1.3D-01,  1.8D+00,  2.2D-17, r^2= 3.3D-02
+              MO Center=  1.3D-01,  1.8D+00, -3.3D-17, r^2= 3.3D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      1      0.979187  1 C  s                  3      0.052319  1 C  s          
     31      0.051845  2 C  s          
 
  Vector    4  Occ=2.000000D+00  E=-1.033185D+01  Symmetry=a'
-              MO Center= -4.5D-01,  5.6D-01,  1.7D-17, r^2= 3.3D-02
+              MO Center= -4.5D-01,  5.6D-01, -2.7D-17, r^2= 3.3D-02
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     31      0.977685  2 C  s                  1     -0.054645  1 C  s          
     33      0.052172  2 C  s          
 
  Vector    5  Occ=2.000000D+00  E=-1.199277D+00  Symmetry=a'
-              MO Center=  1.8D-02, -1.4D+00,  3.1D-17, r^2= 5.4D-01
+              MO Center=  1.8D-02, -1.4D+00, -1.1D-16, r^2= 5.4D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     92      0.437309  4 O  s                 62      0.246939  3 C  s          
@@ -2544,7 +2542,7 @@ task dft property
     69     -0.071066  3 C  py                63      0.062170  3 C  s          
 
  Vector    6  Occ=2.000000D+00  E=-9.596673D-01  Symmetry=a'
-              MO Center= -8.6D-02,  8.9D-01, -4.0D-16, r^2= 1.4D+00
+              MO Center= -8.6D-02,  8.9D-01, -4.4D-16, r^2= 1.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      0.339886  2 C  s                  2      0.303133  1 C  s          
@@ -2554,7 +2552,7 @@ task dft property
     69      0.074005  3 C  py                 3      0.073546  1 C  s          
 
  Vector    7  Occ=2.000000D+00  E=-7.924302D-01  Symmetry=a'
-              MO Center=  1.2D-01,  6.3D-01, -1.7D-16, r^2= 2.6D+00
+              MO Center=  1.2D-01,  6.3D-01, -1.3D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      2      0.293556  1 C  s                 62     -0.259600  3 C  s          
@@ -2564,7 +2562,7 @@ task dft property
     69     -0.105965  3 C  py                64     -0.100436  3 C  s          
 
  Vector    8  Occ=2.000000D+00  E=-7.154306D-01  Symmetry=a'
-              MO Center=  1.1D-01,  1.7D-01, -2.6D-16, r^2= 2.6D+00
+              MO Center=  1.1D-01,  1.7D-01,  2.9D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      0.208957  2 C  s                 62     -0.190373  3 C  s          
@@ -2574,7 +2572,7 @@ task dft property
    163     -0.108688  8 H  s                 35     -0.106524  2 C  px         
 
  Vector    9  Occ=2.000000D+00  E=-6.139721D-01  Symmetry=a'
-              MO Center=  2.8D-01,  2.8D-01,  4.4D-17, r^2= 2.8D+00
+              MO Center=  2.8D-01,  2.8D-01, -2.7D-17, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      0.191155  3 C  px                65      0.171097  3 C  px         
@@ -2584,7 +2582,7 @@ task dft property
     95      0.123430  4 O  px               164      0.116859  8 H  s          
 
  Vector   10  Occ=2.000000D+00  E=-6.100506D-01  Symmetry=a'
-              MO Center= -1.9D-01,  3.3D-01,  1.1D-16, r^2= 4.1D+00
+              MO Center= -1.9D-01,  3.3D-01, -3.1D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      0.193063  1 C  py                99      0.193798  4 O  py         
@@ -2594,7 +2592,7 @@ task dft property
     38     -0.135524  2 C  px                62      0.130452  3 C  s          
 
  Vector   11  Occ=2.000000D+00  E=-5.515327D-01  Symmetry=a'
-              MO Center= -6.5D-02, -5.1D-01, -1.5D-14, r^2= 3.4D+00
+              MO Center= -6.5D-02, -5.1D-01,  1.5D-14, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     99      0.264879  4 O  py                96      0.229516  4 O  py         
@@ -2604,7 +2602,7 @@ task dft property
     92     -0.127142  4 O  s                164     -0.118718  8 H  s          
 
  Vector   12  Occ=2.000000D+00  E=-5.326242D-01  Symmetry=a"
-              MO Center=  2.6D-02, -1.0D+00,  1.5D-14, r^2= 1.6D+00
+              MO Center=  2.6D-02, -1.0D+00, -1.5D-14, r^2= 1.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      0.298338  4 O  pz                97      0.251833  4 O  pz         
@@ -2614,7 +2612,7 @@ task dft property
     10      0.073914  1 C  pz                 7      0.060001  1 C  pz         
 
  Vector   13  Occ=2.000000D+00  E=-5.164873D-01  Symmetry=a'
-              MO Center= -1.6D-01,  1.0D+00,  3.7D-16, r^2= 2.8D+00
+              MO Center= -1.6D-01,  1.0D+00,  2.0D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      0.197180  1 C  px                 5      0.184062  1 C  px         
@@ -2624,7 +2622,7 @@ task dft property
    135      0.127308  6 H  s                 11      0.122918  1 C  px         
 
  Vector   14  Occ=2.000000D+00  E=-4.090410D-01  Symmetry=a"
-              MO Center= -1.3D-01,  6.8D-01,  9.0D-16, r^2= 2.5D+00
+              MO Center= -1.3D-01,  6.8D-01,  4.6D-16, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.256122  1 C  pz                40      0.253972  2 C  pz         
@@ -2634,7 +2632,7 @@ task dft property
    103     -0.144527  4 O  pz                73     -0.043213  3 C  pz         
 
  Vector   15  Occ=2.000000D+00  E=-3.843069D-01  Symmetry=a'
-              MO Center=  9.2D-02, -1.2D+00, -6.4D-16, r^2= 1.8D+00
+              MO Center=  9.2D-02, -1.2D+00, -3.0D-16, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      0.420569  2 C  s                 98      0.351829  4 O  px         
@@ -2644,7 +2642,7 @@ task dft property
     39     -0.142136  2 C  py                41      0.135082  2 C  px         
 
  Vector   16  Occ=0.000000D+00  E= 1.323712D-02  Symmetry=a"
-              MO Center=  6.7D-02,  2.8D-01,  9.0D-16, r^2= 3.3D+00
+              MO Center=  6.7D-02,  2.8D-01, -6.5D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      0.461789  1 C  pz                43     -0.306697  2 C  pz         
@@ -2654,7 +2652,7 @@ task dft property
     97      0.188369  4 O  pz                67     -0.172299  3 C  pz         
 
  Vector   17  Occ=0.000000D+00  E= 1.140458D-01  Symmetry=a'
-              MO Center=  8.6D-01,  1.9D+00, -1.3D-14, r^2= 6.1D+00
+              MO Center=  8.6D-01,  1.9D+00,  3.1D-14, r^2= 6.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      3.337425  1 C  s                137     -1.583004  6 H  s          
@@ -2664,7 +2662,7 @@ task dft property
    151     -0.566546  7 H  s                 42     -0.479466  2 C  py         
 
  Vector   18  Occ=0.000000D+00  E= 1.245977D-01  Symmetry=a'
-              MO Center= -4.7D-01,  1.1D+00,  1.1D-13, r^2= 7.7D+00
+              MO Center= -4.7D-01,  1.1D+00, -2.3D-13, r^2= 7.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    151     -1.634910  7 H  s                 34      1.522650  2 C  s          
@@ -2674,7 +2672,7 @@ task dft property
      4      0.525128  1 C  s                 42     -0.454908  2 C  py         
 
  Vector   19  Occ=0.000000D+00  E= 1.333639D-01  Symmetry=a"
-              MO Center=  8.6D-02,  1.1D-01, -1.0D-13, r^2= 3.3D+00
+              MO Center=  8.6D-02,  1.1D-01,  2.0D-13, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.842843  2 C  pz                73     -0.724665  3 C  pz         
@@ -2684,7 +2682,7 @@ task dft property
     97      0.148544  4 O  pz               100      0.147610  4 O  pz         
 
  Vector   20  Occ=0.000000D+00  E= 1.643367D-01  Symmetry=a'
-              MO Center= -9.0D-02,  3.2D-01,  1.0D-15, r^2= 8.8D+00
+              MO Center= -9.0D-02,  3.2D-01, -3.2D-15, r^2= 8.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    151      2.184037  7 H  s                 64     -1.914691  3 C  s          
@@ -2694,7 +2692,7 @@ task dft property
     72     -0.731996  3 C  py                11     -0.563505  1 C  px         
 
  Vector   21  Occ=0.000000D+00  E= 1.853334D-01  Symmetry=a'
-              MO Center=  4.6D-01,  1.6D+00,  3.9D-16, r^2= 8.0D+00
+              MO Center=  4.6D-01,  1.6D+00, -1.1D-15, r^2= 8.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    137      2.453642  6 H  s                123     -2.227385  5 H  s          
@@ -2704,7 +2702,7 @@ task dft property
     64      0.764177  3 C  s                  4     -0.376813  1 C  s          
 
  Vector   22  Occ=0.000000D+00  E= 2.437725D-01  Symmetry=a'
-              MO Center=  5.8D-01,  4.1D-01, -8.8D-16, r^2= 7.1D+00
+              MO Center=  5.8D-01,  4.1D-01,  2.5D-15, r^2= 7.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.088944  2 C  s                  4     -3.540157  1 C  s          
@@ -2714,7 +2712,7 @@ task dft property
     69     -0.490890  3 C  py               137      0.493180  6 H  s          
 
  Vector   23  Occ=0.000000D+00  E= 2.943755D-01  Symmetry=a'
-              MO Center= -1.1D-01,  6.7D-01, -9.0D-16, r^2= 6.4D+00
+              MO Center= -1.1D-01,  6.7D-01, -5.8D-16, r^2= 6.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.626924  2 C  s                 64     -4.553836  3 C  s          
@@ -2724,7 +2722,7 @@ task dft property
     71      0.898592  3 C  px               102      0.795096  4 O  py         
 
  Vector   24  Occ=0.000000D+00  E= 3.368158D-01  Symmetry=a'
-              MO Center= -3.5D-01,  7.6D-01,  5.5D-17, r^2= 5.3D+00
+              MO Center= -3.5D-01,  7.6D-01,  1.6D-15, r^2= 5.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      5.431589  1 C  s                 42     -5.068825  2 C  py         
@@ -2734,7 +2732,7 @@ task dft property
     64     -1.279034  3 C  s                 41     -1.043630  2 C  px         
 
  Vector   25  Occ=0.000000D+00  E= 3.510264D-01  Symmetry=a"
-              MO Center=  6.9D-02,  5.0D-01,  1.1D-14, r^2= 4.2D+00
+              MO Center=  6.9D-02,  5.0D-01, -3.1D-14, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     73      0.672640  3 C  pz                13      0.595090  1 C  pz         
@@ -2744,7 +2742,7 @@ task dft property
     52      0.094816  2 C  d  1              37     -0.083423  2 C  pz         
 
  Vector   26  Occ=0.000000D+00  E= 3.807177D-01  Symmetry=a'
-              MO Center=  3.7D-01,  8.9D-01, -7.9D-15, r^2= 3.6D+00
+              MO Center=  3.7D-01,  8.9D-01,  3.1D-14, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.651386  3 C  s                 42      1.832365  2 C  py         
@@ -2754,7 +2752,7 @@ task dft property
    150     -0.820137  7 H  s                 12      0.595039  1 C  py         
 
  Vector   27  Occ=0.000000D+00  E= 4.114286D-01  Symmetry=a"
-              MO Center=  2.3D-01,  2.9D-01,  1.6D-14, r^2= 5.2D+00
+              MO Center=  2.3D-01,  2.9D-01,  2.0D-14, r^2= 5.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     73      1.352834  3 C  pz                13     -0.728850  1 C  pz         
@@ -2764,7 +2762,7 @@ task dft property
      7      0.137056  1 C  pz                80      0.100179  3 C  d -1       
 
  Vector   28  Occ=0.000000D+00  E= 4.137743D-01  Symmetry=a'
-              MO Center= -1.2D-01,  4.6D-01, -1.8D-14, r^2= 4.5D+00
+              MO Center= -1.2D-01,  4.6D-01, -1.9D-14, r^2= 4.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      4.025860  3 C  s                  4     -3.251337  1 C  s          
@@ -2774,7 +2772,7 @@ task dft property
    150      0.936768  7 H  s                164     -0.920348  8 H  s          
 
  Vector   29  Occ=0.000000D+00  E= 4.470500D-01  Symmetry=a'
-              MO Center=  2.0D-01,  2.1D-01, -1.1D-15, r^2= 5.6D+00
+              MO Center=  2.0D-01,  2.1D-01, -3.6D-15, r^2= 5.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      3.360706  2 C  s                 71      2.711682  3 C  px         
@@ -2784,7 +2782,7 @@ task dft property
    123     -1.372740  5 H  s                 41      1.275991  2 C  px         
 
  Vector   30  Occ=0.000000D+00  E= 4.622088D-01  Symmetry=a"
-              MO Center= -3.1D-01,  9.4D-01,  9.9D-15, r^2= 4.0D+00
+              MO Center= -3.1D-01,  9.4D-01,  5.0D-16, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      1.917099  2 C  pz                13     -1.407900  1 C  pz         
@@ -2794,7 +2792,7 @@ task dft property
     80     -0.164868  3 C  d -1              70      0.155623  3 C  pz         
 
  Vector   31  Occ=0.000000D+00  E= 4.823763D-01  Symmetry=a'
-              MO Center=  2.0D-01,  4.1D-01, -8.6D-15, r^2= 5.0D+00
+              MO Center=  2.0D-01,  4.1D-01, -3.8D-15, r^2= 5.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      4.845811  1 C  s                 71      3.020561  3 C  px         
@@ -2804,7 +2802,7 @@ task dft property
     72     -1.112974  3 C  py               122     -0.928668  5 H  s          
 
  Vector   32  Occ=0.000000D+00  E= 5.042329D-01  Symmetry=a'
-              MO Center=  3.4D-01,  5.9D-01,  4.4D-16, r^2= 5.9D+00
+              MO Center=  3.4D-01,  5.9D-01,  2.1D-15, r^2= 5.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     71      2.269880  3 C  px               165     -2.202035  8 H  s          
@@ -2814,7 +2812,7 @@ task dft property
    122      0.873697  5 H  s                169      0.732007  8 H  px         
 
  Vector   33  Occ=0.000000D+00  E= 5.407303D-01  Symmetry=a'
-              MO Center= -6.4D-02,  1.0D+00, -2.7D-15, r^2= 6.7D+00
+              MO Center= -6.4D-02,  1.0D+00, -6.3D-17, r^2= 6.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      5.686945  3 C  s                  4      3.419405  1 C  s          
@@ -2824,7 +2822,7 @@ task dft property
    122     -1.292840  5 H  s                 72      1.163983  3 C  py         
 
  Vector   34  Occ=0.000000D+00  E= 5.494497D-01  Symmetry=a'
-              MO Center= -1.5D-01, -2.2D-01,  2.0D-15, r^2= 6.4D+00
+              MO Center= -1.5D-01, -2.2D-01,  7.5D-17, r^2= 6.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      6.026198  3 C  s                  4     -4.868199  1 C  s          
@@ -2834,7 +2832,7 @@ task dft property
    151      1.810304  7 H  s                137      1.273302  6 H  s          
 
  Vector   35  Occ=0.000000D+00  E= 5.531077D-01  Symmetry=a'
-              MO Center=  3.3D-01,  2.3D-01, -1.7D-15, r^2= 5.9D+00
+              MO Center=  3.3D-01,  2.3D-01, -2.4D-15, r^2= 5.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      6.715294  1 C  s                 34     -3.554726  2 C  s          
@@ -2844,7 +2842,7 @@ task dft property
    164      1.702475  8 H  s                150      1.479501  7 H  s          
 
  Vector   36  Occ=0.000000D+00  E= 5.725966D-01  Symmetry=a'
-              MO Center= -3.0D-01,  8.6D-01,  4.5D-16, r^2= 6.1D+00
+              MO Center= -3.0D-01,  8.6D-01, -2.0D-15, r^2= 6.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.767553  2 C  s                  4     -3.376622  1 C  s          
@@ -2854,7 +2852,7 @@ task dft property
    122      1.425548  5 H  s                 72     -1.406625  3 C  py         
 
  Vector   37  Occ=0.000000D+00  E= 6.207366D-01  Symmetry=a'
-              MO Center=  8.9D-02,  3.5D-01, -6.5D-17, r^2= 5.1D+00
+              MO Center=  8.9D-02,  3.5D-01,  1.0D-15, r^2= 5.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      8.217313  3 C  s                 34     -5.729209  2 C  s          
@@ -2864,7 +2862,7 @@ task dft property
    151     -1.710544  7 H  s                123      1.455237  5 H  s          
 
  Vector   38  Occ=0.000000D+00  E= 6.246498D-01  Symmetry=a"
-              MO Center=  1.2D-01,  1.4D+00, -2.0D-15, r^2= 3.1D+00
+              MO Center=  1.2D-01,  1.4D+00,  3.1D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.730911  2 C  pz                73     -0.480292  3 C  pz         
@@ -2874,7 +2872,7 @@ task dft property
     20     -0.180885  1 C  d -1             100      0.145055  4 O  pz         
 
  Vector   39  Occ=0.000000D+00  E= 6.520980D-01  Symmetry=a'
-              MO Center= -7.0D-02, -3.7D-01,  3.9D-15, r^2= 5.5D+00
+              MO Center= -7.0D-02, -3.7D-01,  1.2D-15, r^2= 5.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34     11.579992  2 C  s                  4     -6.737069  1 C  s          
@@ -2884,7 +2882,7 @@ task dft property
     42      1.709514  2 C  py                12      1.622292  1 C  py         
 
  Vector   40  Occ=0.000000D+00  E= 6.865714D-01  Symmetry=a"
-              MO Center=  2.1D-01, -2.0D-01, -2.9D-15, r^2= 3.4D+00
+              MO Center=  2.1D-01, -2.0D-01, -2.4D-15, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    103     -0.453544  4 O  pz                43      0.450831  2 C  pz         
@@ -2894,7 +2892,7 @@ task dft property
     20     -0.168833  1 C  d -1              80     -0.156874  3 C  d -1       
 
  Vector   41  Occ=0.000000D+00  E= 7.137108D-01  Symmetry=a'
-              MO Center= -8.9D-02,  5.7D-01,  1.1D-16, r^2= 5.1D+00
+              MO Center= -8.9D-02,  5.7D-01, -5.2D-16, r^2= 5.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4     10.846840  1 C  s                 34     -8.989524  2 C  s          
@@ -2904,7 +2902,7 @@ task dft property
     64     -1.072326  3 C  s                137      1.055711  6 H  s          
 
  Vector   42  Occ=0.000000D+00  E= 7.554122D-01  Symmetry=a"
-              MO Center= -1.4D-01,  7.1D-01,  2.8D-15, r^2= 3.5D+00
+              MO Center= -1.4D-01,  7.1D-01, -1.4D-15, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      0.621556  7 H  pz               143      0.514123  6 H  pz         
@@ -2924,7 +2922,7 @@ task dft property
     71      2.073280  3 C  px               122     -1.567297  5 H  s          
 
  Vector   44  Occ=0.000000D+00  E= 8.023903D-01  Symmetry=a"
-              MO Center= -1.0D-01, -1.4D+00,  1.3D-15, r^2= 3.6D+00
+              MO Center= -1.0D-01, -1.4D+00, -3.1D-15, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    103      1.719238  4 O  pz                73     -1.092851  3 C  pz         
@@ -2934,7 +2932,7 @@ task dft property
     20     -0.170874  1 C  d -1              40     -0.142317  2 C  pz         
 
  Vector   45  Occ=0.000000D+00  E= 8.034384D-01  Symmetry=a'
-              MO Center= -5.2D-02,  5.7D-02, -3.6D-15, r^2= 4.9D+00
+              MO Center= -5.2D-02,  5.7D-02,  5.9D-15, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     41      5.201575  2 C  px                 4     -4.344011  1 C  s          
@@ -2944,7 +2942,7 @@ task dft property
     34      1.328076  2 C  s                 12      1.173500  1 C  py         
 
  Vector   46  Occ=0.000000D+00  E= 8.591798D-01  Symmetry=a'
-              MO Center=  4.4D-02, -1.1D+00, -1.5D-16, r^2= 4.9D+00
+              MO Center=  4.4D-02, -1.1D+00, -1.7D-17, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      8.295868  2 C  s                  4     -4.443632  1 C  s          
@@ -2954,7 +2952,7 @@ task dft property
    164      1.485502  8 H  s                 83     -1.099695  3 C  d  2       
 
  Vector   47  Occ=0.000000D+00  E= 8.926339D-01  Symmetry=a"
-              MO Center=  2.4D-01,  4.5D-01,  5.8D-16, r^2= 4.1D+00
+              MO Center=  2.4D-01,  4.5D-01, -7.1D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    129      0.674870  5 H  pz                73     -0.667501  3 C  pz         
@@ -2964,7 +2962,7 @@ task dft property
     52     -0.257015  2 C  d  1              70     -0.223979  3 C  pz         
 
  Vector   48  Occ=0.000000D+00  E= 9.456728D-01  Symmetry=a'
-              MO Center=  4.3D-01,  1.2D+00, -6.8D-16, r^2= 4.3D+00
+              MO Center=  4.3D-01,  1.2D+00,  8.9D-16, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -4.266790  3 C  s                 34      3.912686  2 C  s          
@@ -2974,7 +2972,7 @@ task dft property
     42     -1.366249  2 C  py               123     -1.248716  5 H  s          
 
  Vector   49  Occ=0.000000D+00  E= 9.858622D-01  Symmetry=a'
-              MO Center= -1.3D-01,  1.3D+00, -3.3D-17, r^2= 4.1D+00
+              MO Center= -1.3D-01,  1.3D+00, -4.5D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      3.129624  3 C  s                 41     -1.854045  2 C  px         
@@ -2984,7 +2982,7 @@ task dft property
    151     -0.688160  7 H  s                 23     -0.642205  1 C  d  2       
 
  Vector   50  Occ=0.000000D+00  E= 1.043157D+00  Symmetry=a'
-              MO Center= -3.2D-02,  2.6D-01, -3.8D-15, r^2= 3.9D+00
+              MO Center= -3.2D-02,  2.6D-01, -6.1D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.046060  2 C  s                  4     -4.775943  1 C  s          
@@ -2994,7 +2992,7 @@ task dft property
    164     -1.177502  8 H  s                151      1.063764  7 H  s          
 
  Vector   51  Occ=0.000000D+00  E= 1.066490D+00  Symmetry=a"
-              MO Center=  3.5D-01,  8.7D-01,  2.2D-15, r^2= 4.3D+00
+              MO Center=  3.5D-01,  8.7D-01, -5.2D-16, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     13      1.054611  1 C  pz                43     -0.957050  2 C  pz         
@@ -3004,7 +3002,7 @@ task dft property
     40     -0.305958  2 C  pz                52      0.292939  2 C  d  1       
 
  Vector   52  Occ=0.000000D+00  E= 1.067764D+00  Symmetry=a'
-              MO Center=  2.6D-01,  3.6D-02, -1.0D-14, r^2= 4.7D+00
+              MO Center=  2.6D-01,  3.6D-02,  1.0D-15, r^2= 4.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -3.240339  3 C  s                 34      3.185762  2 C  s          
@@ -3014,7 +3012,7 @@ task dft property
    122     -0.977916  5 H  s                127     -0.970666  5 H  px         
 
  Vector   53  Occ=0.000000D+00  E= 1.091195D+00  Symmetry=a"
-              MO Center= -8.6D-02,  4.3D-01,  5.8D-17, r^2= 4.0D+00
+              MO Center= -8.6D-02,  4.3D-01, -1.6D-15, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      1.127103  7 H  pz               171     -0.893217  8 H  pz         
@@ -3024,7 +3022,7 @@ task dft property
     22     -0.465495  1 C  d  1             103     -0.167954  4 O  pz         
 
  Vector   54  Occ=0.000000D+00  E= 1.119081D+00  Symmetry=a"
-              MO Center=  1.2D-01,  8.5D-01,  1.3D-14, r^2= 3.9D+00
+              MO Center=  1.2D-01,  8.5D-01, -1.3D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     43      0.957110  2 C  pz               143     -0.834476  6 H  pz         
@@ -3034,7 +3032,7 @@ task dft property
    129     -0.459323  5 H  pz               157     -0.453850  7 H  pz         
 
  Vector   55  Occ=0.000000D+00  E= 1.164533D+00  Symmetry=a'
-              MO Center=  2.4D-01,  4.0D-01, -2.1D-15, r^2= 4.4D+00
+              MO Center=  2.4D-01,  4.0D-01,  1.4D-16, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      3.831751  2 C  s                 64     -3.511847  3 C  s          
@@ -3044,7 +3042,7 @@ task dft property
    122      1.072188  5 H  s                164     -0.992823  8 H  s          
 
  Vector   56  Occ=0.000000D+00  E= 1.197270D+00  Symmetry=a"
-              MO Center=  1.2D-01,  9.2D-01, -2.8D-15, r^2= 4.0D+00
+              MO Center=  1.2D-01,  9.2D-01, -1.3D-15, r^2= 4.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     20      1.321127  1 C  d -1             129     -1.082518  5 H  pz         
@@ -3054,7 +3052,7 @@ task dft property
     70      0.207294  3 C  pz                22      0.188357  1 C  d  1       
 
  Vector   57  Occ=0.000000D+00  E= 1.216552D+00  Symmetry=a'
-              MO Center= -3.1D-01,  5.7D-01, -3.9D-15, r^2= 4.4D+00
+              MO Center= -3.1D-01,  5.7D-01, -1.1D-15, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     42      5.403732  2 C  py                 4     -4.847047  1 C  s          
@@ -3064,7 +3062,7 @@ task dft property
    156     -1.197001  7 H  py                39      1.038964  2 C  py         
 
  Vector   58  Occ=0.000000D+00  E= 1.250217D+00  Symmetry=a'
-              MO Center=  1.7D-01,  7.4D-01,  7.8D-15, r^2= 4.4D+00
+              MO Center=  1.7D-01,  7.4D-01,  3.1D-15, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      3.528144  7 H  s                 64      3.005370  3 C  s          
@@ -3074,7 +3072,7 @@ task dft property
    155      1.549169  7 H  px                11      1.217533  1 C  px         
 
  Vector   59  Occ=0.000000D+00  E= 1.278983D+00  Symmetry=a'
-              MO Center=  1.4D-01,  1.3D-01,  1.6D-15, r^2= 4.9D+00
+              MO Center=  1.4D-01,  1.3D-01, -2.9D-16, r^2= 4.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.930849  3 C  s                136      2.786807  6 H  s          
@@ -3084,7 +3082,7 @@ task dft property
     79     -1.688994  3 C  d -2              94      1.564255  4 O  s          
 
  Vector   60  Occ=0.000000D+00  E= 1.332470D+00  Symmetry=a'
-              MO Center=  9.8D-02,  5.7D-02,  4.8D-16, r^2= 5.2D+00
+              MO Center=  9.8D-02,  5.7D-02,  6.1D-16, r^2= 5.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      5.182942  2 C  s                 64     -4.564058  3 C  s          
@@ -3094,7 +3092,7 @@ task dft property
     68      1.866963  3 C  px                 8      1.703044  1 C  px         
 
  Vector   61  Occ=0.000000D+00  E= 1.364293D+00  Symmetry=a"
-              MO Center= -3.6D-02,  4.5D-01, -2.8D-15, r^2= 3.8D+00
+              MO Center= -3.6D-02,  4.5D-01,  1.2D-15, r^2= 3.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      1.738145  2 C  d -1              22     -1.245766  1 C  d  1       
@@ -3104,7 +3102,7 @@ task dft property
     52     -0.450205  2 C  d  1              43      0.342056  2 C  pz         
 
  Vector   62  Occ=0.000000D+00  E= 1.364777D+00  Symmetry=a'
-              MO Center= -2.1D-01,  1.2D+00, -1.1D-15, r^2= 5.0D+00
+              MO Center= -2.1D-01,  1.2D+00, -3.7D-15, r^2= 5.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64     -6.411657  3 C  s                  4      5.937845  1 C  s          
@@ -3114,7 +3112,7 @@ task dft property
      9     -1.336535  1 C  py                 8      1.250671  1 C  px         
 
  Vector   63  Occ=0.000000D+00  E= 1.424356D+00  Symmetry=a'
-              MO Center=  9.1D-02,  6.4D-01,  9.4D-16, r^2= 5.6D+00
+              MO Center=  9.1D-02,  6.4D-01,  3.8D-16, r^2= 5.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      7.100374  3 C  s                122      4.836997  5 H  s          
@@ -3124,7 +3122,7 @@ task dft property
     71     -2.369440  3 C  px               128     -2.266199  5 H  py         
 
  Vector   64  Occ=0.000000D+00  E= 1.479609D+00  Symmetry=a'
-              MO Center=  3.0D-01,  7.7D-01, -3.2D-17, r^2= 4.8D+00
+              MO Center=  3.0D-01,  7.7D-01, -1.1D-17, r^2= 4.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      7.856004  2 C  s                150     -2.430936  7 H  s          
@@ -3134,7 +3132,7 @@ task dft property
     72     -1.367908  3 C  py                51     -1.298155  2 C  d  0       
 
  Vector   65  Occ=0.000000D+00  E= 1.495602D+00  Symmetry=a"
-              MO Center= -2.9D-01,  7.8D-01,  5.6D-16, r^2= 3.4D+00
+              MO Center= -2.9D-01,  7.8D-01, -2.4D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.842653  2 C  d  1             157     -1.203650  7 H  pz         
@@ -3144,7 +3142,7 @@ task dft property
     73      0.311181  3 C  pz                82     -0.279680  3 C  d  1       
 
  Vector   66  Occ=0.000000D+00  E= 1.499850D+00  Symmetry=a'
-              MO Center=  5.9D-01,  6.2D-01, -3.2D-16, r^2= 4.5D+00
+              MO Center=  5.9D-01,  6.2D-01, -2.1D-15, r^2= 4.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      7.674208  2 C  s                 64     -5.319953  3 C  s          
@@ -3154,7 +3152,7 @@ task dft property
    122      2.159149  5 H  s                141      2.134491  6 H  px         
 
  Vector   67  Occ=0.000000D+00  E= 1.565489D+00  Symmetry=a'
-              MO Center= -3.4D-01,  8.1D-01,  8.3D-17, r^2= 4.1D+00
+              MO Center= -3.4D-01,  8.1D-01,  1.1D-15, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     19      2.182138  1 C  d -2             122      1.879481  5 H  s          
@@ -3164,7 +3162,7 @@ task dft property
    142     -1.131898  6 H  py               155      1.059069  7 H  px         
 
  Vector   68  Occ=0.000000D+00  E= 1.596065D+00  Symmetry=a'
-              MO Center= -6.5D-02,  1.2D+00,  1.3D-16, r^2= 4.2D+00
+              MO Center= -6.5D-02,  1.2D+00,  4.5D-16, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4     10.720367  1 C  s                 34    -10.717583  2 C  s          
@@ -3174,7 +3172,7 @@ task dft property
     64      2.725415  3 C  s                 38      2.557274  2 C  px         
 
  Vector   69  Occ=0.000000D+00  E= 1.719428D+00  Symmetry=a'
-              MO Center= -8.7D-02,  3.3D-01,  2.3D-16, r^2= 3.9D+00
+              MO Center= -8.7D-02,  3.3D-01,  4.4D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      6.802291  2 C  s                 64     -4.802765  3 C  s          
@@ -3184,7 +3182,7 @@ task dft property
     94     -1.208229  4 O  s                 49      1.154798  2 C  d -2       
 
  Vector   70  Occ=0.000000D+00  E= 1.793137D+00  Symmetry=a'
-              MO Center= -1.2D-01, -1.7D-01,  1.6D-17, r^2= 4.1D+00
+              MO Center= -1.2D-01, -1.7D-01,  4.3D-16, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      3.825755  6 H  s                 49     -2.782367  2 C  d -2       
@@ -3194,7 +3192,7 @@ task dft property
     19     -1.510877  1 C  d -2             141     -1.377114  6 H  px         
 
  Vector   71  Occ=0.000000D+00  E= 1.827414D+00  Symmetry=a"
-              MO Center=  4.0D-02, -1.3D+00,  9.5D-15, r^2= 2.2D+00
+              MO Center=  4.0D-02, -1.3D+00,  9.0D-15, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.917499  3 C  d  1             112     -0.912070  4 O  d  1       
@@ -3204,7 +3202,7 @@ task dft property
    143     -0.226676  6 H  pz                52      0.200331  2 C  d  1       
 
  Vector   72  Occ=0.000000D+00  E= 1.838714D+00  Symmetry=a'
-              MO Center= -1.5D-01, -2.1D-01, -1.0D-14, r^2= 4.1D+00
+              MO Center= -1.5D-01, -2.1D-01, -9.5D-15, r^2= 4.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      4.508761  6 H  s                  4     -2.945220  1 C  s          
@@ -3214,7 +3212,7 @@ task dft property
    122     -1.687637  5 H  s                 34      1.643967  2 C  s          
 
  Vector   73  Occ=0.000000D+00  E= 2.035923D+00  Symmetry=a"
-              MO Center=  7.8D-02, -8.0D-01,  3.0D-15, r^2= 2.0D+00
+              MO Center=  7.8D-02, -8.0D-01,  1.9D-15, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     67      0.826470  3 C  pz               110     -0.776271  4 O  d -1       
@@ -3224,7 +3222,7 @@ task dft property
     40     -0.401928  2 C  pz                37      0.393092  2 C  pz         
 
  Vector   74  Occ=0.000000D+00  E= 2.042610D+00  Symmetry=a'
-              MO Center=  8.4D-02,  2.5D-02, -8.1D-16, r^2= 3.2D+00
+              MO Center=  8.4D-02,  2.5D-02,  5.1D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      5.243893  7 H  s                 53     -3.182385  2 C  d  2       
@@ -3234,7 +3232,7 @@ task dft property
    136      1.562841  6 H  s                 79      1.519061  3 C  d -2       
 
  Vector   75  Occ=0.000000D+00  E= 2.102107D+00  Symmetry=a"
-              MO Center=  6.0D-03,  4.0D-01, -1.1D-14, r^2= 3.1D+00
+              MO Center=  6.0D-03,  4.0D-01, -5.9D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.943509  1 C  pz                40      0.815698  2 C  pz         
@@ -3244,7 +3242,7 @@ task dft property
    112      0.372261  4 O  d  1              43     -0.283058  2 C  pz         
 
  Vector   76  Occ=0.000000D+00  E= 2.164132D+00  Symmetry=a'
-              MO Center=  1.7D-01, -9.4D-01,  9.4D-15, r^2= 3.1D+00
+              MO Center=  1.7D-01, -9.4D-01,  6.1D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    164      5.093143  8 H  s                 94     -3.349921  4 O  s          
@@ -3254,7 +3252,7 @@ task dft property
      4     -1.229150  1 C  s                 72     -1.165578  3 C  py         
 
  Vector   77  Occ=0.000000D+00  E= 2.228010D+00  Symmetry=a"
-              MO Center=  3.3D-02, -4.6D-02, -4.3D-15, r^2= 3.1D+00
+              MO Center=  3.3D-02, -4.6D-02, -4.5D-15, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     70      1.328303  3 C  pz                10     -1.034900  1 C  pz         
@@ -3264,7 +3262,7 @@ task dft property
     82      0.423357  3 C  d  1              73     -0.283253  3 C  pz         
 
  Vector   78  Occ=0.000000D+00  E= 2.228190D+00  Symmetry=a'
-              MO Center=  1.3D-02,  1.3D+00, -2.5D-15, r^2= 2.8D+00
+              MO Center=  1.3D-02,  1.3D+00, -3.3D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      4.364134  5 H  s                  9     -2.470016  1 C  py         
@@ -3274,7 +3272,7 @@ task dft property
    128     -1.118458  5 H  py                12     -0.966330  1 C  py         
 
  Vector   79  Occ=0.000000D+00  E= 2.269621D+00  Symmetry=a'
-              MO Center=  4.8D-02, -1.2D+00,  4.0D-15, r^2= 2.8D+00
+              MO Center=  4.8D-02, -1.2D+00,  1.8D-15, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94     -2.576115  4 O  s                 64      2.516806  3 C  s          
@@ -3284,7 +3282,7 @@ task dft property
    113      1.232672  4 O  d  2             136     -1.232232  6 H  s          
 
  Vector   80  Occ=0.000000D+00  E= 2.327089D+00  Symmetry=a'
-              MO Center= -8.3D-02,  5.5D-01,  1.4D-15, r^2= 2.5D+00
+              MO Center= -8.3D-02,  5.5D-01,  3.2D-16, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.853641  7 H  s                 68      1.432438  3 C  px         
@@ -3294,7 +3292,7 @@ task dft property
    136     -0.737044  6 H  s                  8      0.662635  1 C  px         
 
  Vector   81  Occ=0.000000D+00  E= 2.335538D+00  Symmetry=a"
-              MO Center= -1.0D-01,  7.8D-01, -3.1D-15, r^2= 1.8D+00
+              MO Center= -1.0D-01,  7.8D-01,  1.6D-15, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     40      1.424777  2 C  pz                10     -1.016353  1 C  pz         
@@ -3304,7 +3302,7 @@ task dft property
     13      0.283034  1 C  pz                80     -0.227696  3 C  d -1       
 
  Vector   82  Occ=0.000000D+00  E= 2.445792D+00  Symmetry=a'
-              MO Center= -2.6D-02,  5.8D-01, -3.3D-16, r^2= 3.2D+00
+              MO Center= -2.6D-02,  5.8D-01,  3.3D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      3.585311  6 H  s                  8     -2.859921  1 C  px         
@@ -3314,7 +3312,7 @@ task dft property
    155     -1.055821  7 H  px                42     -1.034136  2 C  py         
 
  Vector   83  Occ=0.000000D+00  E= 2.500230D+00  Symmetry=a'
-              MO Center= -2.6D-01,  7.4D-01, -1.9D-15, r^2= 2.5D+00
+              MO Center= -2.6D-01,  7.4D-01, -1.5D-15, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      4.124020  1 C  s                 34     -3.348398  2 C  s          
@@ -3324,7 +3322,7 @@ task dft property
     72      1.035203  3 C  py                71      0.857097  3 C  px         
 
  Vector   84  Occ=0.000000D+00  E= 2.520464D+00  Symmetry=a"
-              MO Center=  3.4D-03,  5.4D-01,  1.4D-15, r^2= 1.8D+00
+              MO Center=  3.4D-03,  5.4D-01,  1.3D-15, r^2= 1.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     45      0.442828  2 C  d -1              50     -0.354518  2 C  d -1       
@@ -3334,7 +3332,7 @@ task dft property
    112     -0.208220  4 O  d  1              25      0.193644  1 C  f -2       
 
  Vector   85  Occ=0.000000D+00  E= 2.573343D+00  Symmetry=a'
-              MO Center=  3.0D-01, -5.3D-01,  1.4D-15, r^2= 2.9D+00
+              MO Center=  3.0D-01, -5.3D-01,  8.8D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53     -2.108640  2 C  d  2              34      2.042175  2 C  s          
@@ -3344,7 +3342,7 @@ task dft property
     19     -1.395399  1 C  d -2             101     -1.153569  4 O  px         
 
  Vector   86  Occ=0.000000D+00  E= 2.586096D+00  Symmetry=a'
-              MO Center=  2.0D-01,  4.3D-01, -1.5D-16, r^2= 3.0D+00
+              MO Center=  2.0D-01,  4.3D-01,  3.2D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     41      2.939108  2 C  px                 4     -2.395370  1 C  s          
@@ -3354,7 +3352,7 @@ task dft property
    123     -0.742934  5 H  s                 94      0.726572  4 O  s          
 
  Vector   87  Occ=0.000000D+00  E= 2.654975D+00  Symmetry=a'
-              MO Center=  1.5D-01,  5.2D-01, -5.6D-16, r^2= 3.2D+00
+              MO Center=  1.5D-01,  5.2D-01,  1.0D-15, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     11      1.825159  1 C  px                41     -1.625748  2 C  px         
@@ -3364,7 +3362,7 @@ task dft property
     12     -1.023162  1 C  py                94      0.911745  4 O  s          
 
  Vector   88  Occ=0.000000D+00  E= 2.668907D+00  Symmetry=a"
-              MO Center= -5.4D-02,  5.4D-01,  5.1D-17, r^2= 2.5D+00
+              MO Center= -5.4D-02,  5.4D-01, -2.4D-16, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.408036  3 C  d  1              15      0.393648  1 C  d -1       
@@ -3374,7 +3372,7 @@ task dft property
     75     -0.285056  3 C  d -1              59      0.235704  2 C  f  2       
 
  Vector   89  Occ=0.000000D+00  E= 2.740365D+00  Symmetry=a'
-              MO Center=  8.5D-02,  8.1D-01, -4.2D-15, r^2= 3.1D+00
+              MO Center=  8.5D-02,  8.1D-01, -2.3D-16, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      3.077348  5 H  s                  8      2.859724  1 C  px         
@@ -3384,7 +3382,7 @@ task dft property
      9     -1.476226  1 C  py                38     -1.348140  2 C  px         
 
  Vector   90  Occ=0.000000D+00  E= 2.822334D+00  Symmetry=a'
-              MO Center=  1.4D-01,  6.7D-01, -1.6D-14, r^2= 2.8D+00
+              MO Center=  1.4D-01,  6.7D-01,  1.1D-15, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136     -2.615732  6 H  s                  8      2.576222  1 C  px         
@@ -3394,7 +3392,7 @@ task dft property
      9     -1.084533  1 C  py                12     -1.074386  1 C  py         
 
  Vector   91  Occ=0.000000D+00  E= 2.827019D+00  Symmetry=a"
-              MO Center= -6.6D-02,  1.3D+00,  8.9D-16, r^2= 2.0D+00
+              MO Center= -6.6D-02,  1.3D+00,  1.0D-15, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    157      0.523858  7 H  pz                57      0.501165  2 C  f  0       
@@ -3404,7 +3402,7 @@ task dft property
     40     -0.269600  2 C  pz                29      0.261138  1 C  f  2       
 
  Vector   92  Occ=0.000000D+00  E= 2.864397D+00  Symmetry=a'
-              MO Center= -1.4D-01,  3.1D-01, -8.3D-15, r^2= 2.1D+00
+              MO Center= -1.4D-01,  3.1D-01, -1.6D-16, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.269083  2 C  s                  9      2.187528  1 C  py         
@@ -3414,7 +3412,7 @@ task dft property
     69     -1.314059  3 C  py                38      1.244539  2 C  px         
 
  Vector   93  Occ=0.000000D+00  E= 2.866081D+00  Symmetry=a"
-              MO Center=  5.0D-02,  9.1D-01,  3.1D-14, r^2= 1.9D+00
+              MO Center=  5.0D-02,  9.1D-01, -1.8D-15, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     22      0.745226  1 C  d  1              59      0.585373  2 C  f  2       
@@ -3424,7 +3422,7 @@ task dft property
     52      0.306307  2 C  d  1              77     -0.304128  3 C  d  1       
 
  Vector   94  Occ=0.000000D+00  E= 2.929583D+00  Symmetry=a"
-              MO Center=  3.9D-01, -9.5D-02, -7.8D-15, r^2= 2.3D+00
+              MO Center=  3.9D-01, -9.5D-02, -6.8D-15, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82     -0.602315  3 C  d  1              43      0.567291  2 C  pz         
@@ -3434,7 +3432,7 @@ task dft property
     15     -0.312443  1 C  d -1             157     -0.312228  7 H  pz         
 
  Vector   95  Occ=0.000000D+00  E= 2.953047D+00  Symmetry=a"
-              MO Center=  1.1D-01,  1.4D+00, -2.4D-16, r^2= 1.9D+00
+              MO Center=  1.1D-01,  1.4D+00, -1.3D-15, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     27      0.722418  1 C  f  0             143      0.667789  6 H  pz         
@@ -3444,7 +3442,7 @@ task dft property
     22      0.288787  1 C  d  1             129      0.255783  5 H  pz         
 
  Vector   96  Occ=0.000000D+00  E= 2.971033D+00  Symmetry=a'
-              MO Center= -3.5D-02,  7.0D-01, -2.2D-15, r^2= 2.8D+00
+              MO Center= -3.5D-02,  7.0D-01, -1.8D-15, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      2.249168  2 C  s                 64     -1.978823  3 C  s          
@@ -3454,7 +3452,7 @@ task dft property
    150      0.777241  7 H  s                151      0.756979  7 H  s          
 
  Vector   97  Occ=0.000000D+00  E= 3.001611D+00  Symmetry=a'
-              MO Center= -4.9D-02,  6.7D-01,  6.5D-15, r^2= 2.6D+00
+              MO Center= -4.9D-02,  6.7D-01,  8.2D-15, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      3.862937  7 H  s                 38      3.786513  2 C  px         
@@ -3464,7 +3462,7 @@ task dft property
     49     -1.127828  2 C  d -2              79      1.041312  3 C  d -2       
 
  Vector   98  Occ=0.000000D+00  E= 3.017649D+00  Symmetry=a'
-              MO Center=  2.0D-01,  5.1D-01,  3.2D-15, r^2= 3.3D+00
+              MO Center=  2.0D-01,  5.1D-01,  1.9D-15, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      4.120528  3 C  s                 42      3.653619  2 C  py         
@@ -3474,7 +3472,7 @@ task dft property
     11      1.633857  1 C  px               136     -1.623191  6 H  s          
 
  Vector   99  Occ=0.000000D+00  E= 3.042458D+00  Symmetry=a"
-              MO Center=  1.9D-02,  4.9D-01,  2.3D-16, r^2= 2.3D+00
+              MO Center=  1.9D-02,  4.9D-01,  2.6D-16, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     80      1.107977  3 C  d -1              50      0.591183  2 C  d -1       
@@ -3484,7 +3482,7 @@ task dft property
     89      0.408006  3 C  f  2              29     -0.354709  1 C  f  2       
 
  Vector  100  Occ=0.000000D+00  E= 3.061891D+00  Symmetry=a'
-              MO Center=  1.1D-01,  1.2D+00,  1.9D-15, r^2= 2.6D+00
+              MO Center=  1.1D-01,  1.2D+00,  1.2D-15, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.265712  1 C  s                 38     -1.873225  2 C  px         
@@ -3494,7 +3492,7 @@ task dft property
     53      1.108082  2 C  d  2              12     -1.095588  1 C  py         
 
  Vector  101  Occ=0.000000D+00  E= 3.063594D+00  Symmetry=a"
-              MO Center= -1.9D-01,  2.9D-01, -6.7D-16, r^2= 2.2D+00
+              MO Center= -1.9D-01,  2.9D-01,  6.0D-16, r^2= 2.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.040958  2 C  d  1              20     -0.765575  1 C  d -1       
@@ -3504,7 +3502,7 @@ task dft property
     13      0.335901  1 C  pz                57      0.310358  2 C  f  0       
 
  Vector  102  Occ=0.000000D+00  E= 3.112116D+00  Symmetry=a'
-              MO Center= -2.5D-01,  6.9D-01, -2.5D-16, r^2= 2.7D+00
+              MO Center= -2.5D-01,  6.9D-01, -3.7D-17, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      3.447094  1 C  py                34      2.529291  2 C  s          
@@ -3514,7 +3512,7 @@ task dft property
    150      1.440287  7 H  s                 83     -1.371777  3 C  d  2       
 
  Vector  103  Occ=0.000000D+00  E= 3.168607D+00  Symmetry=a"
-              MO Center=  2.4D-01,  2.4D-02,  3.9D-16, r^2= 2.7D+00
+              MO Center=  2.4D-01,  2.4D-02,  1.4D-16, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     82      0.774204  3 C  d  1              80      0.720246  3 C  d -1       
@@ -3524,7 +3522,7 @@ task dft property
     75     -0.397058  3 C  d -1              15     -0.366330  1 C  d -1       
 
  Vector  104  Occ=0.000000D+00  E= 3.174685D+00  Symmetry=a'
-              MO Center=  1.6D-01,  4.5D-01,  5.1D-16, r^2= 2.9D+00
+              MO Center=  1.6D-01,  4.5D-01, -2.8D-15, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.272494  2 C  s                 64     -3.206584  3 C  s          
@@ -3534,7 +3532,7 @@ task dft property
     38      0.910207  2 C  px                72     -0.883465  3 C  py         
 
  Vector  105  Occ=0.000000D+00  E= 3.199171D+00  Symmetry=a'
-              MO Center=  1.4D-01,  8.3D-01,  2.5D-16, r^2= 2.9D+00
+              MO Center=  1.4D-01,  8.3D-01, -1.8D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.939086  1 C  s                 64     -1.572792  3 C  s          
@@ -3544,7 +3542,7 @@ task dft property
    164      0.694272  8 H  s                 49      0.605262  2 C  d -2       
 
  Vector  106  Occ=0.000000D+00  E= 3.238884D+00  Symmetry=a"
-              MO Center=  2.3D-01,  6.6D-01, -1.0D-15, r^2= 3.2D+00
+              MO Center=  2.3D-01,  6.6D-01,  1.7D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     20      1.145454  1 C  d -1              40      1.049650  2 C  pz         
@@ -3554,7 +3552,7 @@ task dft property
    110     -0.418949  4 O  d -1              15     -0.414919  1 C  d -1       
 
  Vector  107  Occ=0.000000D+00  E= 3.270033D+00  Symmetry=a"
-              MO Center=  1.9D-01, -2.4D-01,  3.0D-16, r^2= 2.6D+00
+              MO Center=  1.9D-01, -2.4D-01,  8.5D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      1.078515  2 C  d  1              20     -0.814481  1 C  d -1       
@@ -3564,7 +3562,7 @@ task dft property
     87     -0.425368  3 C  f  0              43     -0.381024  2 C  pz         
 
  Vector  108  Occ=0.000000D+00  E= 3.272318D+00  Symmetry=a'
-              MO Center=  2.6D-03,  7.1D-01,  4.1D-17, r^2= 2.8D+00
+              MO Center=  2.6D-03,  7.1D-01, -1.5D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.697418  2 C  d  2             150     -2.108619  7 H  s          
@@ -3574,7 +3572,7 @@ task dft property
    141     -0.599022  6 H  px                68     -0.584114  3 C  px         
 
  Vector  109  Occ=0.000000D+00  E= 3.333784D+00  Symmetry=a'
-              MO Center=  2.4D-01,  5.1D-01, -2.9D-16, r^2= 3.6D+00
+              MO Center=  2.4D-01,  5.1D-01, -2.3D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.909477  1 C  py                49      1.690413  2 C  d -2       
@@ -3584,7 +3582,7 @@ task dft property
     39      0.959291  2 C  py                 4      0.729477  1 C  s          
 
  Vector  110  Occ=0.000000D+00  E= 3.360070D+00  Symmetry=a"
-              MO Center= -3.5D-01,  7.4D-01,  1.3D-16, r^2= 2.6D+00
+              MO Center= -3.5D-01,  7.4D-01,  3.2D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      1.046005  2 C  d -1              82      0.685580  3 C  d  1       
@@ -3594,7 +3592,7 @@ task dft property
     59     -0.329191  2 C  f  2              55      0.296499  2 C  f -2       
 
  Vector  111  Occ=0.000000D+00  E= 3.406298D+00  Symmetry=a"
-              MO Center=  1.6D-01,  1.2D+00,  5.4D-16, r^2= 3.0D+00
+              MO Center=  1.6D-01,  1.2D+00,  1.8D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.792160  2 C  d -1              22     -0.637638  1 C  d  1       
@@ -3604,7 +3602,7 @@ task dft property
     75      0.288242  3 C  d -1              47     -0.274057  2 C  d  1       
 
  Vector  112  Occ=0.000000D+00  E= 3.407415D+00  Symmetry=a'
-              MO Center=  2.8D-01,  4.6D-01,  3.5D-16, r^2= 3.2D+00
+              MO Center=  2.8D-01,  4.6D-01,  2.1D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      2.764220  1 C  py                39      2.565705  2 C  py         
@@ -3614,7 +3612,7 @@ task dft property
     79     -1.553407  3 C  d -2              34      1.436377  2 C  s          
 
  Vector  113  Occ=0.000000D+00  E= 3.468657D+00  Symmetry=a'
-              MO Center= -3.0D-01,  7.3D-01, -5.7D-17, r^2= 3.0D+00
+              MO Center= -3.0D-01,  7.3D-01,  1.8D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      3.463267  1 C  px               136     -3.407124  6 H  s          
@@ -3624,7 +3622,7 @@ task dft property
     64     -1.265945  3 C  s                 23      1.102479  1 C  d  2       
 
  Vector  114  Occ=0.000000D+00  E= 3.502718D+00  Symmetry=a'
-              MO Center=  6.6D-02,  2.8D-02, -8.0D-16, r^2= 3.4D+00
+              MO Center=  6.6D-02,  2.8D-02, -2.3D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     83      2.491080  3 C  d  2              34      2.348286  2 C  s          
@@ -3634,7 +3632,7 @@ task dft property
     53      1.484566  2 C  d  2               4     -1.396090  1 C  s          
 
  Vector  115  Occ=0.000000D+00  E= 3.557652D+00  Symmetry=a'
-              MO Center=  3.5D-01,  1.8D-01, -3.6D-16, r^2= 3.0D+00
+              MO Center=  3.5D-01,  1.8D-01, -1.2D-15, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    164     -3.219629  8 H  s                 68      3.032288  3 C  px         
@@ -3644,7 +3642,7 @@ task dft property
     23     -1.053232  1 C  d  2               4     -1.028427  1 C  s          
 
  Vector  116  Occ=0.000000D+00  E= 3.611216D+00  Symmetry=a'
-              MO Center=  2.5D-01,  6.0D-01, -8.3D-16, r^2= 3.3D+00
+              MO Center=  2.5D-01,  6.0D-01, -3.4D-15, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.723316  2 C  d  2              34      2.543528  2 C  s          
@@ -3654,7 +3652,7 @@ task dft property
      4     -1.546715  1 C  s                 83      1.364323  3 C  d  2       
 
  Vector  117  Occ=0.000000D+00  E= 3.620238D+00  Symmetry=a"
-              MO Center=  2.2D-02,  6.6D-01,  8.4D-16, r^2= 3.0D+00
+              MO Center=  2.2D-02,  6.6D-01,  8.6D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.763467  2 C  d -1              22     -0.649411  1 C  d  1       
@@ -3664,7 +3662,7 @@ task dft property
     29      0.382003  1 C  f  2             157     -0.377502  7 H  pz         
 
  Vector  118  Occ=0.000000D+00  E= 3.696439D+00  Symmetry=a'
-              MO Center=  3.0D-01,  7.8D-01, -1.7D-16, r^2= 3.0D+00
+              MO Center=  3.0D-01,  7.8D-01,  8.3D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      4.350078  5 H  s                  4     -3.471518  1 C  s          
@@ -3674,7 +3672,7 @@ task dft property
    128     -1.510963  5 H  py                23      1.344816  1 C  d  2       
 
  Vector  119  Occ=0.000000D+00  E= 3.723926D+00  Symmetry=a"
-              MO Center=  2.5D-02,  5.5D-01, -2.1D-16, r^2= 3.3D+00
+              MO Center=  2.5D-02,  5.5D-01,  1.0D-14, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     50      0.602946  2 C  d -1             173     -0.459222  8 H  d -1       
@@ -3684,7 +3682,7 @@ task dft property
     20      0.367538  1 C  d -1              80      0.342212  3 C  d -1       
 
  Vector  120  Occ=0.000000D+00  E= 3.727315D+00  Symmetry=a'
-              MO Center=  4.7D-01,  5.3D-01,  1.5D-15, r^2= 3.6D+00
+              MO Center=  4.7D-01,  5.3D-01, -8.1D-15, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      4.430246  2 C  s                136      2.571101  6 H  s          
@@ -3694,7 +3692,7 @@ task dft property
    164     -1.189650  8 H  s                 38     -1.175136  2 C  px         
 
  Vector  121  Occ=0.000000D+00  E= 3.803735D+00  Symmetry=a'
-              MO Center= -1.4D-01,  1.3D+00, -2.5D-16, r^2= 3.2D+00
+              MO Center= -1.4D-01,  1.3D+00,  1.7D-16, r^2= 3.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    136      2.324841  6 H  s                122     -1.956023  5 H  s          
@@ -3704,7 +3702,7 @@ task dft property
     68      1.006639  3 C  px                 4     -0.958589  1 C  s          
 
  Vector  122  Occ=0.000000D+00  E= 3.822006D+00  Symmetry=a"
-              MO Center=  3.9D-01,  9.1D-01,  1.3D-17, r^2= 3.5D+00
+              MO Center=  3.9D-01,  9.1D-01,  6.7D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      0.548300  1 C  pz               173     -0.516796  8 H  d -1       
@@ -3714,7 +3712,7 @@ task dft property
     13      0.331909  1 C  pz                40     -0.333188  2 C  pz         
 
  Vector  123  Occ=0.000000D+00  E= 3.857453D+00  Symmetry=a'
-              MO Center= -1.3D-01,  3.6D-01,  1.5D-16, r^2= 2.8D+00
+              MO Center= -1.3D-01,  3.6D-01,  9.1D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.216134  3 C  s                 49     -1.749788  2 C  d -2       
@@ -3724,7 +3722,7 @@ task dft property
    150      0.766332  7 H  s                136      0.685253  6 H  s          
 
  Vector  124  Occ=0.000000D+00  E= 3.916888D+00  Symmetry=a"
-              MO Center=  1.0D-01,  1.0D+00, -4.3D-16, r^2= 3.9D+00
+              MO Center=  1.0D-01,  1.0D+00, -3.9D-16, r^2= 3.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    129     -0.687144  5 H  pz               126      0.682615  5 H  pz         
@@ -3734,7 +3732,7 @@ task dft property
    154      0.266044  7 H  pz               157     -0.255125  7 H  pz         
 
  Vector  125  Occ=0.000000D+00  E= 3.948354D+00  Symmetry=a'
-              MO Center=  2.1D-01,  1.1D+00,  2.3D-16, r^2= 3.4D+00
+              MO Center=  2.1D-01,  1.1D+00,  2.0D-17, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.924716  7 H  s                 38      1.567558  2 C  px         
@@ -3744,7 +3742,7 @@ task dft property
    136     -0.799263  6 H  s                 11      0.750057  1 C  px         
 
  Vector  126  Occ=0.000000D+00  E= 3.984171D+00  Symmetry=a"
-              MO Center= -3.3D-01,  4.5D-01, -6.4D-16, r^2= 3.6D+00
+              MO Center= -3.3D-01,  4.5D-01, -5.7D-16, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    154      0.823678  7 H  pz               157     -0.804345  7 H  pz         
@@ -3754,7 +3752,7 @@ task dft property
    100      0.329081  4 O  pz                80      0.293017  3 C  d -1       
 
  Vector  127  Occ=0.000000D+00  E= 3.993436D+00  Symmetry=a'
-              MO Center=  2.9D-01,  6.9D-01,  7.0D-17, r^2= 3.5D+00
+              MO Center=  2.9D-01,  6.9D-01,  6.9D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34      2.930051  2 C  s                  4     -1.552330  1 C  s          
@@ -3764,7 +3762,7 @@ task dft property
     41      0.763640  2 C  px               170      0.641495  8 H  py         
 
  Vector  128  Occ=0.000000D+00  E= 4.013160D+00  Symmetry=a'
-              MO Center= -2.7D-01,  1.0D+00,  5.0D-16, r^2= 3.3D+00
+              MO Center= -2.7D-01,  1.0D+00,  4.9D-16, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150     -3.479070  7 H  s                 53      3.308120  2 C  d  2       
@@ -3774,7 +3772,7 @@ task dft property
    164      1.076255  8 H  s                 79     -0.913501  3 C  d -2       
 
  Vector  129  Occ=0.000000D+00  E= 4.056670D+00  Symmetry=a"
-              MO Center=  5.1D-01,  1.0D+00,  1.1D-16, r^2= 3.0D+00
+              MO Center=  5.1D-01,  1.0D+00,  1.2D-16, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    143      0.889654  6 H  pz               140     -0.834810  6 H  pz         
@@ -3784,7 +3782,7 @@ task dft property
     87      0.375366  3 C  f  0             157     -0.349373  7 H  pz         
 
  Vector  130  Occ=0.000000D+00  E= 4.090314D+00  Symmetry=a"
-              MO Center=  4.7D-01,  1.7D-01, -2.2D-17, r^2= 3.3D+00
+              MO Center=  4.7D-01,  1.7D-01, -2.9D-17, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    171     -0.724971  8 H  pz               168      0.682521  8 H  pz         
@@ -3794,7 +3792,7 @@ task dft property
     40     -0.353776  2 C  pz                70      0.352989  3 C  pz         
 
  Vector  131  Occ=0.000000D+00  E= 4.116518D+00  Symmetry=a'
-              MO Center=  2.8D-02,  9.8D-01, -5.2D-16, r^2= 3.1D+00
+              MO Center=  2.8D-02,  9.8D-01, -4.7D-16, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      2.216977  7 H  s                 38      1.950886  2 C  px         
@@ -3804,7 +3802,7 @@ task dft property
    127     -0.729182  5 H  px                68      0.655168  3 C  px         
 
  Vector  132  Occ=0.000000D+00  E= 4.181966D+00  Symmetry=a"
-              MO Center= -1.9D-01,  1.2D+00,  4.6D-17, r^2= 3.5D+00
+              MO Center= -1.9D-01,  1.2D+00,  7.2D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     52      0.742494  2 C  d  1             129      0.712999  5 H  pz         
@@ -3814,7 +3812,7 @@ task dft property
    133     -0.464267  5 H  d  1             145      0.457408  6 H  d -1       
 
  Vector  133  Occ=0.000000D+00  E= 4.242552D+00  Symmetry=a'
-              MO Center= -1.1D-01,  5.4D-01,  2.3D-17, r^2= 3.7D+00
+              MO Center= -1.1D-01,  5.4D-01,  4.0D-17, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      2.047639  1 C  s                 64     -1.651471  3 C  s          
@@ -3824,7 +3822,7 @@ task dft property
    156      0.791686  7 H  py                11     -0.724354  1 C  px         
 
  Vector  134  Occ=0.000000D+00  E= 4.243988D+00  Symmetry=a"
-              MO Center= -7.8D-02, -7.8D-01,  1.1D-16, r^2= 2.3D+00
+              MO Center= -7.8D-02, -7.8D-01,  1.2D-16, r^2= 2.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      1.379747  4 O  pz                70     -0.946810  3 C  pz         
@@ -3834,7 +3832,7 @@ task dft property
     80      0.279880  3 C  d -1              57     -0.276905  2 C  f  0       
 
  Vector  135  Occ=0.000000D+00  E= 4.300716D+00  Symmetry=a'
-              MO Center=  2.2D-01,  6.7D-01,  9.6D-17, r^2= 3.4D+00
+              MO Center=  2.2D-01,  6.7D-01,  1.3D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    122      3.650175  5 H  s                 53      2.788270  2 C  d  2       
@@ -3844,7 +3842,7 @@ task dft property
    127      1.416557  5 H  px                49      1.369804  2 C  d -2       
 
  Vector  136  Occ=0.000000D+00  E= 4.353128D+00  Symmetry=a'
-              MO Center= -1.3D-01,  4.6D-01, -1.6D-16, r^2= 3.7D+00
+              MO Center= -1.3D-01,  4.6D-01, -2.3D-16, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     64      2.788828  3 C  s                 42      2.065810  2 C  py         
@@ -3854,7 +3852,7 @@ task dft property
    122     -1.077551  5 H  s                 68     -1.002943  3 C  px         
 
  Vector  137  Occ=0.000000D+00  E= 4.379907D+00  Symmetry=a"
-              MO Center= -1.5D-01,  9.1D-01, -3.0D-16, r^2= 2.8D+00
+              MO Center= -1.5D-01,  9.1D-01, -3.1D-16, r^2= 2.8D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     40      0.853613  2 C  pz               157     -0.557022  7 H  pz         
@@ -3864,7 +3862,7 @@ task dft property
    161      0.476022  7 H  d  1              70     -0.409356  3 C  pz         
 
  Vector  138  Occ=0.000000D+00  E= 4.432101D+00  Symmetry=a'
-              MO Center= -1.4D-01,  8.7D-01, -1.6D-16, r^2= 2.6D+00
+              MO Center= -1.4D-01,  8.7D-01, -1.7D-16, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     53      2.480572  2 C  d  2              23      1.401638  1 C  d  2       
@@ -3874,7 +3872,7 @@ task dft property
    127      0.919614  5 H  px                 9     -0.844273  1 C  py         
 
  Vector  139  Occ=0.000000D+00  E= 4.478569D+00  Symmetry=a'
-              MO Center=  1.7D-01,  2.9D-02,  3.9D-17, r^2= 3.5D+00
+              MO Center=  1.7D-01,  2.9D-02, -2.5D-17, r^2= 3.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      3.011439  1 C  s                 34     -2.989570  2 C  s          
@@ -3894,7 +3892,7 @@ task dft property
    155      1.019964  7 H  px                79     -1.010286  3 C  d -2       
 
  Vector  141  Occ=0.000000D+00  E= 4.579701D+00  Symmetry=a"
-              MO Center=  1.0D-01,  9.3D-01,  5.7D-16, r^2= 2.1D+00
+              MO Center=  1.0D-01,  9.3D-01,  6.3D-16, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     10      1.485239  1 C  pz                40     -1.431645  2 C  pz         
@@ -3904,7 +3902,7 @@ task dft property
     45     -0.563926  2 C  d -1             175      0.545340  8 H  d  1       
 
  Vector  142  Occ=0.000000D+00  E= 4.604633D+00  Symmetry=a'
-              MO Center=  2.6D-01, -1.2D-01, -7.7D-17, r^2= 3.3D+00
+              MO Center=  2.6D-01, -1.2D-01, -2.0D-17, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      1.934942  7 H  s                 53     -1.601804  2 C  d  2       
@@ -3914,7 +3912,7 @@ task dft property
     94     -0.798948  4 O  s                 34     -0.780058  2 C  s          
 
  Vector  143  Occ=0.000000D+00  E= 4.753740D+00  Symmetry=a'
-              MO Center= -3.6D-02,  9.2D-01, -1.3D-16, r^2= 3.3D+00
+              MO Center= -3.6D-02,  9.2D-01, -7.9D-17, r^2= 3.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     49      2.074820  2 C  d -2              23      1.707101  1 C  d  2       
@@ -3934,7 +3932,7 @@ task dft property
    171     -0.495498  8 H  pz               147     -0.461812  6 H  d  1       
 
  Vector  145  Occ=0.000000D+00  E= 4.826787D+00  Symmetry=a'
-              MO Center= -1.2D-01,  6.8D-01,  2.4D-16, r^2= 3.7D+00
+              MO Center= -1.2D-01,  6.8D-01,  2.5D-16, r^2= 3.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     34     -1.886656  2 C  s                  4      1.752499  1 C  s          
@@ -3944,7 +3942,7 @@ task dft property
      8      0.886719  1 C  px                38      0.849577  2 C  px         
 
  Vector  146  Occ=0.000000D+00  E= 4.869339D+00  Symmetry=a"
-              MO Center=  1.7D-01,  4.0D-01, -1.5D-16, r^2= 3.4D+00
+              MO Center=  1.7D-01,  4.0D-01, -1.7D-16, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    175      0.826314  8 H  d  1             131      0.628513  5 H  d -1       
@@ -3954,7 +3952,7 @@ task dft property
     89     -0.458557  3 C  f  2              55      0.445869  2 C  f -2       
 
  Vector  147  Occ=0.000000D+00  E= 4.957020D+00  Symmetry=a'
-              MO Center=  6.5D-01, -8.7D-02,  1.3D-18, r^2= 3.1D+00
+              MO Center=  6.5D-01, -8.7D-02,  6.2D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     69      1.762958  3 C  py               164     -1.457293  8 H  s          
@@ -3964,7 +3962,7 @@ task dft property
     39      0.864498  2 C  py                41     -0.863015  2 C  px         
 
  Vector  148  Occ=0.000000D+00  E= 4.975218D+00  Symmetry=a'
-              MO Center=  1.1D-01,  4.1D-01,  6.4D-16, r^2= 4.3D+00
+              MO Center=  1.1D-01,  4.1D-01,  7.2D-16, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      2.554302  4 O  s                 69      2.324407  3 C  py         
@@ -3974,7 +3972,7 @@ task dft property
     68     -0.823155  3 C  px               141      0.807459  6 H  px         
 
  Vector  149  Occ=0.000000D+00  E= 5.031242D+00  Symmetry=a'
-              MO Center= -1.7D-01,  1.1D+00, -4.7D-16, r^2= 2.9D+00
+              MO Center= -1.7D-01,  1.1D+00, -4.0D-16, r^2= 2.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      4      1.130329  1 C  s                 53     -1.070495  2 C  d  2       
@@ -3984,7 +3982,7 @@ task dft property
     33      0.635224  2 C  s                162     -0.612188  7 H  d  2       
 
  Vector  150  Occ=0.000000D+00  E= 5.063199D+00  Symmetry=a"
-              MO Center=  3.0D-01,  1.5D+00, -2.3D-17, r^2= 2.0D+00
+              MO Center=  3.0D-01,  1.5D+00, -3.4D-17, r^2= 2.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    147      1.134345  6 H  d  1              29     -0.873493  1 C  f  2       
@@ -3994,7 +3992,7 @@ task dft property
     27      0.452133  1 C  f  0              40      0.425774  2 C  pz         
 
  Vector  151  Occ=0.000000D+00  E= 5.150579D+00  Symmetry=a'
-              MO Center=  3.5D-02,  1.3D-01,  1.9D-17, r^2= 4.2D+00
+              MO Center=  3.5D-02,  1.3D-01,  9.5D-18, r^2= 4.2D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      3.008181  4 O  s                 69      2.566731  3 C  py         
@@ -4004,7 +4002,7 @@ task dft property
     99      1.273564  4 O  py                38     -1.263722  2 C  px         
 
  Vector  152  Occ=0.000000D+00  E= 5.213394D+00  Symmetry=a'
-              MO Center= -9.4D-02,  6.9D-01, -8.8D-18, r^2= 4.4D+00
+              MO Center= -9.4D-02,  6.9D-01, -2.1D-17, r^2= 4.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      3.445863  1 C  py               122     -3.337470  5 H  s          
@@ -4014,7 +4012,7 @@ task dft property
     99      1.150141  4 O  py                53     -1.080636  2 C  d  2       
 
  Vector  153  Occ=0.000000D+00  E= 5.229604D+00  Symmetry=a"
-              MO Center= -4.1D-01,  1.3D+00,  1.2D-16, r^2= 2.4D+00
+              MO Center= -4.1D-01,  1.3D+00,  2.0D-16, r^2= 2.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    161      0.869122  7 H  d  1              59      0.795509  2 C  f  2       
@@ -4024,7 +4022,7 @@ task dft property
    126      0.505585  5 H  pz               157     -0.491064  7 H  pz         
 
  Vector  154  Occ=0.000000D+00  E= 5.303999D+00  Symmetry=a'
-              MO Center= -1.3D-02, -1.8D-01,  4.1D-17, r^2= 4.3D+00
+              MO Center= -1.3D-02, -1.8D-01,  4.9D-17, r^2= 4.3D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.383003  1 C  py               122     -1.255132  5 H  s          
@@ -4034,7 +4032,7 @@ task dft property
    118      0.650742  4 O  f  1             155     -0.599237  7 H  px         
 
  Vector  155  Occ=0.000000D+00  E= 5.364090D+00  Symmetry=a"
-              MO Center= -4.3D-02, -1.6D+00,  3.5D-17, r^2= 9.3D-01
+              MO Center= -4.3D-02, -1.6D+00,  8.0D-17, r^2= 9.3D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    117      0.779111  4 O  f  0             119     -0.447155  4 O  f  2       
@@ -4044,7 +4042,7 @@ task dft property
     59      0.220239  2 C  f  2              89      0.198431  3 C  f  2       
 
  Vector  156  Occ=0.000000D+00  E= 5.436945D+00  Symmetry=a'
-              MO Center=  6.4D-03,  6.1D-01,  4.5D-17, r^2= 3.1D+00
+              MO Center=  6.4D-03,  6.1D-01,  4.3D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    150      4.836000  7 H  s                 38      3.758635  2 C  px         
@@ -4064,7 +4062,7 @@ task dft property
     23     -0.744184  1 C  d  2              60      0.680549  2 C  f  3       
 
  Vector  158  Occ=0.000000D+00  E= 5.552044D+00  Symmetry=a'
-              MO Center=  2.3D-02,  2.7D-01, -2.0D-17, r^2= 3.6D+00
+              MO Center=  2.3D-02,  2.7D-01, -1.6D-17, r^2= 3.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      2.068670  3 C  px               164     -1.700721  8 H  s          
@@ -4074,7 +4072,7 @@ task dft property
     34      1.177624  2 C  s                 69      1.052437  3 C  py         
 
  Vector  159  Occ=0.000000D+00  E= 5.651703D+00  Symmetry=a'
-              MO Center=  1.8D-01, -1.6D-03,  1.2D-16, r^2= 2.7D+00
+              MO Center=  1.8D-01, -1.6D-03,  1.4D-16, r^2= 2.7D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     68      4.959161  3 C  px               164     -4.881846  8 H  s          
@@ -4084,7 +4082,7 @@ task dft property
      8     -1.722083  1 C  px                49     -1.509148  2 C  d -2       
 
  Vector  160  Occ=0.000000D+00  E= 5.784230D+00  Symmetry=a"
-              MO Center= -1.8D-02, -1.5D+00,  5.7D-17, r^2= 9.9D-01
+              MO Center= -1.8D-02, -1.5D+00,  9.3D-18, r^2= 9.9D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    119      0.707825  4 O  f  2             115      0.679101  4 O  f -2       
@@ -4094,7 +4092,7 @@ task dft property
    107     -0.181328  4 O  d  1              82     -0.177113  3 C  d  1       
 
  Vector  161  Occ=0.000000D+00  E= 5.911872D+00  Symmetry=a'
-              MO Center=  4.4D-02, -6.0D-01,  4.7D-17, r^2= 3.0D+00
+              MO Center=  4.4D-02, -6.0D-01,  5.0D-17, r^2= 3.0D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      2.370095  1 C  py                39      1.979377  2 C  py         
@@ -4104,7 +4102,7 @@ task dft property
    122     -0.996239  5 H  s                 69      0.977174  3 C  py         
 
  Vector  162  Occ=0.000000D+00  E= 6.026772D+00  Symmetry=a'
-              MO Center=  1.1D-01,  1.7D+00,  3.3D-17, r^2= 2.1D+00
+              MO Center=  1.1D-01,  1.7D+00,  2.4D-17, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      8      4.861194  1 C  px               122      4.822497  5 H  s          
@@ -4114,7 +4112,7 @@ task dft property
    150     -1.815351  7 H  s                 41     -1.623163  2 C  px         
 
  Vector  163  Occ=0.000000D+00  E= 6.089659D+00  Symmetry=a'
-              MO Center= -3.4D-02,  8.5D-02,  1.5D-16, r^2= 3.1D+00
+              MO Center= -3.4D-02,  8.5D-02,  4.1D-17, r^2= 3.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     39      3.351349  2 C  py                 9      3.023000  1 C  py         
@@ -4124,7 +4122,7 @@ task dft property
     23      1.520060  1 C  d  2               4     -1.226803  1 C  s          
 
  Vector  164  Occ=0.000000D+00  E= 6.256214D+00  Symmetry=a'
-              MO Center= -8.8D-02,  5.1D-01,  6.3D-17, r^2= 3.4D+00
+              MO Center= -8.8D-02,  5.1D-01,  6.9D-17, r^2= 3.4D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
      9      1.690934  1 C  py                24      1.594784  1 C  f -3       
@@ -4134,7 +4132,7 @@ task dft property
     41      1.005805  2 C  px                48     -0.983056  2 C  d  2       
 
  Vector  165  Occ=0.000000D+00  E= 6.312391D+00  Symmetry=a"
-              MO Center=  7.3D-03, -1.4D+00,  8.7D-17, r^2= 8.0D-01
+              MO Center=  7.3D-03, -1.4D+00,  1.8D-16, r^2= 8.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    100      0.628223  4 O  pz               105      0.614566  4 O  d -1       
@@ -4154,7 +4152,7 @@ task dft property
     99      1.038228  4 O  py                53     -1.020895  2 C  d  2       
 
  Vector  167  Occ=0.000000D+00  E= 6.489501D+00  Symmetry=a"
-              MO Center= -1.2D-01, -1.8D+00,  7.6D-17, r^2= 4.0D-01
+              MO Center= -1.2D-01, -1.8D+00,  1.3D-16, r^2= 4.0D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    107      1.075227  4 O  d  1             112     -0.657394  4 O  d  1       
@@ -4174,7 +4172,7 @@ task dft property
     38      0.630875  2 C  px                 9      0.592147  1 C  py         
 
  Vector  169  Occ=0.000000D+00  E= 6.948670D+00  Symmetry=a"
-              MO Center= -1.4D-01, -1.8D+00,  5.0D-16, r^2= 5.8D-01
+              MO Center= -1.4D-01, -1.8D+00,  6.4D-16, r^2= 5.8D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
    110      1.271857  4 O  d -1             105     -0.949299  4 O  d -1       
@@ -4194,7 +4192,7 @@ task dft property
     68      0.604881  3 C  px                24     -0.600544  1 C  f -3       
 
  Vector  171  Occ=0.000000D+00  E= 7.146240D+00  Symmetry=a'
-              MO Center= -1.3D-01, -1.8D+00, -7.7D-17, r^2= 5.6D-01
+              MO Center= -1.3D-01, -1.8D+00, -7.6D-17, r^2= 5.6D-01
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     94      1.268218  4 O  s                109      1.006652  4 O  d -2       
@@ -4204,7 +4202,7 @@ task dft property
    113     -0.575702  4 O  d  2             106      0.566714  4 O  d  0       
 
  Vector  172  Occ=0.000000D+00  E= 7.238755D+00  Symmetry=a'
-              MO Center= -2.8D-02, -1.2D+00,  3.5D-17, r^2= 1.9D+00
+              MO Center= -2.8D-02, -1.2D+00,  3.6D-17, r^2= 1.9D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     84      1.595740  3 C  f -3              68      1.516427  3 C  px         
@@ -4214,7 +4212,7 @@ task dft property
     24      0.686330  1 C  f -3              69     -0.668307  3 C  py         
 
  Vector  173  Occ=0.000000D+00  E= 1.053547D+01  Symmetry=a'
-              MO Center=  1.6D-01, -5.9D-01,  5.1D-19, r^2= 2.6D+00
+              MO Center=  1.6D-01, -5.9D-01,  2.3D-19, r^2= 2.6D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     62      7.527394  3 C  s                164     -6.387435  8 H  s          
@@ -4224,7 +4222,7 @@ task dft property
     92      3.104433  4 O  s                169      3.025545  8 H  px         
 
  Vector  174  Occ=0.000000D+00  E= 1.119272D+01  Symmetry=a'
-              MO Center= -2.5D-01,  6.5D-01,  9.7D-18, r^2= 2.5D+00
+              MO Center= -2.5D-01,  6.5D-01,  9.5D-18, r^2= 2.5D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     32      8.194275  2 C  s                150     -6.423047  7 H  s          
@@ -4234,7 +4232,7 @@ task dft property
    155     -2.973628  7 H  px                 9      2.833271  1 C  py         
 
  Vector  175  Occ=0.000000D+00  E= 1.306140D+01  Symmetry=a'
-              MO Center=  1.3D-01, -7.4D-01, -2.4D-18, r^2= 2.1D+00
+              MO Center=  1.3D-01, -7.4D-01, -2.3D-18, r^2= 2.1D+00
    Bfn.  Coefficient  Atom+Function         Bfn.  Coefficient  Atom+Function  
   ----- ------------  ---------------      ----- ------------  ---------------
     62      6.982964  3 C  s                 92     -4.621485  4 O  s          
@@ -4277,7 +4275,7 @@ task dft property
 
      2   2 0 0    -16.181300    -22.832730    -22.832730     29.484160
      2   1 1 0     -0.623821     -0.067194     -0.067194     -0.489433
-     2   1 0 1      0.000000      0.000000      0.000000      0.000000
+     2   1 0 1     -0.000000     -0.000000     -0.000000      0.000000
      2   0 2 0    -20.135098   -116.882040   -116.882040    213.628982
      2   0 1 1      0.000000      0.000000      0.000000      0.000000
      2   0 0 2    -18.687263     -9.343632     -9.343632      0.000000
@@ -4307,7 +4305,7 @@ task dft property
 
  1 a.u. = 2.541766 Debyes 
 
- Task  times  cpu:       20.6s     wall:       20.8s
+ Task  times  cpu:       20.2s     wall:       20.9s
 
 
                                 NWChem Input Module
@@ -4324,10 +4322,10 @@ task dft property
                          ------------------------------
 
        create   destroy   get      put      acc     scatter   gather  read&inc
-calls:  397      397     1.77e+04 5246     7302        0        0     1586     
-number of processes/call 1.17e+00 1.35e+00 1.06e+00 0.00e+00 0.00e+00
-bytes total:             1.30e+08 2.88e+07 6.42e+07 0.00e+00 0.00e+00 1.27e+04
-bytes remote:            6.79e+07 1.23e+07 2.93e+07 0.00e+00 0.00e+00 0.00e+00
+calls:  397      397     1.71e+04 5256     7656        0        0     1367     
+number of processes/call 1.18e+00 1.35e+00 1.06e+00 0.00e+00 0.00e+00
+bytes total:             1.27e+08 2.89e+07 6.54e+07 0.00e+00 0.00e+00 1.09e+04
+bytes remote:            6.80e+07 1.23e+07 2.94e+07 0.00e+00 0.00e+00 0.00e+00
 Max memory consumed for GA by this process: 2634016 bytes
 
 MA_summarize_allocated_blocks: starting scan ...
@@ -4338,9 +4336,9 @@ MA usage statistics:
 					      heap	     stack
 					      ----	     -----
 	current number of blocks	         0	         0
-	maximum number of blocks	        18	        57
+	maximum number of blocks	        18	        56
 	current total bytes		         0	         0
-	maximum total bytes		   2862976	  22517656
+	maximum total bytes		   2862960	  22517608
 	maximum total K-bytes		      2863	     22518
 	maximum total M-bytes		         3	        23
 
@@ -4379,5 +4377,5 @@ MA usage statistics:
       T. Nakajima, S. Niu, L. Pollack, M. Rosing, K. Glaesemann, G. Sandrone,
       M. Stave, H. Taylor, G. Thomas, J. H. van Lenthe, A. T. Wong, Z. Zhang.
 
- Total times  cpu:       99.4s     wall:      100.4s
+ Total times  cpu:       99.1s     wall:      100.6s
 [0] ARMCI Warning: Freed 1 leaked allocations
