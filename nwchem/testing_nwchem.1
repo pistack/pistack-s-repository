@@ -1,0 +1,244 @@
+
+ 
+ Running tests/h3_dirdyvtst/h3_dirdyvtst 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem)
+ 
+     NWChem execution failed
+ d_dipole_y/<atom=   1,x> =     0.0000     [    0.0000]
+ d_dipole_y/<atom=   1,y> =     0.0390     [    0.1872]
+ d_dipole_y/<atom=   1,z> =     0.0000     [    0.0000]
+ d_dipole_y/<atom=   2,x> =     0.0000     [    0.0000]
+ d_dipole_y/<atom=   2,y> =    -0.0779     [   -0.3744]
+ d_dipole_y/<atom=   2,z> =     0.0000     [    0.0000]
+ d_dipole_y/<atom=   3,x> =     0.0000     [    0.0000]
+ d_dipole_y/<atom=   3,y> =     0.0390     [    0.1872]
+ d_dipole_y/<atom=   3,z> =     0.0000     [    0.0000]
+  
+ Z vector of derivative dipole (au) [debye/angstrom]
+ d_dipole_z/<atom=   1,x> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   1,y> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   1,z> =    -0.0609     [   -0.2927]
+ d_dipole_z/<atom=   2,x> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   2,y> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   2,z> =     0.1219     [    0.5855]
+ d_dipole_z/<atom=   3,x> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   3,y> =     0.0000     [    0.0000]
+ d_dipole_z/<atom=   3,z> =    -0.0609     [   -0.2927]
+  
+  
+ *** mxlneq ***
+ k =         7
+ eps =  1.00000E-09
+ at step k a gauss-jordan pivot value was .le. eps 
+ Problem with mxlneq in subroutine pmlqsp, jrank =     6
+ ------------------------------------------------------------------------
+ Problem in pmlqsp.F                   0
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+[0] ARMCI Error: 0:Problem in pmlqsp.F:
+    78: task dirdyvtst
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ This error has not yet been assigned to a category
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ 
+Failed
+
+ 
+ Running tests/h3tr1/h3tr1 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem)
+ 
+     NWChem execution failed
+                        6     0.816497     0.000000     0.000000    -0.000000    -0.000000     0.000000
+                        7     0.000000     0.408248     0.000000     0.014146     0.706756    -0.017215
+                        8     0.000000     0.000000    -0.408248     0.706812    -0.013779     0.015119
+                        9    -0.408248     0.000000    -0.000000    -0.014777     0.017511     0.706736
+  
+
+                       m=       7            8            9
+  Eigenvalues (au)=          -0.000000    -0.000000    -0.000000
+  Frequencies (cm^-1)=       -0.013882    -0.013882    -0.023595
+  Eigenvectors=
+                        1     0.083142     0.571333     0.000000
+                        2     0.571334    -0.083142     0.000000
+                        3    -0.000000     0.000000     0.577351
+                        4     0.083142     0.571332     0.000000
+                        5     0.571332    -0.083142     0.000000
+                        6    -0.000000    -0.000000     0.577350
+                        7     0.083142     0.571332     0.000000
+                        8     0.571331    -0.083142     0.000000
+                        9    -0.000000    -0.000000     0.577350
+  
+ Symmetry group is D4H
+       -0.06000  2.70894E-02    x=  -0.0000  -0.0000  -2.1550  -0.0000  -0.0000   0.0000   0.0000   0.0000   2.1550
+                 1.08359E-03   dx=   0.0000   0.0000   0.7071   0.0000   0.0000   0.0000   0.0000   0.0000  -0.7071
+
+
+ ********** The direction of the gradient vector has changed by more than 90 degrees for the last 5 steps.
+            Either the step size should be decreased, or another integrator should be tried.
+ ------------------------------------------------------------------------
+ The gradient is unstable                 555
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+    79: task dirdyvtst
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ There is an error in the input file
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+[0] ARMCI Error: 0:The gradient is unstable:
+ For further details see manual section:                                                                                                                                                                                                                                                                
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 555.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ 
+Failed
+
+ 
+ Running tests/k6h2o/k6h2o 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem)
+ 
+     NWChem execution failed
+
+
+ Fragment                              K
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  K              0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+ 
+ Created fragment                      K.frg_TMP
+
+ Unresolved atom types in fragment K
+
+
+ Creating fragment for residue wat  
+
+
+ Fragment                              wat
+
+  num name  type   link cntr  grp pgrp    charge     polarizab
+
+    1  OW             0    0    0    1    1    0.000000    0.000000
+    2 2HW             0    0    0    1    1    0.000000    0.000000
+    3 3HW             0    0    0    1    1    0.000000    0.000000
+                                           ------------
+                         total charge     0.000000
+
+ Connectivity
+
+       1-  2
+       1-  3
+ 
+ Created fragment                      wat.frg_TMP
+
+ Unresolved atom types in fragment wat
+
+
+ **********
+ *   0: pre_mkfrg failed 9999
+ **********
+[0] ARMCI Error: 0::
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 9999.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ 
+Failed
+
+ 
+ Running tests/tropt-ch3nh2/tropt-ch3nh2 
+ 
+     cleaning scratch
+     copying input and verified output files
+     running nwchem (/home/list1234/source/nwchem-6.8.1/bin/LINUX64/nwchem)
+ 
+     NWChem execution failed
+ SCF residual:    3.5078829906863143     
+ ------------------------------------------------------------------------
+ cphf_solve2:SCF residual greater than 1d-2                   0
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+  current input line : 
+    29: task dft freq
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ This error has not yet been assigned to a category
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+[3] ARMCI Error: 3:cphf_solve2:SCF residual greater than 1d-2:
+[0] ARMCI Error: 0:cphf_solve2:SCF residual greater than 1d-2:
+ This error has not yet been assigned to a category
+     0: 
+ ------------------------------------------------------------------------
+ ------------------------------------------------------------------------
+ This error has not yet been assigned to a category
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+ This error has not yet been assigned to a category
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+
+
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+ ------------------------------------------------------------------------
+ For more information see the NWChem manual at http://www.nwchem-sw.org/index.php/NWChem_Documentation
+
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[1] ARMCI Error: 1:cphf_solve2:SCF residual greater than 1d-2:
+[2] ARMCI Error: 2:cphf_solve2:SCF residual greater than 1d-2:
+ For further details see manual section: No section for this category                                                                                                                                                                                                                                   
+[list1234-B360M-H:06998] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[list1234-B360M-H:06998] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+ 
+Failed
